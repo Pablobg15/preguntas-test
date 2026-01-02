@@ -1,5 +1,3645 @@
 [
   {
+    "enunciado": "España se constituye en un Estado:",
+    "opciones": {
+      "a": "Democrático y social",
+      "b": "Social y democrático de Derecho",
+      "c": "Democrático y autonómico",
+      "d": "Social y autonómico"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 1
+  },
+  {
+    "enunciado": "La soberanía nacional reside en:",
+    "opciones": {
+      "a": "El Estado",
+      "b": "Las Cortes Generales",
+      "c": "El pueblo español",
+      "d": "El Rey"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 2
+  },
+  {
+    "enunciado": "Los valores superiores del ordenamiento jurídico son:",
+    "opciones": {
+      "a": "Libertad, igualdad, justicia y legalidad",
+      "b": "Justicia, igualdad y pluralismo",
+      "c": "Libertad, justicia, igualdad y pluralismo político",
+      "d": "Igualdad, seguridad jurídica y libertad"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 3
+  },
+  {
+    "enunciado": "La forma política del Estado español es:",
+    "opciones": {
+      "a": "República democrática",
+      "b": "Monarquía constitucional",
+      "c": "Monarquía parlamentaria",
+      "d": "Estado autonómico"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 4
+  },
+  {
+    "enunciado": "El principio de jerarquía normativa se recoge en:",
+    "opciones": {
+      "a": "Art. 1",
+      "b": "Art. 9.1",
+      "c": "Art. 9.3",
+      "d": "Art. 14"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 5
+  },
+  {
+    "enunciado": "La igualdad ante la ley se regula en el artículo:",
+    "opciones": {
+      "a": "1",
+      "b": "9",
+      "c": "14",
+      "d": "53"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 6
+  },
+  {
+    "enunciado": "Los derechos fundamentales se recogen entre los artículos:",
+    "opciones": {
+      "a": "1 a 9",
+      "b": "10 a 13",
+      "c": "15 a 29",
+      "d": "30 a 38"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 7
+  },
+  {
+    "enunciado": "Los principios rectores se recogen entre los artículos:",
+    "opciones": {
+      "a": "15 a 29",
+      "b": "30 a 38",
+      "c": "39 a 52",
+      "d": "53 a 55"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 8
+  },
+  {
+    "enunciado": "La tutela judicial preferente y sumaria se recoge en:",
+    "opciones": {
+      "a": "Art. 14",
+      "b": "Art. 24",
+      "c": "Art. 53",
+      "d": "Art. 55"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 9
+  },
+  {
+    "enunciado": "El recurso de amparo se interpone ante:",
+    "opciones": {
+      "a": "Tribunal Supremo",
+      "b": "Tribunal Constitucional",
+      "c": "Audiencia Nacional",
+      "d": "Congreso"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 10
+  },
+  {
+    "enunciado": "La suspensión de derechos fundamentales se regula en:",
+    "opciones": {
+      "a": "Art. 53",
+      "b": "Art. 54",
+      "c": "Art. 55",
+      "d": "Art. 56"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 11
+  },
+  {
+    "enunciado": "¿En qué estados pueden suspenderse derechos fundamentales?",
+    "opciones": {
+      "a": "Alarma",
+      "b": "Excepción y sitio",
+      "c": "Alarma y excepción",
+      "d": "Solo sitio"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 12
+  },
+  {
+    "enunciado": "El Rey es:",
+    "opciones": {
+      "a": "Jefe del Gobierno",
+      "b": "Jefe del Estado",
+      "c": "Jefe del Ejército",
+      "d": "Presidente del Estado"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 13
+  },
+  {
+    "enunciado": "¿Cuál es función del Rey?",
+    "opciones": {
+      "a": "Aprobar leyes",
+      "b": "Dirigir la política interior",
+      "c": "Sancionar leyes",
+      "d": "Controlar al Gobierno"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 14
+  },
+  {
+    "enunciado": "El Rey es inviolable según el artículo:",
+    "opciones": {
+      "a": "1",
+      "b": "9",
+      "c": "56",
+      "d": "64"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 15
+  },
+  {
+    "enunciado": "Los actos del Rey deben ser refrendados por:",
+    "opciones": {
+      "a": "El Congreso",
+      "b": "El Gobierno",
+      "c": "El Presidente del Gobierno",
+      "d": "El Senado"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 16
+  },
+  {
+    "enunciado": "La Constitución Española tiene:",
+    "opciones": {
+      "a": "160 artículos",
+      "b": "165 artículos",
+      "c": "169 artículos",
+      "d": "175 artículos"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 17
+  },
+  {
+    "enunciado": "La CE fue ratificada en referéndum el:",
+    "opciones": {
+      "a": "31/10/1978",
+      "b": "06/12/1978",
+      "c": "27/12/1978",
+      "d": "29/12/1978"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 18
+  },
+  {
+    "enunciado": "La CE fue sancionada por el Rey el:",
+    "opciones": {
+      "a": "06/12/1978",
+      "b": "29/12/1978",
+      "c": "27/12/1978",
+      "d": "31/10/1978"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 19
+  },
+  {
+    "enunciado": "La reforma del art. 13.2 se realizó en:",
+    "opciones": {
+      "a": "1978",
+      "b": "1992",
+      "c": "2011",
+      "d": "2024"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 20
+  },
+  {
+    "enunciado": "El artículo 135 regula:",
+    "opciones": {
+      "a": "La Corona",
+      "b": "La estabilidad presupuestaria",
+      "c": "El Gobierno",
+      "d": "La igualdad"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 21
+  },
+  {
+    "enunciado": "La última reforma constitucional afecta al artículo:",
+    "opciones": {
+      "a": "13",
+      "b": "49",
+      "c": "55",
+      "d": "135"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 22
+  },
+  {
+    "enunciado": "El Preámbulo tiene valor:",
+    "opciones": {
+      "a": "Normativo",
+      "b": "Jurídico",
+      "c": "Interpretativo",
+      "d": "Reglamentario"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 23
+  },
+  {
+    "enunciado": "El castellano es lengua oficial del Estado según el artículo:",
+    "opciones": {
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "5"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 24
+  },
+  {
+    "enunciado": "La capital del Estado es Madrid según el artículo:",
+    "opciones": {
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "6"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 25
+  },
+  {
+    "enunciado": "Los partidos políticos se regulan en el artículo:",
+    "opciones": {
+      "a": "6",
+      "b": "7",
+      "c": "8",
+      "d": "9"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 26
+  },
+  {
+    "enunciado": "Los sindicatos se regulan en el artículo:",
+    "opciones": {
+      "a": "6",
+      "b": "7",
+      "c": "8",
+      "d": "9"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 27
+  },
+  {
+    "enunciado": "Las Fuerzas Armadas se regulan en el artículo:",
+    "opciones": {
+      "a": "6",
+      "b": "7",
+      "c": "8",
+      "d": "9"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 28
+  },
+  {
+    "enunciado": "La bandera de España se regula en el artículo:",
+    "opciones": {
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "6"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 29
+  },
+  {
+    "enunciado": "La unidad indisoluble de la Nación se recoge en el artículo:",
+    "opciones": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 30
+  },
+  {
+    "enunciado": "Los ciudadanos y poderes públicos están sujetos a la Constitución según:",
+    "opciones": {
+      "a": "Art. 1",
+      "b": "Art. 2",
+      "c": "Art. 9.1",
+      "d": "Art. 14"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 31
+  },
+  {
+    "enunciado": "La Monarquía parlamentaria se establece en el artículo:",
+    "opciones": {
+      "a": "1.1",
+      "b": "1.2",
+      "c": "1.3",
+      "d": "2"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 32
+  },
+  {
+    "enunciado": "La prohibición de arbitrariedad de los poderes públicos se recoge en:",
+    "opciones": {
+      "a": "Art. 1",
+      "b": "Art. 9.3",
+      "c": "Art. 14",
+      "d": "Art. 53"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 33
+  },
+  {
+    "enunciado": "El pluralismo político es:",
+    "opciones": {
+      "a": "Un principio rector",
+      "b": "Un derecho fundamental",
+      "c": "Un valor superior",
+      "d": "Una garantía"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 34
+  },
+  {
+    "enunciado": "La suspensión individual de derechos por terrorismo se recoge en:",
+    "opciones": {
+      "a": "Art. 53",
+      "b": "Art. 54",
+      "c": "Art. 55.2",
+      "d": "Art. 56"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 1 - Constitución Española",
+    "numero": 35
+  },
+  {
+    "enunciado": "Las Cortes Generales representan a:",
+    "opciones": {
+      "a": "El Estado",
+      "b": "El pueblo español",
+      "c": "El Gobierno",
+      "d": "La Nación"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 1
+  },
+  {
+    "enunciado": "Las Cortes Generales son un órgano:",
+    "opciones": {
+      "a": "Unicameral",
+      "b": "Federal",
+      "c": "Bicameral",
+      "d": "Autonómico"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 2
+  },
+  {
+    "enunciado": "Las Cortes Generales están compuestas por:",
+    "opciones": {
+      "a": "Congreso y Gobierno",
+      "b": "Congreso y Senado",
+      "c": "Senado y Tribunal Constitucional",
+      "d": "Congreso y Consejo de Estado"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 3
+  },
+  {
+    "enunciado": "Las funciones de las Cortes Generales se recogen en el artículo:",
+    "opciones": {
+      "a": "65",
+      "b": "66",
+      "c": "67",
+      "d": "68"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 4
+  },
+  {
+    "enunciado": "¿Cuál NO es una función de las Cortes Generales?",
+    "opciones": {
+      "a": "Función legislativa",
+      "b": "Función presupuestaria",
+      "c": "Función jurisdiccional",
+      "d": "Control del Gobierno"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 5
+  },
+  {
+    "enunciado": "Las Cortes Generales son inviolables según el artículo:",
+    "opciones": {
+      "a": "66.1",
+      "b": "66.2",
+      "c": "66.3",
+      "d": "67"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 6
+  },
+  {
+    "enunciado": "Los Reglamentos de las Cámaras se aprueban por:",
+    "opciones": {
+      "a": "Mayoría simple",
+      "b": "Mayoría absoluta",
+      "c": "Mayoría cualificada",
+      "d": "Dos tercios"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 7
+  },
+  {
+    "enunciado": "Nadie podrá ser miembro de las dos Cámaras simultáneamente según el artículo:",
+    "opciones": {
+      "a": "66",
+      "b": "67",
+      "c": "68",
+      "d": "69"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 8
+  },
+  {
+    "enunciado": "La inmunidad parlamentaria implica que:",
+    "opciones": {
+      "a": "No pueden ser juzgados",
+      "b": "Solo pueden ser detenidos en flagrante delito",
+      "c": "No responden penalmente",
+      "d": "No pueden ser investigados"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 9
+  },
+  {
+    "enunciado": "La inviolabilidad parlamentaria se refiere a:",
+    "opciones": {
+      "a": "Detenciones",
+      "b": "Procesamientos",
+      "c": "Opiniones manifestadas",
+      "d": "Votaciones"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 10
+  },
+  {
+    "enunciado": "El mandato imperativo está:",
+    "opciones": {
+      "a": "Permitido",
+      "b": "Limitado",
+      "c": "Prohibido",
+      "d": "Regulado por ley"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 11
+  },
+  {
+    "enunciado": "Las sesiones ordinarias se celebran:",
+    "opciones": {
+      "a": "Todo el año",
+      "b": "De enero a diciembre",
+      "c": "Dos periodos al año",
+      "d": "Un periodo anual"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 12
+  },
+  {
+    "enunciado": "¿Cuáles son los periodos ordinarios de sesiones?",
+    "opciones": {
+      "a": "Enero-junio y septiembre-diciembre",
+      "b": "Febrero-junio y septiembre-diciembre",
+      "c": "Marzo-julio y octubre-diciembre",
+      "d": "Febrero-julio y septiembre-diciembre"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 13
+  },
+  {
+    "enunciado": "Las sesiones extraordinarias pueden ser convocadas a petición de:",
+    "opciones": {
+      "a": "El Rey",
+      "b": "El Tribunal Constitucional",
+      "c": "El Gobierno",
+      "d": "El Senado"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 14
+  },
+  {
+    "enunciado": "Las sesiones conjuntas se regulan en el artículo:",
+    "opciones": {
+      "a": "73",
+      "b": "74",
+      "c": "75",
+      "d": "76"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 15
+  },
+  {
+    "enunciado": "Las decisiones en sesión conjunta se adoptan por:",
+    "opciones": {
+      "a": "Mayoría simple",
+      "b": "Mayoría absoluta",
+      "c": "Mayoría de cada Cámara",
+      "d": "Dos tercios"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 16
+  },
+  {
+    "enunciado": "El órgano de dirección de las Cámaras NO incluye:",
+    "opciones": {
+      "a": "Presidencia",
+      "b": "Mesa",
+      "c": "Junta de Portavoces",
+      "d": "Diputación Permanente"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 17
+  },
+  {
+    "enunciado": "Las Cámaras funcionan en:",
+    "opciones": {
+      "a": "Pleno",
+      "b": "Comisiones",
+      "c": "Pleno y Comisiones",
+      "d": "Diputación Permanente"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 18
+  },
+  {
+    "enunciado": "Las sesiones plenarias son públicas salvo:",
+    "opciones": {
+      "a": "Acuerdo del Gobierno",
+      "b": "Acuerdo de la Mesa",
+      "c": "Acuerdo de la Cámara",
+      "d": "Decisión del Presidente"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 19
+  },
+  {
+    "enunciado": "NO pueden delegarse en Comisiones Legislativas Permanentes:",
+    "opciones": {
+      "a": "Leyes ordinarias",
+      "b": "Leyes orgánicas",
+      "c": "Proposiciones de ley",
+      "d": "Proyectos de ley"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 20
+  },
+  {
+    "enunciado": "¿Cuál NO puede delegarse en Comisiones?",
+    "opciones": {
+      "a": "Presupuestos Generales del Estado",
+      "b": "Leyes ordinarias",
+      "c": "Proyectos de ley",
+      "d": "Proposiciones de ley"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 21
+  },
+  {
+    "enunciado": "La Diputación Permanente está compuesta por un mínimo de:",
+    "opciones": {
+      "a": "15",
+      "b": "18",
+      "c": "21",
+      "d": "25"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 22
+  },
+  {
+    "enunciado": "La Diputación Permanente actúa cuando:",
+    "opciones": {
+      "a": "Las Cámaras están reunidas",
+      "b": "Las Cámaras están disueltas",
+      "c": "El Gobierno lo solicita",
+      "d": "Hay sesiones extraordinarias"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 23
+  },
+  {
+    "enunciado": "El voto de Diputados y Senadores es:",
+    "opciones": {
+      "a": "Delegable",
+      "b": "Público",
+      "c": "Personal e indelegable",
+      "d": "Secreto siempre"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 24
+  },
+  {
+    "enunciado": "Para adoptar acuerdos es necesaria la presencia de:",
+    "opciones": {
+      "a": "Un tercio",
+      "b": "Dos tercios",
+      "c": "Mayoría de miembros",
+      "d": "Todos los miembros"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 25
+  },
+  {
+    "enunciado": "Las Comisiones de investigación se regulan en el artículo:",
+    "opciones": {
+      "a": "75",
+      "b": "76",
+      "c": "77",
+      "d": "78"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 26
+  },
+  {
+    "enunciado": "Las conclusiones de las Comisiones de investigación:",
+    "opciones": {
+      "a": "Son vinculantes",
+      "b": "Vinculan a los Tribunales",
+      "c": "No son vinculantes",
+      "d": "Son ejecutivas"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 27
+  },
+  {
+    "enunciado": "Es obligatorio comparecer ante las Comisiones de investigación:",
+    "opciones": {
+      "a": "Sí",
+      "b": "No",
+      "c": "Solo funcionarios",
+      "d": "Solo cargos públicos"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 28
+  },
+  {
+    "enunciado": "Las peticiones a las Cámaras deben presentarse:",
+    "opciones": {
+      "a": "Verbalmente",
+      "b": "Por manifestación",
+      "c": "Por escrito",
+      "d": "Telemáticamente"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 29
+  },
+  {
+    "enunciado": "Las peticiones individuales se regulan en el artículo:",
+    "opciones": {
+      "a": "76",
+      "b": "77",
+      "c": "78",
+      "d": "79"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 30
+  },
+  {
+    "enunciado": "El Tribunal Constitucional se regula en el Título:",
+    "opciones": {
+      "a": "VIII",
+      "b": "IX",
+      "c": "X",
+      "d": "VII"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 31
+  },
+  {
+    "enunciado": "El Tribunal Constitucional está compuesto por:",
+    "opciones": {
+      "a": "10",
+      "b": "11",
+      "c": "12",
+      "d": "15"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 32
+  },
+  {
+    "enunciado": "¿Quién nombra a 4 Magistrados del TC?",
+    "opciones": {
+      "a": "El Gobierno",
+      "b": "El CGPJ",
+      "c": "El Congreso",
+      "d": "El Rey"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 33
+  },
+  {
+    "enunciado": "El Defensor del Pueblo es:",
+    "opciones": {
+      "a": "Un órgano del Gobierno",
+      "b": "Un órgano judicial",
+      "c": "Un comisionado de las Cortes",
+      "d": "Un órgano autonómico"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 34
+  },
+  {
+    "enunciado": "El Defensor del Pueblo tiene como función principal:",
+    "opciones": {
+      "a": "Controlar al Gobierno",
+      "b": "Defender derechos fundamentales",
+      "c": "Elaborar leyes",
+      "d": "Sancionar Administraciones"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 2 - Cortes Generales",
+    "numero": 35
+  },
+  {
+    "enunciado": "El Gobierno dirige:",
+    "opciones": {
+      "a": "Solo la política interior",
+      "b": "La política interior y exterior",
+      "c": "La Administración",
+      "d": "Las Cortes Generales"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 1
+  },
+  {
+    "enunciado": "El artículo que regula al Gobierno es:",
+    "opciones": {
+      "a": "66",
+      "b": "97",
+      "c": "108",
+      "d": "56"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 2
+  },
+  {
+    "enunciado": "El Gobierno está compuesto por:",
+    "opciones": {
+      "a": "Presidente y Ministros",
+      "b": "Presidente, Vicepresidentes y Ministros",
+      "c": "Presidente y Vicepresidentes",
+      "d": "Presidente, Ministros y Cortes"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 3
+  },
+  {
+    "enunciado": "La función ejecutiva corresponde a:",
+    "opciones": {
+      "a": "Cortes Generales",
+      "b": "Gobierno",
+      "c": "Rey",
+      "d": "Tribunal Supremo"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 4
+  },
+  {
+    "enunciado": "La potestad reglamentaria corresponde a:",
+    "opciones": {
+      "a": "Cortes",
+      "b": "Gobierno",
+      "c": "TC",
+      "d": "Senado"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 5
+  },
+  {
+    "enunciado": "El Presidente del Gobierno es nombrado por:",
+    "opciones": {
+      "a": "Congreso",
+      "b": "Rey",
+      "c": "Senado",
+      "d": "Tribunal Constitucional"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 6
+  },
+  {
+    "enunciado": "El Presidente dirige:",
+    "opciones": {
+      "a": "El Congreso",
+      "b": "La Administración",
+      "c": "La acción del Gobierno",
+      "d": "El Senado"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 7
+  },
+  {
+    "enunciado": "La responsabilidad política del Gobierno es ante:",
+    "opciones": {
+      "a": "Rey",
+      "b": "Congreso",
+      "c": "Senado",
+      "d": "Tribunal Supremo"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 8
+  },
+  {
+    "enunciado": "La cuestión de confianza la plantea:",
+    "opciones": {
+      "a": "El Rey",
+      "b": "El Congreso",
+      "c": "El Presidente del Gobierno",
+      "d": "El Senado"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 9
+  },
+  {
+    "enunciado": "La moción de censura es:",
+    "opciones": {
+      "a": "Constructiva",
+      "b": "Destructiva",
+      "c": "Consultiva",
+      "d": "Ejecutiva"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 10
+  },
+  {
+    "enunciado": "La moción de censura debe incluir:",
+    "opciones": {
+      "a": "Motivos",
+      "b": "Firma del Rey",
+      "c": "Candidato alternativo",
+      "d": "Programa de gobierno"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 11
+  },
+  {
+    "enunciado": "La aprobación de la moción de censura requiere:",
+    "opciones": {
+      "a": "Mayoría simple",
+      "b": "Mayoría absoluta",
+      "c": "Dos tercios",
+      "d": "Unanimidad"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 12
+  },
+  {
+    "enunciado": "La cuestión de confianza requiere:",
+    "opciones": {
+      "a": "Mayoría absoluta",
+      "b": "Mayoría simple",
+      "c": "Dos tercios",
+      "d": "Unanimidad"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 13
+  },
+  {
+    "enunciado": "Los Ministros son nombrados y separados por:",
+    "opciones": {
+      "a": "Congreso",
+      "b": "Rey",
+      "c": "Presidente del Gobierno",
+      "d": "Senado"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 14
+  },
+  {
+    "enunciado": "El Consejo de Ministros es:",
+    "opciones": {
+      "a": "Órgano judicial",
+      "b": "Órgano legislativo",
+      "c": "Órgano colegiado",
+      "d": "Órgano consultivo"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 15
+  },
+  {
+    "enunciado": "Los actos del Gobierno son refrendados por:",
+    "opciones": {
+      "a": "El Rey",
+      "b": "Presidente del Gobierno",
+      "c": "Congreso",
+      "d": "Senado"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 16
+  },
+  {
+    "enunciado": "La Administración Pública sirve con objetividad a:",
+    "opciones": {
+      "a": "Los partidos",
+      "b": "Los ciudadanos",
+      "c": "Los intereses generales",
+      "d": "El Gobierno"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 17
+  },
+  {
+    "enunciado": "El artículo 103 CE regula:",
+    "opciones": {
+      "a": "El Gobierno",
+      "b": "La Administración Pública",
+      "c": "Las Cortes",
+      "d": "El Poder Judicial"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 18
+  },
+  {
+    "enunciado": "El acceso a la función pública se rige por:",
+    "opciones": {
+      "a": "Libre designación",
+      "b": "Mérito y capacidad",
+      "c": "Antigüedad",
+      "d": "Elección"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 19
+  },
+  {
+    "enunciado": "La Administración actúa con sometimiento pleno a:",
+    "opciones": {
+      "a": "El Gobierno",
+      "b": "La ley",
+      "c": "La Constitución y la ley",
+      "d": "El Rey"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 20
+  },
+  {
+    "enunciado": "Los órganos administrativos actúan conforme al principio de:",
+    "opciones": {
+      "a": "Descentralización",
+      "b": "Jerarquía",
+      "c": "Coordinación",
+      "d": "Todos los anteriores"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 21
+  },
+  {
+    "enunciado": "La Ley que regula el Gobierno es:",
+    "opciones": {
+      "a": "Ley 40/2015",
+      "b": "Ley 50/1997",
+      "c": "Ley 39/2015",
+      "d": "Ley 19/2013"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 22
+  },
+  {
+    "enunciado": "La Ley 40/2015 regula:",
+    "opciones": {
+      "a": "Procedimiento",
+      "b": "Gobierno",
+      "c": "Régimen Jurídico del Sector Público",
+      "d": "Transparencia"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 23
+  },
+  {
+    "enunciado": "La Ley 39/2015 regula:",
+    "opciones": {
+      "a": "Gobierno",
+      "b": "Transparencia",
+      "c": "Procedimiento Administrativo Común",
+      "d": "Cortes"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 24
+  },
+  {
+    "enunciado": "El principio de eficacia se aplica a:",
+    "opciones": {
+      "a": "Cortes",
+      "b": "Administración",
+      "c": "Gobierno",
+      "d": "TC"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 25
+  },
+  {
+    "enunciado": "El control parlamentario del Gobierno corresponde a:",
+    "opciones": {
+      "a": "Congreso",
+      "b": "Senado",
+      "c": "Cortes Generales",
+      "d": "Tribunal Supremo"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 26
+  },
+  {
+    "enunciado": "El Gobierno cesa:",
+    "opciones": {
+      "a": "Tras elecciones",
+      "b": "Por dimisión",
+      "c": "Por moción de censura",
+      "d": "Todas las anteriores"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 27
+  },
+  {
+    "enunciado": "El Gobierno en funciones:",
+    "opciones": {
+      "a": "No puede actuar",
+      "b": "Tiene funciones limitadas",
+      "c": "Tiene plenos poderes",
+      "d": "Solo gestiona presupuestos"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 28
+  },
+  {
+    "enunciado": "El Presidente puede disolver las Cortes:",
+    "opciones": {
+      "a": "Siempre",
+      "b": "Nunca",
+      "c": "Con límites constitucionales",
+      "d": "Solo el Congreso"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 29
+  },
+  {
+    "enunciado": "La disolución de las Cortes la decreta:",
+    "opciones": {
+      "a": "El Congreso",
+      "b": "El Gobierno",
+      "c": "El Rey",
+      "d": "El Presidente del TC"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 30
+  },
+  {
+    "enunciado": "La iniciativa para la reforma constitucional corresponde a:",
+    "opciones": {
+      "a": "Gobierno",
+      "b": "Cortes",
+      "c": "Ambos",
+      "d": "Rey"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 31
+  },
+  {
+    "enunciado": "El Gobierno responde penalmente ante:",
+    "opciones": {
+      "a": "Audiencia Nacional",
+      "b": "Tribunal Supremo",
+      "c": "TC",
+      "d": "Congreso"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 32
+  },
+  {
+    "enunciado": "Los Secretarios de Estado dependen de:",
+    "opciones": {
+      "a": "Congreso",
+      "b": "Presidente",
+      "c": "Ministros",
+      "d": "Rey"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 33
+  },
+  {
+    "enunciado": "El Gobierno ejerce su función con arreglo al principio de:",
+    "opciones": {
+      "a": "Legalidad",
+      "b": "Coordinación",
+      "c": "Responsabilidad",
+      "d": "Todos"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 34
+  },
+  {
+    "enunciado": "El Gobierno es un órgano:",
+    "opciones": {
+      "a": "Legislativo",
+      "b": "Ejecutivo",
+      "c": "Judicial",
+      "d": "Consultivo"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 3 - Gobierno",
+    "numero": 35
+  },
+  {
+    "enunciado": "La Ley de Transparencia es la:",
+    "opciones": {
+      "a": "Ley 39/2015",
+      "b": "Ley 40/2015",
+      "c": "Ley 19/2013",
+      "d": "Ley 50/1997"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 1
+  },
+  {
+    "enunciado": "La Ley 19/2013 regula:",
+    "opciones": {
+      "a": "Solo transparencia",
+      "b": "Transparencia y acceso",
+      "c": "Transparencia, acceso y buen gobierno",
+      "d": "Acceso a archivos"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 2
+  },
+  {
+    "enunciado": "La transparencia se aplica a:",
+    "opciones": {
+      "a": "Solo AAPP",
+      "b": "AAPP y sector privado",
+      "c": "AAPP y entidades que reciben fondos públicos",
+      "d": "Solo AGE"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 3
+  },
+  {
+    "enunciado": "La publicidad activa consiste en:",
+    "opciones": {
+      "a": "Publicar a petición",
+      "b": "Publicar sin solicitud previa",
+      "c": "Publicar solo contratos",
+      "d": "Publicar resoluciones"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 4
+  },
+  {
+    "enunciado": "El derecho de acceso es:",
+    "opciones": {
+      "a": "Excepcional",
+      "b": "Discrecional",
+      "c": "Regla general",
+      "d": "Solo para ciudadanos"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 5
+  },
+  {
+    "enunciado": "El plazo general para resolver solicitudes es de:",
+    "opciones": {
+      "a": "10 días",
+      "b": "15 días",
+      "c": "1 mes",
+      "d": "3 meses"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 6
+  },
+  {
+    "enunciado": "El silencio administrativo es:",
+    "opciones": {
+      "a": "Positivo",
+      "b": "Negativo",
+      "c": "Depende del órgano",
+      "d": "No existe"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 7
+  },
+  {
+    "enunciado": "El acceso puede limitarse por:",
+    "opciones": {
+      "a": "Seguridad nacional",
+      "b": "Protección de datos",
+      "c": "Intereses económicos",
+      "d": "Todas las anteriores"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 8
+  },
+  {
+    "enunciado": "La protección de datos personales implica:",
+    "opciones": {
+      "a": "Denegar siempre",
+      "b": "Ponderación",
+      "c": "Acceso libre",
+      "d": "Publicación automática"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 9
+  },
+  {
+    "enunciado": "La Ley se aplica a partidos políticos cuando:",
+    "opciones": {
+      "a": "Siempre",
+      "b": "Nunca",
+      "c": "Reciben fondos públicos",
+      "d": "Son de ámbito estatal"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 10
+  },
+  {
+    "enunciado": "El Consejo de Transparencia es:",
+    "opciones": {
+      "a": "Órgano judicial",
+      "b": "Órgano administrativo",
+      "c": "Órgano independiente",
+      "d": "Órgano consultivo"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 11
+  },
+  {
+    "enunciado": "El Consejo de Transparencia depende de:",
+    "opciones": {
+      "a": "Gobierno",
+      "b": "Cortes",
+      "c": "Ministerio de Justicia",
+      "d": "Es independiente"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 12
+  },
+  {
+    "enunciado": "El buen gobierno se aplica a:",
+    "opciones": {
+      "a": "Funcionarios",
+      "b": "Cargos públicos",
+      "c": "Ciudadanos",
+      "d": "Empresas"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 13
+  },
+  {
+    "enunciado": "Las infracciones de buen gobierno pueden ser:",
+    "opciones": {
+      "a": "Leves",
+      "b": "Graves",
+      "c": "Muy graves",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 14
+  },
+  {
+    "enunciado": "Las sanciones de buen gobierno incluyen:",
+    "opciones": {
+      "a": "Multa",
+      "b": "Cese",
+      "c": "Inhabilitación",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 15
+  },
+  {
+    "enunciado": "La información institucional incluye:",
+    "opciones": {
+      "a": "Organigramas",
+      "b": "Funciones",
+      "c": "Normativa",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 16
+  },
+  {
+    "enunciado": "La información económica incluye:",
+    "opciones": {
+      "a": "Contratos",
+      "b": "Subvenciones",
+      "c": "Presupuestos",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 17
+  },
+  {
+    "enunciado": "El acceso se ejerce por:",
+    "opciones": {
+      "a": "Ciudadanos",
+      "b": "Personas físicas",
+      "c": "Personas jurídicas",
+      "d": "Cualquiera"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 18
+  },
+  {
+    "enunciado": "No es límite al acceso:",
+    "opciones": {
+      "a": "Seguridad",
+      "b": "Defensa",
+      "c": "Interés privado",
+      "d": "Política monetaria"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 19
+  },
+  {
+    "enunciado": "La reclamación se interpone ante:",
+    "opciones": {
+      "a": "Tribunal Supremo",
+      "b": "Consejo de Transparencia",
+      "c": "Congreso",
+      "d": "Defensor del Pueblo"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 20
+  },
+  {
+    "enunciado": "El plazo para reclamar es de:",
+    "opciones": {
+      "a": "10 días",
+      "b": "15 días",
+      "c": "1 mes",
+      "d": "3 meses"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 21
+  },
+  {
+    "enunciado": "La resolución del Consejo es:",
+    "opciones": {
+      "a": "Consultiva",
+      "b": "Vinculante",
+      "c": "Opcional",
+      "d": "No recurrible"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 22
+  },
+  {
+    "enunciado": "El acceso puede ser parcial cuando:",
+    "opciones": {
+      "a": "Existen límites",
+      "b": "Hay datos personales",
+      "c": "Se puede disociar información",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 23
+  },
+  {
+    "enunciado": "La transparencia se rige por el principio de:",
+    "opciones": {
+      "a": "Publicidad",
+      "b": "Accesibilidad",
+      "c": "Reutilización",
+      "d": "Todos"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 24
+  },
+  {
+    "enunciado": "La información debe publicarse:",
+    "opciones": {
+      "a": "En papel",
+      "b": "En portales",
+      "c": "En BOE",
+      "d": "En tablones"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 25
+  },
+  {
+    "enunciado": "La Ley 19/2013 entró en vigor en:",
+    "opciones": {
+      "a": "2013",
+      "b": "2014",
+      "c": "2015",
+      "d": "2016"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 26
+  },
+  {
+    "enunciado": "El Portal de Transparencia depende de:",
+    "opciones": {
+      "a": "Ministerio de Justicia",
+      "b": "Ministerio de Hacienda",
+      "c": "AGE",
+      "d": "Gobierno"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 27
+  },
+  {
+    "enunciado": "La reutilización de la información es:",
+    "opciones": {
+      "a": "Libre",
+      "b": "Limitada",
+      "c": "Prohibida",
+      "d": "Discrecional"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 28
+  },
+  {
+    "enunciado": "La información debe ser:",
+    "opciones": {
+      "a": "Clara",
+      "b": "Comprensible",
+      "c": "Actualizada",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 29
+  },
+  {
+    "enunciado": "La publicidad activa es obligación de:",
+    "opciones": {
+      "a": "Solo AGE",
+      "b": "Solo CCAA",
+      "c": "Todas las AAPP",
+      "d": "Solo entes públicos"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 30
+  },
+  {
+    "enunciado": "El acceso a la información es gratuito salvo:",
+    "opciones": {
+      "a": "Tasas",
+      "b": "Coste de reproducción",
+      "c": "Resolución",
+      "d": "Registro"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 31
+  },
+  {
+    "enunciado": "El acceso no exige:",
+    "opciones": {
+      "a": "Motivación",
+      "b": "Identificación",
+      "c": "Solicitud",
+      "d": "Medio electrónico"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 32
+  },
+  {
+    "enunciado": "La información auxiliar es:",
+    "opciones": {
+      "a": "Accesible",
+      "b": "No accesible",
+      "c": "Pública",
+      "d": "Reservada"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 33
+  },
+  {
+    "enunciado": "El derecho de acceso es compatible con:",
+    "opciones": {
+      "a": "Protección de datos",
+      "b": "Secreto oficial",
+      "c": "Seguridad",
+      "d": "Defensa"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 34
+  },
+  {
+    "enunciado": "El acceso a la información se regula en el artículo:",
+    "opciones": {
+      "a": "20 CE",
+      "b": "23 CE",
+      "c": "105 CE",
+      "d": "103 CE"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 4 - Transparencia",
+    "numero": 35
+  },
+  {
+    "enunciado": "El sistema de fuentes del Derecho español se recoge principalmente en:",
+    "opciones": {
+      "a": "Art. 1 CC",
+      "b": "Art. 9 CE",
+      "c": "Art. 97 CE",
+      "d": "Art. 66 CE"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 1
+  },
+  {
+    "enunciado": "Las fuentes del ordenamiento jurídico español son:",
+    "opciones": {
+      "a": "Ley, costumbre y jurisprudencia",
+      "b": "Constitución, ley y reglamento",
+      "c": "Ley, costumbre y principios generales del Derecho",
+      "d": "Constitución y ley"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 2
+  },
+  {
+    "enunciado": "La Constitución es:",
+    "opciones": {
+      "a": "Una ley ordinaria",
+      "b": "La norma suprema",
+      "c": "Un reglamento",
+      "d": "Una costumbre"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 3
+  },
+  {
+    "enunciado": "El principio de jerarquía normativa implica que:",
+    "opciones": {
+      "a": "Todas las normas son iguales",
+      "b": "Las normas inferiores prevalecen",
+      "c": "Las normas inferiores no pueden contradecir a las superiores",
+      "d": "Los reglamentos prevalecen"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 4
+  },
+  {
+    "enunciado": "¿Qué norma ocupa el primer lugar en la jerarquía normativa?",
+    "opciones": {
+      "a": "Ley orgánica",
+      "b": "Tratados internacionales",
+      "c": "Constitución",
+      "d": "Reglamento"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 5
+  },
+  {
+    "enunciado": "Los tratados internacionales válidamente celebrados forman parte del ordenamiento:",
+    "opciones": {
+      "a": "Tras su firma",
+      "b": "Tras su ratificación",
+      "c": "Tras su publicación oficial",
+      "d": "Nunca"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 6
+  },
+  {
+    "enunciado": "Los tratados internacionales se regulan en la CE en los artículos:",
+    "opciones": {
+      "a": "66–75",
+      "b": "93–96",
+      "c": "97–107",
+      "d": "128–136"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 7
+  },
+  {
+    "enunciado": "Las leyes orgánicas requieren para su aprobación:",
+    "opciones": {
+      "a": "Mayoría simple",
+      "b": "Mayoría absoluta",
+      "c": "Dos tercios",
+      "d": "Unanimidad"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 8
+  },
+  {
+    "enunciado": "Son materia de ley orgánica:",
+    "opciones": {
+      "a": "Presupuestos",
+      "b": "Reglamentos",
+      "c": "Derechos fundamentales",
+      "d": "Impuestos"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 9
+  },
+  {
+    "enunciado": "Las leyes ordinarias se aprueban por:",
+    "opciones": {
+      "a": "Mayoría absoluta",
+      "b": "Mayoría simple",
+      "c": "Dos tercios",
+      "d": "Unanimidad"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 10
+  },
+  {
+    "enunciado": "El reglamento es una norma:",
+    "opciones": {
+      "a": "Legislativa",
+      "b": "Judicial",
+      "c": "Administrativa",
+      "d": "Constitucional"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 11
+  },
+  {
+    "enunciado": "Los reglamentos son dictados por:",
+    "opciones": {
+      "a": "Cortes Generales",
+      "b": "Tribunal Supremo",
+      "c": "Gobierno",
+      "d": "Tribunal Constitucional"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 12
+  },
+  {
+    "enunciado": "El reglamento no puede:",
+    "opciones": {
+      "a": "Desarrollar la ley",
+      "b": "Contradecir la ley",
+      "c": "Regular materias administrativas",
+      "d": "Detallar normas"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 13
+  },
+  {
+    "enunciado": "La costumbre solo rige:",
+    "opciones": {
+      "a": "Siempre",
+      "b": "Contra ley",
+      "c": "En defecto de ley",
+      "d": "Por encima de la ley"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 14
+  },
+  {
+    "enunciado": "La costumbre debe ser:",
+    "opciones": {
+      "a": "Escrita",
+      "b": "Probada",
+      "c": "Justa",
+      "d": "Oficial"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 15
+  },
+  {
+    "enunciado": "Los principios generales del Derecho sirven para:",
+    "opciones": {
+      "a": "Derogar leyes",
+      "b": "Interpretar normas",
+      "c": "Sustituir reglamentos",
+      "d": "Crear leyes"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 16
+  },
+  {
+    "enunciado": "Los principios generales se aplican:",
+    "opciones": {
+      "a": "Antes que la ley",
+      "b": "Después de la ley y la costumbre",
+      "c": "Siempre",
+      "d": "Solo en derecho privado"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 17
+  },
+  {
+    "enunciado": "La jurisprudencia:",
+    "opciones": {
+      "a": "Es fuente directa",
+      "b": "Complementa el ordenamiento",
+      "c": "Sustituye a la ley",
+      "d": "Es obligatoria siempre"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 18
+  },
+  {
+    "enunciado": "La jurisprudencia se forma por:",
+    "opciones": {
+      "a": "Un fallo",
+      "b": "Dos sentencias",
+      "c": "Varias sentencias reiteradas",
+      "d": "Opiniones doctrinales"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 19
+  },
+  {
+    "enunciado": "El órgano que crea jurisprudencia es:",
+    "opciones": {
+      "a": "TC",
+      "b": "Audiencia Nacional",
+      "c": "Tribunal Supremo",
+      "d": "Cortes"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 20
+  },
+  {
+    "enunciado": "Los decretos-leyes son dictados por:",
+    "opciones": {
+      "a": "Cortes",
+      "b": "Rey",
+      "c": "Gobierno",
+      "d": "Senado"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 21
+  },
+  {
+    "enunciado": "Los decretos-leyes deben ser convalidados por el Congreso en:",
+    "opciones": {
+      "a": "15 días",
+      "b": "30 días",
+      "c": "1 mes",
+      "d": "2 meses"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 22
+  },
+  {
+    "enunciado": "Los decretos-leyes no pueden afectar a:",
+    "opciones": {
+      "a": "Derechos fundamentales",
+      "b": "Instituciones básicas",
+      "c": "CCAA",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 23
+  },
+  {
+    "enunciado": "Los decretos legislativos son:",
+    "opciones": {
+      "a": "Reglamentos",
+      "b": "Leyes delegadas",
+      "c": "Decretos-leyes",
+      "d": "Tratados"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 24
+  },
+  {
+    "enunciado": "La delegación legislativa se realiza mediante:",
+    "opciones": {
+      "a": "Reglamento",
+      "b": "Decreto",
+      "c": "Ley de bases",
+      "d": "Orden ministerial"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 25
+  },
+  {
+    "enunciado": "El control de la constitucionalidad corresponde a:",
+    "opciones": {
+      "a": "Tribunal Supremo",
+      "b": "Cortes",
+      "c": "Tribunal Constitucional",
+      "d": "Gobierno"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 26
+  },
+  {
+    "enunciado": "Una ley inconstitucional es:",
+    "opciones": {
+      "a": "Nula",
+      "b": "Anulable",
+      "c": "Válida",
+      "d": "Reglamentaria"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 27
+  },
+  {
+    "enunciado": "El principio de publicidad normativa exige:",
+    "opciones": {
+      "a": "Publicación oficial",
+      "b": "Difusión",
+      "c": "Comunicación",
+      "d": "Archivo"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 28
+  },
+  {
+    "enunciado": "La irretroactividad se aplica a normas:",
+    "opciones": {
+      "a": "Civiles",
+      "b": "Penales favorables",
+      "c": "Sancionadoras no favorables",
+      "d": "Administrativas"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 29
+  },
+  {
+    "enunciado": "El principio de seguridad jurídica se recoge en:",
+    "opciones": {
+      "a": "Art. 1 CE",
+      "b": "Art. 9.3 CE",
+      "c": "Art. 14 CE",
+      "d": "Art. 97 CE"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 30
+  },
+  {
+    "enunciado": "Las órdenes ministeriales son:",
+    "opciones": {
+      "a": "Leyes",
+      "b": "Reglamentos",
+      "c": "Tratados",
+      "d": "Costumbre"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 31
+  },
+  {
+    "enunciado": "El reglamento ejecutivo:",
+    "opciones": {
+      "a": "Crea leyes",
+      "b": "Desarrolla la ley",
+      "c": "Deroga leyes",
+      "d": "Sustituye normas"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 32
+  },
+  {
+    "enunciado": "El reglamento independiente:",
+    "opciones": {
+      "a": "Desarrolla la ley",
+      "b": "Regula sin ley previa",
+      "c": "Deroga leyes",
+      "d": "Es ilegal"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 33
+  },
+  {
+    "enunciado": "El principio de legalidad implica:",
+    "opciones": {
+      "a": "Libertad",
+      "b": "Sometimiento a la ley",
+      "c": "Autonomía",
+      "d": "Discrecionalidad"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 34
+  },
+  {
+    "enunciado": "Las normas con rango de ley incluyen:",
+    "opciones": {
+      "a": "Reglamentos",
+      "b": "Decretos-leyes",
+      "c": "Órdenes",
+      "d": "Instrucciones"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 6 - Fuentes del Derecho",
+    "numero": 35
+  },
+  {
+    "enunciado": "La igualdad efectiva de mujeres y hombres se regula en la Ley:",
+    "opciones": {
+      "a": "LO 1/2004",
+      "b": "LO 3/2007",
+      "c": "Ley 39/2006",
+      "d": "Ley 15/2022"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 1
+  },
+  {
+    "enunciado": "El principio de igualdad de trato supone:",
+    "opciones": {
+      "a": "Igualdad formal",
+      "b": "Ausencia de discriminación directa e indirecta",
+      "c": "Igualdad económica",
+      "d": "Igualdad social"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 2
+  },
+  {
+    "enunciado": "La discriminación directa por razón de sexo es:",
+    "opciones": {
+      "a": "Neutral",
+      "b": "Trato desfavorable por sexo",
+      "c": "Indirecta",
+      "d": "Legal"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 3
+  },
+  {
+    "enunciado": "La discriminación indirecta se produce cuando:",
+    "opciones": {
+      "a": "Hay intención",
+      "b": "Hay trato directo",
+      "c": "Una norma neutra perjudica a un sexo",
+      "d": "Siempre es legal"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 4
+  },
+  {
+    "enunciado": "El acoso sexual es considerado:",
+    "opciones": {
+      "a": "Falta leve",
+      "b": "Discriminación",
+      "c": "Delito administrativo",
+      "d": "Costumbre"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 5
+  },
+  {
+    "enunciado": "El acoso por razón de sexo consiste en:",
+    "opciones": {
+      "a": "Conducta sexual",
+      "b": "Conducta basada en el sexo",
+      "c": "Conducta laboral",
+      "d": "Conducta privada"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 6
+  },
+  {
+    "enunciado": "La indemnidad frente a represalias implica:",
+    "opciones": {
+      "a": "Protección tras denunciar",
+      "b": "Protección económica",
+      "c": "Protección penal",
+      "d": "Protección administrativa"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 7
+  },
+  {
+    "enunciado": "Las acciones positivas son:",
+    "opciones": {
+      "a": "Discriminatorias",
+      "b": "Temporales y proporcionadas",
+      "c": "Permanentes",
+      "d": "Obligatorias siempre"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 8
+  },
+  {
+    "enunciado": "La tutela judicial efectiva se recoge en el artículo:",
+    "opciones": {
+      "a": "14 CE",
+      "b": "24 CE",
+      "c": "53 CE",
+      "d": "55 CE"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 9
+  },
+  {
+    "enunciado": "La carga de la prueba en discriminación corresponde:",
+    "opciones": {
+      "a": "Demandante",
+      "b": "Demandado",
+      "c": "Tribunal",
+      "d": "Administración"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 10
+  },
+  {
+    "enunciado": "La violencia de género se regula en la Ley:",
+    "opciones": {
+      "a": "LO 3/2007",
+      "b": "LO 1/2004",
+      "c": "Ley 39/2006",
+      "d": "Ley 4/2023"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 11
+  },
+  {
+    "enunciado": "La Ley de Violencia de Género es:",
+    "opciones": {
+      "a": "Ordinaria",
+      "b": "Orgánica",
+      "c": "Reglamentaria",
+      "d": "Autonómica"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 12
+  },
+  {
+    "enunciado": "La violencia de género se ejerce sobre:",
+    "opciones": {
+      "a": "Cualquier persona",
+      "b": "Mujeres",
+      "c": "Menores",
+      "d": "Familia"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 13
+  },
+  {
+    "enunciado": "La Ley 1/2004 incluye medidas de:",
+    "opciones": {
+      "a": "Prevención",
+      "b": "Protección",
+      "c": "Asistencia",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 14
+  },
+  {
+    "enunciado": "Las víctimas de violencia de género tienen derecho a:",
+    "opciones": {
+      "a": "Información",
+      "b": "Asistencia social",
+      "c": "Protección",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 15
+  },
+  {
+    "enunciado": "El Pacto de Estado contra la Violencia de Género es:",
+    "opciones": {
+      "a": "Una ley",
+      "b": "Un acuerdo institucional",
+      "c": "Un reglamento",
+      "d": "Un tratado"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 16
+  },
+  {
+    "enunciado": "La discapacidad se regula actualmente en:",
+    "opciones": {
+      "a": "Ley 39/2006",
+      "b": "RDL 1/2013",
+      "c": "LO 3/2007",
+      "d": "Ley 15/2022"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 17
+  },
+  {
+    "enunciado": "La persona con discapacidad es aquella que presenta:",
+    "opciones": {
+      "a": "Enfermedad",
+      "b": "Limitaciones duraderas",
+      "c": "Dependencia",
+      "d": "Minusvalía"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 18
+  },
+  {
+    "enunciado": "La igualdad y no discriminación de personas con discapacidad implica:",
+    "opciones": {
+      "a": "Exclusión",
+      "b": "Ajustes razonables",
+      "c": "Privilegios",
+      "d": "Reservas"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 19
+  },
+  {
+    "enunciado": "Los ajustes razonables deben ser:",
+    "opciones": {
+      "a": "Permanentes",
+      "b": "Obligatorios siempre",
+      "c": "Proporcionados",
+      "d": "Gratuitos"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 20
+  },
+  {
+    "enunciado": "La dependencia se regula en la Ley:",
+    "opciones": {
+      "a": "Ley 15/2022",
+      "b": "Ley 39/2006",
+      "c": "LO 1/2004",
+      "d": "RDL 1/2013"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 21
+  },
+  {
+    "enunciado": "El Sistema para la Autonomía y Atención a la Dependencia se denomina:",
+    "opciones": {
+      "a": "SAAD",
+      "b": "SNS",
+      "c": "SISA",
+      "d": "SAI"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 22
+  },
+  {
+    "enunciado": "Los grados de dependencia son:",
+    "opciones": {
+      "a": "Dos",
+      "b": "Tres",
+      "c": "Cuatro",
+      "d": "Cinco"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 23
+  },
+  {
+    "enunciado": "La dependencia grado III es:",
+    "opciones": {
+      "a": "Moderada",
+      "b": "Severa",
+      "c": "Gran dependencia",
+      "d": "Leve"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 24
+  },
+  {
+    "enunciado": "Las prestaciones del SAAD pueden ser:",
+    "opciones": {
+      "a": "Económicas",
+      "b": "Servicios",
+      "c": "Ambas",
+      "d": "Ninguna"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 25
+  },
+  {
+    "enunciado": "La promoción de la autonomía personal implica:",
+    "opciones": {
+      "a": "Asistencia",
+      "b": "Prevención",
+      "c": "Desarrollo personal",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 26
+  },
+  {
+    "enunciado": "La igualdad de trato y no discriminación se regula también en:",
+    "opciones": {
+      "a": "Ley 15/2022",
+      "b": "Ley 39/2015",
+      "c": "Ley 50/1997",
+      "d": "CE solo"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 27
+  },
+  {
+    "enunciado": "La Ley 15/2022 protege frente a discriminación por:",
+    "opciones": {
+      "a": "Sexo",
+      "b": "Discapacidad",
+      "c": "Origen",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 28
+  },
+  {
+    "enunciado": "La perspectiva de género implica:",
+    "opciones": {
+      "a": "Igualdad formal",
+      "b": "Análisis de impacto",
+      "c": "Discriminación",
+      "d": "Neutralidad"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 29
+  },
+  {
+    "enunciado": "La transversalidad de género significa:",
+    "opciones": {
+      "a": "Aplicación sectorial",
+      "b": "Aplicación solo laboral",
+      "c": "Integración en todas las políticas",
+      "d": "Aplicación opcional"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 30
+  },
+  {
+    "enunciado": "La igualdad en el empleo público se regula en:",
+    "opciones": {
+      "a": "LO 1/2004",
+      "b": "LO 3/2007",
+      "c": "Ley 39/2006",
+      "d": "Ley 15/2022"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 31
+  },
+  {
+    "enunciado": "La presencia equilibrada implica:",
+    "opciones": {
+      "a": "Paridad exacta",
+      "b": "Ningún sexo supere el 60%",
+      "c": "Igualdad absoluta",
+      "d": "Preferencia femenina"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 32
+  },
+  {
+    "enunciado": "La educación en igualdad debe promoverse por:",
+    "opciones": {
+      "a": "Estado",
+      "b": "CCAA",
+      "c": "AAPP",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 33
+  },
+  {
+    "enunciado": "La protección de colectivos vulnerables se incluye en:",
+    "opciones": {
+      "a": "Igualdad",
+      "b": "Violencia",
+      "c": "Discapacidad",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 34
+  },
+  {
+    "enunciado": "La finalidad del Tema 7 es:",
+    "opciones": {
+      "a": "Sancionar",
+      "b": "Prevenir discriminación",
+      "c": "Garantizar derechos",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 7 - Igualdad, Violencia, Discapacidad",
+    "numero": 35
+  },
+  {
+    "numero": 1,
+    "enunciado": "La Ley de Servicios de la Sociedad de la Información es la:",
+    "opciones": {
+      "a": "Ley 39/2015",
+      "b": "Ley 40/2015",
+      "c": "Ley 34/2002",
+      "d": "Ley 19/2013"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 2,
+    "enunciado": "La Ley 34/2002 regula:",
+    "opciones": {
+      "a": "Administración electrónica",
+      "b": "Servicios de la sociedad de la información y comercio electrónico",
+      "c": "Protección de datos",
+      "d": "Firma electrónica"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 3,
+    "enunciado": "Un servicio de la sociedad de la información es aquel que se presta:",
+    "opciones": {
+      "a": "Presencialmente",
+      "b": "A distancia",
+      "c": "En papel",
+      "d": "Manualmente"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 4,
+    "enunciado": "La prestación de servicios de la sociedad de la información es:",
+    "opciones": {
+      "a": "Limitada",
+      "b": "Libre",
+      "c": "Autorizada",
+      "d": "Prohibida"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 5,
+    "enunciado": "La contratación electrónica produce:",
+    "opciones": {
+      "a": "Efectos limitados",
+      "b": "Efectos jurídicos",
+      "c": "Efectos administrativos",
+      "d": "Ningún efecto"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 6,
+    "enunciado": "El prestador de servicios debe facilitar:",
+    "opciones": {
+      "a": "Datos identificativos",
+      "b": "Domicilio",
+      "c": "Email",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 7,
+    "enunciado": "Las comunicaciones comerciales por correo electrónico:",
+    "opciones": {
+      "a": "Son siempre válidas",
+      "b": "Requieren consentimiento previo",
+      "c": "Son obligatorias",
+      "d": "No están reguladas"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 8,
+    "enunciado": "El envío de comunicaciones comerciales no solicitadas se denomina:",
+    "opciones": {
+      "a": "Hacker",
+      "b": "Spam",
+      "c": "Phishing",
+      "d": "Malware"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 9,
+    "enunciado": "El prestador es responsable del contenido cuando:",
+    "opciones": {
+      "a": "Siempre",
+      "b": "Nunca",
+      "c": "Tiene conocimiento efectivo",
+      "d": "Es anónimo"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 10,
+    "enunciado": "Los prestadores intermediarios incluyen:",
+    "opciones": {
+      "a": "Acceso",
+      "b": "Alojamiento",
+      "c": "Enlaces",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 11,
+    "enunciado": "La firma electrónica se regula en:",
+    "opciones": {
+      "a": "Ley 39/2015",
+      "b": "Reglamento eIDAS",
+      "c": "Ley 34/2002",
+      "d": "Ley 19/2013"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 12,
+    "enunciado": "La firma electrónica cualificada equivale a:",
+    "opciones": {
+      "a": "Firma simple",
+      "b": "Firma avanzada",
+      "c": "Firma manuscrita",
+      "d": "Firma digital"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 13,
+    "enunciado": "El DNI electrónico permite:",
+    "opciones": {
+      "a": "Identificación",
+      "b": "Firma",
+      "c": "Ambas",
+      "d": "Ninguna"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 14,
+    "enunciado": "El certificado electrónico es emitido por:",
+    "opciones": {
+      "a": "Usuario",
+      "b": "Administración",
+      "c": "Prestador cualificado",
+      "d": "Empresa privada"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 15,
+    "enunciado": "La identificación electrónica se utiliza para:",
+    "opciones": {
+      "a": "Firmar",
+      "b": "Identificar al ciudadano",
+      "c": "Notificar",
+      "d": "Registrar"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 16,
+    "enunciado": "La administración electrónica se regula principalmente en:",
+    "opciones": {
+      "a": "Ley 19/2013",
+      "b": "Ley 34/2002",
+      "c": "Ley 39/2015",
+      "d": "Ley 50/1997"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 17,
+    "enunciado": "El derecho a relacionarse electrónicamente con la Administración es:",
+    "opciones": {
+      "a": "Obligación",
+      "b": "Derecho",
+      "c": "Prohibición",
+      "d": "Discrecional"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 18,
+    "enunciado": "Las personas jurídicas están obligadas a relacionarse:",
+    "opciones": {
+      "a": "Presencialmente",
+      "b": "Electrónicamente",
+      "c": "Por correo",
+      "d": "Libremente"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 19,
+    "enunciado": "El registro electrónico permite:",
+    "opciones": {
+      "a": "Presentar documentos",
+      "b": "Recibir notificaciones",
+      "c": "Acceder a expedientes",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 20,
+    "enunciado": "La sede electrónica garantiza:",
+    "opciones": {
+      "a": "Seguridad",
+      "b": "Integridad",
+      "c": "Autenticidad",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 21,
+    "enunciado": "La notificación electrónica se entiende practicada cuando:",
+    "opciones": {
+      "a": "Se envía",
+      "b": "Se accede al contenido",
+      "c": "Se publica",
+      "d": "Se registra"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 22,
+    "enunciado": "Si no se accede a una notificación electrónica se entiende rechazada a los:",
+    "opciones": {
+      "a": "5 días",
+      "b": "7 días",
+      "c": "10 días",
+      "d": "15 días"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 23,
+    "enunciado": "El archivo electrónico garantiza:",
+    "opciones": {
+      "a": "Conservación",
+      "b": "Autenticidad",
+      "c": "Integridad",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 24,
+    "enunciado": "La interoperabilidad implica:",
+    "opciones": {
+      "a": "Compatibilidad entre sistemas",
+      "b": "Seguridad",
+      "c": "Acceso público",
+      "d": "Transparencia"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 25,
+    "enunciado": "El Esquema Nacional de Seguridad regula:",
+    "opciones": {
+      "a": "Transparencia",
+      "b": "Protección de datos",
+      "c": "Seguridad de la información",
+      "d": "Firma electrónica"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 26,
+    "enunciado": "El Esquema Nacional de Interoperabilidad regula:",
+    "opciones": {
+      "a": "Seguridad",
+      "b": "Compatibilidad",
+      "c": "Transparencia",
+      "d": "Protección de datos"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 27,
+    "enunciado": "Las copias electrónicas pueden ser:",
+    "opciones": {
+      "a": "Simples",
+      "b": "Auténticas",
+      "c": "Ambas",
+      "d": "Ninguna"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 28,
+    "enunciado": "La validez de documentos electrónicos es:",
+    "opciones": {
+      "a": "Inferior",
+      "b": "Superior",
+      "c": "Igual a la del papel",
+      "d": "Limitada"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 29,
+    "enunciado": "La actuación administrativa automatizada es:",
+    "opciones": {
+      "a": "Manual",
+      "b": "Sin intervención humana directa",
+      "c": "Discrecional",
+      "d": "Presencial"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 30,
+    "enunciado": "El código seguro de verificación permite:",
+    "opciones": {
+      "a": "Identificar documentos",
+      "b": "Verificar autenticidad",
+      "c": "Acceder",
+      "d": "Todas"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 31,
+    "enunciado": "La carpeta ciudadana permite:",
+    "opciones": {
+      "a": "Acceso a expedientes",
+      "b": "Consultar trámites",
+      "c": "Comunicarse con AAPP",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 32,
+    "enunciado": "La reutilización de la información pública se fomenta por:",
+    "opciones": {
+      "a": "Ley 19/2013",
+      "b": "Ley 37/2007",
+      "c": "Ley 34/2002",
+      "d": "Ley 39/2015"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 33,
+    "enunciado": "El principio de accesibilidad implica:",
+    "opciones": {
+      "a": "Uso restringido",
+      "b": "Uso universal",
+      "c": "Uso técnico",
+      "d": "Uso limitado"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 34,
+    "enunciado": "La brecha digital afecta principalmente a:",
+    "opciones": {
+      "a": "Empresas",
+      "b": "AAPP",
+      "c": "Ciudadanos",
+      "d": "Sistemas"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 35,
+    "enunciado": "El objetivo del Tema 8 es:",
+    "opciones": {
+      "a": "Regular internet",
+      "b": "Garantizar derechos digitales",
+      "c": "Facilitar relación electrónica",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 8 - Sociedad de la Información"
+  },
+  {
+    "numero": 1,
+    "enunciado": "El derecho fundamental a la protección de datos se recoge en el artículo:",
+    "opciones": {
+      "a": "18.1 CE",
+      "b": "18.4 CE",
+      "c": "20 CE",
+      "d": "24 CE"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 2,
+    "enunciado": "El Reglamento General de Protección de Datos es:",
+    "opciones": {
+      "a": "Directiva",
+      "b": "Reglamento UE 2016/679",
+      "c": "Ley nacional",
+      "d": "Decreto"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 3,
+    "enunciado": "La Ley Orgánica que adapta el RGPD en España es:",
+    "opciones": {
+      "a": "LO 1/2004",
+      "b": "LO 3/2018",
+      "c": "LO 15/1999",
+      "d": "Ley 39/2015"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 4,
+    "enunciado": "El RGPD se aplica a tratamientos:",
+    "opciones": {
+      "a": "Manuales",
+      "b": "Automatizados",
+      "c": "Automatizados y no automatizados",
+      "d": "Privados"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 5,
+    "enunciado": "El ámbito territorial del RGPD incluye:",
+    "opciones": {
+      "a": "Solo UE",
+      "b": "Tratamientos fuera de la UE con efectos en la UE",
+      "c": "Solo España",
+      "d": "Solo sector público"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 6,
+    "enunciado": "El principio de licitud implica:",
+    "opciones": {
+      "a": "Consentimiento siempre",
+      "b": "Base jurídica válida",
+      "c": "Interés público",
+      "d": "Legalidad formal"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 7,
+    "enunciado": "La minimización de datos significa:",
+    "opciones": {
+      "a": "Recoger muchos datos",
+      "b": "Recoger solo los necesarios",
+      "c": "Conservar indefinidamente",
+      "d": "Publicar datos"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 8,
+    "enunciado": "El principio de exactitud implica:",
+    "opciones": {
+      "a": "Datos correctos y actualizados",
+      "b": "Datos públicos",
+      "c": "Datos protegidos",
+      "d": "Datos confidenciales"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 9,
+    "enunciado": "La limitación del plazo de conservación implica:",
+    "opciones": {
+      "a": "Conservación ilimitada",
+      "b": "Conservación solo necesaria",
+      "c": "Conservación permanente",
+      "d": "Conservación pública"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 10,
+    "enunciado": "La integridad y confidencialidad implica:",
+    "opciones": {
+      "a": "Acceso libre",
+      "b": "Seguridad adecuada",
+      "c": "Publicidad",
+      "d": "Comunicación"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 11,
+    "enunciado": "El principio de responsabilidad proactiva significa:",
+    "opciones": {
+      "a": "Reaccionar tras sanción",
+      "b": "Cumplir y demostrar cumplimiento",
+      "c": "Delegar responsabilidades",
+      "d": "Evitar sanciones"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 12,
+    "enunciado": "Los derechos de protección de datos incluyen:",
+    "opciones": {
+      "a": "Acceso",
+      "b": "Rectificación",
+      "c": "Supresión",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 13,
+    "enunciado": "El derecho de portabilidad permite:",
+    "opciones": {
+      "a": "Acceder",
+      "b": "Trasladar datos",
+      "c": "Suprimir",
+      "d": "Oponerse"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 14,
+    "enunciado": "El derecho de oposición permite:",
+    "opciones": {
+      "a": "Acceder",
+      "b": "Negarse al tratamiento",
+      "c": "Rectificar",
+      "d": "Portar"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 15,
+    "enunciado": "El plazo general para atender derechos es de:",
+    "opciones": {
+      "a": "10 días",
+      "b": "15 días",
+      "c": "1 mes",
+      "d": "3 meses"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 16,
+    "enunciado": "El responsable del tratamiento es quien:",
+    "opciones": {
+      "a": "Trata datos",
+      "b": "Decide fines y medios",
+      "c": "Ejecuta instrucciones",
+      "d": "Supervisa"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 17,
+    "enunciado": "El encargado del tratamiento:",
+    "opciones": {
+      "a": "Decide fines",
+      "b": "Trata por cuenta del responsable",
+      "c": "Supervisa",
+      "d": "Sanciona"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 18,
+    "enunciado": "El Delegado de Protección de Datos debe designarse:",
+    "opciones": {
+      "a": "Siempre",
+      "b": "Nunca",
+      "c": "En determinados supuestos",
+      "d": "Solo privado"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 19,
+    "enunciado": "El DPD actúa con:",
+    "opciones": {
+      "a": "Dependencia",
+      "b": "Autonomía",
+      "c": "Independencia",
+      "d": "Subordinación"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 20,
+    "enunciado": "La AEPD es:",
+    "opciones": {
+      "a": "Órgano judicial",
+      "b": "Autoridad de control",
+      "c": "Ministerio",
+      "d": "Tribunal"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 21,
+    "enunciado": "La base jurídica del consentimiento debe ser:",
+    "opciones": {
+      "a": "Implícito",
+      "b": "Tácito",
+      "c": "Libre, específico e informado",
+      "d": "Obligatorio"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 22,
+    "enunciado": "Los datos especialmente protegidos incluyen:",
+    "opciones": {
+      "a": "Nombre",
+      "b": "Dirección",
+      "c": "Salud",
+      "d": "Email"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 23,
+    "enunciado": "El tratamiento de datos de menores requiere:",
+    "opciones": {
+      "a": "Mayoría de edad",
+      "b": "Consentimiento paterno",
+      "c": "Autorización judicial",
+      "d": "Publicidad"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 24,
+    "enunciado": "Las violaciones de seguridad deben notificarse en:",
+    "opciones": {
+      "a": "24 horas",
+      "b": "48 horas",
+      "c": "72 horas",
+      "d": "5 días"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 25,
+    "enunciado": "La evaluación de impacto es obligatoria cuando:",
+    "opciones": {
+      "a": "Siempre",
+      "b": "Tratamientos de alto riesgo",
+      "c": "Datos públicos",
+      "d": "Datos manuales"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 26,
+    "enunciado": "Las sanciones del RGPD pueden alcanzar:",
+    "opciones": {
+      "a": "1 millón €",
+      "b": "10 millones €",
+      "c": "20 millones € o 4%",
+      "d": "50 millones €"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 27,
+    "enunciado": "El registro de actividades de tratamiento lo lleva:",
+    "opciones": {
+      "a": "AEPD",
+      "b": "Responsable",
+      "c": "Encargado",
+      "d": "TC"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 28,
+    "enunciado": "La anonimización implica:",
+    "opciones": {
+      "a": "Identificación",
+      "b": "Pseudonimización",
+      "c": "Imposibilidad de identificar",
+      "d": "Cifrado"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 29,
+    "enunciado": "La pseudonimización implica:",
+    "opciones": {
+      "a": "Eliminación",
+      "b": "Identificación indirecta",
+      "c": "Publicación",
+      "d": "Acceso libre"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 30,
+    "enunciado": "El ejercicio de derechos es:",
+    "opciones": {
+      "a": "De pago",
+      "b": "Gratuito",
+      "c": "Limitado",
+      "d": "Discrecional"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 31,
+    "enunciado": "La LOPDGDD regula derechos digitales como:",
+    "opciones": {
+      "a": "Acceso",
+      "b": "Desconexión digital",
+      "c": "Portabilidad",
+      "d": "Rectificación"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 32,
+    "enunciado": "La desconexión digital se aplica a:",
+    "opciones": {
+      "a": "Funcionarios",
+      "b": "Trabajadores",
+      "c": "Ambos",
+      "d": "Empresas"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 33,
+    "enunciado": "El derecho al olvido se relaciona con:",
+    "opciones": {
+      "a": "Acceso",
+      "b": "Rectificación",
+      "c": "Supresión",
+      "d": "Portabilidad"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 34,
+    "enunciado": "La cesión de datos es:",
+    "opciones": {
+      "a": "Tratamiento",
+      "b": "Comunicación",
+      "c": "Publicación",
+      "d": "Transferencia"
+    },
+    "correcta": "b",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
+    "numero": 35,
+    "enunciado": "El objetivo del Tema 9 es:",
+    "opciones": {
+      "a": "Sancionar",
+      "b": "Proteger derechos",
+      "c": "Regular datos",
+      "d": "Todas"
+    },
+    "correcta": "d",
+    "bloque": "Bloque 1",
+    "tema": "Tema 9 - Protección de Datos"
+  },
+  {
     "simulacro": "Simulacro 7",
     "enunciado": "No abra este cuestionario hasta que se le indique. 2. Este cuestionario está compuesto por CIEN preguntas de respuesta múltiple y CINCO preguntas adicionales de reserva, que se valorarán en caso de que se anule alguna de las cien anteriores. Si encuentra alguna dificultad en alguna de las preguntas, aconseja mos que no se detenga y continúe contestado las restantes. 3. Recuerde que el tiempo de realización de este ejercicio es de NOVENTA MINUTOS . 4. El cuestionario está compuesto por preguntas alternativas, de las cuales solo una de ellas es correcta. Todas las pr eguntas tendrán el mismo valor y cada contestación errónea se penalizará descontando un tercio del valor de una respuesta correcta. Las respuestas en blanco no penalizarán. 5. Las respuestas deberán ser marcadas en la \"Hoja de Examen\" teniendo cuenta estas i nstrucciones y las contenidas en la propia \"Hoja de Examen\". 6. Marque las respuestas con bolígrafo negro o azul y compruebe siempre que la marca que va a señalar en la \"Hoja de Examen\" corresponde al número de pregunta del cuestionario. En la \"Hoja de Examen\" no deberá anotar ninguna otra marca o señal distinta de las necesarias para contestar el ejercicio. 7. No serán valoradas las contestaciones en las que las marcas o correcciones efectuadas ofrezcan la conclusión de que \"no hay opción de respuesta\" vá lida. En el supuesto de que hubiese dos o más marcas la pregunta se considerará errónea de acuerdo con las instrucciones facilitadas en la \"Hoja de Examen\". 8. NO SEPARE EL \"EJEMPLAR PARA EL INTERESADO\" DE LA HOJA DE EXAMEN. EL EJEMPLAR PARA EL INTERESADO LE SERÁ ENTREGADO POR EL RESPONSABLE UNA VEZ FINALICE EL EJERCICIO. ÚNICA 1. Cualquier ciudadano podrá recabar la tutela de las libertades y derechos reconocidos en el artículo 14 y la Sección primera del Capítulo segundo del Título I de la Constitución Española ante:",
     "opciones": {
@@ -7897,6 +11537,4 @@
     },
     "correcta": "c"
   }
-
-
 ]
