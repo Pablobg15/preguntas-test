@@ -3,7 +3,11 @@ import json, random, re
 from pathlib import Path
 import streamlit as st
 
-RUTA_PREGUNTAS = Path(__file__).with_name("preguntas.json")
+# ===== RUTAS (AHORA SON TRES) =====
+RUTA_PREGUNTAS_BLOQUES = Path(__file__).with_name("preguntas.json")
+RUTA_PREGUNTAS_SIMULACRO = Path(__file__).with_name("preguntas-simulacro.json")
+RUTA_PREGUNTAS_PRACTICA = Path(__file__).with_name("preguntas_bloque1_practica.json")
+
 NUM_PREGUNTAS_DEFECTO = 10
 
 # --------- Configuración de Bloques y Temas ----------
@@ -44,6 +48,15 @@ def norm_letra(x: str) -> str:
         return x[0]
     return x
 
+def limpiar_basura_pdf(txt: str) -> str:
+    """Quita coletillas típicas tipo 'PABLO ARELLANO ... Página X' dentro del texto."""
+    if not txt:
+        return txt
+    txt = re.sub(r"\s+PABLO\s+ARELLANO.*?$", "", txt, flags=re.IGNORECASE)
+    txt = re.sub(r"\s+www\.\S+.*?$", "", txt, flags=re.IGNORECASE)
+    txt = re.sub(r"\s+Página\s+\d+.*?$", "", txt, flags=re.IGNORECASE)
+    return txt.strip()
+
 def inferir_bloque_tema(desde: str):
     s = (desde or "").strip()
 
@@ -65,9 +78,13 @@ def inferir_bloque_tema(desde: str):
 
     return "Bloque 1", "Sin tema"
 
-@st.cache_data
-def cargar_preguntas_dedup():
-    with open(RUTA_PREGUNTAS, "r", encoding="utf-8") as f:
+def cargar_preguntas_dedup_desde_ruta(ruta: Path, modo: str):
+    """
+    modo:
+      - "bloques": espera bloque/tema en el JSON
+      - "simulacros": espera simulacro (y si falta bloque/tema los infiere)
+    """
+    with open(ruta, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     vistas = set()
@@ -77,13 +94,16 @@ def cargar_preguntas_dedup():
         if not (isinstance(p, dict) and all(k in p for k in ("enunciado", "opciones", "correcta"))):
             continue
 
-        enun = str(p["enunciado"]).strip()
+        enun = limpiar_basura_pdf(str(p["enunciado"]).strip())
+
         opciones_raw = p["opciones"]
         if not isinstance(opciones_raw, dict):
             continue
 
-        opciones = {norm_letra(k): str(v).strip() for k, v in opciones_raw.items()}
+        opciones = {norm_letra(k): limpiar_basura_pdf(str(v).strip()) for k, v in opciones_raw.items()}
         correcta = norm_letra(p["correcta"])
+
+        # Si la correcta no cuadra, descartamos (evita correctas null/rotas)
         if correcta not in opciones:
             continue
 
@@ -91,13 +111,18 @@ def cargar_preguntas_dedup():
         tema = str(p.get("tema", "")).strip()
         simulacro = str(p.get("simulacro", "")).strip()
 
-        if not bloque or not tema:
-            bloque_inf, tema_inf = inferir_bloque_tema(simulacro)
-            bloque = bloque or bloque_inf
-            tema = tema or tema_inf
+        if modo == "simulacros":
+            # si no vienen bloque/tema, los inferimos desde 'simulacro' (o lo que tengas)
+            if not bloque or not tema:
+                b_inf, t_inf = inferir_bloque_tema(simulacro)
+                bloque = bloque or b_inf
+                tema = tema or t_inf
+            simulacro = simulacro or "Sin simulacro"
+        else:
+            simulacro = simulacro or "Sin simulacro"
 
-        # Dedup por enunciado + tema + bloque
-        clave = (enun.lower(), tema.lower(), bloque.lower())
+        # Dedup por enunciado + tema + bloque + (modo)
+        clave = (enun.lower(), tema.lower(), bloque.lower(), modo)
         if clave in vistas:
             continue
         vistas.add(clave)
@@ -108,10 +133,23 @@ def cargar_preguntas_dedup():
             "correcta": correcta,
             "bloque": bloque,
             "tema": tema,
-            "simulacro": simulacro or "Sin simulacro",
+            "simulacro": simulacro,
         })
 
     return limpias
+
+@st.cache_data
+def cargar_banco_bloques():
+    return cargar_preguntas_dedup_desde_ruta(RUTA_PREGUNTAS_BLOQUES, modo="bloques")
+
+@st.cache_data
+def cargar_banco_simulacros():
+    return cargar_preguntas_dedup_desde_ruta(RUTA_PREGUNTAS_SIMULACRO, modo="simulacros")
+
+@st.cache_data
+def cargar_banco_practica():
+    # Práctica se comporta como "bloques" (lleva bloque/tema en el JSON)
+    return cargar_preguntas_dedup_desde_ruta(RUTA_PREGUNTAS_PRACTICA, modo="bloques")
 
 def preparar_test(preguntas, n, usadas_ids):
     disponibles = [p for p in preguntas if p["enunciado"] not in usadas_ids]
@@ -174,16 +212,27 @@ def pinta_pregunta(idx, q, corregir=False):
 st.set_page_config(page_title="Preguntas Test", page_icon="📝", layout="wide")
 st.title("📝 Preguntas Test")
 
-preguntas_all = cargar_preguntas_dedup()
+preguntas_bloques = cargar_banco_bloques()
+preguntas_simulacros = cargar_banco_simulacros()
+
+# Si no existe el json de práctica, no reventamos: mostramos 0
+try:
+    preguntas_practica = cargar_banco_practica()
+except FileNotFoundError:
+    preguntas_practica = []
 
 # Estado global
 st.session_state.setdefault("fase", "menu")
-st.session_state.setdefault("vista", "Bloques")  # "Bloques" o "Simulacros"
+st.session_state.setdefault("vista", "Bloques")  # "Bloques" | "Practica" | "Simulacros"
 
 # Bloques/temas
 st.session_state.setdefault("bloque_seleccionado", "Bloque 1")
 st.session_state.setdefault("temas_seleccionados", [])
-st.session_state.setdefault("usadas_por_filtro", {})  # (bloque, tuple(temas) o "__TODOS__")
+st.session_state.setdefault("usadas_por_filtro", {})  # (bloque, tuple(temas) o "__TODOS__") -> usadas
+
+# Práctica
+st.session_state.setdefault("temas_practica_seleccionados", [])
+st.session_state.setdefault("usadas_por_practica", {})  # tuple(temas) o "__TODOS__" -> usadas
 
 # Simulacros
 st.session_state.setdefault("simulacro_sel", "Todos")
@@ -197,7 +246,10 @@ st.session_state.setdefault("aciertos", 0)
 with st.sidebar:
     st.markdown("### Opciones")
     n = st.number_input("Nº de preguntas", 5, 100, NUM_PREGUNTAS_DEFECTO, 1)
-    st.caption(f"Banco total: **{len(preguntas_all)}** preguntas")
+
+    st.caption(f"Banco Bloques: **{len(preguntas_bloques)}**")
+    st.caption(f"Banco Práctica: **{len(preguntas_practica)}**")
+    st.caption(f"Banco Simulacros: **{len(preguntas_simulacros)}**")
 
     if st.session_state.fase == "test":
         respondidas = sum(
@@ -213,8 +265,8 @@ with st.sidebar:
         st.session_state["vista"] = "Bloques"
         st.rerun()
 
-# Tabs (pestañas)
-tab_bloques, tab_sim = st.tabs(["📚 Bloques / Temas", "🧪 Simulacros"])
+# Tabs
+tab_bloques, tab_practica, tab_sim = st.tabs(["📚 Bloques / Temas", "🛠️ Práctica", "🧪 Simulacros"])
 
 # ========= VISTA 1: BLOQUES / TEMAS =========
 with tab_bloques:
@@ -239,7 +291,7 @@ with tab_bloques:
         st.write("---")
 
         if st.button("▶️ Comenzar test (Bloques/Temas)", type="primary"):
-            preguntas_filtradas = [p for p in preguntas_all if p["bloque"] == bloque]
+            preguntas_filtradas = [p for p in preguntas_bloques if p["bloque"] == bloque]
             if temas_sel:
                 preguntas_filtradas = [p for p in preguntas_filtradas if p["tema"] in temas_sel]
 
@@ -260,24 +312,71 @@ with tab_bloques:
                 st.session_state["fase"] = "test"
                 st.rerun()
 
-# ========= VISTA 2: SIMULACROS =========
+# ========= VISTA 2: PRÁCTICA (Tema 1-9, multi) =========
+with tab_practica:
+    if st.session_state.fase == "menu":
+        st.subheader("Práctica — Selecciona temas (Bloque 1)")
+
+        if not RUTA_PREGUNTAS_PRACTICA.exists():
+            st.warning(f"No encuentro el archivo **{RUTA_PREGUNTAS_PRACTICA.name}** en la carpeta del proyecto.")
+            st.stop()
+
+        temas_practica = TEMAS_POR_BLOQUE["Bloque 1"]
+
+        temas_sel = st.multiselect(
+            "Temas de práctica (puedes elegir varios). Si no eliges ninguno, entran TODOS:",
+            options=temas_practica,
+            default=st.session_state.get("temas_practica_seleccionados", [])
+        )
+        st.session_state["temas_practica_seleccionados"] = temas_sel
+
+        st.write("---")
+
+        if st.button("▶️ Comenzar test (Práctica)", type="primary"):
+            # Bloque 1 fijo para práctica
+            preguntas_filtradas = [p for p in preguntas_practica if p["bloque"] == "Bloque 1"]
+            if temas_sel:
+                preguntas_filtradas = [p for p in preguntas_filtradas if p["tema"] in temas_sel]
+
+            if not preguntas_filtradas:
+                st.error("No hay preguntas de práctica para esos temas.")
+            else:
+                clave = tuple(sorted(temas_sel)) if temas_sel else ("__TODOS__",)
+                usadas = st.session_state["usadas_por_practica"].get(clave, [])
+
+                qs, u = preparar_test(preguntas_filtradas, int(n), usadas)
+                st.session_state["preguntas"] = qs
+                st.session_state["usadas_por_practica"][clave] = usadas + u
+
+                for i in range(len(qs)):
+                    st.session_state[f"resp_{i}"] = None
+
+                st.session_state["vista"] = "Practica"
+                st.session_state["fase"] = "test"
+                st.rerun()
+
+# ========= VISTA 3: SIMULACROS =========
 with tab_sim:
     if st.session_state.fase == "menu":
         st.subheader("Selecciona simulacro")
 
-        sims = sorted({p.get("simulacro", "Sin simulacro") for p in preguntas_all})
+        sims = sorted({p.get("simulacro", "Sin simulacro") for p in preguntas_simulacros})
         opciones = ["Todos"] + sims
 
-        simulacro = st.selectbox("Simulacro:", opciones, index=opciones.index(st.session_state.get("simulacro_sel", "Todos")))
+        simulacro = st.selectbox(
+            "Simulacro:",
+            opciones,
+            index=opciones.index(st.session_state.get("simulacro_sel", "Todos"))
+        )
         st.session_state["simulacro_sel"] = simulacro
 
         st.write("---")
 
         if st.button("▶️ Comenzar test (Simulacros)", type="primary"):
             if simulacro == "Todos":
-                preguntas_filtradas = list(preguntas_all)
+                preguntas_filtradas = list(preguntas_simulacros)
             else:
-                preguntas_filtradas = [p for p in preguntas_all if p.get("simulacro") == simulacro]
+                preguntas_filtradas = [p for p in preguntas_simulacros if p.get("simulacro") == simulacro]
 
             if not preguntas_filtradas:
                 st.error("No hay preguntas para ese simulacro.")
@@ -302,6 +401,12 @@ if st.session_state.fase == "test":
         temas_sel = st.session_state.get("temas_seleccionados", [])
         etiqueta = ", ".join(temas_sel) if temas_sel else "Todos los temas"
         st.subheader(f"Test — {bloque} · {etiqueta}")
+
+    elif st.session_state["vista"] == "Practica":
+        temas_sel = st.session_state.get("temas_practica_seleccionados", [])
+        etiqueta = ", ".join(temas_sel) if temas_sel else "Todos los temas"
+        st.subheader(f"Test — Práctica · {etiqueta}")
+
     else:
         simulacro = st.session_state.get("simulacro_sel", "Todos")
         st.subheader(f"Test — Simulacro: {simulacro}")
@@ -329,6 +434,12 @@ elif st.session_state.fase == "correccion":
         temas_sel = st.session_state.get("temas_seleccionados", [])
         etiqueta = ", ".join(temas_sel) if temas_sel else "Todos los temas"
         st.subheader(f"Corrección — {bloque} · {etiqueta}")
+
+    elif st.session_state["vista"] == "Practica":
+        temas_sel = st.session_state.get("temas_practica_seleccionados", [])
+        etiqueta = ", ".join(temas_sel) if temas_sel else "Todos los temas"
+        st.subheader(f"Corrección — Práctica · {etiqueta}")
+
     else:
         simulacro = st.session_state.get("simulacro_sel", "Todos")
         st.subheader(f"Corrección — Simulacro: {simulacro}")
@@ -344,32 +455,46 @@ elif st.session_state.fase == "correccion":
 
     with col1:
         if st.button("🆕 Nuevo test (mismo filtro)", use_container_width=True):
-            n = int(n)
+            n_int = int(n)
 
             if st.session_state["vista"] == "Bloques":
                 bloque = st.session_state.get("bloque_seleccionado", "Bloque 1")
                 temas_sel = st.session_state.get("temas_seleccionados", [])
 
-                preguntas_filtradas = [p for p in preguntas_all if p["bloque"] == bloque]
+                preguntas_filtradas = [p for p in preguntas_bloques if p["bloque"] == bloque]
                 if temas_sel:
                     preguntas_filtradas = [p for p in preguntas_filtradas if p["tema"] in temas_sel]
 
                 clave_filtro = (bloque, tuple(sorted(temas_sel)) if temas_sel else ("__TODOS__",))
                 usadas = st.session_state["usadas_por_filtro"].get(clave_filtro, [])
 
-                qs, u = preparar_test(preguntas_filtradas, n, usadas)
+                qs, u = preparar_test(preguntas_filtradas, n_int, usadas)
                 st.session_state["preguntas"] = qs
                 st.session_state["usadas_por_filtro"][clave_filtro] = usadas + u
+
+            elif st.session_state["vista"] == "Practica":
+                temas_sel = st.session_state.get("temas_practica_seleccionados", [])
+
+                preguntas_filtradas = [p for p in preguntas_practica if p["bloque"] == "Bloque 1"]
+                if temas_sel:
+                    preguntas_filtradas = [p for p in preguntas_filtradas if p["tema"] in temas_sel]
+
+                clave = tuple(sorted(temas_sel)) if temas_sel else ("__TODOS__",)
+                usadas = st.session_state["usadas_por_practica"].get(clave, [])
+
+                qs, u = preparar_test(preguntas_filtradas, n_int, usadas)
+                st.session_state["preguntas"] = qs
+                st.session_state["usadas_por_practica"][clave] = usadas + u
 
             else:
                 simulacro = st.session_state.get("simulacro_sel", "Todos")
                 if simulacro == "Todos":
-                    preguntas_filtradas = list(preguntas_all)
+                    preguntas_filtradas = list(preguntas_simulacros)
                 else:
-                    preguntas_filtradas = [p for p in preguntas_all if p.get("simulacro") == simulacro]
+                    preguntas_filtradas = [p for p in preguntas_simulacros if p.get("simulacro") == simulacro]
 
                 usadas = st.session_state["usadas_por_simulacro"].get(simulacro, [])
-                qs, u = preparar_test(preguntas_filtradas, n, usadas)
+                qs, u = preparar_test(preguntas_filtradas, n_int, usadas)
                 st.session_state["preguntas"] = qs
                 st.session_state["usadas_por_simulacro"][simulacro] = usadas + u
 
