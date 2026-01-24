@@ -1,0 +1,3477 @@
+[
+  {
+    "enunciado": "La potencia de un microprocesador se mide en FLOPS, unidad que indica:",
+    "opciones": {
+      "a": "El número de accesos a memoria que es capaz de realizar en un segundo.",
+      "b": "La frecuencia de la señal de reloj del microprocesador.",
+      "c": "El número de operaciones de coma flotante por segundo que puede realizar.",
+      "d": "El número de millones de instrucciones por segundo que puede procesar."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 1
+  },
+  {
+    "enunciado": "Señale el valor decimal del número hexadecimal 3B:",
+    "opciones": {
+      "a": "58.",
+      "b": "59.",
+      "c": "48.",
+      "d": "63."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 2
+  },
+  {
+    "enunciado": "¿Cuál es la capacidad de una memoria de 2048 palabras si tenemos en cuenta que el ancho de palabra es de 16 bits?",
+    "opciones": {
+      "a": "16 KB.",
+      "b": "4 KB.",
+      "c": "16 Kb.",
+      "d": "8 KB."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 3
+  },
+  {
+    "enunciado": "Respecto a las memorias RAM de tipo SRAM señale cuál de las siguientes respuestas es INCORRECTA:",
+    "opciones": {
+      "a": "Es más costosa que la memoria DRAM.",
+      "b": "Son las siglas en inglés de Synchronous Random-Access Memory.",
+      "c": "Su uso más común está en la memoria caché de los ordenadores.",
+      "d": "Capaz de mantener los datos, mientras siga alimentada, sin necesidad de circuito de refresco."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 4
+  },
+  {
+    "enunciado": "En relación a UTF-8, señale la afirmación correcta:",
+    "opciones": {
+      "a": "Siempre utiliza un solo byte (8 bits) para cada carácter UNICODE.",
+      "b": "Solo puede representar los caracteres del idioma inglés.",
+      "c": "Una cadena de texto en UTF-8 siempre ocupa más que en ASCII.",
+      "d": "Un carácter puede estar representado por entre uno y cuatro bytes."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 5
+  },
+  {
+    "enunciado": "¿Qué número en sistema octal corresponde al decimal 53?",
+    "opciones": {
+      "a": "65.",
+      "b": "54.",
+      "c": "55.",
+      "d": "64."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 6
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes capacidades puede contener una mayor cantidad de información?",
+    "opciones": {
+      "a": "100.000.000 bits.",
+      "b": "1 Gigabyte.",
+      "c": "1042 Megabytes.",
+      "d": "200.000 Kbytes."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 7
+  },
+  {
+    "enunciado": "La forma de acceso a la memoria principal de un ordenador es:",
+    "opciones": {
+      "a": "Acceso secuencial.",
+      "b": "Acceso aleatorio.",
+      "c": "Acceso predefinido.",
+      "d": "Acceso programado."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 8
+  },
+  {
+    "enunciado": "Un procesador (CPU) puede interpretar y ejecutar directamente las instrucciones de:",
+    "opciones": {
+      "a": "Un programa escrito en su lenguaje máquina o en pseudocódigo.",
+      "b": "Un programa escrito en su lenguaje máquina o en un lenguaje interpretado.",
+      "c": "Un programa escrito en su lenguaje máquina.",
+      "d": "Un programa escrito en su lenguaje máquina, en pseudocódigo o en un lenguaje interpretado."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 9
+  },
+  {
+    "enunciado": "¿A qué categoría de la taxonomía de Flynn pertenecen los microprocesadores multinúcleo?",
+    "opciones": {
+      "a": "SISD.",
+      "b": "SIMD.",
+      "c": "MISD.",
+      "d": "MIMD."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 10
+  },
+  {
+    "enunciado": "Según la arquitectura Von Neumann, la unidad del ordenador que se encarga de supervisar la transferencia de información e indica a la unidad aritmético-lógica qué operación debe ejecutar es:",
+    "opciones": {
+      "a": "Unidad aritmético-lógica.",
+      "b": "Unidad de Control.",
+      "c": "Unidad de Entrada/Salida.",
+      "d": "Unidad de arranque."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 11
+  },
+  {
+    "enunciado": "Indique, de entre los siguientes números, cuál es el menor:",
+    "opciones": {
+      "a": "2A0 en sistema hexadecimal.",
+      "b": "1226 en sistema octal.",
+      "c": "690 en sistema decimal.",
+      "d": "1010110100 en sistema binario."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 12
+  },
+  {
+    "enunciado": "Cuando se habla de un procesador de dos núcleos significa:",
+    "opciones": {
+      "a": "Hay dos chips que están trabajando independientemente y al mismo tiempo.",
+      "b": "Cada uno accede a una partición distinta del disco duro.",
+      "c": "Cada uno accede a un bloque de memoria RAM distinto.",
+      "d": "Un núcleo ejecuta las instrucciones lógicas y el otro las instrucciones aritméticas."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 13
+  },
+  {
+    "enunciado": "Una puerta lógica de tipo XOR con dos entradas devuelve un valor de 1:",
+    "opciones": {
+      "a": "Cuando sus dos entradas tienen valor 1.",
+      "b": "Cuando alguna de sus entradas vale 1.",
+      "c": "Cuando ninguna de sus entradas vale 1.",
+      "d": "Cuando solo una de sus entradas vale 1."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 14
+  },
+  {
+    "enunciado": "¿Cuanta memoria RAM es capaz de direccionar como máximo un sistema operativo Windows 32 bits?",
+    "opciones": {
+      "a": "2 GB.",
+      "b": "4 GB.",
+      "c": "8 GB.",
+      "d": "No tiene límite."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 15
+  },
+  {
+    "enunciado": "En relación a las arquitecturas CISC y RISC señale la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "En CISC la unidad de control es microprogramada y en RISC cableada.",
+      "b": "RISC dispone de un gran número de registros de propósito general.",
+      "c": "CISC dispone de un número escaso de modos de direccionamiento.",
+      "d": "El formato de instrucción en RISC es de tamaño fijo."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 16
+  },
+  {
+    "enunciado": "En relación con los sistemas de información, el nivel donde se toman decisiones a medio y largo plazo es el:",
+    "opciones": {
+      "a": "Operacional.",
+      "b": "Táctico.",
+      "c": "Operativo.",
+      "d": "Estratégico."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 17
+  },
+  {
+    "enunciado": "Una puerta lógica de tipo XNOR con dos entradas devuelve un valor de 1:",
+    "opciones": {
+      "a": "Cuando sus dos entradas tienen igual valor.",
+      "b": "Cuando alguna de sus entradas vale 1.",
+      "c": "Cuando ninguna de sus entradas vale 1.",
+      "d": "Cuando solo una de sus entradas vale 0."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 18
+  },
+  {
+    "enunciado": "De entre los modos de direccionamiento señale la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "Direccionamiento implícito.",
+      "b": "Direccionamiento asociativo.",
+      "c": "Direccionamiento indirecto.",
+      "d": "Direccionamiento inmediato."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 19
+  },
+  {
+    "enunciado": "¿Qué contiene el registro IR?",
+    "opciones": {
+      "a": "La dirección de la siguiente instrucción a ejecutar.",
+      "b": "Es un registro de estado.",
+      "c": "La instrucción que hay que ejecutar.",
+      "d": "El procesador no dispone de este registro."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 20
+  },
+  {
+    "enunciado": "A cada una de las operaciones que se realizan durante la ejecución de una instrucción se le denomina:",
+    "opciones": {
+      "a": "Microoperación.",
+      "b": "Microinstrucción.",
+      "c": "Segmentación.",
+      "d": "Etapa."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 21
+  },
+  {
+    "enunciado": "¿En qué registro almacena la ALU el resultado de una operación?",
+    "opciones": {
+      "a": "En la pila.",
+      "b": "En el registro MBR.",
+      "c": "En el registro acumulador.",
+      "d": "En el registro de instrucción."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 22
+  },
+  {
+    "enunciado": "En sistemas operativos, cuando hablamos de Registro de Instrucción, ¿a qué nos estamos refiriendo?",
+    "opciones": {
+      "a": "Al registro que contiene el identificador único asociado al proceso de la instrucción.",
+      "b": "Al registro que contiene la última instrucción leída y que se está ejecutando.",
+      "c": "Al registro que contiene la dirección de la siguiente instrucción que se leerá de la memoria.",
+      "d": "Al registro que contiene el número de instrucciones que deben ejecutarse."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 23
+  },
+  {
+    "enunciado": "En relación a las arquitecturas de ordenadores RISC y CISC, señale la respuesta correcta:",
+    "opciones": {
+      "a": "Las operaciones en CISC son complejas, tipos Registro a Registro (load-store), mientras que en RISC son operaciones simples Memoria a Registro.",
+      "b": "En CISC la unidad de control está cableada mientras que en RISC se traducen las instrucciones máquina a microcódigo (control microprogramado).",
+      "c": "CISC dispone de muchas instrucciones complejas y de longitud variable, mientras que RISC dispone de un número limitado de instrucciones simples y de longitud fija.",
+      "d": "CISC dispone de un alto número de registros de propósito general mientras RISC dispone de un número muy bajo de registros generales o implícitos."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 24
+  },
+  {
+    "enunciado": "La estrategia de organización de memoria caché en la que no existe el campo índice y la etiqueta coincide con el número de bloque de la memoria principal es correspondencia de:",
+    "opciones": {
+      "a": "Directa.",
+      "b": "Asociativa por conjuntos.",
+      "c": "(Totalmente) asociativa.",
+      "d": "Diferida."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 25
+  },
+  {
+    "enunciado": "¿Cuál es la unidad de capacidad de información que se corresponde con 10 elevado a 24 Bytes?",
+    "opciones": {
+      "a": "1 ExaByte.",
+      "b": "1 ZettaByte.",
+      "c": "1 PetaByte.",
+      "d": "1 YottaByte."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 26
+  },
+  {
+    "enunciado": "¿En qué consiste el 'refresco' de una memoria dinámica?",
+    "opciones": {
+      "a": "En el proceso de optimización de la temperatura de trabajo de este tipo de memorias.",
+      "b": "En la operación de reescritura periódica que hay que realizar en ellas para que no pierdan la información almacenada.",
+      "c": "En la operación de acceso periódico que hay que realizar a este tipo de memorias, para repetir la última operación realizada.",
+      "d": "El refresco no es propio de las memorias dinámicas."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 27
+  },
+  {
+    "enunciado": "Los diseños lógicos de los chipsets se estructuraban en dos bloques funcionales: el Northbridge y el Southbridge. Indique cuál de los siguientes subsistemas son competencia del Northbridge:",
+    "opciones": {
+      "a": "Acceso a la RAM y controlador AGP.",
+      "b": "Controladores IDE y SATA.",
+      "c": "Controladores USB y FIREWIRE.",
+      "d": "Super I/O (Puerto serie, paralelo), audio y LAN."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 28
+  },
+  {
+    "enunciado": "En el ámbito de la arquitectura de computadores, la técnica de segmentación:",
+    "opciones": {
+      "a": "Disminuye el tiempo de ejecución de cada instrucción.",
+      "b": "Aumenta la frecuencia de reloj.",
+      "c": "Disminuye la frecuencia de reloj.",
+      "d": "No disminuye el tiempo de ejecución de cada instrucción."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 29
+  },
+  {
+    "enunciado": "Señale cuál de los siguientes es una característica de diseño la arquitectura RISC:",
+    "opciones": {
+      "a": "Un amplio juego de instrucciones facilita el diseño de compiladores.",
+      "b": "El modelo de ejecución de pila es superior al de registros.",
+      "c": "Los juegos de instrucciones amplios reducen el tamaño de los programas.",
+      "d": "No debe emplearse la microprogramación."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 30
+  },
+  {
+    "enunciado": "Ejecución continua y en parte solapada de instrucciones por parte del procesador:",
+    "opciones": {
+      "a": "Flujo de datos.",
+      "b": "Multiplexado.",
+      "c": "Clustering.",
+      "d": "Pipelining."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 31
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes corresponde a una de las categorías de ordenadores contempladas en la taxonomía de Flynn?",
+    "opciones": {
+      "a": "SIDI.",
+      "b": "SDSP.",
+      "c": "SIMD.",
+      "d": "MIMP."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 32
+  },
+  {
+    "enunciado": "¿Cuál es la unidad de capacidad de información que se corresponde con 10 elevado a 21 Bytes?",
+    "opciones": {
+      "a": "1 ExaByte.",
+      "b": "1 ZettaByte.",
+      "c": "1 PetaByte.",
+      "d": "1 YottaByte."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 33
+  },
+  {
+    "enunciado": "¿Cuál es la unidad de capacidad de información que se corresponde con 2 elevado a 90 Bytes?",
+    "opciones": {
+      "a": "1 Robibyte.",
+      "b": "1 Yobibyte.",
+      "c": "1 Exbibyte.",
+      "d": "1 Zebibyte."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 34
+  },
+  {
+    "enunciado": "¿Cuál es la unidad de capacidad de información que se corresponde con 2 elevado a 70 Bytes?",
+    "opciones": {
+      "a": "1 Robibyte.",
+      "b": "1 Yobibyte.",
+      "c": "1 Quebibyte.",
+      "d": "1 Zebibyte."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 35
+  },
+  {
+    "enunciado": "Una puerta lógica de tipo NOR con dos entradas devuelve un valor de 1:",
+    "opciones": {
+      "a": "Cuando sus dos entradas tienen valor 1.",
+      "b": "Cuando alguna de sus entradas vale 1.",
+      "c": "Cuando ninguna de sus entradas vale 1.",
+      "d": "Cuando solo una de sus entradas vale 1."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 36
+  },
+  {
+    "enunciado": "¿Qué arquitectura de computadores dispone de dos memorias, una para instrucciones y otra para datos?",
+    "opciones": {
+      "a": "Von Neumann.",
+      "b": "Harvard.",
+      "c": "RISC.",
+      "d": "ARM."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 37
+  },
+  {
+    "enunciado": "En la arquitectura Von Neumann, la CPU está compuesta por:",
+    "opciones": {
+      "a": "Unidad de control y registros.",
+      "b": "ALU y unidad de control.",
+      "c": "Memoria principal, ALU y unidad de control.",
+      "d": "Registros, ALU y unidad de control."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 38
+  },
+  {
+    "enunciado": "La ejecución simultánea de diferentes etapas de distintas instrucciones se conoce como:",
+    "opciones": {
+      "a": "Segmentación.",
+      "b": "Paralelismo.",
+      "c": "Convoys.",
+      "d": "Multicomputación."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 39
+  },
+  {
+    "enunciado": "El modo de direccionamiento que hace referencia al contenido del registro PC se denomina:",
+    "opciones": {
+      "a": "Direccionamiento implícito.",
+      "b": "Direccionamiento relativo.",
+      "c": "Direccionamiento directo.",
+      "d": "Direccionamiento inmediato."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 40
+  },
+  {
+    "enunciado": "La ALU es una parte de:",
+    "opciones": {
+      "a": "La memoria.",
+      "b": "La CPU.",
+      "c": "El bus de operaciones.",
+      "d": "El multiplexor de entrada."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 41
+  },
+  {
+    "enunciado": "Señale la respuesta correcta sobre el modelo CISC:",
+    "opciones": {
+      "a": "La microprogramación es una característica esencial.",
+      "b": "Plantea un conjunto reducido de instrucciones para reducir el número de ciclos de reloj de ejecución de cada una de ellas.",
+      "c": "Implementa las instrucciones directamente en hardware.",
+      "d": "Está muy extendido en el mercado de procesadores para smartphone y tablets por su bajo consumo y buen rendimiento."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 42
+  },
+  {
+    "enunciado": "La unidad de medida de la potencia de un microprocesador, FLOPS, indica:",
+    "opciones": {
+      "a": "El número de instrucciones por segundo que puede procesar.",
+      "b": "El número de accesos a memoria por segundo que es capaz de realizar.",
+      "c": "La frecuencia de reloj (número de pulsos por segundo).",
+      "d": "El número de operaciones de coma flotante por segundo que puede realizar."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 43
+  },
+  {
+    "enunciado": "¿Cómo se denomina a la agrupación de 4 bits?",
+    "opciones": {
+      "a": "Byte.",
+      "b": "Nibble.",
+      "c": "Half-byte.",
+      "d": "Quartet."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 44
+  },
+  {
+    "enunciado": "Según la taxonomía de Flynn para multiprocesadores, la categoría SISD se caracteriza por:",
+    "opciones": {
+      "a": "Tener un único flujo de instrucciones sobre un único flujo de datos.",
+      "b": "Tener varias instrucciones que se ejecutan simultáneamente.",
+      "c": "Responder al concepto de arquitectura simultánea de Von Neumann.",
+      "d": "Presentar capacidades de concurrencia y paralelización."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 45
+  },
+  {
+    "enunciado": "En la jerarquía de memoria, el orden correcto de velocidad de acceso del procesador a la memoria y al cache, es en orden ascendente (del más lento al más rápido):",
+    "opciones": {
+      "a": "RAM, L1, L2, L3.",
+      "b": "RAM, L3, L2, L1.",
+      "c": "L1, L2, L3, RAM.",
+      "d": "L3, L2, L1, RAM."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 46
+  },
+  {
+    "enunciado": "¿Qué significa la sigla GPU en términos de computación?",
+    "opciones": {
+      "a": "General Purpose Unit (Unidad de Propósito General).",
+      "b": "Graphics Processing Unit (Unidad de Procesamiento Gráfico).",
+      "c": "General Processing Unit (Unidad de Procesamiento General).",
+      "d": "Graphical Performance Unit (Unidad de Rendimiento Gráfico)."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 47
+  },
+  {
+    "enunciado": "La arquitectura de Von Neumman es un modelo de diseño para computadores digitales que se basa en los siguientes componentes:",
+    "opciones": {
+      "a": "Una unidad de procesamiento, una unidad de control, memoria, almacenamiento masivo externo y mecanismos de entrada y salida",
+      "b": "Una unidad de procesamiento, una unidad de virtualización, memoria, almacenamiento masivo externo y mecanismos de entrada y salida",
+      "c": "Una unidad de procesamiento, una unidad de control, memoria, almacenamiento masivo externo y mecanismos de subida y bajada",
+      "d": "Una unidad de control, una unidad aritmético lógica, una memoria de instrucciones, una memoria de datos (estando éstas separadas) y una unidad de entrada y salida."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 48
+  },
+  {
+    "enunciado": "¿Cuál es la función principal de la unidad de procesamiento central (CPU)?",
+    "opciones": {
+      "a": "Realizar cálculos matemáticos.",
+      "b": "Ejecutar instrucciones del sistema operativo.",
+      "c": "Controlar las operaciones de entrada y salida.",
+      "d": "Procesar y ejecutar instrucciones de programas."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 49
+  },
+  {
+    "enunciado": "Haciendo uso de la taxonomía de Flynn indique qué tipo de computadora es un clúster de servidores interconectados utilizado en aplicaciones científicas:",
+    "opciones": {
+      "a": "SISD.",
+      "b": "MISD.",
+      "c": "SIMD.",
+      "d": "MIMD."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 50
+  },
+  {
+    "enunciado": "El tipo de socket que se caracteriza porque los pines de contacto están incorporados al procesador y no en la estructura del propio socket, se denomina:",
+    "opciones": {
+      "a": "LGA.",
+      "b": "PGA.",
+      "c": "BGA.",
+      "d": "VGA."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 51
+  },
+  {
+    "enunciado": "La CPU del chip M4 está compuesta por:",
+    "opciones": {
+      "a": "4 núcleos de rendimiento y 6 núcleos de eficiencia.",
+      "b": "6 núcleos de rendimiento y 4 núcleos de eficiencia.",
+      "c": "4 núcleos de rendimiento y 8 núcleos de eficiencia.",
+      "d": "8 núcleos de rendimiento y 4 núcleos de eficiencia."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 52
+  },
+  {
+    "enunciado": "¿Cuál es el nombre en clave de 14ª generación de procesadores Intel Core?",
+    "opciones": {
+      "a": "Tiger Lake.",
+      "b": "Raptor Lake S.",
+      "c": "Alder Lake S.",
+      "d": "Comet Lake."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 53
+  },
+  {
+    "enunciado": "Seleccione la lista de tipos de procesadores Intel ordenados de menor a mayor prestaciones:",
+    "opciones": {
+      "a": "Atom, Celeron, Core, Xeon.",
+      "b": "Celeron, Core Ultra, Core, Xeon escalable.",
+      "c": "Atom, Xeon, Core Ultra.",
+      "d": "Celeron, Atom, Core Ultra, Xeon escalable."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 54
+  },
+  {
+    "enunciado": "En relación con los microprocesadores, señale la respuesta correcta:",
+    "opciones": {
+      "a": "Los núcleos permiten la concurrencia.",
+      "b": "Los hilos permiten el paralelismo.",
+      "c": "La litografía hace referencia a la fabricación de circuitos integrados, los cuales se componen de transistores.",
+      "d": "Los microprocesadores N son usados en Mac."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 55
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes respuestas se corresponden con el número 450 estando este representado en base decimal?",
+    "opciones": {
+      "a": "111000010 en binario.",
+      "b": "764 en octal.",
+      "c": "1F4 en hexadecimal.",
+      "d": "407 en octal."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 56
+  },
+  {
+    "enunciado": "Indique, de las siguientes palabras, cuál es un número hexadecimal válido:",
+    "opciones": {
+      "a": "GEISER.",
+      "b": "EGEA.",
+      "c": "HABILITA.",
+      "d": "DECAFE."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 57
+  },
+  {
+    "enunciado": "En relación con los multiprocesadores, según la taxonomía de Flynn, los sistemas vectoriales y matriciales se encuadran dentro de la clasificación:",
+    "opciones": {
+      "a": "SSID (Single Instruction, Single Data).",
+      "b": "SIMD (Single Instruction, Multiple Data).",
+      "c": "MISD (Multiple Instruction, Single Data).",
+      "d": "MIMD (Multiple Instruction, Multiple Data)."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 58
+  },
+  {
+    "enunciado": "Dada la expresión lógica NOT(A) AND (B XOR (NOT(C <= D))) y sabiendo que A=0, B=0 y C=1, ¿qué valor habría que asignarle a D para que el resultado de la expresión lógica se evalúe a VERDADERO?",
+    "opciones": {
+      "a": "0.",
+      "b": "1.",
+      "c": "2.",
+      "d": "3."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 59
+  },
+  {
+    "enunciado": "En relación con las funciones lógicas básicas. Suponiendo que a=1 y b=1, ¿cuál de las siguientes sentencias es correcta?",
+    "opciones": {
+      "a": "a XNOR b = 1.",
+      "b": "a XOR b = 1.",
+      "c": "a NOR b = 1.",
+      "d": "a NAND b = 1."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 1 - Informática básica",
+    "numero": 60
+  },
+  {
+    "enunciado": "Las unidades SSD:",
+    "opciones": {
+      "a": "Son unidades de almacenamiento que realizan la misma función que el disco duro del ordenador.",
+      "b": "Son unidades de almacenamiento que realizan la misma función que la memoria RAM del ordenador.",
+      "c": "Contienen el hardware para las comunicaciones Ethernet.",
+      "d": "Contienen el hardware para la dotación de conexiones USB del ordenador."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 1
+  },
+  {
+    "enunciado": "En relación a la estructura física de un disco, ¿qué es un sector?",
+    "opciones": {
+      "a": "Conjunto de varias pistas.",
+      "b": "Cada una de las divisiones de una pista.",
+      "c": "Cada uno de los círculos concéntricos del disco.",
+      "d": "Cada una de las caras del disco."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 2
+  },
+  {
+    "enunciado": "Respecto a la estructura lógica de un disco duro y sus características, ¿qué se entiende por latencia media?",
+    "opciones": {
+      "a": "Revoluciones por minuto de los platos.",
+      "b": "Tiempo medio que tarda la aguja en situarse en la pista y el sector deseado.",
+      "c": "Velocidad a la que puede transferir la información a la computadora una vez la aguja está situada en la pista y sector correctos.",
+      "d": "Tiempo medio que tarda la aguja en situarse en el sector deseado."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 3
+  },
+  {
+    "enunciado": "El tipo de escáner que se utiliza para hacer copias digitales de libros o documentos que, por ser antiguos o muy valiosos, no se les quiere deteriorar durante el proceso, se le conoce con el nombre de:",
+    "opciones": {
+      "a": "Plano.",
+      "b": "Tambor.",
+      "c": "Rodillo.",
+      "d": "Cenital."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 4
+  },
+  {
+    "enunciado": "La velocidad del USB 3.0 es:",
+    "opciones": {
+      "a": "15 veces superior a la del USB 2.0.",
+      "b": "Similar a la del USB 2.0.",
+      "c": "10 veces superior a la del USB 2.0.",
+      "d": "480 Mbps."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 5
+  },
+  {
+    "enunciado": "¿Con qué dispositivo se relaciona la tecnología de reconocimiento de pulso acústico?",
+    "opciones": {
+      "a": "Memoria RAM.",
+      "b": "Pantalla táctil.",
+      "c": "Tarjeta de sonido.",
+      "d": "Disco duro."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 6
+  },
+  {
+    "enunciado": "¿Cuál de los siguientes estándares se basa en una comunicación en serie?",
+    "opciones": {
+      "a": "PATA.",
+      "b": "SCSI 1.",
+      "c": "SATA.",
+      "d": "SCSI 3.1."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 7
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes opciones describe la impresión con tecnología de sublimación de tinta?",
+    "opciones": {
+      "a": "Utilizan el calor para la transferencia de la tinta al soporte de impresión.",
+      "b": "Un conjunto de agujas con temperatura alta, recorren el papel sensible a la temperatura, volviéndose en esos puntos de color negro.",
+      "c": "Se proyectan pequeñas cantidades de tinta hacia el soporte.",
+      "d": "Se golpea el soporte y con la fuerza del impacto se transfiere la tinta."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 8
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes afirmaciones sobre los discos SSD es INCORRECTA?",
+    "opciones": {
+      "a": "El origen de las siglas SSD es Solid State Drive.",
+      "b": "El acceso a la información almacenada en un disco SSD es más rápido que en un disco duro HDD.",
+      "c": "La copia y duplicación de archivos en un disco SSD es más lenta que en un disco HDD.",
+      "d": "El coste de un disco SSD, a igualdad de tamaño, es superior al de un disco HDD."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 9
+  },
+  {
+    "enunciado": "En cuanto a impresoras de impacto, hay varios tipos principales, señale cuál de las siguientes NO es un tipo:",
+    "opciones": {
+      "a": "De margarita.",
+      "b": "Matricial.",
+      "c": "De inyección.",
+      "d": "De bola."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 10
+  },
+  {
+    "enunciado": "Es una tecnología de impresión 3D:",
+    "opciones": {
+      "a": "Inyección de aglutinante.",
+      "b": "Impresión de chorro continuo.",
+      "c": "Inyección de tinta térmica.",
+      "d": "Inyección por gota a la demanda."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 11
+  },
+  {
+    "enunciado": "Hablando de las zonas de un disco duro, señale la respuesta FALSA:",
+    "opciones": {
+      "a": "Cilindro es un conjunto de varias pistas.",
+      "b": "Clúster es un conjunto continuo de sectores.",
+      "c": "Sector es cada uno de los lados de un plato.",
+      "d": "Pista es una circunferencia dentro de una cara."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 12
+  },
+  {
+    "enunciado": "Indique cuál de las siguientes siglas NO corresponde a un tipo de monitor, según la tecnología empleada para formar las imágenes:",
+    "opciones": {
+      "a": "CRT.",
+      "b": "LCD.",
+      "c": "ARP.",
+      "d": "TFT."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 13
+  },
+  {
+    "enunciado": "¿Cuántos pines tiene un conector USB Tipo C?",
+    "opciones": {
+      "a": "12.",
+      "b": "18.",
+      "c": "22.",
+      "d": "24."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 14
+  },
+  {
+    "enunciado": "De las siguientes afirmaciones, señale la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "Thunderbolt 2 alcanza una velocidad de transmisión de 20 Gbps y utiliza el conector DisplayPort.",
+      "b": "Thunderbolt 1 alcanza una velocidad de transmisión de 10 Gbps y utiliza el conector DisplayPort.",
+      "c": "Thunderbolt 1 y Thunderbolt 2 operan en modo bidireccional.",
+      "d": "Thunderbolt 3 utiliza un conector USB tipo C."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 15
+  },
+  {
+    "enunciado": "En relación al puerto DVI, señale la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "DVI-I admite señales digital y analógica.",
+      "b": "DVI-B admite señal digital.",
+      "c": "DVI-A admite señal analógica.",
+      "d": "DVI-D admite señal digital."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 16
+  },
+  {
+    "enunciado": "La velocidad de SAS-3 es:",
+    "opciones": {
+      "a": "6 Gbps.",
+      "b": "12 Gbps.",
+      "c": "16 Gbps.",
+      "d": "8 Gbps."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 17
+  },
+  {
+    "enunciado": "Tiene que grabar en una memoria externa un fichero de vídeo de una hora con una calidad de 1,2 Mbits/seg. Le piden hacerlo en el dispositivo más barato con capacidad para almacenarlo. ¿Cuál de los siguientes elegiría?",
+    "opciones": {
+      "a": "Memoria USB. 64 MBytes. 1 euro",
+      "b": "Memoria USB. 128 MBytes. 3 euros",
+      "c": "CD. 650 MBytes. 5 euros",
+      "d": "DVD. 4,7 GBytes. 10 euros"
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 18
+  },
+  {
+    "enunciado": "Una resolución 1080p, representa:",
+    "opciones": {
+      "a": "1080 líneas de resolución horizontal progressive scan y entrelazada.",
+      "b": "1080 líneas de resolución vertical progressive scan y no entrelazada.",
+      "c": "1080 líneas de resolución vertical progressive scan y entrelazada.",
+      "d": "1080 líneas de resolución horizontal progressive scan y no entrelazada."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 19
+  },
+  {
+    "enunciado": "En relación con las imágenes electrónicas definidas en la NTI Digitalización de documentos, señale la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "Será fiel al documento origen.",
+      "b": "No contendrá caracteres o gráficos que no figurasen en el documento origen, salvo la incorporación de un membrete conforme a la imagen institucional del organismo en cuestión.",
+      "c": "Respetará la geometría del documento origen en tamaños y proporciones.",
+      "d": "El nivel de resolución mínimo será de 200 ppp."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 20
+  },
+  {
+    "enunciado": "De entre los componentes digitales de un documento electrónico fruto de un proceso de digitalización según la NTI Digitalización de documentos, señale la INCORRECTA:",
+    "opciones": {
+      "a": "Imagen electrónica.",
+      "b": "Metadatos mínimos.",
+      "c": "Firma electrónica.",
+      "d": "Opcionalmente, los metadatos relacionados con el proceso de digitalización."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 21
+  },
+  {
+    "enunciado": "¿Cuál de los siguientes tipos de USB utiliza conectores completamente simétricos?",
+    "opciones": {
+      "a": "USB-A.",
+      "b": "USB-B.",
+      "c": "USB-C.",
+      "d": "USB-S."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 22
+  },
+  {
+    "enunciado": "La velocidad de USB 4.0 o USB 4 es:",
+    "opciones": {
+      "a": "10 Gbps.",
+      "b": "20 Gbps.",
+      "c": "30 Gbps.",
+      "d": "40 Gbps."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 23
+  },
+  {
+    "enunciado": "USB 3.2 Gen 2x1 se corresponde con la versión:",
+    "opciones": {
+      "a": "USB 2.0.",
+      "b": "USB 3.0.",
+      "c": "USB 3.1 Gen 1.",
+      "d": "USB 3.1 Gen 2."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 24
+  },
+  {
+    "enunciado": "En relación con DisplayPort señale la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "Interfaz analógica que transmite video y audio.",
+      "b": "DisplayPort 2.0 ofrece una velocidad de 77,37 Gbps de manera efectiva.",
+      "c": "DisplayPort Alt Mode 2.0 soporta resoluciones de 16K a 60 Hz.",
+      "d": "El puerto MiniDP ha sido desarrollado por Apple."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 25
+  },
+  {
+    "enunciado": "Indique el número máximo de carriles que soporta PCIe:",
+    "opciones": {
+      "a": "2.",
+      "b": "4.",
+      "c": "8.",
+      "d": "16."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 26
+  },
+  {
+    "enunciado": "¿En qué consiste la tecnología de impresión 3D FDM?",
+    "opciones": {
+      "a": "En el uso de un láser para imprimir objetos.",
+      "b": "En depositar polímero fundido sobre una base plana, capa a capa.",
+      "c": "En la aplicación de un haz de luz ultravioleta a una resina líquida sensible a la luz.",
+      "d": "En inyectar capas de fotopolímero líquido."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 27
+  },
+  {
+    "enunciado": "La interfaz de conexión SATA 3.0 utiliza un cable de datos que conecta el puerto SATA y el disco duro. Señale la respuesta correcta:",
+    "opciones": {
+      "a": "Es un cable de 7 pines exclusivo.",
+      "b": "Es un cable de 7 pines compartido.",
+      "c": "Es un cable de 5 pines exclusivo.",
+      "d": "Es un cable de 5 pines compartido."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 28
+  },
+  {
+    "enunciado": "¿Cuál de los siguientes interfaces permite trabajar a una velocidad de 16 Gbps?",
+    "opciones": {
+      "a": "SATA 3.0.",
+      "b": "SATAe.",
+      "c": "SAS-4.",
+      "d": "Ultra 2 SCSI 3."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 29
+  },
+  {
+    "enunciado": "¿Qué respuesta es INCORRECTA en relación con NVMe?",
+    "opciones": {
+      "a": "Es una interfaz para acceder a medios de almacenamiento no volátiles conectados a PCIe.",
+      "b": "NVMe significa Non Volatile Memory Express.",
+      "c": "Se utiliza de forma intensiva para acceder a discos duros.",
+      "d": "Es una alternativa a SATA."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 30
+  },
+  {
+    "enunciado": "¿Qué medio de almacenamiento tiene mayor velocidad de lectura?",
+    "opciones": {
+      "a": "SSD SATA II.",
+      "b": "SSD NVMe.",
+      "c": "SSD SATA 2,5.",
+      "d": "SSD SATA M.2."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 31
+  },
+  {
+    "enunciado": "¿Qué tecnología de monitor NO existe?",
+    "opciones": {
+      "a": "CRT.",
+      "b": "TLED.",
+      "c": "LCD.",
+      "d": "IPS."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 32
+  },
+  {
+    "enunciado": "Para conectar un disco duro SATA a la placa base utilizaremos:",
+    "opciones": {
+      "a": "Un conector IDE.",
+      "b": "Un conector SATA y un cable de alimentación SATA.",
+      "c": "Un conector SATA que proporcione además alimentación eléctrica.",
+      "d": "Ninguna de las respuestas es correcta."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 33
+  },
+  {
+    "enunciado": "SATA es una interfaz que permite la transferencia de datos entre placa base y un dispositivo de almacenamiento. ¿Qué velocidad de transferencia máxima ofrece SATA 3.0?",
+    "opciones": {
+      "a": "1,5 Gbps.",
+      "b": "3 Gbps.",
+      "c": "6 Gbps.",
+      "d": "12 Gbps."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 34
+  },
+  {
+    "enunciado": "¿A partir de qué versión de USB la velocidad de transferencia de datos supera 1 Gbps?",
+    "opciones": {
+      "a": "USB 1.1.",
+      "b": "USB 2.0.",
+      "c": "USB 3.0.",
+      "d": "USB 3.1."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 35
+  },
+  {
+    "enunciado": "Señale la tecnología empleada para la impresión 3D:",
+    "opciones": {
+      "a": "CCD (Charged Coupled Device).",
+      "b": "SLS (Sinterización Selectiva por Láser).",
+      "c": "Chroma subsampling.",
+      "d": "WIA (Windows Image Acquisition)."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 36
+  },
+  {
+    "enunciado": "NO es un espacio de color:",
+    "opciones": {
+      "a": "RGB.",
+      "b": "CMYK.",
+      "c": "HSM.",
+      "d": "HSB."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 37
+  },
+  {
+    "enunciado": "La medida del número de bits utilizados para definir cada píxel es:",
+    "opciones": {
+      "a": "Resolución.",
+      "b": "Área de imagen.",
+      "c": "Profundidad de bit o de color.",
+      "d": "Ninguna es verdadera."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 38
+  },
+  {
+    "enunciado": "Un monitor cuya resolución es de 640 x 480 tiene:",
+    "opciones": {
+      "a": "480 líneas de exploración (resolución vertical).",
+      "b": "640 líneas de exploración (resolución vertical).",
+      "c": "480 pixeles (resolución horizontal).",
+      "d": "Ninguna de las respuestas anteriores es cierta."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 39
+  },
+  {
+    "enunciado": "En relación con un escáner, la resolución interpolada es:",
+    "opciones": {
+      "a": "Una resolución calculada que genera nuevos puntos a partir de otros reales más próximos.",
+      "b": "La cantidad de puntos individuales de una imagen captada mediante el sensor.",
+      "c": "La empleada por los programas OCR para identificar el texto.",
+      "d": "La que determina la profundidad del color."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 40
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes es una tecnología de almacenamiento en disco mediante bus serie?",
+    "opciones": {
+      "a": "SATA.",
+      "b": "ATA.",
+      "c": "SCSI.",
+      "d": "DLT."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 41
+  },
+  {
+    "enunciado": "Respecto a la norma USB, indique la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "USB Type-C es lo mismo que USB 3.1.",
+      "b": "La diferencia entre USB 3.1 Gen 1 y USB 3.1 Gen 2 se reduce solamente a la velocidad.",
+      "c": "USB 3.2 permite velocidades de hasta 20 Gbps.",
+      "d": "Los dispositivos USB 2.0 pueden lograr una velocidad de transferencia máxima hasta de 480 Mbps."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 42
+  },
+  {
+    "enunciado": "¿Cuál de los siguientes componentes de almacenamiento ofrece el acceso más rápido a los datos en reposo?",
+    "opciones": {
+      "a": "Disco duro.",
+      "b": "Memoria RAM.",
+      "c": "Disco SSD.",
+      "d": "Pendrive USB."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 43
+  },
+  {
+    "enunciado": "La impresión más económica, una vez teniendo el dispositivo es:",
+    "opciones": {
+      "a": "La de gel.",
+      "b": "La láser.",
+      "c": "La de inyección.",
+      "d": "Las tres por igual."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 44
+  },
+  {
+    "enunciado": "Indique la principal diferencia entre discos mecánicos, SSD’s y NVMe por tamaño, velocidad y duración:",
+    "opciones": {
+      "a": "Los más rápidos son los SSD’s y los más reducidos en tamaño (no en capacidad) los NVMe.",
+      "b": "Los discos mecánicos más grandes son más baratos que los SSD’s más grandes.",
+      "c": "Los discos con mayor capacidad son los discos mecánicos y los más rápidos son los NVMe.",
+      "d": "Los discos SSD’s y los NVMe son ópticos y por tanto con mayor durabilidad."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 45
+  },
+  {
+    "enunciado": "Cuando utilizamos el término QWERTY, nos estamos refiriendo:",
+    "opciones": {
+      "a": "A un tipo de impresora.",
+      "b": "A un tipo de teclado.",
+      "c": "A un tipo de ratón.",
+      "d": "A un tipo de pantalla."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 46
+  },
+  {
+    "enunciado": "¿Qué significa HDD?",
+    "opciones": {
+      "a": "Hard Definition Disk.",
+      "b": "Hard Disk Drive.",
+      "c": "Heavy Disk Device.",
+      "d": "Height Definition Dictionary."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 47
+  },
+  {
+    "enunciado": "Para conectar una tarjeta gráfica a la placa base, de los siguientes puertos o bus de expansión, ¿cuál se usa?",
+    "opciones": {
+      "a": "SATA.",
+      "b": "PCI-Express.",
+      "c": "IDE.",
+      "d": "COM."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 48
+  },
+  {
+    "enunciado": "Se consideran periféricos de entrada:",
+    "opciones": {
+      "a": "Micrófono e impresora.",
+      "b": "Altavoces, auriculares e impresora.",
+      "c": "Teclado, ratón y escáner.",
+      "d": "Impresora, cámara, teclado y ratón."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 49
+  },
+  {
+    "enunciado": "Señale la respuesta correcta:",
+    "opciones": {
+      "a": "PCIe 5.0 trabaja a 64 Gbps.",
+      "b": "HDMI 2.1 trabaja a 40 Gbps.",
+      "c": "Thunderbolt 5.0 ofrece una velocidad por defecto a 80 Gbps.",
+      "d": "USB 4 2.0 ofrece una velocidad por defecto de 120 Gbps."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 2 - Periféricos",
+    "numero": 50
+  },
+  {
+    "enunciado": "Es un algoritmo de la teoría de grafos para encontrar un árbol recubridor mínimo en un grafo conexo y ponderado:",
+    "opciones": {
+      "a": "Quicksort.",
+      "b": "Kruskal.",
+      "c": "QR.",
+      "d": "Rijndael."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 1
+  },
+  {
+    "enunciado": "Entre los métodos para la compresión de imágenes con pérdidas se encuentra:",
+    "opciones": {
+      "a": "Codificación en planos de bits (como RLE).",
+      "b": "Codificación de longitud variable (como Huffman).",
+      "c": "Algoritmos de diccionario adaptables (como LZW).",
+      "d": "Codificación por transformación (como TDC)."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 2
+  },
+  {
+    "enunciado": "¿Qué formato de fichero es de gráficos vectoriales?",
+    "opciones": {
+      "a": "SVG.",
+      "b": "EXIF.",
+      "c": "HEIF.",
+      "d": "JPEG."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 3
+  },
+  {
+    "enunciado": "El método del intercambio directo o algoritmo de la burbuja es un algoritmo clásico de:",
+    "opciones": {
+      "a": "Ordenación que recorre un vector de elementos e intercambia en cada recorrido un elemento con su sucesor si no está en orden.",
+      "b": "Ordenación que recorre un vector de elementos hasta encontrar el menor de todos e intercambiarlo con el que está en la primera posición. Luego el segundo más pequeño, y así sucesivamente hasta ordenar todo.",
+      "c": "Búsqueda que compara secuencialmente el elemento deseado con los valores contenidos en las posiciones 1..n del vector de elementos hasta que lo encuentre.",
+      "d": "Búsqueda que compara secuencialmente el elemento deseado con los valores contenidos en las posiciones 1..n del vector de elementos hasta que lo encuentre, requisito indispensable es que el vector esté previamente ordenado."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 4
+  },
+  {
+    "enunciado": "Indique cuál de las siguientes afirmaciones acerca de los algoritmos es correcta:",
+    "opciones": {
+      "a": "Todo algoritmo tiene asociada una única implementación del mismo.",
+      "b": "La complejidad algorítmica representa la cantidad de recursos que necesita un algoritmo para resolver un problema.",
+      "c": "La complejidad de un algoritmo solamente se puede medir en el caso medio.",
+      "d": "La complejidad de un algoritmo solamente se puede medir en el mejor caso."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 5
+  },
+  {
+    "enunciado": "En el contexto de las estructuras de datos, seleccione la respuesta correcta, un árbol es una estructura:",
+    "opciones": {
+      "a": "Dinámica cuyo recorrido sólo se puede realizar en profundidad.",
+      "b": "Estática cuyo recorrido se puede realizar en amplitud y en profundidad.",
+      "c": "Estática cuyo recorrido sólo se puede realizar en amplitud.",
+      "d": "Dinámica cuyo recorrido se puede realizar en amplitud y en profundidad."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 6
+  },
+  {
+    "enunciado": "¿Cuántas pasadas como máximo hay que realizar a un array para ordenarlo mediante el método de la burbuja (siendo N el número de elementos del array)?",
+    "opciones": {
+      "a": "N-1.",
+      "b": "N.",
+      "c": "N/2.",
+      "d": "N+1."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 7
+  },
+  {
+    "enunciado": "Si el resultado al recorrer un árbol binario en preorden es {7, 8, 2, 1, 5, 6, 9, 0}, indique cuál es la raíz del árbol:",
+    "opciones": {
+      "a": "7.",
+      "b": "1.",
+      "c": "0.",
+      "d": "5."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 8
+  },
+  {
+    "enunciado": "Si el resultado al recorrer un árbol binario en postorden es {7, 8, 2, 1, 5, 6, 9, 0}, indique cuál es la raíz del árbol:",
+    "opciones": {
+      "a": "7.",
+      "b": "1.",
+      "c": "0.",
+      "d": "5."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 9
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes extensiones de ficheros pertenece a un fichero de tipo hoja de cálculo?",
+    "opciones": {
+      "a": "Odt.",
+      "b": "Doc.",
+      "c": "Ods.",
+      "d": "Rtf."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 10
+  },
+  {
+    "enunciado": "Con respecto a la resolución de colisiones que se pueden producir cuando se utilizan tablas de dispersión (tablas hash):",
+    "opciones": {
+      "a": "Hay dos métodos principales para la resolución de colisiones: hashing lineal y hashing cuadrático.",
+      "b": "Un criterio para decidir qué método de resolución utilizar es el factor de carga, que se define como el cociente del número de índices y el tamaño de la tabla.",
+      "c": "Los métodos principales para la resolución de colisiones: hashing abierto y hashing cerrado.",
+      "d": "El método de hashing lineal permite resolver la colisión mediante la búsqueda en ubicaciones alternativas en la misma tabla."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 11
+  },
+  {
+    "enunciado": "El grado de un árbol es:",
+    "opciones": {
+      "a": "El número total de nodos del mismo.",
+      "b": "El número de hijos de un nodo.",
+      "c": "El número más alto de nodos finales de un arco.",
+      "d": "Máximo grado de los nodos del árbol."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 12
+  },
+  {
+    "enunciado": "Señale el formato de compresión con pérdida:",
+    "opciones": {
+      "a": "PNG.",
+      "b": "LZW.",
+      "c": "JPEG.",
+      "d": "FLAC."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 13
+  },
+  {
+    "enunciado": "Indicar qué característica se puede asociar al algoritmo de la burbuja:",
+    "opciones": {
+      "a": "Algoritmo de búsqueda de complejidad cuadrática.",
+      "b": "Algoritmo de ordenación de complejidad lineal.",
+      "c": "Algoritmo de ordenación de complejidad cuadrática.",
+      "d": "Algoritmo de búsqueda de complejidad logarítmica."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 14
+  },
+  {
+    "enunciado": "Señale la afirmación INCORRECTA en relación a los árboles de búsqueda AVL:",
+    "opciones": {
+      "a": "Son un tipo de árbol de búsqueda binario.",
+      "b": "Para cada uno de los nodos, la diferencia de altura entre sus dos subárboles no puede ser superior a uno.",
+      "c": "Los árboles AVL son árboles multicamino de grado 3.",
+      "d": "Un árbol AVL es un árbol binario de búsqueda con ciertas características adicionales."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 15
+  },
+  {
+    "enunciado": "¿Cuál de los siguientes algoritmos de ordenación consiste en recorrer la lista comparando y ordenando los elementos adyacentes de dos en dos?",
+    "opciones": {
+      "a": "Burbuja (BubbleSort).",
+      "b": "Selección.",
+      "c": "Inserción.",
+      "d": "Rápido (QuickSort)."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 16
+  },
+  {
+    "enunciado": "Empleando el algoritmo más simple de la burbuja (Bubble Sort), en caso de querer ordenar un array de 10 elementos, ¿cuántas pasadas sería necesario realizar?",
+    "opciones": {
+      "a": "10.",
+      "b": "5.",
+      "c": "11.",
+      "d": "9."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 17
+  },
+  {
+    "enunciado": "Si tenemos el grafo definido por los siguientes conjuntos de vértices y aristas: V:={a,b,c,d,e} E:={{a,b},{a,c},{c,d},{c,e}}. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "opciones": {
+      "a": "Es un grafo completo.",
+      "b": "Es un grafo no conexo.",
+      "c": "Es un grafo trivial.",
+      "d": "Es un árbol."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 18
+  },
+  {
+    "enunciado": "En el peor de los casos, el algoritmo de ordenación rápida (quicksort) posee una complejidad:",
+    "opciones": {
+      "a": "O(n3).",
+      "b": "O(n).",
+      "c": "O(n)n.",
+      "d": "O(n2)."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 19
+  },
+  {
+    "enunciado": "Sea el array [10, 3, 15, 2, 1, 18]. ¿Cuántas iteraciones deberá ejecutarse el algoritmo de ordenación por selección para que quede totalmente ordenado en sentido ascendente?",
+    "opciones": {
+      "a": "2.",
+      "b": "4.",
+      "c": "6.",
+      "d": "8."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 20
+  },
+  {
+    "enunciado": "En relación con los grafos, indique la respuesta FALSA:",
+    "opciones": {
+      "a": "Orden de un grafo: Es el número de nodos (vértices del grafo).",
+      "b": "Grado de un nodo: Es el número de ejes (arcos) que inciden sobre el nodo.",
+      "c": "Tamaño de un grafo: Es el número de aristas.",
+      "d": "Ciclo de un grafo: Es un camino simple cerrado compuesto por dos nodos."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 21
+  },
+  {
+    "enunciado": "Indique el orden en el que se recorrería un árbol en postorden:",
+    "opciones": {
+      "a": "Rama izquierda, rama derecha y raíz.",
+      "b": "Rama izquierda, raíz y rama derecha.",
+      "c": "Rama derecha, rama izquierda y raíz.",
+      "d": "Rama derecha, raíz y rama derecha."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 22
+  },
+  {
+    "enunciado": "Indica la afirmación INCORRECTA:",
+    "opciones": {
+      "a": "Una pila representa una estructura de datos de tipo LIFO.",
+      "b": "Una matriz dispersa representa una estructura de datos tipo FIFO.",
+      "c": "Una lista por saltos está basada en listas enlazadas paralelas.",
+      "d": "Una forma de resolver las colisiones en las tablas hash es el encadenamiento separado."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 23
+  },
+  {
+    "enunciado": "En relación con el concepto de tipo de datos, indique la respuesta correcta:",
+    "opciones": {
+      "a": "Un tipo de datos determina el conjunto de valores al que pertenece una constante.",
+      "b": "Un tipo de datos determina el conjunto de valores que puede tomar una variable.",
+      "c": "Un tipo de datos determina el conjunto de valores al que pertenece una variable.",
+      "d": "Un tipo de datos determina el conjunto de valores que pueden ser generados por un operador o función."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 24
+  },
+  {
+    "enunciado": "El máximo de los niveles de todos los elementos de un árbol menos uno, se dice que es su:",
+    "opciones": {
+      "a": "Longitud de camino externo.",
+      "b": "Grado.",
+      "c": "Altura.",
+      "d": "Longitud de camino interno."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 25
+  }, 
+  {
+    "enunciado": "Un árbol está equilibrado:",
+    "opciones": {
+      "a": "Si, y sólo si, para cada uno de sus nodos ocurre que las alturas de sus dos subárboles difieren como mucho en 1.",
+      "b": "Si, para cada nodo, el número de nodos en el subárbol izquierdo, y el número de nodos en el subárbol derecho, difieren como mucho en una unidad.",
+      "c": "Si, para cada nodo, el número de nodos en el subárbol izquierdo, y el número de nodos en el subárbol derecho, es el mismo.",
+      "d": "Si, y solo si, para algunos de sus nodos ocurre que las alturas de sus dos subárboles difieren como mucho en 1."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 26
+  },
+  {
+    "enunciado": "El máximo número de nodos en un nivel i de un árbol binario para i ≥ 1 es:",
+    "opciones": {
+      "a": "2^i-1",
+      "b": "2^i",
+      "c": "2i - 1",
+      "d": "2i - 1"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 27
+  },
+  {
+    "enunciado": "¿Cómo se denomina la estructura de datos en la que los elementos se añaden y quitan por el mismo extremo?",
+    "opciones": {
+      "a": "Cola.",
+      "b": "Registro.",
+      "c": "Pila.",
+      "d": "Vector."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 28
+  },
+  {
+    "enunciado": "¿Cuál es el número de comparaciones que necesitamos para ordenar un array de N elementos, por el método de selección?",
+    "opciones": {
+      "a": "N(N-1)/2",
+      "b": "N^2 - 1/2",
+      "c": "N^2",
+      "d": "N/2"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 29
+  },
+  {
+    "enunciado": "¿Cómo se denomina el tipo de datos estructurado formado por una colección finita de elementos, no necesariamente homogéneos?",
+    "opciones": {
+      "a": "Campo.",
+      "b": "Registro.",
+      "c": "Conjunto.",
+      "d": "Lista."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 30
+  },
+  {
+    "enunciado": "Un registro es una estructura de datos:",
+    "opciones": {
+      "a": "Formada por un conjunto ordenado de elementos que pueden ser de cualquier tipo simple.",
+      "b": "Formada por un conjunto ordenado de elementos que pueden ser de cualquier tipo, incluso estructurados.",
+      "c": "Formada por un conjunto ordenado de elementos alfanuméricos.",
+      "d": "Formada por un conjunto ordenado de cadenas de caracteres."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 31
+  },
+  {
+    "enunciado": "De las siguientes afirmaciones, relativas al tipo abstracto de datos lista, indique cuál es INCORRECTA:",
+    "opciones": {
+      "a": "Las listas solo pueden ser implementadas con tipos de datos dinámicos y los elementos que la componen son del mismo tipo.",
+      "b": "Las listas pueden clasificarse, en función del modo de acceso al siguiente elemento, en densas y enlazadas.",
+      "c": "Las listas pueden clasificarse, en función del modo de almacenar y recuperar sus elementos, en colas y pilas.",
+      "d": "Las pilas son un tipo de listas que tienen un funcionamiento LIFO."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 32
+  },
+  {
+    "enunciado": "Cuando hablamos de un conjunto de elementos del mismo tipo referenciados con un mismo nombre y a través de una posición, nos referimos a:",
+    "opciones": {
+      "a": "Un registro.",
+      "b": "Una lista.",
+      "c": "Un vector.",
+      "d": "Un bucle."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 33
+  },
+  {
+    "enunciado": "El algoritmo de ordenación que hace uso de un elemento pivote es:",
+    "opciones": {
+      "a": "Bubblesort.",
+      "b": "Heapsort.",
+      "c": "Quicksort.",
+      "d": "ShellSort."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 34
+  },
+  {
+    "enunciado": "¿Cuál de los siguientes es un algoritmo de ordenación?",
+    "opciones": {
+      "a": "Algoritmo dicotómico (Binary).",
+      "b": "Algoritmo por montículos (Heapsort).",
+      "c": "Algoritmo de búsqueda atrás (Backtracking).",
+      "d": "Algoritmo devorador (Greedy)."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 35
+  },
+  {
+    "enunciado": "En relación con las estructuras de datos conocidas como listas, señale la afirmación correcta:",
+    "opciones": {
+      "a": "La pila es una lista en la que solo se pueden hacer inserts y updates en su final, llamado \"top\".",
+      "b": "La pila puede ser interpretada como una lista FIFO.",
+      "c": "Se pueden usar pilas para trabajar con operaciones aritméticas en notación postfix.",
+      "d": "Las pilas con las operaciones \"push\" y \"pop\" coincidentes se conocen como colas ADT."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 36
+  },
+  {
+    "enunciado": "¿Qué es YAML?",
+    "opciones": {
+      "a": "Un lenguaje para serializar datos, legible por seres humanos, usado en el despliegue de contenedores de aplicaciones (docker).",
+      "b": "Una librería que facilita la creación de aplicaciones dirigidas a mejorar la experiencia de usuario (UX) mediante la realidad aumentada.",
+      "c": "Un comando que permite parametrizaciones avanzadas en el despliegue de políticas de grupo (GPO) en entornos de Directorio Activo.",
+      "d": "Una herramienta con un potente interfaz visual que, mediante el análisis de logs, permite la monitorización del rendimiento de la infraestructura T.I."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 37
+  },
+  {
+    "enunciado": "Un grafo en el que cada par de vértices está conectado por un camino que los une se denomina:",
+    "opciones": {
+      "a": "Grafo simple.",
+      "b": "Grafo orientado.",
+      "c": "Grafo completo.",
+      "d": "Grafo conexo."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 38
+  },
+  {
+    "enunciado": "¿Cuál de los siguientes algoritmos de ordenación es de complejidad O(n log n)?",
+    "opciones": {
+      "a": "Ordenación por mezcla (Merge sort).",
+      "b": "Ordenación por burbuja (Bubble sort).",
+      "c": "Ordenación por burbuja bidireccional (Cocktail sort).",
+      "d": "Ordenación por selección (Selection sort)."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 39
+  },
+  {
+    "enunciado": "La organización de ficheros en que se puede insertar registros en cualquier posición del fichero (donde haya espacio suficiente) se llama:",
+    "opciones": {
+      "a": "Ordenados.",
+      "b": "Hash estático.",
+      "c": "Hash dinámico.",
+      "d": "Montículo."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 40
+  },
+  {
+    "enunciado": "¿Cuál de entre los siguientes algoritmos ordena un vector V eligiendo entre sus elementos un valor clave P que actúa como pivote y organiza tres secciones?",
+    "opciones": {
+      "a": "MergeSort.",
+      "b": "QuickSort.",
+      "c": "KeySort.",
+      "d": "Burbuja."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 41
+  },
+  {
+    "enunciado": "Dentro de la teoría de grafos, la definición \"es un grafo conexo, sin ciclos y de grado mayor a 1\", correspondería a:",
+    "opciones": {
+      "a": "Lista.",
+      "b": "Pila.",
+      "c": "Cola.",
+      "d": "Árbol."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 42
+  },
+  {
+    "enunciado": "Indique cuál de los siguientes conjuntos representa un grafo regular de grado 3:",
+    "opciones": {
+      "a": "V={1,2,3} y A={{1,2},{2,3}}.",
+      "b": "V={1,2,3} y A={{1,2},{2,3},{3,1}}.",
+      "c": "V={1,2,3,4} y A={{1,2},{2,4},{3,1},{1,4},{2,3}}.",
+      "d": "V={1,2,3,4} y A={{1,2},{3,4},{3,1},{2,3},{1,4},{2,4}}."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 43
+  },
+  {
+    "enunciado": "Con respecto al tipo abstracto de datos árbol podemos decir que:",
+    "opciones": {
+      "a": "La profundidad de un nodo es la longitud del camino desde dicho nodo a la hoja más lejana.",
+      "b": "La altura de un nodo es la longitud del camino desde la raíz hasta dicho nodo.",
+      "c": "La altura de un árbol es el nivel de la hoja menos profunda.",
+      "d": "El grado de un árbol es el número máximo de hijos que pueden tener sus subárboles."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 44
+  },
+  {
+    "enunciado": "Señale la afirmación correcta en relación al Algoritmo de Floyd-Warshall para grafos:",
+    "opciones": {
+      "a": "Compara todos los posibles caminos a través del grafo entre cada par de vértices.",
+      "b": "Es un ejemplo de programación estática.",
+      "c": "Resuelve el problema de encontrar el camino mínimo en grafos no dirigidos ponderados.",
+      "d": "Supone que hay ciclos negativos para que haya coherencia numérica."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 45
+  },
+  {
+    "enunciado": "¿Cuál es el comportamiento de una estructura de datos abstractos de tipo Pila (stack)?",
+    "opciones": {
+      "a": "First in first output (FIFO).",
+      "b": "Last in first output (LIFO).",
+      "c": "First out last output (FOLO).",
+      "d": "Last in first input (LOFI)."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 46
+  },
+  {
+    "enunciado": "¿Cuál es el grado de un árbol binario lleno de 15 nodos?",
+    "opciones": {
+      "a": "1.",
+      "b": "2.",
+      "c": "3.",
+      "d": "4."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 47
+  },
+  {
+    "enunciado": "En relación a las estructuras de datos, señale la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "Las cadenas son estructuras de datos contiguas.",
+      "b": "Los vectores no son estructuras de datos contiguas.",
+      "c": "Un array bidimensional es una matriz.",
+      "d": "Una cola es una estructura FIFO (first in, first out)."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 48
+  },
+  {
+    "enunciado": "Dado un árbol binario no vacío, ¿cómo se denomina el recorrido que primero recorre el subárbol izquierdo, luego la raíz y, por último, el subárbol derecho?",
+    "opciones": {
+      "a": "Recorrido INORDEN.",
+      "b": "Recorrido PREORDEN.",
+      "c": "Recorrido EXORDEN.",
+      "d": "Recorrido POSORDEN."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 49
+  },
+  {
+    "enunciado": "Con respecto a JSON, señale la respuesta correcta:",
+    "opciones": {
+      "a": "Es un tipo de gramática XML.",
+      "b": "Es una API de Java.",
+      "c": "Es un conjunto de librerías de Javascript.",
+      "d": "Es un formato de intercambio de ficheros."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 3 - Estructuras de datos",
+    "numero": 50
+  },
+  {
+    "enunciado": "Cuál de los siguientes sistemas de archivos NO fue creado para Windows:",
+    "opciones": {
+      "a": "NTFS.",
+      "b": "FAT16.",
+      "c": "FAT32.",
+      "d": "Ext2."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 1
+  },
+  {
+    "enunciado": "Seleccione la respuesta correcta con respecto al algoritmo de planificación Round Robin, es un algoritmo que:",
+    "opciones": {
+      "a": "Provoca aplazamientos indefinidos.",
+      "b": "Hace uso de \"quantum\" o \"time-slice\".",
+      "c": "Prioriza el proceso cuyo tiempo restante sea más corto.",
+      "d": "Prioriza el proceso más corto."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 2
+  },
+  {
+    "enunciado": "Relacionado con la gestión de memoria, la técnica de paginación puede provocar:",
+    "opciones": {
+      "a": "La tabla de páginas se quede sin memoria provocando un error de Memory Exception.",
+      "b": "Fragmentación interna.",
+      "c": "Fragmentación externa.",
+      "d": "Fragmentación interna y externa a la vez."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 3
+  },
+  {
+    "enunciado": "En UNIX, si utiliza el comando \"chmod 754\" para modificar los permisos a un fichero, ¿qué permisos le estamos asignando?",
+    "opciones": {
+      "a": "Acceso de lectura y ejecución al dueño, acceso total al grupo y acceso de lectura al resto de usuarios.",
+      "b": "Acceso total al dueño, acceso de lectura y ejecución al grupo y acceso de lectura al resto de usuarios.",
+      "c": "Acceso total al dueño del fichero, acceso de lectura al grupo y acceso de lectura y ejecución al resto de usuarios.",
+      "d": "Acceso de lectura al dueño, acceso de lectura al grupo y total al resto de usuarios."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 4
+  },
+  {
+    "enunciado": "En UNIX, el comando para modificar los permisos de un fichero a acceso total al dueño, acceso de lectura y escritura al grupo y acceso de lectura al resto de usuarios:",
+    "opciones": {
+      "a": "chmod 764",
+      "b": "chmod 654",
+      "c": "chmod 731",
+      "d": "chmod 752"
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 5
+  },
+  {
+    "enunciado": "En UNIX, la expresión \"daemon\" se refiere a un proceso del sistema que:",
+    "opciones": {
+      "a": "Se ejecuta durante un periodo corto de tiempo.",
+      "b": "Es un proceso que no tiene padre.",
+      "c": "Está siempre ejecutándose.",
+      "d": "Siempre se ejecuta en segundo plano (background)."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 6
+  },
+  {
+    "enunciado": "NO es una distribución Linux:",
+    "opciones": {
+      "a": "Lollipop.",
+      "b": "Red Hat.",
+      "c": "Suse.",
+      "d": "Debian."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 7
+  },
+  {
+    "enunciado": "Cuál de los siguientes NO es un estado en los que se puede encontrar un proceso:",
+    "opciones": {
+      "a": "En ejecución.",
+      "b": "Bloqueado.",
+      "c": "Listo.",
+      "d": "Ocioso."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 8
+  },
+  {
+    "enunciado": "En Linux, los archivos de configuración se encuentran en:",
+    "opciones": {
+      "a": "/etc.",
+      "b": "/bin.",
+      "c": "/boot.",
+      "d": "/root."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 9
+  },
+  {
+    "enunciado": "La versión 2.0 del sistema operativo para móviles Android es:",
+    "opciones": {
+      "a": "Cupcake.",
+      "b": "Donut.",
+      "c": "Eclair.",
+      "d": "Honeycomb."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 10
+  },
+  {
+    "enunciado": "La versión 8.1 del sistema operativo para móviles Android es:",
+    "opciones": {
+      "a": "Lollipop.",
+      "b": "Marshmallow.",
+      "c": "Pie.",
+      "d": "Oreo."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 11
+  },
+  {
+    "enunciado": "La versión actual de iOS es:",
+    "opciones": {
+      "a": "14.",
+      "b": "15.",
+      "c": "17.",
+      "d": "16."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 12
+  },
+  {
+    "enunciado": "La capa de iOS que está desarrollada principalmente en Objective-C con tecnologías para acceso a ficheros multimedia es:",
+    "opciones": {
+      "a": "Core OS.",
+      "b": "Core Services.",
+      "c": "Media.",
+      "d": "Cocoa Touch."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 13
+  },
+  {
+    "enunciado": "Cuál de las siguientes capas de Firefox OS se corresponde con el núcleo:",
+    "opciones": {
+      "a": "Gaia.",
+      "b": "Gecko.",
+      "c": "Gona.",
+      "d": "Gonk."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 14
+  },
+  {
+    "enunciado": "La implementación libre del protocolo de archivos compartidos de Windows (CIFS) para sistemas UNIX es:",
+    "opciones": {
+      "a": "Samba.",
+      "b": "LDAP.",
+      "c": "Active Directory.",
+      "d": "Kerberos."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 15
+  },
+  {
+    "enunciado": "En Linux, un proceso zombie es aquel que, completada su ejecución:",
+    "opciones": {
+      "a": "Se identifica como <zombie> al ejecutar ps.",
+      "b": "Envía la señal SIGPOLL al proceso padre.",
+      "c": "Envía la señal KILL al proceso padre.",
+      "d": "Aún tiene una entrada en la tabla de procesos."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 16
+  },
+  {
+    "enunciado": "Qué clave del registro de Windows contiene la configuración predeterminada aplicable a todos los usuarios:",
+    "opciones": {
+      "a": "HKEY_CLASSES_ROOT.",
+      "b": "HKEY_LOCAL_MACHINE\\Software\\Classes.",
+      "c": "HKEY_CURRENT_USER\\Software\\Classes.",
+      "d": "HKEY_CURRENT_CONFIG."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 17
+  },
+  {
+    "enunciado": "Cuál de las siguientes NO es una categoría de servicio en la nube según Microsoft:",
+    "opciones": {
+      "a": "Informática con servidor.",
+      "b": "Infraestructura como servicio.",
+      "c": "Plataforma como servicio.",
+      "d": "Software como servicio."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 18
+  },
+  {
+    "enunciado": "¿Qué aplicación de Windows 10 ofrece aplicaciones Win32 como aplicaciones virtuales?",
+    "opciones": {
+      "a": "WSL.",
+      "b": "Hello.",
+      "c": "App-V.",
+      "d": "Defender."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 19
+  },
+  {
+    "enunciado": "La estructura en disco que contiene la información de control de un fichero en UNIX se denomina:",
+    "opciones": {
+      "a": "I-nodo.",
+      "b": "Cluster.",
+      "c": "Bloque de control.",
+      "d": "Ninguna de las anteriores."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 20
+  },
+
+  {
+    "enunciado": "NO es una distribución basada en Debian:",
+    "opciones": {
+      "a": "Knoppix.",
+      "b": "Trisquel.",
+      "c": "Ubuntu.",
+      "d": "CentOS."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 21
+  },
+  {
+    "enunciado": "Se presentan a continuación una lista de comandos UNIX, y una lista de funciones. 1) \"ls\". 2) \"pwd\". 3) \"cat\". 4) \"more\". I) Lista los archivos del directorio activo. II) Muestra en pantalla el contenido de un archivo página a página. III) Muestra el camino completo del directorio actual. IV) Imprime en la salida estándar el contenido de un archivo. El orden correcto de emparejamiento entre comandos y funciones es:",
+    "opciones": {
+      "a": "1-I, 2-II, 3-III y 4-IV.",
+      "b": "1-I, 2-III, 3-IV y 4-II.",
+      "c": "1-II, 2-III, 3-IV y 4-IV.",
+      "d": "1-III, 2-IV, 3-I y 4-II."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 22
+  },
+  {
+    "enunciado": "La versión 5.1 del sistema operativo para móviles Android es:",
+    "opciones": {
+      "a": "Lollipop.",
+      "b": "Marshmallow.",
+      "c": "Pie.",
+      "d": "Oreo."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 23
+  },
+  {
+    "enunciado": "La interfaz de usuario de Windows 10 se denomina:",
+    "opciones": {
+      "a": "Modern UI.",
+      "b": "Continuum.",
+      "c": "Aero.",
+      "d": "Space."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 24
+  },
+  {
+    "enunciado": "La interfaz de usuario de Windows 8 se denomina:",
+    "opciones": {
+      "a": "Modern UI.",
+      "b": "Continuum.",
+      "c": "Aero.",
+      "d": "Space."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 25
+  },
+  {
+    "enunciado": "¿Cuál es el tamaño máximo de archivo que admite el sistema de ficheros JFS2?",
+    "opciones": {
+      "a": "64 GB.",
+      "b": "1 TB.",
+      "c": "16 TB.",
+      "d": "32 TB."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 26
+  },
+  {
+    "enunciado": "Señale la respuesta INCORRECTA sobre el sistema de ficheros Reiser4:",
+    "opciones": {
+      "a": "Es la evolución de ReiserFS.",
+      "b": "Admite journaling.",
+      "c": "Soporta compresión y cifrado.",
+      "d": "El tamaño máximo de archivo es de 4 TB."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 27
+  },
+  {
+    "enunciado": "¿Cuál de los siguientes sistemas de ficheros permite gestionar un fichero de 6 EB?",
+    "opciones": {
+      "a": "XFS.",
+      "b": "NTFS.",
+      "c": "HFS.",
+      "d": "APFS."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 28
+  },
+  {
+    "enunciado": "El sistema de ficheros ext4 se caracteriza por la utilización del concepto:",
+    "opciones": {
+      "a": "pages.",
+      "b": "segments.",
+      "c": "extends.",
+      "d": "filespaces."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 29
+  },
+  {
+    "enunciado": "¿Qué característica del sistema de ficheros APFS NO es cierta?",
+    "opciones": {
+      "a": "Permite snapshots.",
+      "b": "El tamaño máximo del volumen es 7,5 EB.",
+      "c": "Soporta compresión.",
+      "d": "Admite encriptación de forma no nativa."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 30
+  },
+  {
+    "enunciado": "¿Qué es Windows Insider?",
+    "opciones": {
+      "a": "Una capa de compatibilidad desarrollada por Microsoft que simula un kernel de Linux que permite ejecutar aplicaciones propias.",
+      "b": "Un asistente virtual.",
+      "c": "Una funcionalidad que permite el cifrado de datos.",
+      "d": "Un programa que permite instalar y usar las últimas compilaciones de Windows."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 31
+  },
+  {
+    "enunciado": "La estructura lógica de un directorio activo se divide en niveles. Los niveles, del más alto al menos, son:",
+    "opciones": {
+      "a": "Bosques, dominios y unidades organizativas.",
+      "b": "Bosques, unidades organizativas y dominios.",
+      "c": "Unidades organizativas, bosques y dominios.",
+      "d": "Unidades organizativas, dominios y bosques."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 32
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes distribuciones está basada en Ubuntu?",
+    "opciones": {
+      "a": "Ututo.",
+      "b": "Peppermint OS.",
+      "c": "Manjaro.",
+      "d": "Arch Linux."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 33
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes distribuciones está basada en Lubuntu?",
+    "opciones": {
+      "a": "Kubuntu.",
+      "b": "Peppermint OS.",
+      "c": "Xubuntu.",
+      "d": "Edubuntu."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 34
+  },
+  {
+    "enunciado": "¿Qué distribución utiliza Pacman como gestor de paquetes?",
+    "opciones": {
+      "a": "Manjaro.",
+      "b": "Q4OS.",
+      "c": "Linux Mint.",
+      "d": "Elementary OS."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 35
+  },
+  {
+    "enunciado": "En Linux, ¿dónde se almacenan los archivos ejecutables de administración del sistema?",
+    "opciones": {
+      "a": "/bin.",
+      "b": "/sbin.",
+      "c": "/root.",
+      "d": "/etc."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 36
+  },
+  {
+    "enunciado": "En Linux, los archivos de logs se encuentran en:",
+    "opciones": {
+      "a": "/etc.",
+      "b": "/bin.",
+      "c": "/var.",
+      "d": "/tmp."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 37
+  },
+  {
+    "enunciado": "En relación con las redirecciones en Linux, \"1>&2\" significa:",
+    "opciones": {
+      "a": "Redirecciona stderr hacia donde stdout apunte.",
+      "b": "Redirecciona stdout hacia donde stderr apunte.",
+      "c": "Redirecciona stderr hacia un fichero.",
+      "d": "Redirecciona stdout hacia un fichero."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 38
+  },
+  {
+    "enunciado": "En relación con las redirecciones en Linux, \"2>&1\" significa:",
+    "opciones": {
+      "a": "Redirecciona stderr hacia donde stdout apunte.",
+      "b": "Redirecciona stdout hacia donde stderr apunte.",
+      "c": "Redirecciona stderr hacia un fichero.",
+      "d": "Redirecciona stdout hacia un fichero."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 39
+  },
+  {
+    "enunciado": "En relación con las redirecciones en Linux, qué opción permite redireccionar stderr hacia un archivo concatenando la salida de errores a ese archivo:",
+    "opciones": {
+      "a": "1>.",
+      "b": "2>.",
+      "c": "1>>.",
+      "d": "2>>."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 40
+  }, 
+  {
+    "enunciado": "En Linux, el comando umask permite establecer los permisos por defecto al crear un fichero. Indique la respuesta correcta para que se creen con los permisos 741:",
+    "opciones": {
+      "a": "umask 741.",
+      "b": "umask 036.",
+      "c": "umask 022.",
+      "d": "umask 713."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 41
+  },
+  {
+    "enunciado": "El runtime de Android para la versión 10.0 es:",
+    "opciones": {
+      "a": "Dalvik.",
+      "b": "ARM.",
+      "c": "ART.",
+      "d": "JRE."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 42
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes NO es una característica del sistema operativo para móviles Android?",
+    "opciones": {
+      "a": "Es de código abierto.",
+      "b": "Su núcleo está basado en el kernel de Linux.",
+      "c": "Utiliza un sistema de ficheros propio para el almacenamiento de datos.",
+      "d": "Existe un catálogo de aplicaciones denominado Google Play."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 43
+  },
+  {
+    "enunciado": "El algoritmo de reemplazo de páginas que elige la página que NO ha sido referenciada en el ciclo anterior es:",
+    "opciones": {
+      "a": "NRU.",
+      "b": "LRU.",
+      "c": "NFU.",
+      "d": "LFU."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 44
+  },
+  {
+    "enunciado": "El algoritmo de reemplazo de páginas que elige la página que NO ha sido usada en el ciclo anterior es:",
+    "opciones": {
+      "a": "NRU.",
+      "b": "LRU.",
+      "c": "NFU.",
+      "d": "LFU."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 45
+  },
+  {
+    "enunciado": "Los algoritmos utilizados en multiprogramación en memoria real permiten asignar un hueco a un programa. Señale la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "El algoritmo de primer ajuste asigna el primer hueco que sea mayor al tamaño deseado.",
+      "b": "El algoritmo de peor ajuste asigna el hueco cuyo tamaño exceda en la mayor cantidad al tamaño deseado, no requiriéndose búsqueda exhaustiva.",
+      "c": "El algoritmo del siguiente ajuste asigna el primer hueco adecuado a partir del último asignado.",
+      "d": "El algoritmo del mejor ajuste asigna el hueco cuyo tamaño exceda en la menor cantidad al tamaño deseado."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 46
+  },
+  {
+    "enunciado": "¿Qué algoritmo de planificación del procesador es del tipo no apropiativa?",
+    "opciones": {
+      "a": "FCFS.",
+      "b": "Round Robin.",
+      "c": "SRTF.",
+      "d": "Prioridad con Round Robin."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 47
+  },
+  {
+    "enunciado": "En la administración de procesos, el planificador a medio plazo:",
+    "opciones": {
+      "a": "Decide qué procesos listos ejecutan primero.",
+      "b": "Decide qué proceso recibe la CPU.",
+      "c": "Decide qué procesos bloqueados pasan a listos.",
+      "d": "Decide qué procesos se suspenden o reanudan."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 48
+  },
+  {
+    "enunciado": "En la administración de procesos, indique cuál NO es un objetivo de la planificación:",
+    "opciones": {
+      "a": "Justicia.",
+      "b": "Evitar la inanición.",
+      "c": "Maximizar el tiempo de respuesta.",
+      "d": "Que el sistema sea predecible."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 49
+  },
+  {
+    "enunciado": "Sobre la organización de las particiones en Unix, señale la respuesta correcta:",
+    "opciones": {
+      "a": "Unix no utiliza el superbloque.",
+      "b": "El bloque 1 es el bloque de arranque.",
+      "c": "La lista de i-nodos se sitúa al final de la partición.",
+      "d": "Los bloques de datos contienen tanto archivos como directorios."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 50
+  },
+  {
+    "enunciado": "Dentro de los dispositivos Android, señale cuál NO es una capa de personalización:",
+    "opciones": {
+      "a": "MIUI.",
+      "b": "PenPoint OS.",
+      "c": "One UI.",
+      "d": "OriginOS."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 51
+  },
+  {
+    "enunciado": "Cuál de las siguientes afirmaciones NO es correcta en Windows de 64 bits:",
+    "opciones": {
+      "a": "Un proceso de 64 bits no puede cargar DLL de 32 bits.",
+      "b": "Un proceso de 32 bits no puede cargar DLL de 64 bits.",
+      "c": "RPC entre procesos de 32 y 64 bits solo se admite en el mismo equipo.",
+      "d": "RPC entre procesos de 32 y 64 bits se admite también entre equipos distintos."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 52
+  },
+  {
+    "enunciado": "Entre las funciones de un sistema operativo NO se encuentra:",
+    "opciones": {
+      "a": "Controlar las autorizaciones de uso.",
+      "b": "Administrar la CPU.",
+      "c": "Gestionar interrupciones.",
+      "d": "Constituir el conjunto de software y hardware del ordenador."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 53
+  },
+  {
+    "enunciado": "¿Cuál de los siguientes NO es un algoritmo de planificación utilizado en Windows y Linux?",
+    "opciones": {
+      "a": "Algoritmo de agrupación.",
+      "b": "FCFS.",
+      "c": "SJF.",
+      "d": "Round Robin."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 54
+  },
+  {
+    "enunciado": "¿Cómo se denomina a una instancia de un programa en ejecución?",
+    "opciones": {
+      "a": "Proceso terminal.",
+      "b": "Proceso o thread.",
+      "c": "Gestión de entrada y salida.",
+      "d": "Proceso o threat."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 55
+  },
+  {
+    "enunciado": "Sistema operativo UNIX con cuatro capas: núcleo, servicios principales, medios y Cocoa Touch:",
+    "opciones": {
+      "a": "Android.",
+      "b": "Windows Phone.",
+      "c": "iOS.",
+      "d": "Firefox OS."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 56
+  },
+  {
+    "enunciado": "Algoritmo que prioriza los trabajos que necesitan menos tiempo de ejecución:",
+    "opciones": {
+      "a": "Round Robin.",
+      "b": "FCFS.",
+      "c": "HRN.",
+      "d": "SJF."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 57
+  },
+  {
+    "enunciado": "La planificación no apropiativa es aquella en la que:",
+    "opciones": {
+      "a": "Un proceso no puede ser suspendido una vez obtiene la CPU.",
+      "b": "Nunca se producen ciclos infinitos.",
+      "c": "Existe un reloj que interrumpe periódicamente.",
+      "d": "Se basa en prioridades con reloj."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 58
+  },
+  {
+    "enunciado": "¿Cuáles son los modos de funcionamiento del sistema UNIX?",
+    "opciones": {
+      "a": "Modo usuario y modo proceso.",
+      "b": "Modo microkernel y modo kernel.",
+      "c": "Modo usuario y modo kernel.",
+      "d": "Modo proceso y modo microkernel."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 59
+  },
+  {
+    "enunciado": "En la gestión de memoria, ¿qué intentan minimizar los algoritmos de reemplazo?",
+    "opciones": {
+      "a": "Número de marcos.",
+      "b": "Tiempo de acceso a marcos.",
+      "c": "Tasa de fallos de página.",
+      "d": "Tiempo de acceso al heap."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 4 - Sistemas Operativos",
+    "numero": 60
+  },
+  {
+    "enunciado": "¿Cuál de los siguientes sistemas de bases de datos es orientado a objetos?",
+    "opciones": {
+      "a": "MySQL.",
+      "b": "SQLite.",
+      "c": "Zope Object DB.",
+      "d": "MariaDB."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 1
+  },
+  {
+    "enunciado": "Señale, de entre los siguientes, cuál es un gestor de bases de datos relacional:",
+    "opciones": {
+      "a": "PostgreSQL.",
+      "b": "Datawarehouse.",
+      "c": "Snowflake.",
+      "d": "CouchDB."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 2
+  },
+  {
+    "enunciado": "La ejecución de una transacción en un SGBD debe cumplir, entre otras, las características de:",
+    "opciones": {
+      "a": "Consistencia y herencia.",
+      "b": "Atomicidad y herencia.",
+      "c": "Atomicidad y consistencia.",
+      "d": "Abstracción y polimorfismo."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 3
+  },
+  {
+    "enunciado": "¿Qué es MongoDB?",
+    "opciones": {
+      "a": "Es una base de datos NoSQL de código abierto basada en documentos tipo JSON.",
+      "b": "Es un almacén de estructuras de datos en memoria.",
+      "c": "Es una extensión de PostgreSQL para datos geográficos.",
+      "d": "Es una base de datos relacional compatible con Oracle."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 4
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes Bases de Datos NoSQL es de tipo clave-valor?",
+    "opciones": {
+      "a": "MongoDB.",
+      "b": "Redis.",
+      "c": "CouchDB.",
+      "d": "Knosys."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 5
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes características en relación a las bases de datos SQL y NoSQL es FALSA?",
+    "opciones": {
+      "a": "NoSQL no suele utilizar SQL.",
+      "b": "No se suelen realizar JOIN en NoSQL.",
+      "c": "NoSQL escala mejor horizontalmente.",
+      "d": "Las bases de datos NoSQL garantizan completamente ACID."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 6
+  },
+  {
+    "enunciado": "El proyecto de la fundación Apache que provee una base de datos NoSQL se denomina:",
+    "opciones": {
+      "a": "Hadoop.",
+      "b": "CouchDB.",
+      "c": "Ignite.",
+      "d": "MetaModel."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 7
+  },
+
+  {
+    "enunciado": "¿Cuál de las siguientes afirmaciones sobre MongoDB es CORRECTA?",
+    "opciones": {
+      "a": "Permite SQL.",
+      "b": "Una tabla se denomina documento.",
+      "c": "Utiliza BSON para almacenar datos.",
+      "d": "No soporta transacciones."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 8
+  },
+
+  {
+    "enunciado": "En relación con el modelo relacional, cuál NO es una regla de Codd:",
+    "opciones": {
+      "a": "Actualización de vistas.",
+      "b": "Tratamiento de valores nulos.",
+      "c": "No subversión.",
+      "d": "Independencia del catálogo."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 9
+  },
+
+  {
+    "enunciado": "Señale cuál NO es una base de datos NoSQL clave-valor:",
+    "opciones": {
+      "a": "Cassandra.",
+      "b": "Dynamo.",
+      "c": "Radiant.",
+      "d": "Oracle NoSQL."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 10
+  },
+
+  {
+    "enunciado": "¿Qué característica es propia de las bases de datos NoSQL?",
+    "opciones": {
+      "a": "Soportan JOIN.",
+      "b": "Garantizan ACID.",
+      "c": "Estructuras fijas.",
+      "d": "Escalado horizontal."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 11
+  },
+
+  {
+    "enunciado": "Entre los tipos de Bases de Datos NoSQL no se encuentran:",
+    "opciones": {
+      "a": "Orientadas a filas.",
+      "b": "Orientadas a documentos.",
+      "c": "Clave/valor.",
+      "d": "Orientadas a objetos."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 12
+  },
+
+  {
+    "enunciado": "Entre las características de las Bases de Datos NoSQL se encuentran:",
+    "opciones": {
+      "a": "Datos estructurados.",
+      "b": "ACID estricto.",
+      "c": "Sistemas distribuidos.",
+      "d": "Modelo relacional."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 13
+  },
+
+  {
+    "enunciado": "Son bases de datos NoSQL:",
+    "opciones": {
+      "a": "MongoDB y MariaDB.",
+      "b": "HBase y DynamoDB.",
+      "c": "MariaDB y Cassandra.",
+      "d": "Memcached y ObjectDB."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 14
+  },
+
+  {
+    "enunciado": "¿Quién desarrolló inicialmente Cassandra?",
+    "opciones": {
+      "a": "Apache.",
+      "b": "Facebook.",
+      "c": "Apple.",
+      "d": "Twitter."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 15
+  },
+
+  {
+    "enunciado": "Un sistema NoSQL destaca principalmente por:",
+    "opciones": {
+      "a": "Modelo relacional.",
+      "b": "Tablas fijas.",
+      "c": "ACID completo.",
+      "d": "Escalabilidad y rendimiento."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 16
+  },
+
+  {
+    "enunciado": "Son sistemas de bases de datos orientados a objetos:",
+    "opciones": {
+      "a": "GemStone.",
+      "b": "ObjectDB.",
+      "c": "Ambas.",
+      "d": "Ninguna."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 17
+  },
+
+  {
+    "enunciado": "¿Cuál NO es una ventaja de NoSQL?",
+    "opciones": {
+      "a": "Gestión de grandes volúmenes.",
+      "b": "Alta eficiencia en tiempo real.",
+      "c": "Estructuras flexibles.",
+      "d": "Genera cuellos de botella."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 18
+  },
+
+  {
+    "enunciado": "En Oracle, una vista materializada:",
+    "opciones": {
+      "a": "Almacena definiciones.",
+      "b": "Almacena vistas.",
+      "c": "Almacena el resultado de una consulta.",
+      "d": "Es una vista ordinaria."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 19
+  },
+
+  {
+    "enunciado": "Respecto a InnoDB señale la correcta:",
+    "opciones": {
+      "a": "Es de Oracle.",
+      "b": "Es el motor por defecto de MySQL.",
+      "c": "Basado en ISAM.",
+      "d": "No soporta full-text."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 20
+  },
+  {
+    "enunciado": "En Oracle, un tablespace es:",
+    "opciones": {
+      "a": "El espacio que ocupa un fichero en donde reside un índice.",
+      "b": "El espacio físico de almacenamiento de datos.",
+      "c": "El espacio que ocupa un fichero en donde reside una tabla.",
+      "d": "El espacio lógico de almacenamiento de datos."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 21
+  },
+  {
+    "enunciado": "¿Qué alternativas existen en otros sistemas de base de datos a las vistas materializadas de Oracle?",
+    "opciones": {
+      "a": "Vistas indexadas.",
+      "b": "Vistas normalizadas.",
+      "c": "Vistas físicas.",
+      "d": "No existen alternativas."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 22
+  },
+  {
+    "enunciado": "En el contexto del SGBD ORACLE, al conjunto compartido de estructuras de memoria y procesos que acceden a un grupo de ficheros de la base de datos, se denomina:",
+    "opciones": {
+      "a": "Réplica.",
+      "b": "Segmento.",
+      "c": "Instancia.",
+      "d": "Tablespace."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 23
+  },
+  {
+    "enunciado": "La regla 2 de Codd es la del:",
+    "opciones": {
+      "a": "Tratamiento sistemático de valores nulos.",
+      "b": "Acceso garantizado.",
+      "c": "Actualización de vistas.",
+      "d": "Integridad referencial."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 24
+  },
+  {
+    "enunciado": "¿En qué consiste la regla de Independencia de Integridad establecida por Codd?",
+    "opciones": {
+      "a": "Los programas de aplicación y actividades del terminal permanecerán inalterados a nivel lógico cuando se realicen cambios sobre las tablas base que preservan la información.",
+      "b": "Las limitaciones de integridad han de poder ser definidos utilizando el sublenguaje de datos relacional y almacenables en el catálogo dinámico.",
+      "c": "La independencia de integridad requiere la definición de claves ajenas con la opción CASCADE para propagar cambios.",
+      "d": "Si en una relación hay una clave ajena, sus valores deben coincidir con los valores de la clave primaria referenciada o ser completamente nulos."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 25
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes es una regla de Codd?",
+    "opciones": {
+      "a": "Regla de la no subversión.",
+      "b": "Regla de la no concurrencia.",
+      "c": "Regla de la restricción.",
+      "d": "Regla de la no replicación de Información."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 26
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes afirmaciones sobre bases de datos relacionales se deriva de las reglas de Codd?",
+    "opciones": {
+      "a": "Un SGBD no debe permitir el uso de valores vacíos.",
+      "b": "Los cambios realizados a nivel físico no deben afectar al nivel lógico.",
+      "c": "Un SGBD no debe almacenar información redundante ni cíclica.",
+      "d": "Un SGBD no debe instalarse de manera distribuida."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 27
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes NO es una de las llamadas doce reglas de Codd?",
+    "opciones": {
+      "a": "Independencia física de los datos.",
+      "b": "Independencia de distribución.",
+      "c": "Independencia de actualización.",
+      "d": "Independencia de integridad."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 28
+  },
+  {
+    "enunciado": "El acrónimo en inglés \"ACID\" relacionado con una transacción de base de datos se corresponde con las propiedades:",
+    "opciones": {
+      "a": "Authentication, Consistency, Integrity, Durability.",
+      "b": "Atomicity, Confidentiality, Identification, Durability.",
+      "c": "Atomicity, Consistency, Isolation, Durability.",
+      "d": "Availability, Consistency, Isolation, Durability."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 29
+  },
+  {
+    "enunciado": "Las reglas de Codd sirven para:",
+    "opciones": {
+      "a": "Integrar correctamente el modelo conceptual en un SGBD.",
+      "b": "Crear bases de datos más relacionadas y normalizadas.",
+      "c": "Cumplir con el estándar ANSI-SPARC.",
+      "d": "Describir correctamente los tres niveles del modelo entidad-relación."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 30
+  },
+  {
+    "enunciado": "Indique cuál de las siguientes NO es una de las Reglas de Codd:",
+    "opciones": {
+      "a": "Regla de la independencia física de los datos.",
+      "b": "Regla de no subversión.",
+      "c": "Regla de la inserción, actualización y supresión de bajo nivel.",
+      "d": "Regla de la actualización de vistas."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 31
+  },
+  {
+    "enunciado": "Entre las características obligatorias de un sistema gestor de bases de datos orientadas a objetos, NO se encuentra:",
+    "opciones": {
+      "a": "Debe permitir construir objetos complejos.",
+      "b": "El conjunto de tipos de datos debe ser fijo para mayor eficiencia en búsquedas.",
+      "c": "Todos los objetos deben tener un identificador independiente de los valores de sus atributos.",
+      "d": "El esquema incluye únicamente un conjunto de clases (o de tipos)."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 32
+  },
+  {
+    "enunciado": "Señale qué es el Machine Learning Services para SQL Server:",
+    "opciones": {
+      "a": "Tecnologías para copia y distribución de datos y objetos entre bases de datos.",
+      "b": "Característica de SQL Server para ejecutar scripts de Python y R con datos relacionales.",
+      "c": "Producto de calidad de datos basado en conocimiento.",
+      "d": "Servicio principal para almacenar, procesar y proteger los datos."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 33
+  },
+  {
+    "enunciado": "Indique la respuesta correcta en relación a los componentes de proceso de un SGBD:",
+    "opciones": {
+      "a": "Interfaces, modelo de referencia, compilador y precompilador DML.",
+      "b": "Compilador DML, precompilador DML, intérprete DDL y motor de ejecución.",
+      "c": "Gestor de ficheros, compilador y precompilador DML y gestor de transacciones.",
+      "d": "Estructuras de datos, gestor de transacciones, intérprete DDL y motor de ejecución."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 34
+  },
+  {
+    "enunciado": "\"Cualquier información almacenada en la base de datos debe poder ser accesible de manera unívoca mediante un nombre de tabla, un nombre de columna y el valor de la clave primaria para la fila...\" Según Codd, se refiere a:",
+    "opciones": {
+      "a": "La regla fundamental.",
+      "b": "La regla de la información.",
+      "c": "La regla del acceso garantizado.",
+      "d": "La regla del tratamiento sistemático de los valores nulos."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 35
+  },
+  {
+    "enunciado": "El principio BASE se corresponde con:",
+    "opciones": {
+      "a": "Basically Available, Soft state y Eventual consistency.",
+      "b": "BSON format, Serial transactions y Eventual consistency.",
+      "c": "Basically Available, Serial transactions y Execute independent.",
+      "d": "BSON format, Soft state y Execute independent."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 36
+  },
+  {
+    "enunciado": "Son bases de datos NoSQL orientadas a grafos:",
+    "opciones": {
+      "a": "FlockDB, OrientDB, SimpleDB.",
+      "b": "Neo4j, OrientDB, CouchDB.",
+      "c": "InfinityGraph, AllegroGraph, RethinkDB.",
+      "d": "Neo4j, OrientDB, AllegroGraph."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 37
+  },
+  {
+    "enunciado": "En relación con Redis, señale la respuesta correcta:",
+    "opciones": {
+      "a": "Es una base de datos NoSQL orientada a columnas.",
+      "b": "Redis es el acrónimo de Remote Dictionary Server.",
+      "c": "Ha sido desarrollado en lenguaje Python.",
+      "d": "Solo está disponible en sistemas Windows."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 38
+  },
+  {
+    "enunciado": "NO es una base de datos de series temporales:",
+    "opciones": {
+      "a": "InfluxDB.",
+      "b": "QuestDB.",
+      "c": "AWS Timestream.",
+      "d": "IndexedDB."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 39
+  },
+  {
+    "enunciado": "Señale la respuesta correcta:",
+    "opciones": {
+      "a": "HBase es un SGBD orientado a grafos.",
+      "b": "Bigtable fue creado por Google.",
+      "c": "IndexedDB ofrece almacenamiento persistente en el servidor web.",
+      "d": "SQLite es relacional y altamente escalable."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 40
+  },
+  {
+    "enunciado": "En Oracle existen 5 tipos de segmentos:",
+    "opciones": {
+      "a": "De datos, de índices, de rollback, temporales y de bootstrap.",
+      "b": "De datos, de control, de commit, de rollback y temporales.",
+      "c": "De índices, de bootstrap, de control, de joins y de datos.",
+      "d": "Temporales, de rollback, de joins, de datos y de índices."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 41
+  },
+  {
+    "enunciado": "En Oracle, la estructura física está compuesta por los siguientes tipos de ficheros:",
+    "opciones": {
+      "a": "Ficheros de redo log, ficheros de control y ficheros de datos.",
+      "b": "Ficheros de datos y ficheros rollback.",
+      "c": "Ficheros de control, ficheros temporales y ficheros de datos.",
+      "d": "Ficheros de redo log y ficheros de control."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 42
+  },
+  {
+    "enunciado": "El sistema de gestión de bases de datos Oracle está formado por los siguientes elementos:",
+    "opciones": {
+      "a": "Los procesos y las estructuras en memoria principal.",
+      "b": "Los archivos de la base de datos, los procesos y los protocolos de comunicaciones.",
+      "c": "La instancia de Oracle y los protocolos de comunicación.",
+      "d": "Los archivos de la base de datos y la instancia de Oracle."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 43
+  },
+  {
+    "enunciado": "En Oracle, indique cuál de los siguientes es un lenguaje de procedimiento cuya sintaxis permite insertar sentencias SQL y se almacena compilado dentro de la base de datos:",
+    "opciones": {
+      "a": "Transact SQL.",
+      "b": "PL/SQL.",
+      "c": "Python.",
+      "d": "SQL."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 44
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes NO es una base de datos NoSQL?",
+    "opciones": {
+      "a": "MongoDB.",
+      "b": "Cassandra.",
+      "c": "HBase.",
+      "d": "Kaltura."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 45
+  },
+  {
+    "enunciado": "Dentro de las bases de datos NoSQL, ¿de qué tipo es la base de datos Neo4j?",
+    "opciones": {
+      "a": "Clave-valor.",
+      "b": "Documentos.",
+      "c": "Familia de columnas.",
+      "d": "Grafos."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 2",
+    "tema": "Tema 5 - SGBD",
+    "numero": 46
+  }
+
+]
+
+
