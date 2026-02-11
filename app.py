@@ -45,6 +45,8 @@ TEMAS_POR_BLOQUE = {
         "Tema 6 - Arquitectura Java EE/Jakarta EE y plataforma .NET",
         "Tema 7 - Arquitecturas y Servicios Web",
         "Tema 8 - Aplicaciones Web",
+        "Tema 9 - Accesibilidad",
+        "Tema 10 - Metodologías"
     ],
 }
 
@@ -77,6 +79,8 @@ NOMBRE_TEMA_B3 = {
     "6": "Tema 6 - Arquitectura Java EE/Jakarta EE y plataforma .NET",
     "7": "Tema 7 - Arquitecturas y Servicios Web",
     "8": "Tema 8 - Aplicaciones Web",
+    "9": "Tema 9 - Accesibilidad",
+    "10": "Tema 10 - Metodologías",
 }
 
 # ---------------- Utilidades ----------------

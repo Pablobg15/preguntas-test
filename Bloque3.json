@@ -6017,1030 +6017,717 @@
         "bloque": "Bloque 3",
         "tema": "Tema 8 - Aplicaciones Web"
       },
-      {
-        "numero": 1,
-        "enunciado": "¿Qué pauta definida por el WAI NO es de accesibilidad?",
-        "opciones": { "a": "ATAG", "b": "UAAG", "c": "WCAG", "d": "ACAG" },
-        "correcta": "d"
-      },
-      {
-        "numero": 2,
-        "enunciado": "¿Cuántas pautas se definen en WCAG 2.2?",
-        "opciones": { "a": "11", "b": "12", "c": "13", "d": "14" },
-        "correcta": "c"
-      },
-      {
-        "numero": 3,
-        "enunciado": "¿A quién NO se dirige principalmente WCAG 2.2?",
-        "opciones": {
-          "a": "A usuarios de aplicaciones.",
-          "b": "A desarrolladores de contenidos web.",
-          "c": "A desarrolladores de herramientas para la evaluación de la accesibilidad web.",
-          "d": "A desarrolladores de navegadores."
-        },
-        "correcta": "a"
-      },
-      {
-        "numero": 4,
-        "enunciado": "¿Qué principio de WCAG 2.2 se corresponde con: \"la información y los componentes de la interfaz de usuario deben ser mostrados a los usuarios en formas que ellos puedan entender\"?",
-        "opciones": { "a": "Perceptible.", "b": "Operable.", "c": "Comprensible.", "d": "Robusto." },
-        "correcta": "a"
-      },
-      {
-        "numero": 5,
-        "enunciado": "El criterio de conformidad \"Orientación\" se encuadra en la pauta de WCAG 2.2:",
-        "opciones": { "a": "Distinguible.", "b": "Operable.", "c": "Adaptable.", "d": "Visible." },
-        "correcta": "c"
-      },
-      {
-        "numero": 6,
-        "enunciado": "En WCAG 2.2, el criterio de conformidad de Contraste de contenido no textual de al menos 3:1 (botones, campos de formulario, gráficos, iconos…) es de:",
-        "opciones": { "a": "Nivel A.", "b": "Nivel AA.", "c": "Nivel AAA.", "d": "Nivel AAAA." },
-        "correcta": "b"
-      },
-      {
-        "numero": 7,
-        "enunciado": "La pauta \"Ataques epilépticos\" de WCAG 2.2 pertenece al principio:",
-        "opciones": { "a": "Perceptible.", "b": "Operable.", "c": "Comprensible.", "d": "Robusto." },
-        "correcta": "b"
-      },
-      {
-        "numero": 8,
-        "enunciado": "En WCAG 2.2, el criterio de conformidad \"Tres destellos\" es de:",
-        "opciones": { "a": "Nivel A.", "b": "Nivel AA.", "c": "Nivel AAA.", "d": "Nivel AAAA." },
-        "correcta": "c"
-      },
-      {
-        "numero": 9,
-        "enunciado": "En WCAG 2.2, el criterio de conformidad \"Titulado de páginas\" es de:",
-        "opciones": { "a": "Nivel A.", "b": "Nivel AA.", "c": "Nivel AAA.", "d": "Nivel AAAA." },
-        "correcta": "a"
-      },
-      {
-        "numero": 10,
-        "enunciado": "En WCAG 2.2, el criterio de conformidad \"Idioma de la página\" es de:",
-        "opciones": { "a": "Nivel A.", "b": "Nivel AA.", "c": "Nivel AAA.", "d": "Nivel AAAA." },
-        "correcta": "a"
-      },
-      {
-        "numero": 11,
-        "enunciado": "En WCAG 2.2, el criterio de conformidad \"Abreviaturas\" es de:",
-        "opciones": { "a": "Nivel A.", "b": "Nivel AA.", "c": "Nivel AAA.", "d": "Nivel AAAA." },
-        "correcta": "c"
-      },
-      {
-        "numero": 12,
-        "enunciado": "En WCAG 2.2, en relación al Nivel AAA señale la respuesta INCORRECTA:",
-        "opciones": {
-          "a": "Son los criterios de menor importancia.",
-          "b": "Si se cumplen confieren a la página web un buen nivel de accesibilidad.",
-          "c": "Se deben satisfacer los criterios de Nivel A, Nivel AA y Nivel AAA.",
-          "d": "Eliminan importantes barreras de acceso."
-        },
-        "correcta": "d"
-      },
-      {
-        "numero": 13,
-        "enunciado": "Señale la respuesta INCORRECTA sobre WAI-ARIA:",
-        "opciones": {
-          "a": "Su significado es Aplicaciones de Internet Enriquecidas Accesibles.",
-          "b": "Permite transmitir comportamientos de la IU a las tecnologías de apoyo.",
-          "c": "Establece ontologías de roles, estados y propiedades.",
-          "d": "No pertenece a WAI, es una biblioteca para la Web Semántica."
-        },
-        "correcta": "d"
-      },
-      {
-        "numero": 14,
-        "enunciado": "Indique un criterio de conformidad nuevo incluido en el borrador de WCAG 2.2:",
-        "opciones": { "a": "Entrada redundante.", "b": "Tamaño del objetivo.", "c": "Gestor del puntero.", "d": "Reajuste." },
-        "correcta": "a"
-      },
-      {
-        "numero": 15,
-        "enunciado": "¿Cuál de las siguientes NO es una herramienta de evaluación de la accesibilidad?",
-        "opciones": { "a": "TAW.", "b": "HERA.", "c": "eXaminator.", "d": "Wave." },
-        "correcta": "b"
-      },
-      {
-        "numero": 16,
-        "enunciado": "Una herramienta de evaluación de la accesibilidad:",
-        "opciones": {
-          "a": "Realiza siempre un chequeo automático de todos los criterios de conformidad.",
-          "b": "Solo puede comprobar de forma automática una parte de los criterios de conformidad.",
-          "c": "Es de uso opcional en la Administración General del Estado.",
-          "d": "Es un servicio de pago en línea."
-        },
-        "correcta": "b"
-      },
-      {
-        "numero": 17,
-        "enunciado": "¿Qué norma española legisla sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público?",
-        "opciones": {
-          "a": "Real Decreto 1112/2018.",
-          "b": "Real Decreto 1112/2019.",
-          "c": "Real Decreto 1121/2018.",
-          "d": "Real Decreto 1121/2019."
-        },
-        "correcta": "a"
-      },
-      {
-        "numero": 18,
-        "enunciado": "¿En qué fecha las aplicaciones móviles desarrolladas por las Administraciones Públicas deberán ser accesibles?",
-        "opciones": {
-          "a": "Antes de 2021.",
-          "b": "Antes del 23 de diciembre de 2020.",
-          "c": "Antes del 23 de junio de 2021.",
-          "d": "Antes del 23 de septiembre de 2020."
-        },
-        "correcta": "c"
-      },
-      {
-        "numero": 19,
-        "enunciado": "En relación con el diseño universal o diseño para todos, ¿qué principio busca minimizar riesgos y consecuencias adversas de acciones involuntarias o accidentales?",
-        "opciones": { "a": "Uso flexible.", "b": "Uso equiparable.", "c": "Con tolerancia al error.", "d": "Simple e intuitivo." },
-        "correcta": "c"
-      },
-      {
-        "numero": 20,
-        "enunciado": "¿En qué norma ISO se define la usabilidad como la capacidad de un software de ser comprendido, aprendido, usado y ser atractivo para el usuario, en condiciones específicas de uso?",
-        "opciones": { "a": "ISO/IEC 9126.", "b": "ISO/IEC 9216.", "c": "ISO/IEC 9241.", "d": "ISO/IEC 9421." },
-        "correcta": "a"
-      },
-      {
-        "numero": 21,
-        "enunciado": "¿Qué norma de AENOR trata sobre accesibilidad hardware?",
-        "opciones": { "a": "UNE 139801:2003.", "b": "UNE 139802:2009.", "c": "UNE 139803:2012.", "d": "UNE 139804:2015." },
-        "correcta": "a"
-      },
-      {
-        "numero": 22,
-        "enunciado": "Respecto a los esquemas de autenticación de usuarios, señale la respuesta correcta:",
-        "opciones": {
-          "a": "Un SMS que recibe el usuario es algo que sabe.",
-          "b": "El reconocimiento ocular es algo que tiene el usuario.",
-          "c": "Un PIN es algo que posee el usuario.",
-          "d": "El reconocimiento facial es algo que es del usuario."
-        },
-        "correcta": "d"
-      },
-      {
-        "numero": 23,
-        "enunciado": "¿Cuál de los siguientes NO es un principio de seguridad en el desarrollo de sistemas?",
-        "opciones": { "a": "Mínima funcionalidad.", "b": "Máximo privilegio.", "c": "Defensa en profundidad.", "d": "Resiliencia." },
-        "correcta": "b"
-      },
-      {
-        "numero": 24,
-        "enunciado": "Cuando varios procesos acceden al mismo tiempo a un recurso compartido cambiando su estado y obteniendo un valor no esperado, es una vulnerabilidad de:",
-        "opciones": { "a": "Desbordamiento de buffer.", "b": "Condición de carrera.", "c": "Error de formato de cadena.", "d": "Cross-Site Scripting." },
-        "correcta": "b"
-      },
-      {
-        "numero": 25,
-        "enunciado": "Para el desarrollo seguro de aplicaciones web se recomienda:",
-        "opciones": {
-          "a": "Uso del método POST para consulta de información.",
-          "b": "Uso del método GET para envío de información.",
-          "c": "El cifrado de las comunicaciones entre las partes.",
-          "d": "El uso de cabeceras HTTP como método de validación."
-        },
-        "correcta": "c"
-      },
-      {
-        "numero": 26,
-        "enunciado": "En relación a los estándares de documentación, ¿cuál está relacionado con la usabilidad?",
-        "opciones": { "a": "ISO 9241.", "b": "ISO 9127.", "c": "BS 7649.", "d": "ISO 9240." },
-        "correcta": "a"
-      },
-      {
-        "numero": 27,
-        "enunciado": "Según el Real Decreto 1112/2018, ¿cada cuánto tiempo hay que revisar la exactitud de toda la información contenida en la Declaración de accesibilidad?",
-        "opciones": {
-          "a": "Como mínimo cada tres años.",
-          "b": "Como mínimo una vez al año, pero solo hay que actualizar la fecha \"Última revisión\" si se ha hecho algún cambio en la declaración.",
-          "c": "Como mínimo una vez al año.",
-          "d": "Como mínimo cada dos años."
-        },
-        "correcta": "c"
-      },
-      {
-        "numero": 28,
-        "enunciado": "¿Qué significa ARIA?",
-        "opciones": {
-          "a": "Accessible Rich Internet Applications.",
-          "b": "Augmented Real Interface for Accessibility.",
-          "c": "Application Rapid Interface for Accessibility.",
-          "d": "Ninguna de las respuestas anteriores es correcta."
-        },
-        "correcta": "a"
-      },
-      {
-        "numero": 29,
-        "enunciado": "TAW es:",
-        "opciones": {
-          "a": "Un lector de pantalla.",
-          "b": "Un magnificador de pantalla.",
-          "c": "Un teclado virtual en pantalla.",
-          "d": "Una herramienta de revisión automática de la accesibilidad web."
-        },
-        "correcta": "d"
-      },
-      {
-        "numero": 30,
-        "enunciado": "¿Cuáles son los cuatro principios de accesibilidad en los que se basa WCAG?",
-        "opciones": {
-          "a": "Perceptible, comprensible, único y seguro.",
-          "b": "Perceptible, operable, comprensible y robusto.",
-          "c": "Perceptible, operable, seguro y robusto.",
-          "d": "Perceptible, operable, seguro y estético."
-        },
-        "correcta": "b"
-      },
-      {
-        "numero": 31,
-        "enunciado": "La norma UNE 139803:2012 regula:",
-        "opciones": {
-          "a": "Los requisitos de accesibilidad para los sistemas informáticos.",
-          "b": "Los requisitos de seguridad para contenidos en la web.",
-          "c": "Los requisitos de accesibilidad y seguridad para contenidos en la web.",
-          "d": "Los requisitos de accesibilidad para contenidos en la web."
-        },
-        "correcta": "d"
-      },
-      {
-        "numero": 32,
-        "enunciado": "La pauta WCAG 2.2 de Asistencia a la entrada de datos se relaciona con el principio:",
-        "opciones": { "a": "Perceptible.", "b": "Operable.", "c": "Compresible.", "d": "Robusto." },
-        "correcta": "c"
-      },
-      {
-        "numero": 33,
-        "enunciado": "La pauta WCAG 2.2 de Tiempo suficiente se relaciona con el principio:",
-        "opciones": { "a": "Perceptible.", "b": "Operable.", "c": "Compresible.", "d": "Robusto." },
-        "correcta": "b"
-      },
-      {
-        "numero": 34,
-        "enunciado": "El Real Decreto 1112/2018 aplica a los siguientes contenidos (señale la INCORRECTA):",
-        "opciones": {
-          "a": "Información textual y no textual.",
-          "b": "Documentos y formularios que se puedan descargar.",
-          "c": "Formas de interacción entre la persona interesada y el sitio web o app móvil.",
-          "d": "Contenido multimedia en directo (en directo) de base temporal."
-        },
-        "correcta": "d"
-      },
-      {
-        "numero": 35,
-        "enunciado": "En los enlaces de hipertexto, ¿qué recomiendan las normas de accesibilidad del W3C?",
-        "opciones": {
-          "a": "No dar al usuario el control sobre los cambios de vista.",
-          "b": "Utilizar el literal “Pinche aquí”.",
-          "c": "Repetir el enlace cada vez que el texto de ese enlace aparezca dentro del documento.",
-          "d": "Usar texto para identificar el propósito del enlace que tenga sentido leído fuera de contexto."
-        },
-        "correcta": "d"
-      },
-      {
-        "numero": 36,
-        "enunciado": "En HTML y en relación con la accesibilidad Web, ¿qué atributo debe utilizar para describir la función de cada elemento visual?",
-        "opciones": { "a": "attrib.", "b": "image.", "c": "alt.", "d": "vision." },
-        "correcta": "c"
-      },
-      {
-        "numero": 37,
-        "enunciado": "¿Cuál de los siguientes ejemplos es una barrera de accesibilidad en páginas web?",
-        "opciones": {
-          "a": "Imágenes con texto alternativo.",
-          "b": "Ubicación de las páginas mediante “migas de pan”.",
-          "c": "Colocar información importante en una ventana emergente.",
-          "d": "Creación de páginas web haciendo uso de media queries."
-        },
-        "correcta": "c"
-      },
-      {
-        "numero": 38,
-        "enunciado": "El Real Decreto 1112/2018, de 7 de septiembre:",
-        "opciones": {
-          "a": "Tiene por objeto garantizar los requisitos de accesibilidad de los sitios web y apps móviles del sector público.",
-          "b": "Se aplica a todo el sector público con la excepción de la Administración de Justicia.",
-          "c": "Define accesibilidad como principios y técnicas para sitios web exclusivamente.",
-          "d": "No incluye procesos de identificación, autenticación, firma y pago como contenido accesible."
-        },
-        "correcta": "a"
-      },
-      {
-        "numero": 39,
-        "enunciado": "Según el artículo 15 del RD 1112/2018, sobre la declaración de accesibilidad, indique la correcta:",
-        "opciones": {
-          "a": "Se actualiza como mínimo cada dos años desde la primera revisión.",
-          "b": "Se revisa por la Red de Contactos como mínimo cada dos años.",
-          "c": "Se actualiza como mínimo una vez al año, o cada vez que se realice una revisión de accesibilidad.",
-          "d": "Se actualiza como mínimo cada tres años, o cada vez que se realice una revisión."
-        },
-        "correcta": "c"
-      },
-      {
-        "numero": 40,
-        "enunciado": "El artículo 3.1 del RD 1112/2018 indica como ámbito objetivo de aplicación:",
-        "opciones": {
-          "a": "Sitios web independientemente del dispositivo de acceso, y aplicaciones móviles del sector público y otros obligados.",
-          "b": "Sitios web solo cuando se accede desde móviles, y apps móviles del sector público y otros obligados.",
-          "c": "Solo sitios web para móviles del sector público y otros obligados.",
-          "d": "Solo apps móviles del sector público y otros obligados."
-        },
-        "correcta": "a"
-      },
-      {
-        "numero": 41,
-        "enunciado": "¿Cuál de las siguientes características NO se ajusta a los principios de accesibilidad del W3C?",
-        "opciones": {
-          "a": "Toda la funcionalidad disponible con ratón también lo está con teclado.",
-          "b": "Contiene breves descripciones del contenido no textual (audio/vídeo).",
-          "c": "Sólo hay un camino para encontrar las páginas relevantes en un conjunto de páginas web.",
-          "d": "El color no se usa como única forma de transmitir información o identificar contenido."
-        },
-        "correcta": "c"
-      },
-      {
-        "numero": 42,
-        "enunciado": "Según el RD 1112/2018, sobre mecanismos de comunicación (solicitudes/quejas) en sitios web ya publicados, ¿cuál es la fecha de entrada en vigor?",
-        "opciones": {
-          "a": "En el momento de publicación en el BOE del RD 1112/2018.",
-          "b": "Al año de la entrada en vigor del RD 1112/2018.",
-          "c": "A los dos años de la entrada en vigor del RD 1112/2018.",
-          "d": "A los cuatro años de la entrada en vigor del RD 1112/2018."
-        },
-        "correcta": "c"
-      },
-      {
-        "numero": 43,
-        "enunciado": "Según el artículo 10 del RD 1112/2018, el plazo de respuesta a solicitudes/quejas es de:",
-        "opciones": { "a": "10 días naturales.", "b": "20 días naturales.", "c": "10 días hábiles.", "d": "20 días hábiles." },
-        "correcta": "d"
-      },
-      {
-        "numero": 44,
-        "enunciado": "En relación con el RD 1112/2018, indique la respuesta INCORRECTA:",
-        "opciones": {
-          "a": "Los criterios del RD no serán de aplicación a los sitios web y apps móviles del Banco de España.",
-          "b": "Las entidades obligadas deberán ofrecer un mecanismo de comunicación para sugerencias y quejas.",
-          "c": "La primera revisión de accesibilidad de sitios web antes de dos años desde la entrada en vigor.",
-          "d": "La primera revisión de accesibilidad de apps móviles antes de tres años desde la entrada en vigor."
-        },
-        "correcta": "a"
-      },
-      {
-        "numero": 45,
-        "enunciado": "Según WCAG 2.2, ¿cuál es el objetivo de que un contenido sea Distinguible?",
-        "opciones": {
-          "a": "Crear contenido que pueda presentarse de diferentes formas sin perder información/estructura.",
-          "b": "Facilitar a los usuarios ver y oír el contenido, incluyendo la separación entre primer plano y fondo.",
-          "c": "Proporcionar alternativas textuales para contenido no textual para convertirlo a otros formatos.",
-          "d": "Proporcionar alternativas para medios tempodependientes."
-        },
-        "correcta": "b"
-      },
-      {
-        "numero": 46,
-        "enunciado": "El principio de accesibilidad web que exige que la información y componentes de la IU se muestren de forma que puedan entenderla es:",
-        "opciones": { "a": "La perceptibilidad.", "b": "La comprensibilidad.", "c": "La robustez.", "d": "La operabilidad." },
-        "correcta": "a"
-      },
-      {
-        "numero": 47,
-        "enunciado": "Según el artículo 3 del RD 1112/2018, el contenido accesible incluye (señale la INCORRECTA):",
-        "opciones": {
-          "a": "Las formas de interacción bidireccional.",
-          "b": "El tratamiento de formularios digitales.",
-          "c": "Procesos de identificación, autenticación, firma y pago con independencia de la plataforma.",
-          "d": "Los documentos y formularios que no se pueden descargar."
-        },
-        "correcta": "d"
-      },
-      {
-        "numero": 48,
-        "enunciado": "Según el artículo 7 del RD 1112/2018 (carga desproporcionada), señale la INCORRECTA:",
-        "opciones": {
-          "a": "La excepción debe motivarse y limitarse al contenido concreto y a lo estrictamente necesario.",
-          "b": "La carga desproporcionada puede ser financiera/organizativa excesiva, etc., considerando beneficio/perjuicio.",
-          "c": "Son motivos válidos: falta de prioridad, de tiempo o de conocimientos.",
-          "d": "En la declaración se indicarán partes no cumplibles y, en su caso, alternativas accesibles."
-        },
-        "correcta": "c"
-      },
-      {
-        "numero": 49,
-        "enunciado": "Según el artículo 4 del RD 1112/2018, el principio que exige que los contenidos sean interpretables de forma fiable por agentes de usuario y tecnologías de asistencia es:",
-        "opciones": { "a": "Perceptibilidad.", "b": "Operabilidad.", "c": "Compresibilidad.", "d": "Robustez." },
-        "correcta": "d"
-      },
-      {
-        "numero": 50,
-        "enunciado": "El artículo 15 del RD 1112/2018 indica que la declaración de accesibilidad comprenderá como mínimo (señale la INCORRECTA):",
-        "opciones": {
-          "a": "La Unidad responsable de accesibilidad.",
-          "b": "Un enlace y descripción del mecanismo de comunicación.",
-          "c": "Explicación de partes no accesibles, razones y alternativas accesibles.",
-          "d": "Enlace al procedimiento de reclamación en caso de respuesta insatisfactoria."
-        },
-        "correcta": "a"
-      },
-      {
-        "numero": 51,
-        "enunciado": "¿Cuál de las siguientes es una herramienta relacionada con la accesibilidad en dispositivos móviles con iOS?",
-        "opciones": { "a": "A11yUITests.", "b": "Lint.", "c": "Accessibility Scanner.", "d": "UI Automator Viewer." },
-        "correcta": "a"
-      },
-      {
-        "numero": 52,
-        "enunciado": "La pauta WCAG 2.2 Legible se relaciona con el principio:",
-        "opciones": { "a": "Perceptible.", "b": "Operable.", "c": "Compresible.", "d": "Robusto." },
-        "correcta": "c"
-      },
-      {
-        "numero": 53,
-        "enunciado": "WCAG 2.2 se compone de:",
-        "opciones": {
-          "a": "4 principios, 13 pautas y 86 criterios de conformidad.",
-          "b": "4 principios, 12 pautas y 85 criterios de conformidad.",
-          "c": "3 principios, 14 pautas y 84 criterios de conformidad.",
-          "d": "5 principios, 12 pautas y 87 criterios de conformidad."
-        },
-        "correcta": "a"
-      },
-      {
-        "numero": 54,
-        "enunciado": "¿Cómo se denomina la guía para aplicar WCAG a las tecnologías de la información y comunicaciones no web?",
-        "opciones": { "a": "WCAGNOTIC.", "b": "WCAG2ICT.", "c": "WCAG2TIC.", "d": "WCAGCIT2." },
-        "correcta": "b"
-      },
-      {
-        "numero": 55,
-        "enunciado": "¿Cuál de las siguientes herramientas de accesibilidad para Android está orientada a la exploración de componentes gráficos?",
-        "opciones": { "a": "Espresso.", "b": "Accessibility Insights.", "c": "Accessibility Snapshot.", "d": "Accessibility Inspector." },
-        "correcta": "b"
-      },
-      {
-        "numero": 56,
-        "enunciado": "En sistemas biométricos, ¿qué parámetro hace referencia a la tasa de falsos positivos?",
-        "opciones": { "a": "FRR.", "b": "EER.", "c": "EAR.", "d": "FAR." },
-        "correcta": "d"
-      },
-      {
-        "numero": 57,
-        "enunciado": "¿Cuál de los siguientes rasgos biométricos NO cumple con la característica de distintividad?",
-        "opciones": { "a": "La geometría de la mano.", "b": "La firma.", "c": "El rostro.", "d": "La huella dactilar." },
-        "correcta": "a"
-      },
-      {
-        "numero": 58,
-        "enunciado": "En desarrollo seguro web, ¿qué técnica de validación NO es recomendación para validar datos de entrada?",
-        "opciones": {
-          "a": "La sanitización de consultas.",
-          "b": "El formato.",
-          "c": "El tipo de datos.",
-          "d": "Los valores mínimos y máximos."
-        },
-        "correcta": "a"
-      },
-      {
-        "numero": 59,
-        "enunciado": "El ataque que fuerza al navegador validado de una víctima a enviar una petición a una aplicación web vulnerable, que realiza la acción elegida por el atacante, se denomina:",
-        "opciones": { "a": "XSS.", "b": "CSRF.", "c": "Inyección SQL.", "d": "RFI." },
-        "correcta": "b"
-      },
-      {
-        "numero": 60,
-        "enunciado": "Durante el ciclo de vida del desarrollo software, entre los análisis de seguridad NO se encuentra:",
-        "opciones": {
-          "a": "SAST (Static Application Security Testing).",
-          "b": "S-SDLC (Secure Software Development Liability Control).",
-          "c": "DAST (Dynamic Application Security Testing).",
-          "d": "SCA (Software Composition Analysis)."
-        },
-        "correcta": "b"
-      },
-     
-      {
-        "numero": 1,
-        "enunciado": "¿Qué herramienta CASE permite la definición de otras herramientas CASE?",
-        "opciones": { "a": "U-CASE.", "b": "M-CASE.", "c": "MetaCASE.", "d": "I-CASE." },
-        "correcta": "c"
-      },
-      {
-        "numero": 2,
-        "enunciado": "¿Qué herramienta permite hacer un seguimiento de errores y bugs?",
-        "opciones": { "a": "Jira.", "b": "FishEye.", "c": "IntelliJ IDEA.", "d": "Crucible." },
-        "correcta": "a"
-      },
-      {
-        "numero": 3,
-        "enunciado": "¿Qué herramienta permite comparar diferencias entre versiones de un archivo?",
-        "opciones": { "a": "Redmine.", "b": "JDiff.", "c": "MDiff.", "d": "Gerrit." },
-        "correcta": "b"
-      },
-      {
-        "numero": 4,
-        "enunciado": "¿Qué herramienta permite integración continua?",
-        "opciones": { "a": "Ant.", "b": "Gradle.", "c": "Trac.", "d": "Jenkins." },
-        "correcta": "d"
-      },
-      {
-        "numero": 5,
-        "enunciado": "¿Qué herramienta permite la revisión de código?",
-        "opciones": { "a": "Crucible.", "b": "Bamboo.", "c": "Lux.", "d": "Chef." },
-        "correcta": "a"
-      },
-      {
-        "numero": 6,
-        "enunciado": "¿Qué herramienta permite la revisión de logs?",
-        "opciones": { "a": "Grafana.", "b": "Kibana.", "c": "Piwik.", "d": "ATF." },
-        "correcta": "b"
-      },
-      {
-        "numero": 7,
-        "enunciado": "¿Qué herramienta permite la generación automática de código?",
-        "opciones": { "a": "Visual Paradigm.", "b": "Telegraf.", "c": "KVM.", "d": "CruiseControl." },
-        "correcta": "a"
-      },
-      {
-        "numero": 8,
-        "enunciado": "Respecto al mantenimiento en Métrica v3, señale la respuesta INCORRECTA:",
-        "opciones": {
-          "a": "El mantenimiento correctivo está excluido de Métrica v3.",
-          "b": "El mantenimiento adaptativo son las modificaciones que afectan a los entornos en los que el sistema opera.",
-          "c": "El mantenimiento perfectivo son las acciones llevadas a cabo para mejorar la calidad interna de los sistemas en cualquiera de sus aspectos.",
-          "d": "El mantenimiento evolutivo son las incorporaciones, modificaciones y eliminaciones necesarias en un producto software para cubrir la expansión o cambio en las necesidades del usuario."
-        },
-        "correcta": "a"
-      },
-      {
-        "numero": 9,
-        "enunciado": "¿Qué herramienta permite la generación automática de documentación en el lenguaje Ruby?",
-        "opciones": { "a": "Sphinx.", "b": "Telegraf.", "c": "DocFX.", "d": "YARD." },
-        "correcta": "d"
-      },
-      {
-        "numero": 10,
-        "enunciado": "El examen y modificación de un sistema para ser reconstruido de una forma nueva y además derivada de esa nueva forma se conoce como:",
-        "opciones": { "a": "Ingeniería inversa.", "b": "Ingeniería directa.", "c": "Reingeniería.", "d": "Reestructuración." },
-        "correcta": "c"
-      },
-      {
-        "numero": 11,
-        "enunciado": "¿Qué problema del código hace referencia a aquel código mal diseñado candidato a ser reestructurado o refactorizado?",
-        "opciones": { "a": "Code smell.", "b": "Código lasaña.", "c": "Código espagueti.", "d": "Código pizza." },
-        "correcta": "a"
-      },
-      {
-        "numero": 12,
-        "enunciado": "¿Qué problema del código se conoce como código ravioli?",
-        "opciones": {
-          "a": "Es el formado por clases simples y comprensibles que al interactuar entre sí se vuelven muy complejas desde un punto de vista global.",
-          "b": "Es el compuesto por muchas capas complejas e interconectadas entre sí que ante un cambio en una capa conlleva cambios en otras capas.",
-          "c": "Es aquel que tiene una arquitectura plana.",
-          "d": "Es el compuesto por complejas estructuras de control de flujo."
-        },
-        "correcta": "a"
-      },
-      {
-        "numero": 13,
-        "enunciado": "El proceso de Desarrollo de Sistemas de Información de Métrica v3 incorpora los siguientes procesos:",
-        "opciones": {
-          "a": "Análisis del Sistema de Información, Diseño del Sistema de Información y Mantenimiento del Sistema de Información.",
-          "b": "Estudio de la Viabilidad del Sistema, Construcción del Sistema de Información e Implantación y Aceptación del Sistema.",
-          "c": "Análisis del Sistema de Información, Seguridad y Aseguramiento de la Calidad.",
-          "d": "Diseño del Sistema de Información, Construcción del Sistema de Información y Seguridad."
-        },
-        "correcta": "b"
-      },
-      {
-        "numero": 14,
-        "enunciado": "¿Cuál de las siguientes es una interfaz Métrica v3?",
-        "opciones": {
-          "a": "Gestión de versiones.",
-          "b": "Planificación de proyectos.",
-          "c": "Gestión de la configuración.",
-          "d": "Aseguramiento del nivel de calidad."
-        },
-        "correcta": "c"
-      },
-      {
-        "numero": 15,
-        "enunciado": "Las particiones de equivalencia son una técnica de pruebas de:",
-        "opciones": { "a": "Integración.", "b": "Implantación.", "c": "Aceptación.", "d": "Unitarias." },
-        "correcta": "d"
-      },
-      {
-        "numero": 16,
-        "enunciado": "¿Cuál de las siguientes técnicas de prueba son de caja blanca?",
-        "opciones": {
-          "a": "Pruebas de comparación.",
-          "b": "De interfaz.",
-          "c": "Análisis de los valores límite.",
-          "d": "Grafo causa-efecto."
-        },
-        "correcta": "b"
-      },
-      {
-        "numero": 17,
-        "enunciado": "Las pruebas que tienen como objetivo verificar el correcto ensamblaje entre los distintos componentes una vez que han sido probados unitariamente con el fin de comprobar que interactúan correctamente a través de sus interfaces:",
-        "opciones": { "a": "Pruebas unitarias.", "b": "Pruebas de integración.", "c": "Pruebas del sistema.", "d": "Pruebas de regresión." },
-        "correcta": "b"
-      },
-      {
-        "numero": 18,
-        "enunciado": "¿Cuál de los siguientes tipos de prueba NO pertenecen a las pruebas del sistema?",
-        "opciones": {
-          "a": "Pruebas de volumen.",
-          "b": "Pruebas de sobrecarga.",
-          "c": "Pruebas de entorno.",
-          "d": "Pruebas de recuperación."
-        },
-        "correcta": "d"
-      },
-      {
-        "numero": 19,
-        "enunciado": "¿Cuál es el objetivo de las pruebas de regresión?",
-        "opciones": {
-          "a": "Eliminar el efecto onda, es decir, comprobar que los cambios sobre un componente de un sistema de información no introducen un comportamiento no deseado o errores adicionales en otros componentes no modificado.",
-          "b": "Validar que un sistema cumple con el funcionamiento esperado y permitir al usuario de dicho sistema que determine su aceptación, desde el punto de vista de su funcionalidad y rendimiento.",
-          "c": "Comprobar el funcionamiento correcto del sistema integrado de hardware y software en el entorno de operación.",
-          "d": "Ejercitar profundamente el sistema comprobando la integración del sistema de información globalmente."
-        },
-        "correcta": "a"
-      },
-      {
-        "numero": 20,
-        "enunciado": "¿Qué herramienta de pruebas unitarias del software es para JavaScript?",
-        "opciones": { "a": "xUnit.", "b": "TestNG.", "c": "QUnit.", "d": "Postman." },
-        "correcta": "c"
-      },
-      {
-        "numero": 21,
-        "enunciado": "¿Cuál de los siguientes sistemas de control de versiones tiene una arquitectura centralizada?",
-        "opciones": { "a": "Perforce.", "b": "Bazaar.", "c": "Mercurial.", "d": "Darcs." },
-        "correcta": "a"
-      },
-      {
-        "numero": 22,
-        "enunciado": "¿Cuál de los siguientes sistemas de control de versiones NO es de código abierto?",
-        "opciones": { "a": "Perforce.", "b": "Bazaar.", "c": "Mercurial.", "d": "Darcs." },
-        "correcta": "a"
-      },
-      {
-        "numero": 23,
-        "enunciado": "En Git, para añadir los cambios del fichero hola.java del directorio de trabajo a la zona de intercambio temporal ejecutaremos:",
-        "opciones": { "a": "git commit hola.java.", "b": "git commit -d hola.java.", "c": "git add hola.java.", "d": "git index hola.java." },
-        "correcta": "c"
-      },
-      {
-        "numero": 24,
-        "enunciado": "En Git, crear una nueva rama denominada pruebas, ejecutaremos:",
-        "opciones": { "a": "git branch.", "b": "git branch pruebas.", "c": "git checkout pruebas.", "d": "git clone pruebas." },
-        "correcta": "b"
-      },
-      {
-        "numero": 25,
-        "enunciado": "¿Cuál de las siguientes NO es una plataforma de desarrollo colaborativo de software?",
-        "opciones": { "a": "Bitbucket.", "b": "DevOps.", "c": "Forja del CTT.", "d": "GitHub." },
-        "correcta": "b"
-      },
-      {
-        "numero": 26,
-        "enunciado": "Las pruebas alfa son pruebas de:",
-        "opciones": { "a": "Aceptación.", "b": "Regresión.", "c": "Validación.", "d": "Implantación." },
-        "correcta": "a"
-      },
-      {
-        "numero": 27,
-        "enunciado": "Las pruebas de campo son también conocidas como:",
-        "opciones": { "a": "Pruebas de humo.", "b": "Pruebas de integración.", "c": "Pruebas beta.", "d": "Pruebas alfa." },
-        "correcta": "c"
-      },
-      {
-        "numero": 28,
-        "enunciado": "¿Cuál de las siguientes es un tipo de prueba de implantación?",
-        "opciones": {
-          "a": "Pruebas de volumen.",
-          "b": "Pruebas de gestión de copias de seguridad y recuperación.",
-          "c": "Pruebas de sobrecarga.",
-          "d": "Pruebas de fiabilidad."
-        },
-        "correcta": "b"
-      },
-      {
-        "numero": 29,
-        "enunciado": "Las pruebas que consisten en comprobar la correcta implementación de los procedimientos de operación, incluyendo la planificación y control de trabajos y arranque y rearranque del sistema se denominan:",
-        "opciones": { "a": "Pruebas de entorno.", "b": "Pruebas de seguridad.", "c": "Pruebas de backup.", "d": "Pruebas de operación." },
-        "correcta": "d"
-      },
-      {
-        "numero": 30,
-        "enunciado": "La técnica de prueba de condiciones límite son un tipo de prueba:",
-        "opciones": { "a": "De validación.", "b": "De aceptación.", "c": "Unitaria.", "d": "Regresión." },
-        "correcta": "c"
-      },
-      {
-        "numero": 31,
-        "enunciado": "¿Qué es Scrum?",
-        "opciones": {
-          "a": "Una metodología ágil para el desarrollo de sistemas software.",
-          "b": "Un gestor de proyectos.",
-          "c": "Una buena práctica de desarrollo software.",
-          "d": "Un paradigma de programación."
-        },
-        "correcta": "a"
-      },
-      {
-        "numero": 32,
-        "enunciado": "Según Métrica v3, ¿qué tipo de prueba ha de realizarse en primer lugar?",
-        "opciones": { "a": "Pruebas validación.", "b": "Pruebas del sistema.", "c": "Pruebas de aceptación.", "d": "Pruebas de implantación." },
-        "correcta": "b"
-      },
-      {
-        "numero": 33,
-        "enunciado": "¿Cuál de las siguientes herramientas para pruebas de software está dirigida a aplicaciones web?",
-        "opciones": { "a": "Cypress.", "b": "JMeter.", "c": "Postman.", "d": "TestNG." },
-        "correcta": "a"
-      },
-      {
-        "numero": 34,
-        "enunciado": "¿Cuál de las siguientes herramientas NO está enfocada a las pruebas unitarias?",
-        "opciones": { "a": "TestNG.", "b": "Mockito.", "c": "PyUnit.", "d": "Cucumber." },
-        "correcta": "d"
-      },
-      {
-        "numero": 35,
-        "enunciado": "Nexus 3 es:",
-        "opciones": {
-          "a": "Una herramienta de IaC.",
-          "b": "Un servidor de integración continua.",
-          "c": "Un repositorio de artefactos.",
-          "d": "Una herramienta de monitorización."
-        },
-        "correcta": "c"
-      },
-      {
-        "numero": 36,
-        "enunciado": "Según Métrica v3, ¿qué tipo de pruebas permiten comprobar el funcionamiento correcto del sistema integrado de hardware y software en el entorno de operación, y permitir al usuario que, desde el punto de vista de operación, realice la aceptación del sistema una vez instalado en su entorno real?",
-        "opciones": {
-          "a": "Pruebas integración.",
-          "b": "Pruebas del implantación.",
-          "c": "Pruebas de aceptación.",
-          "d": "Pruebas de regresión."
-        },
-        "correcta": "b"
-      },
-      {
-        "numero": 37,
-        "enunciado": "¿Cómo se denominan las pruebas de caja negra que permiten descubrir errores de implementación mediante la introducción de datos al azar, inválidos o malformados?",
-        "opciones": { "a": "Pruebas de humo.", "b": "Pruebas lazy.", "c": "Fuzzy testing.", "d": "Pruebas de implementación." },
-        "correcta": "c"
-      },
-      {
-        "numero": 38,
-        "enunciado": "Testlink es:",
-        "opciones": {
-          "a": "Un repositorio de objetos.",
-          "b": "Un servidor de integración continua.",
-          "c": "Una solución para la construcción de proyectos.",
-          "d": "Una herramienta para gestión de pruebas."
-        },
-        "correcta": "d"
-      },
-      {
-        "numero": 39,
-        "enunciado": "La plataforma de control de versiones de Microsoft es:",
-        "opciones": { "a": "Plastic SCM.", "b": "Azure Devops Server.", "c": "Azure CVS Server.", "d": "Bazaar." },
-        "correcta": "b"
-      },
-      {
-        "numero": 40,
-        "enunciado": "En Git, ¿cuál de los siguientes NO es un estado en el que se puedan encontrar los archivos del usuario?",
-        "opciones": { "a": "Rastreado.", "b": "Modificado.", "c": "Confirmado.", "d": "Preparado." },
-        "correcta": "a"
-      },
-      {
-        "numero": 41,
-        "enunciado": "En Git, selecciona la respuesta correcta en relación con la ejecución del comando git init:",
-        "opciones": {
-          "a": "Crea el directorio oculto .git que contiene la base de datos donde se registran los cambios en el repositorio.",
-          "b": "Inicia el servidor de base de datos.",
-          "c": "Levanta un repositorio.",
-          "d": "Descarga ficheros de un repositorio remoto."
-        },
-        "correcta": "a"
-      },
-      {
-        "numero": 42,
-        "enunciado": "En Git, para copiar un repositorio ubicado en miservidor, se debe ejecutar el comando:",
-        "opciones": { "a": "git copy miservidor.", "b": "git clone miservidor.", "c": "git pull miservidor.", "d": "git checkout miservidor." },
-        "correcta": "b"
-      },
-      {
-        "numero": 43,
-        "enunciado": "El proceso que consiste en mejorar el código una vez escrito cambiando su estructura interna sin modificar su comportamiento externo se denomina:",
-        "opciones": { "a": "Ofuscación.", "b": "Encapsular.", "c": "Refactorización.", "d": "Comprimir." },
-        "correcta": "c"
-      },
-      {
-        "numero": 44,
-        "enunciado": "¿Qué tipo de migración de aplicaciones consiste en sustituir la aplicación de forma completa por una o varias aplicaciones nuevas?",
-        "opciones": { "a": "Retirada.", "b": "Refronting.", "c": "Refactoring.", "d": "Replacement." },
-        "correcta": "d"
-      },
-      {
-        "numero": 45,
-        "enunciado": "¿Qué tipo de migración de aplicaciones consiste en mover la aplicación de un entorno hardware a otro entorno más moderno, sin modificar el código ni la arquitectura?",
-        "opciones": { "a": "Refacing.", "b": "Rearchiteting.", "c": "Rehosting.", "d": "Retain." },
-        "correcta": "c"
-      },
-      {
-        "numero": 46,
-        "enunciado": "El tipo de migración de aplicaciones interoperation consiste en:",
-        "opciones": {
-          "a": "No migrar una aplicación a la nube.",
-          "b": "Encapsular la aplicación o algunos de sus componentes para que sean utilizados por otras aplicaciones o infraestructura con tecnología más moderna.",
-          "c": "Modificar únicamente la interfaz gráfica de una aplicación, sin necesidad de reescribir la aplicación completa.",
-          "d": "Desarrollar de nuevo la aplicación utilizando nuevos paradigmas de programación."
-        },
-        "correcta": "b"
-      },
-      {
-        "numero": 47,
-        "enunciado": "En Scrum, ¿qué es el backlog del producto?",
-        "opciones": {
-          "a": "Son los requisitos del proyecto software pendientes de hacer.",
-          "b": "Son los requisitos del proyecto software ya implementados.",
-          "c": "Son los requisitos del proyecto software a desarrollar en el siguiente sprint.",
-          "d": "Son los requisitos del proyecto software no planificados para las siguientes iteraciones."
-        },
-        "correcta": "a"
-      },
-      {
-        "numero": 48,
-        "enunciado": "En Extreme Programming, NO es un rol:",
-        "opciones": { "a": "Consultor.", "b": "Tester.", "c": "Tracker.", "d": "Usuario." },
-        "correcta": "d"
-      },
-      {
-        "numero": 49,
-        "enunciado": "¿Qué proceso de Métrica v3 tiene como propósito analizar un conjunto concreto de necesidades, con la idea de proponer una solución a corto plazo (criterios tácticos: económicos, técnicos, legales y operativos)?",
-        "opciones": {
-          "a": "Análisis de Sistema de Información.",
-          "b": "Planificación del Sistema de Información.",
-          "c": "Estudio de la Viabilidad del Sistema.",
-          "d": "Diseño del Sistema de Información."
-        },
-        "correcta": "c"
-      },
-      {
-        "numero": 50,
-        "enunciado": "Métrica v3, contempla los siguientes tipos de mantenimiento:",
-        "opciones": { "a": "Perfectivo y evolutivo.", "b": "Adaptativo y perfectivo.", "c": "Adaptativo y correctivo.", "d": "Correctivo y evolutivo." },
-        "correcta": "d"
-      },
-      {
-        "numero": 51,
-        "enunciado": "En Git, el fichero en que se indican aquellos ficheros que NO deben ser tenidos en cuenta en el control de versiones se denomina:",
-        "opciones": { "a": ".gitignore.", "b": ".gitexclude.", "c": ".gituntruck.", "d": ".gitread." },
-        "correcta": "a"
-      },
-      {
-        "numero": 52,
-        "enunciado": "¿Qué significa en Git hacer un checkout?",
-        "opciones": {
-          "a": "La acción de descargar una rama de un repositorio central.",
-          "b": "La acción de cambiar de una rama a otra.",
-          "c": "La acción de subir una rama a un repositorio remoto.",
-          "d": "La acción de eliminar todos los cambios desde el último commit."
-        },
-        "correcta": "b"
-      },
-      {
-        "numero": 53,
-        "enunciado": "¿Qué significa en Git hacer un reset?",
-        "opciones": {
-          "a": "La acción de descargar una rama de un repositorio central.",
-          "b": "La acción de cambiar de una rama a otra.",
-          "c": "La acción de subir una rama a un repositorio remoto.",
-          "d": "La acción de eliminar todos los cambios desde el último commit."
-        },
-        "correcta": "d"
-      },
-      {
-        "numero": 54,
-        "enunciado": "En Git, ¿qué comando permite guardar directamente los cambios del directorio de trabajo en el HEAD sin hacer uso del área de preparación?",
-        "opciones": { "a": "git commit -s.", "b": "git commit -a.", "c": "git add -a.", "d": "git add -s." },
-        "correcta": "b"
-      },
-      {
-        "numero": 55,
-        "enunciado": "La interfaz de Gestión de la Configuración consiste en:",
-        "opciones": {
-          "a": "La aplicación de procedimientos administrativos y técnicos durante el desarrollo del sistema de información y su posterior mantenimiento.",
-          "b": "El análisis de los riesgos para el diseño y desarrollo de sistemas de información seguros.",
-          "c": "Proporcionar un marco común de referencia para la definición y puesta en marcha de planes específicos de aseguramiento de calidad aplicables a proyectos concretos.",
-          "d": "La planificación, el seguimiento y control de las actividades y de los recursos humanos y materiales que intervienen en el desarrollo de un sistema de información."
-        },
-        "correcta": "a"
-      },
-      {
-        "numero": 56,
-        "enunciado": "¿Qué es SandCastle?",
-        "opciones": {
-          "a": "Una herramienta para la ejecución de pruebas del sistema.",
-          "b": "Una biblioteca de Java para la gestión de las pruebas de un sistema.",
-          "c": "Un gestor de paquetes para macOS.",
-          "d": "Una herramienta de generación automática de la documentación del código fuente."
-        },
-        "correcta": "d"
-      },
-      {
-        "numero": 57,
-        "enunciado": "En relación a DevOps y a CI/CD, señale la respuesta correcta:",
-        "opciones": {
-          "a": "La entrega continua permite desplegar el sistema en el entorno de producción.",
-          "b": "El despliegue continuo permite desplegar el sistema en el entorno de preproducción.",
-          "c": "DevOps incluye una última fase de monitorización del sistema en el entorno de producción.",
-          "d": "La integración continua no permite automatizar el análisis estático del código fuente del sistema."
-        },
-        "correcta": "c"
-      },
-      {
-        "numero": 58,
-        "enunciado": "CI/CD aporta una serie de ventajas, ¿cuál de las siguientes NO es una de ellas?",
-        "opciones": {
-          "a": "Mejora la calidad del código fuente.",
-          "b": "Los incrementos del código fuente suponen un bajo riesgo.",
-          "c": "Reduce el time to market.",
-          "d": "Aumenta el coste económico al basarse en metodologías ágiles."
-        },
-        "correcta": "d"
-      },
-      {
-        "numero": 59,
-        "enunciado": "NO es una herramienta para la gestión de la configuración:",
-        "opciones": { "a": "Artifactory.", "b": "Puppet.", "c": "Chef.", "d": "Vagrant." },
-        "correcta": "a"
-      },
-      {
-        "numero": 60,
-        "enunciado": "¿Cuál es el propósito de SonarQube?",
-        "opciones": {
-          "a": "El análisis dinámico de la calidad del código fuente.",
-          "b": "El análisis estático de la calidad del código fuente.",
-          "c": "El análisis estático de la calidad del código objeto.",
-          "d": "El análisis dinámico de la calidad del código objeto."
-        },
-        "correcta": "b"
-      },
-      {
-        "numero": 61,
-        "enunciado": "Scrum define una serie de roles. Indique cuál de los siguientes NO es uno de ellos:",
-        "opciones": { "a": "Scrum Master.", "b": "Scrum Team.", "c": "Stakeholders.", "d": "Product Owner." },
-        "correcta": "c"
-      },
-      {
-        "numero": 62,
-        "enunciado": "¿Qué tienen en común las siguientes tecnologías y/o programas: GIT, SVN, Mercurial, CVS?",
-        "opciones": {
-          "a": "Todos son sistemas de gestión de publicación web (Gestores de contenidos).",
-          "b": "Todos son software de control de versiones.",
-          "c": "Todas son tecnologías desarrolladas en la Administración Pública española.",
-          "d": "Todos son sistemas de gestión de bases de datos."
-        },
-        "correcta": "b"
-      },
-      {
-        "numero": 63,
-        "enunciado": "Dos programadores están trabajando en funcionalidades y ramas distintas. ¿Qué operación de Git permitirá mezclar ambas funcionalidades?",
-        "opciones": { "a": "git reset", "b": "git checkout", "c": "git merge", "d": "git stash" },
-        "correcta": "c"
-      },
-      {
-        "numero": 64,
-        "enunciado": "En Scrum, si durante un sprint se detecta una mala práctica que puede enlentecer el proyecto, ¿en qué reunión se comenta para mejora continua y evitarla en siguientes sprints?",
-        "opciones": { "a": "En la Sprint Review.", "b": "En la Sprint Retrospective.", "c": "En la Sprint Planning.", "d": "En la Daily Scrum." },
-        "correcta": "b"
-      },
-      {
-        "numero": 65,
-        "enunciado": "En Scrum, ¿en qué reunión se deciden los ítems del Product Backlog que formarán parte del Sprint Backlog?",
-        "opciones": { "a": "En la Sprint Planning.", "b": "En la Sprint Review.", "c": "En la Daily Scrum.", "d": "En la Sprint Retrospective." },
-        "correcta": "a"
-      },
-      {
-        "numero": 66,
-        "enunciado": "Según Scrum, ¿en qué reunión se inspecciona el resultado del sprint y se verifica si el incremento satisface las expectativas del Product Owner?",
-        "opciones": { "a": "En la Sprint Planning.", "b": "En la Sprint Review.", "c": "En la Daily Scrum.", "d": "En la Sprint Retrospective." },
-        "correcta": "b"
-      }
-      
-    ]
+{"numero":1,"enunciado":"¿Qué pauta definida por el WAI NO es de accesibilidad?","opciones":{"a":"ATAG","b":"UAAG","c":"WCAG","d":"ACAG"},"correcta":"d","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":2,"enunciado":"¿Cuántas pautas se definen en WCAG 2.2?","opciones":{"a":"11","b":"12","c":"13","d":"14"},"correcta":"c","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":3,"enunciado":"¿A quién NO se dirige principalmente WCAG 2.2?","opciones":{"a":"A usuarios de aplicaciones.","b":"A desarrolladores de contenidos web.","c":"A desarrolladores de herramientas para la evaluación de la accesibilidad web.","d":"A desarrolladores de navegadores."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":4,"enunciado":"¿Qué principio de WCAG 2.2 se corresponde con: \"la información y los componentes de la interfaz de usuario deben ser mostrados a los usuarios en formas que ellos puedan entender\"?","opciones":{"a":"Perceptible.","b":"Operable.","c":"Comprensible.","d":"Robusto."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":5,"enunciado":"El criterio de conformidad \"Orientación\" se encuadra en la pauta de WCAG 2.2:","opciones":{"a":"Distinguible.","b":"Operable.","c":"Adaptable.","d":"Visible."},"correcta":"c","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":6,"enunciado":"En WCAG 2.2, el criterio de conformidad de Contraste de contenido no textual de al menos 3:1 (botones, campos de formulario, gráficos, iconos…) es de:","opciones":{"a":"Nivel A.","b":"Nivel AA.","c":"Nivel AAA.","d":"Nivel AAAA."},"correcta":"b","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":7,"enunciado":"La pauta \"Ataques epilépticos\" de WCAG 2.2 pertenece al principio:","opciones":{"a":"Perceptible.","b":"Operable.","c":"Comprensible.","d":"Robusto."},"correcta":"b","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":8,"enunciado":"En WCAG 2.2, el criterio de conformidad \"Tres destellos\" es de:","opciones":{"a":"Nivel A.","b":"Nivel AA.","c":"Nivel AAA.","d":"Nivel AAAA."},"correcta":"c","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":9,"enunciado":"En WCAG 2.2, el criterio de conformidad \"Titulado de páginas\" es de:","opciones":{"a":"Nivel A.","b":"Nivel AA.","c":"Nivel AAA.","d":"Nivel AAAA."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":10,"enunciado":"En WCAG 2.2, el criterio de conformidad \"Idioma de la página\" es de:","opciones":{"a":"Nivel A.","b":"Nivel AA.","c":"Nivel AAA.","d":"Nivel AAAA."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":11,"enunciado":"En WCAG 2.2, el criterio de conformidad \"Abreviaturas\" es de:","opciones":{"a":"Nivel A.","b":"Nivel AA.","c":"Nivel AAA.","d":"Nivel AAAA."},"correcta":"c","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":12,"enunciado":"En WCAG 2.2, en relación al Nivel AAA señale la respuesta INCORRECTA:","opciones":{"a":"Son los criterios de menor importancia.","b":"Si se cumplen confieren a la página web un buen nivel de accesibilidad.","c":"Se deben satisfacer los criterios de Nivel A, Nivel AA y Nivel AAA.","d":"Eliminan importantes barreras de acceso."},"correcta":"d","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":13,"enunciado":"Señale la respuesta INCORRECTA sobre WAI-ARIA:","opciones":{"a":"Su significado es Aplicaciones de Internet Enriquecidas Accesibles.","b":"Permite transmitir comportamientos de la IU a las tecnologías de apoyo.","c":"Establece ontologías de roles, estados y propiedades.","d":"No pertenece a WAI, es una biblioteca para la Web Semántica."},"correcta":"d","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":14,"enunciado":"Indique un criterio de conformidad nuevo incluido en el borrador de WCAG 2.2:","opciones":{"a":"Entrada redundante.","b":"Tamaño del objetivo.","c":"Gestor del puntero.","d":"Reajuste."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":15,"enunciado":"¿Cuál de las siguientes NO es una herramienta de evaluación de la accesibilidad?","opciones":{"a":"TAW.","b":"HERA.","c":"eXaminator.","d":"Wave."},"correcta":"b","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":16,"enunciado":"Una herramienta de evaluación de la accesibilidad:","opciones":{"a":"Realiza siempre un chequeo automático de todos los criterios de conformidad.","b":"Solo puede comprobar de forma automática una parte de los criterios de conformidad.","c":"Es de uso opcional en la Administración General del Estado.","d":"Es un servicio de pago en línea."},"correcta":"b","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":17,"enunciado":"¿Qué norma española legisla sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público?","opciones":{"a":"Real Decreto 1112/2018.","b":"Real Decreto 1112/2019.","c":"Real Decreto 1121/2018.","d":"Real Decreto 1121/2019."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":18,"enunciado":"¿En qué fecha las aplicaciones móviles desarrolladas por las Administraciones Públicas deberán ser accesibles?","opciones":{"a":"Antes de 2021.","b":"Antes del 23 de diciembre de 2020.","c":"Antes del 23 de junio de 2021.","d":"Antes del 23 de septiembre de 2020."},"correcta":"c","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":19,"enunciado":"En relación con el diseño universal o diseño para todos, ¿qué principio busca minimizar riesgos y consecuencias adversas de acciones involuntarias o accidentales?","opciones":{"a":"Uso flexible.","b":"Uso equiparable.","c":"Con tolerancia al error.","d":"Simple e intuitivo."},"correcta":"c","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":20,"enunciado":"¿En qué norma ISO se define la usabilidad como la capacidad de un software de ser comprendido, aprendido, usado y ser atractivo para el usuario, en condiciones específicas de uso?","opciones":{"a":"ISO/IEC 9126.","b":"ISO/IEC 9216.","c":"ISO/IEC 9241.","d":"ISO/IEC 9421."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":21,"enunciado":"¿Qué norma de AENOR trata sobre accesibilidad hardware?","opciones":{"a":"UNE 139801:2003.","b":"UNE 139802:2009.","c":"UNE 139803:2012.","d":"UNE 139804:2015."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":22,"enunciado":"Respecto a los esquemas de autenticación de usuarios, señale la respuesta correcta:","opciones":{"a":"Un SMS que recibe el usuario es algo que sabe.","b":"El reconocimiento ocular es algo que tiene el usuario.","c":"Un PIN es algo que posee el usuario.","d":"El reconocimiento facial es algo que es del usuario."},"correcta":"d","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":23,"enunciado":"¿Cuál de los siguientes NO es un principio de seguridad en el desarrollo de sistemas?","opciones":{"a":"Mínima funcionalidad.","b":"Máximo privilegio.","c":"Defensa en profundidad.","d":"Resiliencia."},"correcta":"b","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":24,"enunciado":"Cuando varios procesos acceden al mismo tiempo a un recurso compartido cambiando su estado y obteniendo un valor no esperado, es una vulnerabilidad de:","opciones":{"a":"Desbordamiento de buffer.","b":"Condición de carrera.","c":"Error de formato de cadena.","d":"Cross-Site Scripting."},"correcta":"b","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":25,"enunciado":"Para el desarrollo seguro de aplicaciones web se recomienda:","opciones":{"a":"Uso del método POST para consulta de información.","b":"Uso del método GET para envío de información.","c":"El cifrado de las comunicaciones entre las partes.","d":"El uso de cabeceras HTTP como método de validación."},"correcta":"c","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":26,"enunciado":"En relación a los estándares de documentación, ¿cuál está relacionado con la usabilidad?","opciones":{"a":"ISO 9241.","b":"ISO 9127.","c":"BS 7649.","d":"ISO 9240."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":27,"enunciado":"Según el Real Decreto 1112/2018, ¿cada cuánto tiempo hay que revisar la exactitud de toda la información contenida en la Declaración de accesibilidad?","opciones":{"a":"Como mínimo cada tres años.","b":"Como mínimo una vez al año, pero solo hay que actualizar la fecha \"Última revisión\" si se ha hecho algún cambio en la declaración.","c":"Como mínimo una vez al año.","d":"Como mínimo cada dos años."},"correcta":"c","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":28,"enunciado":"¿Qué significa ARIA?","opciones":{"a":"Accessible Rich Internet Applications.","b":"Augmented Real Interface for Accessibility.","c":"Application Rapid Interface for Accessibility.","d":"Ninguna de las respuestas anteriores es correcta."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":29,"enunciado":"TAW es:","opciones":{"a":"Un lector de pantalla.","b":"Un magnificador de pantalla.","c":"Un teclado virtual en pantalla.","d":"Una herramienta de revisión automática de la accesibilidad web."},"correcta":"d","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":30,"enunciado":"¿Cuáles son los cuatro principios de accesibilidad en los que se basa WCAG?","opciones":{"a":"Perceptible, comprensible, único y seguro.","b":"Perceptible, operable, comprensible y robusto.","c":"Perceptible, operable, seguro y robusto.","d":"Perceptible, operable, seguro y estético."},"correcta":"b","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":31,"enunciado":"La norma UNE 139803:2012 regula:","opciones":{"a":"Los requisitos de accesibilidad para los sistemas informáticos.","b":"Los requisitos de seguridad para contenidos en la web.","c":"Los requisitos de accesibilidad y seguridad para contenidos en la web.","d":"Los requisitos de accesibilidad para contenidos en la web."},"correcta":"d","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":32,"enunciado":"La pauta WCAG 2.2 de Asistencia a la entrada de datos se relaciona con el principio:","opciones":{"a":"Perceptible.","b":"Operable.","c":"Compresible.","d":"Robusto."},"correcta":"c","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":33,"enunciado":"La pauta WCAG 2.2 de Tiempo suficiente se relaciona con el principio:","opciones":{"a":"Perceptible.","b":"Operable.","c":"Compresible.","d":"Robusto."},"correcta":"b","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":34,"enunciado":"El Real Decreto 1112/2018 aplica a los siguientes contenidos (señale la INCORRECTA):","opciones":{"a":"Información textual y no textual.","b":"Documentos y formularios que se puedan descargar.","c":"Formas de interacción entre la persona interesada y el sitio web o app móvil.","d":"Contenido multimedia en directo (en directo) de base temporal."},"correcta":"d","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":35,"enunciado":"En los enlaces de hipertexto, ¿qué recomiendan las normas de accesibilidad del W3C?","opciones":{"a":"No dar al usuario el control sobre los cambios de vista.","b":"Utilizar el literal “Pinche aquí”.","c":"Repetir el enlace cada vez que el texto de ese enlace aparezca dentro del documento.","d":"Usar texto para identificar el propósito del enlace que tenga sentido leído fuera de contexto."},"correcta":"d","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":36,"enunciado":"En HTML y en relación con la accesibilidad Web, ¿qué atributo debe utilizar para describir la función de cada elemento visual?","opciones":{"a":"attrib.","b":"image.","c":"alt.","d":"vision."},"correcta":"c","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":37,"enunciado":"¿Cuál de los siguientes ejemplos es una barrera de accesibilidad en páginas web?","opciones":{"a":"Imágenes con texto alternativo.","b":"Ubicación de las páginas mediante “migas de pan”.","c":"Colocar información importante en una ventana emergente.","d":"Creación de páginas web haciendo uso de media queries."},"correcta":"c","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":38,"enunciado":"El Real Decreto 1112/2018, de 7 de septiembre:","opciones":{"a":"Tiene por objeto garantizar los requisitos de accesibilidad de los sitios web y apps móviles del sector público.","b":"Se aplica a todo el sector público con la excepción de la Administración de Justicia.","c":"Define accesibilidad como principios y técnicas para sitios web exclusivamente.","d":"No incluye procesos de identificación, autenticación, firma y pago como contenido accesible."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":39,"enunciado":"Según el artículo 15 del RD 1112/2018, sobre la declaración de accesibilidad, indique la correcta:","opciones":{"a":"Se actualiza como mínimo cada dos años desde la primera revisión.","b":"Se revisa por la Red de Contactos como mínimo cada dos años.","c":"Se actualiza como mínimo una vez al año, o cada vez que se realice una revisión de accesibilidad.","d":"Se actualiza como mínimo cada tres años, o cada vez que se realice una revisión."},"correcta":"c","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":40,"enunciado":"El artículo 3.1 del RD 1112/2018 indica como ámbito objetivo de aplicación:","opciones":{"a":"Sitios web independientemente del dispositivo de acceso, y aplicaciones móviles del sector público y otros obligados.","b":"Sitios web solo cuando se accede desde móviles, y apps móviles del sector público y otros obligados.","c":"Solo sitios web para móviles del sector público y otros obligados.","d":"Solo apps móviles del sector público y otros obligados."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":41,"enunciado":"¿Cuál de las siguientes características NO se ajusta a los principios de accesibilidad del W3C?","opciones":{"a":"Toda la funcionalidad disponible con ratón también lo está con teclado.","b":"Contiene breves descripciones del contenido no textual (audio/vídeo).","c":"Sólo hay un camino para encontrar las páginas relevantes en un conjunto de páginas web.","d":"El color no se usa como única forma de transmitir información o identificar contenido."},"correcta":"c","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":42,"enunciado":"Según el RD 1112/2018, sobre mecanismos de comunicación (solicitudes/quejas) en sitios web ya publicados, ¿cuál es la fecha de entrada en vigor?","opciones":{"a":"En el momento de publicación en el BOE del RD 1112/2018.","b":"Al año de la entrada en vigor del RD 1112/2018.","c":"A los dos años de la entrada en vigor del RD 1112/2018.","d":"A los cuatro años de la entrada en vigor del RD 1112/2018."},"correcta":"c","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":43,"enunciado":"Según el artículo 10 del RD 1112/2018, el plazo de respuesta a solicitudes/quejas es de:","opciones":{"a":"10 días naturales.","b":"20 días naturales.","c":"10 días hábiles.","d":"20 días hábiles."},"correcta":"d","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":44,"enunciado":"En relación con el RD 1112/2018, indique la respuesta INCORRECTA:","opciones":{"a":"Los criterios del RD no serán de aplicación a los sitios web y apps móviles del Banco de España.","b":"Las entidades obligadas deberán ofrecer un mecanismo de comunicación para sugerencias y quejas.","c":"La primera revisión de accesibilidad de sitios web antes de dos años desde la entrada en vigor.","d":"La primera revisión de accesibilidad de apps móviles antes de tres años desde la entrada en vigor."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":45,"enunciado":"Según WCAG 2.2, ¿cuál es el objetivo de que un contenido sea Distinguible?","opciones":{"a":"Crear contenido que pueda presentarse de diferentes formas sin perder información/estructura.","b":"Facilitar a los usuarios ver y oír el contenido, incluyendo la separación entre primer plano y fondo.","c":"Proporcionar alternativas textuales para contenido no textual para convertirlo a otros formatos.","d":"Proporcionar alternativas para medios tempodependientes."},"correcta":"b","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":46,"enunciado":"El principio de accesibilidad web que exige que la información y componentes de la IU se muestren de forma que puedan entenderla es:","opciones":{"a":"La perceptibilidad.","b":"La comprensibilidad.","c":"La robustez.","d":"La operabilidad."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":47,"enunciado":"Según el artículo 3 del RD 1112/2018, el contenido accesible incluye (señale la INCORRECTA):","opciones":{"a":"Las formas de interacción bidireccional.","b":"El tratamiento de formularios digitales.","c":"Procesos de identificación, autenticación, firma y pago con independencia de la plataforma.","d":"Los documentos y formularios que no se pueden descargar."},"correcta":"d","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":48,"enunciado":"Según el artículo 7 del RD 1112/2018 (carga desproporcionada), señale la INCORRECTA:","opciones":{"a":"La excepción debe motivarse y limitarse al contenido concreto y a lo estrictamente necesario.","b":"La carga desproporcionada puede ser financiera/organizativa excesiva, etc., considerando beneficio/perjuicio.","c":"Son motivos válidos: falta de prioridad, de tiempo o de conocimientos.","d":"En la declaración se indicarán partes no cumplibles y, en su caso, alternativas accesibles."},"correcta":"c","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":49,"enunciado":"Según el artículo 4 del RD 1112/2018, el principio que exige que los contenidos sean interpretables de forma fiable por agentes de usuario y tecnologías de asistencia es:","opciones":{"a":"Perceptibilidad.","b":"Operabilidad.","c":"Compresibilidad.","d":"Robustez."},"correcta":"d","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":50,"enunciado":"El artículo 15 del RD 1112/2018 indica que la declaración de accesibilidad comprenderá como mínimo (señale la INCORRECTA):","opciones":{"a":"La Unidad responsable de accesibilidad.","b":"Un enlace y descripción del mecanismo de comunicación.","c":"Explicación de partes no accesibles, razones y alternativas accesibles.","d":"Enlace al procedimiento de reclamación en caso de respuesta insatisfactoria."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":51,"enunciado":"¿Cuál de las siguientes es una herramienta relacionada con la accesibilidad en dispositivos móviles con iOS?","opciones":{"a":"A11yUITests.","b":"Lint.","c":"Accessibility Scanner.","d":"UI Automator Viewer."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":52,"enunciado":"La pauta WCAG 2.2 Legible se relaciona con el principio:","opciones":{"a":"Perceptible.","b":"Operable.","c":"Compresible.","d":"Robusto."},"correcta":"c","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":53,"enunciado":"WCAG 2.2 se compone de:","opciones":{"a":"4 principios, 13 pautas y 86 criterios de conformidad.","b":"4 principios, 12 pautas y 85 criterios de conformidad.","c":"3 principios, 14 pautas y 84 criterios de conformidad.","d":"5 principios, 12 pautas y 87 criterios de conformidad."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":54,"enunciado":"¿Cómo se denomina la guía para aplicar WCAG a las tecnologías de la información y comunicaciones no web?","opciones":{"a":"WCAGNOTIC.","b":"WCAG2ICT.","c":"WCAG2TIC.","d":"WCAGCIT2."},"correcta":"b","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":55,"enunciado":"¿Cuál de las siguientes herramientas de accesibilidad para Android está orientada a la exploración de componentes gráficos?","opciones":{"a":"Espresso.","b":"Accessibility Insights.","c":"Accessibility Snapshot.","d":"Accessibility Inspector."},"correcta":"b","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":56,"enunciado":"En sistemas biométricos, ¿qué parámetro hace referencia a la tasa de falsos positivos?","opciones":{"a":"FRR.","b":"EER.","c":"EAR.","d":"FAR."},"correcta":"d","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":57,"enunciado":"¿Cuál de los siguientes rasgos biométricos NO cumple con la característica de distintividad?","opciones":{"a":"La geometría de la mano.","b":"La firma.","c":"El rostro.","d":"La huella dactilar."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":58,"enunciado":"En desarrollo seguro web, ¿qué técnica de validación NO es recomendación para validar datos de entrada?","opciones":{"a":"La sanitización de consultas.","b":"El formato.","c":"El tipo de datos.","d":"Los valores mínimos y máximos."},"correcta":"a","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":59,"enunciado":"El ataque que fuerza al navegador validado de una víctima a enviar una petición a una aplicación web vulnerable, que realiza la acción elegida por el atacante, se denomina:","opciones":{"a":"XSS.","b":"CSRF.","c":"Inyección SQL.","d":"RFI."},"correcta":"b","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+{"numero":60,"enunciado":"Durante el ciclo de vida del desarrollo software, entre los análisis de seguridad NO se encuentra:","opciones":{"a":"SAST (Static Application Security Testing).","b":"S-SDLC (Secure Software Development Liability Control).","c":"DAST (Dynamic Application Security Testing).","d":"SCA (Software Composition Analysis)."},"correcta":"b","bloque":"Bloque 3","tema":"Tema 9 - Accesibilidad"},
+
+  {
+    "numero": 1,
+    "enunciado": "¿Qué herramienta CASE permite la definición de otras herramientas CASE?",
+    "opciones": { "a": "U-CASE.", "b": "M-CASE.", "c": "MetaCASE.", "d": "I-CASE." },
+    "correcta": "c",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 2,
+    "enunciado": "¿Qué herramienta permite hacer un seguimiento de errores y bugs?",
+    "opciones": { "a": "Jira.", "b": "FishEye.", "c": "IntelliJ IDEA.", "d": "Crucible." },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 3,
+    "enunciado": "¿Qué herramienta permite comparar diferencias entre versiones de un archivo?",
+    "opciones": { "a": "Redmine.", "b": "JDiff.", "c": "MDiff.", "d": "Gerrit." },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 4,
+    "enunciado": "¿Qué herramienta permite integración continua?",
+    "opciones": { "a": "Ant.", "b": "Gradle.", "c": "Trac.", "d": "Jenkins." },
+    "correcta": "d",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 5,
+    "enunciado": "¿Qué herramienta permite la revisión de código?",
+    "opciones": { "a": "Crucible.", "b": "Bamboo.", "c": "Lux.", "d": "Chef." },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 6,
+    "enunciado": "¿Qué herramienta permite la revisión de logs?",
+    "opciones": { "a": "Grafana.", "b": "Kibana.", "c": "Piwik.", "d": "ATF." },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 7,
+    "enunciado": "¿Qué herramienta permite la generación automática de código?",
+    "opciones": { "a": "Visual Paradigm.", "b": "Telegraf.", "c": "KVM.", "d": "CruiseControl." },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 8,
+    "enunciado": "Respecto al mantenimiento en Métrica v3, señale la respuesta INCORRECTA:",
+    "opciones": {
+      "a": "El mantenimiento correctivo está excluido de Métrica v3.",
+      "b": "El mantenimiento adaptativo son las modificaciones que afectan a los entornos en los que el sistema opera.",
+      "c": "El mantenimiento perfectivo son las acciones llevadas a cabo para mejorar la calidad interna de los sistemas en cualquiera de sus aspectos.",
+      "d": "El mantenimiento evolutivo son las incorporaciones, modificaciones y eliminaciones necesarias en un producto software para cubrir la expansión o cambio en las necesidades del usuario."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 9,
+    "enunciado": "¿Qué herramienta permite la generación automática de documentación en el lenguaje Ruby?",
+    "opciones": { "a": "Sphinx.", "b": "Telegraf.", "c": "DocFX.", "d": "YARD." },
+    "correcta": "d",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 10,
+    "enunciado": "El examen y modificación de un sistema para ser reconstruido de una forma nueva y además derivada de esa nueva forma se conoce como:",
+    "opciones": { "a": "Ingeniería inversa.", "b": "Ingeniería directa.", "c": "Reingeniería.", "d": "Reestructuración." },
+    "correcta": "c",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 11,
+    "enunciado": "¿Qué problema del código hace referencia a aquel código mal diseñado candidato a ser reestructurado o refactorizado?",
+    "opciones": { "a": "Code smell.", "b": "Código lasaña.", "c": "Código espagueti.", "d": "Código pizza." },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 12,
+    "enunciado": "¿Qué problema del código se conoce como código ravioli?",
+    "opciones": {
+      "a": "Es el formado por clases simples y comprensibles que al interactuar entre sí se vuelven muy complejas desde un punto de vista global.",
+      "b": "Es el compuesto por muchas capas complejas e interconectadas entre sí que ante un cambio en una capa conlleva cambios en otras capas.",
+      "c": "Es aquel que tiene una arquitectura plana.",
+      "d": "Es el compuesto por complejas estructuras de control de flujo."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 13,
+    "enunciado": "El proceso de Desarrollo de Sistemas de Información de Métrica v3 incorpora los siguientes procesos:",
+    "opciones": {
+      "a": "Análisis del Sistema de Información, Diseño del Sistema de Información y Mantenimiento del Sistema de Información.",
+      "b": "Estudio de la Viabilidad del Sistema, Construcción del Sistema de Información e Implantación y Aceptación del Sistema.",
+      "c": "Análisis del Sistema de Información, Seguridad y Aseguramiento de la Calidad.",
+      "d": "Diseño del Sistema de Información, Construcción del Sistema de Información y Seguridad."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 14,
+    "enunciado": "¿Cuál de las siguientes es una interfaz Métrica v3?",
+    "opciones": {
+      "a": "Gestión de versiones.",
+      "b": "Planificación de proyectos.",
+      "c": "Gestión de la configuración.",
+      "d": "Aseguramiento del nivel de calidad."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 15,
+    "enunciado": "Las particiones de equivalencia son una técnica de pruebas de:",
+    "opciones": { "a": "Integración.", "b": "Implantación.", "c": "Aceptación.", "d": "Unitarias." },
+    "correcta": "d",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 16,
+    "enunciado": "¿Cuál de las siguientes técnicas de prueba son de caja blanca?",
+    "opciones": {
+      "a": "Pruebas de comparación.",
+      "b": "De interfaz.",
+      "c": "Análisis de los valores límite.",
+      "d": "Grafo causa-efecto."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 17,
+    "enunciado": "Las pruebas que tienen como objetivo verificar el correcto ensamblaje entre los distintos componentes una vez que han sido probados unitariamente con el fin de comprobar que interactúan correctamente a través de sus interfaces:",
+    "opciones": { "a": "Pruebas unitarias.", "b": "Pruebas de integración.", "c": "Pruebas del sistema.", "d": "Pruebas de regresión." },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 18,
+    "enunciado": "¿Cuál de los siguientes tipos de prueba NO pertenecen a las pruebas del sistema?",
+    "opciones": {
+      "a": "Pruebas de volumen.",
+      "b": "Pruebas de sobrecarga.",
+      "c": "Pruebas de entorno.",
+      "d": "Pruebas de recuperación."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 19,
+    "enunciado": "¿Cuál es el objetivo de las pruebas de regresión?",
+    "opciones": {
+      "a": "Eliminar el efecto onda, es decir, comprobar que los cambios sobre un componente de un sistema de información no introducen un comportamiento no deseado o errores adicionales en otros componentes no modificado.",
+      "b": "Validar que un sistema cumple con el funcionamiento esperado y permitir al usuario de dicho sistema que determine su aceptación, desde el punto de vista de su funcionalidad y rendimiento.",
+      "c": "Comprobar el funcionamiento correcto del sistema integrado de hardware y software en el entorno de operación.",
+      "d": "Ejercitar profundamente el sistema comprobando la integración del sistema de información globalmente."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 20,
+    "enunciado": "¿Qué herramienta de pruebas unitarias del software es para JavaScript?",
+    "opciones": { "a": "xUnit.", "b": "TestNG.", "c": "QUnit.", "d": "Postman." },
+    "correcta": "c",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 21,
+    "enunciado": "¿Cuál de los siguientes sistemas de control de versiones tiene una arquitectura centralizada?",
+    "opciones": { "a": "Perforce.", "b": "Bazaar.", "c": "Mercurial.", "d": "Darcs." },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 22,
+    "enunciado": "¿Cuál de los siguientes sistemas de control de versiones NO es de código abierto?",
+    "opciones": { "a": "Perforce.", "b": "Bazaar.", "c": "Mercurial.", "d": "Darcs." },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 23,
+    "enunciado": "En Git, para añadir los cambios del fichero hola.java del directorio de trabajo a la zona de intercambio temporal ejecutaremos:",
+    "opciones": { "a": "git commit hola.java.", "b": "git commit -d hola.java.", "c": "git add hola.java.", "d": "git index hola.java." },
+    "correcta": "c",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 24,
+    "enunciado": "En Git, crear una nueva rama denominada pruebas, ejecutaremos:",
+    "opciones": { "a": "git branch.", "b": "git branch pruebas.", "c": "git checkout pruebas.", "d": "git clone pruebas." },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 25,
+    "enunciado": "¿Cuál de las siguientes NO es una plataforma de desarrollo colaborativo de software?",
+    "opciones": { "a": "Bitbucket.", "b": "DevOps.", "c": "Forja del CTT.", "d": "GitHub." },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 26,
+    "enunciado": "Las pruebas alfa son pruebas de:",
+    "opciones": { "a": "Aceptación.", "b": "Regresión.", "c": "Validación.", "d": "Implantación." },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 27,
+    "enunciado": "Las pruebas de campo son también conocidas como:",
+    "opciones": { "a": "Pruebas de humo.", "b": "Pruebas de integración.", "c": "Pruebas beta.", "d": "Pruebas alfa." },
+    "correcta": "c",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 28,
+    "enunciado": "¿Cuál de las siguientes es un tipo de prueba de implantación?",
+    "opciones": {
+      "a": "Pruebas de volumen.",
+      "b": "Pruebas de gestión de copias de seguridad y recuperación.",
+      "c": "Pruebas de sobrecarga.",
+      "d": "Pruebas de fiabilidad."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 29,
+    "enunciado": "Las pruebas que consisten en comprobar la correcta implementación de los procedimientos de operación, incluyendo la planificación y control de trabajos y arranque y rearranque del sistema se denominan:",
+    "opciones": { "a": "Pruebas de entorno.", "b": "Pruebas de seguridad.", "c": "Pruebas de backup.", "d": "Pruebas de operación." },
+    "correcta": "d",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 30,
+    "enunciado": "La técnica de prueba de condiciones límite son un tipo de prueba:",
+    "opciones": { "a": "De validación.", "b": "De aceptación.", "c": "Unitaria.", "d": "Regresión." },
+    "correcta": "c",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 31,
+    "enunciado": "¿Qué es Scrum?",
+    "opciones": {
+      "a": "Una metodología ágil para el desarrollo de sistemas software.",
+      "b": "Un gestor de proyectos.",
+      "c": "Una buena práctica de desarrollo software.",
+      "d": "Un paradigma de programación."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 32,
+    "enunciado": "Según Métrica v3, ¿qué tipo de prueba ha de realizarse en primer lugar?",
+    "opciones": { "a": "Pruebas validación.", "b": "Pruebas del sistema.", "c": "Pruebas de aceptación.", "d": "Pruebas de implantación." },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 33,
+    "enunciado": "¿Cuál de las siguientes herramientas para pruebas de software está dirigida a aplicaciones web?",
+    "opciones": { "a": "Cypress.", "b": "JMeter.", "c": "Postman.", "d": "TestNG." },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 34,
+    "enunciado": "¿Cuál de las siguientes herramientas NO está enfocada a las pruebas unitarias?",
+    "opciones": { "a": "TestNG.", "b": "Mockito.", "c": "PyUnit.", "d": "Cucumber." },
+    "correcta": "d",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 35,
+    "enunciado": "Nexus 3 es:",
+    "opciones": {
+      "a": "Una herramienta de IaC.",
+      "b": "Un servidor de integración continua.",
+      "c": "Un repositorio de artefactos.",
+      "d": "Una herramienta de monitorización."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 36,
+    "enunciado": "Según Métrica v3, ¿qué tipo de pruebas permiten comprobar el funcionamiento correcto del sistema integrado de hardware y software en el entorno de operación, y permitir al usuario que, desde el punto de vista de operación, realice la aceptación del sistema una vez instalado en su entorno real?",
+    "opciones": {
+      "a": "Pruebas integración.",
+      "b": "Pruebas del implantación.",
+      "c": "Pruebas de aceptación.",
+      "d": "Pruebas de regresión."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 37,
+    "enunciado": "¿Cómo se denominan las pruebas de caja negra que permiten descubrir errores de implementación mediante la introducción de datos al azar, inválidos o malformados?",
+    "opciones": { "a": "Pruebas de humo.", "b": "Pruebas lazy.", "c": "Fuzzy testing.", "d": "Pruebas de implementación." },
+    "correcta": "c",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 38,
+    "enunciado": "Testlink es:",
+    "opciones": {
+      "a": "Un repositorio de objetos.",
+      "b": "Un servidor de integración continua.",
+      "c": "Una solución para la construcción de proyectos.",
+      "d": "Una herramienta para gestión de pruebas."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 39,
+    "enunciado": "La plataforma de control de versiones de Microsoft es:",
+    "opciones": { "a": "Plastic SCM.", "b": "Azure Devops Server.", "c": "Azure CVS Server.", "d": "Bazaar." },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 40,
+    "enunciado": "En Git, ¿cuál de los siguientes NO es un estado en el que se puedan encontrar los archivos del usuario?",
+    "opciones": { "a": "Rastreado.", "b": "Modificado.", "c": "Confirmado.", "d": "Preparado." },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 41,
+    "enunciado": "En Git, selecciona la respuesta correcta en relación con la ejecución del comando git init:",
+    "opciones": {
+      "a": "Crea el directorio oculto .git que contiene la base de datos donde se registran los cambios en el repositorio.",
+      "b": "Inicia el servidor de base de datos.",
+      "c": "Levanta un repositorio.",
+      "d": "Descarga ficheros de un repositorio remoto."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 42,
+    "enunciado": "En Git, para copiar un repositorio ubicado en miservidor, se debe ejecutar el comando:",
+    "opciones": { "a": "git copy miservidor.", "b": "git clone miservidor.", "c": "git pull miservidor.", "d": "git checkout miservidor." },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 43,
+    "enunciado": "El proceso que consiste en mejorar el código una vez escrito cambiando su estructura interna sin modificar su comportamiento externo se denomina:",
+    "opciones": { "a": "Ofuscación.", "b": "Encapsular.", "c": "Refactorización.", "d": "Comprimir." },
+    "correcta": "c",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 44,
+    "enunciado": "¿Qué tipo de migración de aplicaciones consiste en sustituir la aplicación de forma completa por una o varias aplicaciones nuevas?",
+    "opciones": { "a": "Retirada.", "b": "Refronting.", "c": "Refactoring.", "d": "Replacement." },
+    "correcta": "d",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 45,
+    "enunciado": "¿Qué tipo de migración de aplicaciones consiste en mover la aplicación de un entorno hardware a otro entorno más moderno, sin modificar el código ni la arquitectura?",
+    "opciones": { "a": "Refacing.", "b": "Rearchiteting.", "c": "Rehosting.", "d": "Retain." },
+    "correcta": "c",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 46,
+    "enunciado": "El tipo de migración de aplicaciones interoperation consiste en:",
+    "opciones": {
+      "a": "No migrar una aplicación a la nube.",
+      "b": "Encapsular la aplicación o algunos de sus componentes para que sean utilizados por otras aplicaciones o infraestructura con tecnología más moderna.",
+      "c": "Modificar únicamente la interfaz gráfica de una aplicación, sin necesidad de reescribir la aplicación completa.",
+      "d": "Desarrollar de nuevo la aplicación utilizando nuevos paradigmas de programación."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 47,
+    "enunciado": "En Scrum, ¿qué es el backlog del producto?",
+    "opciones": {
+      "a": "Son los requisitos del proyecto software pendientes de hacer.",
+      "b": "Son los requisitos del proyecto software ya implementados.",
+      "c": "Son los requisitos del proyecto software a desarrollar en el siguiente sprint.",
+      "d": "Son los requisitos del proyecto software no planificados para las siguientes iteraciones."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 48,
+    "enunciado": "En Extreme Programming, NO es un rol:",
+    "opciones": { "a": "Consultor.", "b": "Tester.", "c": "Tracker.", "d": "Usuario." },
+    "correcta": "d",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 49,
+    "enunciado": "¿Qué proceso de Métrica v3 tiene como propósito analizar un conjunto concreto de necesidades, con la idea de proponer una solución a corto plazo (criterios tácticos: económicos, técnicos, legales y operativos)?",
+    "opciones": {
+      "a": "Análisis de Sistema de Información.",
+      "b": "Planificación del Sistema de Información.",
+      "c": "Estudio de la Viabilidad del Sistema.",
+      "d": "Diseño del Sistema de Información."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 50,
+    "enunciado": "Métrica v3, contempla los siguientes tipos de mantenimiento:",
+    "opciones": { "a": "Perfectivo y evolutivo.", "b": "Adaptativo y perfectivo.", "c": "Adaptativo y correctivo.", "d": "Correctivo y evolutivo." },
+    "correcta": "d",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 51,
+    "enunciado": "En Git, el fichero en que se indican aquellos ficheros que NO deben ser tenidos en cuenta en el control de versiones se denomina:",
+    "opciones": { "a": ".gitignore.", "b": ".gitexclude.", "c": ".gituntruck.", "d": ".gitread." },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 52,
+    "enunciado": "¿Qué significa en Git hacer un checkout?",
+    "opciones": {
+      "a": "La acción de descargar una rama de un repositorio central.",
+      "b": "La acción de cambiar de una rama a otra.",
+      "c": "La acción de subir una rama a un repositorio remoto.",
+      "d": "La acción de eliminar todos los cambios desde el último commit."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 53,
+    "enunciado": "¿Qué significa en Git hacer un reset?",
+    "opciones": {
+      "a": "La acción de descargar una rama de un repositorio central.",
+      "b": "La acción de cambiar de una rama a otra.",
+      "c": "La acción de subir una rama a un repositorio remoto.",
+      "d": "La acción de eliminar todos los cambios desde el último commit."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 54,
+    "enunciado": "En Git, ¿qué comando permite guardar directamente los cambios del directorio de trabajo en el HEAD sin hacer uso del área de preparación?",
+    "opciones": { "a": "git commit -s.", "b": "git commit -a.", "c": "git add -a.", "d": "git add -s." },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 55,
+    "enunciado": "La interfaz de Gestión de la Configuración consiste en:",
+    "opciones": {
+      "a": "La aplicación de procedimientos administrativos y técnicos durante el desarrollo del sistema de información y su posterior mantenimiento.",
+      "b": "El análisis de los riesgos para el diseño y desarrollo de sistemas de información seguros.",
+      "c": "Proporcionar un marco común de referencia para la definición y puesta en marcha de planes específicos de aseguramiento de calidad aplicables a proyectos concretos.",
+      "d": "La planificación, el seguimiento y control de las actividades y de los recursos humanos y materiales que intervienen en el desarrollo de un sistema de información."
+    },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 56,
+    "enunciado": "¿Qué es SandCastle?",
+    "opciones": {
+      "a": "Una herramienta para la ejecución de pruebas del sistema.",
+      "b": "Una biblioteca de Java para la gestión de las pruebas de un sistema.",
+      "c": "Un gestor de paquetes para macOS.",
+      "d": "Una herramienta de generación automática de la documentación del código fuente."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 57,
+    "enunciado": "En relación a DevOps y a CI/CD, señale la respuesta correcta:",
+    "opciones": {
+      "a": "La entrega continua permite desplegar el sistema en el entorno de producción.",
+      "b": "El despliegue continuo permite desplegar el sistema en el entorno de preproducción.",
+      "c": "DevOps incluye una última fase de monitorización del sistema en el entorno de producción.",
+      "d": "La integración continua no permite automatizar el análisis estático del código fuente del sistema."
+    },
+    "correcta": "c",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 58,
+    "enunciado": "CI/CD aporta una serie de ventajas, ¿cuál de las siguientes NO es una de ellas?",
+    "opciones": {
+      "a": "Mejora la calidad del código fuente.",
+      "b": "Los incrementos del código fuente suponen un bajo riesgo.",
+      "c": "Reduce el time to market.",
+      "d": "Aumenta el coste económico al basarse en metodologías ágiles."
+    },
+    "correcta": "d",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 59,
+    "enunciado": "NO es una herramienta para la gestión de la configuración:",
+    "opciones": { "a": "Artifactory.", "b": "Puppet.", "c": "Chef.", "d": "Vagrant." },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 60,
+    "enunciado": "¿Cuál es el propósito de SonarQube?",
+    "opciones": {
+      "a": "El análisis dinámico de la calidad del código fuente.",
+      "b": "El análisis estático de la calidad del código fuente.",
+      "c": "El análisis estático de la calidad del código objeto.",
+      "d": "El análisis dinámico de la calidad del código objeto."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 61,
+    "enunciado": "Scrum define una serie de roles. Indique cuál de los siguientes NO es uno de ellos:",
+    "opciones": { "a": "Scrum Master.", "b": "Scrum Team.", "c": "Stakeholders.", "d": "Product Owner." },
+    "correcta": "c",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 62,
+    "enunciado": "¿Qué tienen en común las siguientes tecnologías y/o programas: GIT, SVN, Mercurial, CVS?",
+    "opciones": {
+      "a": "Todos son sistemas de gestión de publicación web (Gestores de contenidos).",
+      "b": "Todos son software de control de versiones.",
+      "c": "Todas son tecnologías desarrolladas en la Administración Pública española.",
+      "d": "Todos son sistemas de gestión de bases de datos."
+    },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 63,
+    "enunciado": "Dos programadores están trabajando en funcionalidades y ramas distintas. ¿Qué operación de Git permitirá mezclar ambas funcionalidades?",
+    "opciones": { "a": "git reset", "b": "git checkout", "c": "git merge", "d": "git stash" },
+    "correcta": "c",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 64,
+    "enunciado": "En Scrum, si durante un sprint se detecta una mala práctica que puede enlentecer el proyecto, ¿en qué reunión se comenta para mejora continua y evitarla en siguientes sprints?",
+    "opciones": { "a": "En la Sprint Review.", "b": "En la Sprint Retrospective.", "c": "En la Sprint Planning.", "d": "En la Daily Scrum." },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 65,
+    "enunciado": "En Scrum, ¿en qué reunión se deciden los ítems del Product Backlog que formarán parte del Sprint Backlog?",
+    "opciones": { "a": "En la Sprint Planning.", "b": "En la Sprint Review.", "c": "En la Daily Scrum.", "d": "En la Sprint Retrospective." },
+    "correcta": "a",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  },
+  {
+    "numero": 66,
+    "enunciado": "Según Scrum, ¿en qué reunión se inspecciona el resultado del sprint y se verifica si el incremento satisface las expectativas del Product Owner?",
+    "opciones": { "a": "En la Sprint Planning.", "b": "En la Sprint Review.", "c": "En la Daily Scrum.", "d": "En la Sprint Retrospective." },
+    "correcta": "b",
+    "bloque": "Bloque 3",
+    "tema": "Tema 10 - Metodologías"
+  }
+]
+
   
 
 
