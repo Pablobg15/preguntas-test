@@ -3,13 +3,14 @@ import json, random, re
 from pathlib import Path
 import streamlit as st
 
-# ===== RUTAS (TRES + PRÁCTICA EN DOS ARCHIVOS) =====
+# ===== RUTAS (TRES + PRÁCTICA EN TRES ARCHIVOS) =====
 RUTA_PREGUNTAS_BLOQUES = Path(__file__).with_name("preguntas.json")
 RUTA_PREGUNTAS_SIMULACRO = Path(__file__).with_name("preguntas-simulacro.json")
 
-# (Opción 2) Práctica: Bloque 1 + Bloque 2 en dos archivos distintos
+# Práctica: Bloque 1 + Bloque 2 + Bloque 3 en archivos distintos
 RUTA_PRACTICA_B1 = Path(__file__).with_name("preguntas_bloque1_practica.json")
 RUTA_PRACTICA_B2 = Path(__file__).with_name("Bloque2_Completo.json")
+RUTA_PRACTICA_B3 = Path(__file__).with_name("Bloque3.json")
 
 NUM_PREGUNTAS_DEFECTO = 10
 
@@ -35,7 +36,16 @@ TEMAS_POR_BLOQUE = {
         "Tema 4 - Sistemas Operativos",
         "Tema 5 - SGBD",
     ],
-    "Bloque 3": [],
+    "Bloque 3": [
+        "Tema 1 - Modelo ER",
+        "Tema 2 - Diseño de Bases de Datos",
+        "Tema 3 - Lenguajes de Programación",
+        "Tema 4 - SQL",
+        "Tema 5 - Programación Orientada a Objetos",
+        "Tema 6 - Arquitectura Java EE/Jakarta EE y plataforma .NET",
+        "Tema 7 - Arquitecturas y Servicios Web",
+        "Tema 8 - Aplicaciones Web",
+    ],
 }
 
 NOMBRE_TEMA_B1 = {
@@ -50,13 +60,23 @@ NOMBRE_TEMA_B1 = {
     "9": "Tema 9 - Protección de Datos",
 }
 
-# (Recomendado) Normalización Bloque 2 para que el selector case aunque el JSON venga como "Tema 4", etc.
 NOMBRE_TEMA_B2 = {
     "1": "Tema 1 - Informática básica",
     "2": "Tema 2 - Periféricos",
     "3": "Tema 3 - Estructuras de datos",
     "4": "Tema 4 - Sistemas Operativos",
     "5": "Tema 5 - SGBD",
+}
+
+NOMBRE_TEMA_B3 = {
+    "1": "Tema 1 - Modelo ER",
+    "2": "Tema 2 - Diseño de Bases de Datos",
+    "3": "Tema 3 - Lenguajes de Programación",
+    "4": "Tema 4 - SQL",
+    "5": "Tema 5 - Programación Orientada a Objetos",
+    "6": "Tema 6 - Arquitectura Java EE/Jakarta EE y plataforma .NET",
+    "7": "Tema 7 - Arquitecturas y Servicios Web",
+    "8": "Tema 8 - Aplicaciones Web",
 }
 
 # ---------------- Utilidades ----------------
@@ -92,6 +112,8 @@ def inferir_bloque_tema(desde: str):
             return bloque, NOMBRE_TEMA_B1[t]
         if bloque == "Bloque 2" and t in NOMBRE_TEMA_B2:
             return bloque, NOMBRE_TEMA_B2[t]
+        if bloque == "Bloque 3" and t in NOMBRE_TEMA_B3:
+            return bloque, NOMBRE_TEMA_B3[t]
         return bloque, f"Tema {t}"
 
     m = re.search(r"(?:tema|t)\s*([0-9]+)", s, re.IGNORECASE)
@@ -101,6 +123,8 @@ def inferir_bloque_tema(desde: str):
             return "Bloque 1", NOMBRE_TEMA_B1[t]
         if t in NOMBRE_TEMA_B2:
             return "Bloque 2", NOMBRE_TEMA_B2[t]
+        if t in NOMBRE_TEMA_B3:
+            return "Bloque 3", NOMBRE_TEMA_B3[t]
         return "Bloque 1", f"Tema {t}"
 
     return "Bloque 1", "Sin tema"
@@ -115,6 +139,8 @@ def normalizar_tema(bloque: str, tema: str) -> str:
             return NOMBRE_TEMA_B1[num]
         if bloque == "Bloque 2" and num in NOMBRE_TEMA_B2:
             return NOMBRE_TEMA_B2[num]
+        if bloque == "Bloque 3" and num in NOMBRE_TEMA_B3:
+            return NOMBRE_TEMA_B3[num]
     return t
 
 def cargar_preguntas_dedup_desde_ruta(ruta: Path, modo: str):
@@ -142,7 +168,6 @@ def cargar_preguntas_dedup_desde_ruta(ruta: Path, modo: str):
         opciones = {norm_letra(k): limpiar_basura_pdf(str(v).strip()) for k, v in opciones_raw.items()}
         correcta = norm_letra(p["correcta"])
 
-        # Si la correcta no cuadra, descartamos (evita correctas null/rotas)
         if correcta not in opciones:
             continue
 
@@ -159,8 +184,8 @@ def cargar_preguntas_dedup_desde_ruta(ruta: Path, modo: str):
         else:
             simulacro = simulacro or "Sin simulacro"
 
-        # Normaliza tema para que coincida con el selector (Bloque 1 y 2)
-        if bloque in ("Bloque 1", "Bloque 2"):
+        # Normaliza tema para que coincida con el selector (Bloque 1/2/3)
+        if bloque in ("Bloque 1", "Bloque 2", "Bloque 3"):
             tema = normalizar_tema(bloque, tema)
 
         # Dedup robusto: incluye opciones+correcta
@@ -175,7 +200,7 @@ def cargar_preguntas_dedup_desde_ruta(ruta: Path, modo: str):
             "opciones": opciones,
             "correcta": correcta,
             "bloque": bloque,
-            "tema": tema,
+            "tema": tema if tema else "Sin tema",
             "simulacro": simulacro,
         })
 
@@ -190,9 +215,8 @@ def cargar_banco_bloques(_mtime: float):
 def cargar_banco_simulacros(_mtime: float):
     return cargar_preguntas_dedup_desde_ruta(RUTA_PREGUNTAS_SIMULACRO, modo="simulacros")
 
-# (Opción 2) Práctica: une 2 bancos
 @st.cache_data
-def cargar_banco_practica(_mtime1: float, _mtime2: float):
+def cargar_banco_practica(_mtime1: float, _mtime2: float, _mtime3: float):
     preguntas = []
 
     if RUTA_PRACTICA_B1.exists():
@@ -200,6 +224,9 @@ def cargar_banco_practica(_mtime1: float, _mtime2: float):
 
     if RUTA_PRACTICA_B2.exists():
         preguntas += cargar_preguntas_dedup_desde_ruta(RUTA_PRACTICA_B2, modo="bloques")
+
+    if RUTA_PRACTICA_B3.exists():
+        preguntas += cargar_preguntas_dedup_desde_ruta(RUTA_PRACTICA_B3, modo="bloques")
 
     return preguntas
 
@@ -270,10 +297,11 @@ mtime_sim = RUTA_PREGUNTAS_SIMULACRO.stat().st_mtime if RUTA_PREGUNTAS_SIMULACRO
 
 mtime_pr1 = RUTA_PRACTICA_B1.stat().st_mtime if RUTA_PRACTICA_B1.exists() else 0.0
 mtime_pr2 = RUTA_PRACTICA_B2.stat().st_mtime if RUTA_PRACTICA_B2.exists() else 0.0
+mtime_pr3 = RUTA_PRACTICA_B3.stat().st_mtime if RUTA_PRACTICA_B3.exists() else 0.0
 
 preguntas_bloques = cargar_banco_bloques(mtime_bloques)
 preguntas_simulacros = cargar_banco_simulacros(mtime_sim)
-preguntas_practica = cargar_banco_practica(mtime_pr1, mtime_pr2)
+preguntas_practica = cargar_banco_practica(mtime_pr1, mtime_pr2, mtime_pr3)
 
 # Estado global
 st.session_state.setdefault("fase", "menu")              # "menu" | "test" | "correccion"
@@ -356,10 +384,11 @@ if st.session_state.fase == "menu":
     if vista == "Practica":
         st.subheader("🛠️ Práctica — Selecciona bloque y temas")
 
-        if not (RUTA_PRACTICA_B1.exists() or RUTA_PRACTICA_B2.exists()):
+        if not (RUTA_PRACTICA_B1.exists() or RUTA_PRACTICA_B2.exists() or RUTA_PRACTICA_B3.exists()):
             st.warning("No encuentro los archivos de práctica en la carpeta del proyecto.")
             st.caption(f"- {RUTA_PRACTICA_B1.name}")
             st.caption(f"- {RUTA_PRACTICA_B2.name}")
+            st.caption(f"- {RUTA_PRACTICA_B3.name}")
             st.stop()
 
         bloque_pr = st.selectbox(
