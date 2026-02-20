@@ -287,7 +287,7 @@ def pinta_pregunta(idx, q, corregir=False):
             elif elegida == letra:
                 st.markdown(f":red[❌ {linea}]")
             else:
-                st.markdown(f"◻️ {linea}")
+                st.markdown(f"◻️ {linea}]")
 
     st.divider()
 
@@ -317,10 +317,10 @@ st.session_state.setdefault("bloque_seleccionado", "Bloque 1")
 st.session_state.setdefault("temas_bloques_sel", [])
 st.session_state.setdefault("usadas_por_filtro", {})     # (bloque, temas) -> usadas
 
-# Práctica (por bloques)
-st.session_state.setdefault("bloque_practica_seleccionado", "Bloque 1")
+# Práctica (multi-bloque)
+st.session_state.setdefault("bloques_practica_seleccionados", ["Bloque 1"])
 st.session_state.setdefault("temas_practica_sel", [])
-st.session_state.setdefault("usadas_por_practica", {})   # (bloque, temas) -> usadas
+st.session_state.setdefault("usadas_por_practica", {})   # (bloques_tuple, temas_tuple) -> usadas
 
 # Simulacros
 st.session_state.setdefault("simulacro_sel", "Todos")
@@ -331,7 +331,7 @@ st.session_state.setdefault("preguntas", [])
 st.session_state.setdefault("aciertos", 0)
 
 # Filtros usados (para repetir exactamente)
-st.session_state.setdefault("ultimo_filtro_practica", {"bloque": "Bloque 1", "temas": []})
+st.session_state.setdefault("ultimo_filtro_practica", {"bloques": ["Bloque 1"], "temas": []})
 st.session_state.setdefault("ultimo_filtro_bloques", {"bloque": "Bloque 1", "temas": []})
 st.session_state.setdefault("ultimo_filtro_simulacros", {"simulacro": "Todos"})
 
@@ -384,9 +384,9 @@ with st.sidebar:
 if st.session_state.fase == "menu":
     vista = st.session_state["vista"]
 
-    # ===== PRACTICA (por bloques) =====
+    # ===== PRACTICA (multi-bloque) =====
     if vista == "Practica":
-        st.subheader("🛠️ Práctica — Selecciona bloque y temas")
+        st.subheader("🛠️ Práctica — Selecciona bloques y temas")
 
         if not (RUTA_PRACTICA_B1.exists() or RUTA_PRACTICA_B2.exists() or RUTA_PRACTICA_B3.exists()):
             st.warning("No encuentro los archivos de práctica en la carpeta del proyecto.")
@@ -395,17 +395,26 @@ if st.session_state.fase == "menu":
             st.caption(f"- {RUTA_PRACTICA_B3.name}")
             st.stop()
 
-        bloque_pr = st.selectbox(
-            "Bloque (Práctica):",
-            BLOQUES,
-            index=BLOQUES.index(st.session_state.get("bloque_practica_seleccionado", "Bloque 1")),
-            key="bloque_practica_seleccionado",
+        bloques_sel = st.multiselect(
+            "Bloques (Práctica):",
+            options=BLOQUES,
+            default=st.session_state.get("bloques_practica_seleccionados", ["Bloque 1"]),
+            key="bloques_practica_seleccionados",
         )
 
-        temas_pr = TEMAS_POR_BLOQUE.get(bloque_pr, [])
-        temas_sel = st.multiselect(
-            "Temas de práctica (puedes elegir varios). Si no eliges ninguno, entran TODOS:",
-            options=temas_pr,
+        if not bloques_sel:
+            st.info("Selecciona al menos un bloque para poder empezar el test.")
+            st.stop()
+
+        # Opciones de temas con prefijo de bloque para evitar ambigüedades
+        temas_opciones = []
+        for b in bloques_sel:
+            for t in TEMAS_POR_BLOQUE.get(b, []):
+                temas_opciones.append(f"{b} · {t}")
+
+        temas_sel_etiquetas = st.multiselect(
+            "Temas de práctica (puedes elegir varios). Si no eliges ninguno, entran TODOS los temas de los bloques seleccionados:",
+            options=temas_opciones,
             default=st.session_state.get("temas_practica_sel", []),
             key="temas_practica_sel",
         )
@@ -413,16 +422,30 @@ if st.session_state.fase == "menu":
         st.write("---")
 
         if st.button("▶️ Comenzar test (Práctica)", type="primary"):
-            preguntas_filtradas = [p for p in preguntas_practica if p["bloque"] == bloque_pr]
-            if temas_sel:
-                preguntas_filtradas = [p for p in preguntas_filtradas if p["tema"] in temas_sel]
+            preguntas_filtradas = [p for p in preguntas_practica if p["bloque"] in set(bloques_sel)]
+
+            if temas_sel_etiquetas:
+                permitidos = set()
+                for x in temas_sel_etiquetas:
+                    b, t = x.split(" · ", 1)
+                    permitidos.add((b.strip(), t.strip()))
+                preguntas_filtradas = [
+                    p for p in preguntas_filtradas
+                    if (p["bloque"], p["tema"]) in permitidos
+                ]
 
             if not preguntas_filtradas:
-                st.error("No hay preguntas de práctica para ese bloque/temas.")
+                st.error("No hay preguntas de práctica para esos bloques/temas.")
             else:
-                st.session_state["ultimo_filtro_practica"] = {"bloque": bloque_pr, "temas": list(temas_sel)}
+                st.session_state["ultimo_filtro_practica"] = {
+                    "bloques": list(bloques_sel),
+                    "temas": list(temas_sel_etiquetas),
+                }
 
-                clave = (bloque_pr, tuple(sorted(temas_sel)) if temas_sel else ("__TODOS__",))
+                clave = (
+                    tuple(sorted(bloques_sel)),
+                    tuple(sorted(temas_sel_etiquetas)) if temas_sel_etiquetas else ("__TODOS__",),
+                )
                 usadas = st.session_state["usadas_por_practica"].get(clave, [])
 
                 qs, u = preparar_test(preguntas_filtradas, int(n), usadas)
@@ -530,11 +553,12 @@ elif st.session_state.fase == "test":
         st.subheader(f"Test — {bloque} · {etiqueta}")
 
     elif vista == "Practica":
-        f = st.session_state.get("ultimo_filtro_practica", {"bloque": "Bloque 1", "temas": []})
-        bloque_pr = f.get("bloque", "Bloque 1")
+        f = st.session_state.get("ultimo_filtro_practica", {"bloques": ["Bloque 1"], "temas": []})
+        bloques_pr = f.get("bloques", ["Bloque 1"])
         temas_sel = f.get("temas", [])
-        etiqueta = ", ".join(temas_sel) if temas_sel else "Todos los temas"
-        st.subheader(f"Test — Práctica · {bloque_pr} · {etiqueta}")
+        etiqueta_b = ", ".join(bloques_pr)
+        etiqueta_t = ", ".join(temas_sel) if temas_sel else "Todos los temas"
+        st.subheader(f"Test — Práctica · {etiqueta_b} · {etiqueta_t}")
 
     else:
         f = st.session_state.get("ultimo_filtro_simulacros", {"simulacro": "Todos"})
@@ -568,11 +592,12 @@ elif st.session_state.fase == "correccion":
         st.subheader(f"Corrección — {bloque} · {etiqueta}")
 
     elif vista == "Practica":
-        f = st.session_state.get("ultimo_filtro_practica", {"bloque": "Bloque 1", "temas": []})
-        bloque_pr = f.get("bloque", "Bloque 1")
+        f = st.session_state.get("ultimo_filtro_practica", {"bloques": ["Bloque 1"], "temas": []})
+        bloques_pr = f.get("bloques", ["Bloque 1"])
         temas_sel = f.get("temas", [])
-        etiqueta = ", ".join(temas_sel) if temas_sel else "Todos los temas"
-        st.subheader(f"Corrección — Práctica · {bloque_pr} · {etiqueta}")
+        etiqueta_b = ", ".join(bloques_pr)
+        etiqueta_t = ", ".join(temas_sel) if temas_sel else "Todos los temas"
+        st.subheader(f"Corrección — Práctica · {etiqueta_b} · {etiqueta_t}")
 
     else:
         f = st.session_state.get("ultimo_filtro_simulacros", {"simulacro": "Todos"})
@@ -609,15 +634,26 @@ elif st.session_state.fase == "correccion":
                 st.session_state["usadas_por_filtro"][clave_filtro] = usadas + u
 
             elif vista == "Practica":
-                f = st.session_state.get("ultimo_filtro_practica", {"bloque": "Bloque 1", "temas": []})
-                bloque_pr = f.get("bloque", "Bloque 1")
-                temas_sel = f.get("temas", [])
+                f = st.session_state.get("ultimo_filtro_practica", {"bloques": ["Bloque 1"], "temas": []})
+                bloques_pr = f.get("bloques", ["Bloque 1"])
+                temas_sel_etiquetas = f.get("temas", [])
 
-                preguntas_filtradas = [p for p in preguntas_practica if p["bloque"] == bloque_pr]
-                if temas_sel:
-                    preguntas_filtradas = [p for p in preguntas_filtradas if p["tema"] in temas_sel]
+                preguntas_filtradas = [p for p in preguntas_practica if p["bloque"] in set(bloques_pr)]
 
-                clave = (bloque_pr, tuple(sorted(temas_sel)) if temas_sel else ("__TODOS__",))
+                if temas_sel_etiquetas:
+                    permitidos = set()
+                    for x in temas_sel_etiquetas:
+                        b, t = x.split(" · ", 1)
+                        permitidos.add((b.strip(), t.strip()))
+                    preguntas_filtradas = [
+                        p for p in preguntas_filtradas
+                        if (p["bloque"], p["tema"]) in permitidos
+                    ]
+
+                clave = (
+                    tuple(sorted(bloques_pr)),
+                    tuple(sorted(temas_sel_etiquetas)) if temas_sel_etiquetas else ("__TODOS__",),
+                )
                 usadas = st.session_state["usadas_por_practica"].get(clave, [])
 
                 qs, u = preparar_test(preguntas_filtradas, n_int, usadas)
