@@ -1,4 +1,3 @@
-# app.py
 import json, random, re
 from pathlib import Path
 import streamlit as st
@@ -287,7 +286,7 @@ def pinta_pregunta(idx, q, corregir=False):
             elif elegida == letra:
                 st.markdown(f":red[❌ {linea}]")
             else:
-                st.markdown(f"◻️ {linea}]")
+                st.markdown(f"◻️ {linea}")
 
     st.divider()
 
@@ -359,7 +358,13 @@ with st.sidebar:
     else:
         st.session_state["vista"] = "Simulacros"
 
-    n = st.number_input("Nº de preguntas", 5, 100, NUM_PREGUNTAS_DEFECTO, 1)
+    n = st.number_input(
+        "Nº de preguntas",
+        min_value=1,
+        value=NUM_PREGUNTAS_DEFECTO,
+        step=1,
+        format="%d"
+    )
 
     st.caption(f"Banco Bloques: **{len(preguntas_bloques)}**")
     st.caption(f"Banco Práctica: **{len(preguntas_practica)}**")
