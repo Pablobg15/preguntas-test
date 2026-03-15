@@ -7,15 +7,16 @@ RUTA_PREGUNTAS_BLOQUES = Path(__file__).with_name("preguntas.json")
 RUTA_PREGUNTAS_SIMULACRO = Path(__file__).with_name("preguntas-simulacro.json")
 RUTA_PREGUNTAS_EXAMEN = Path(__file__).with_name("PreguntasExamenOficial.json")
 
-# Práctica: Bloque 1 + Bloque 2 + Bloque 3 en archivos distintos
+# Práctica: Bloque 1 + Bloque 2 + Bloque 3 + Bloque 4 en archivos distintos
 RUTA_PRACTICA_B1 = Path(__file__).with_name("preguntas_bloque1_practica.json")
 RUTA_PRACTICA_B2 = Path(__file__).with_name("Bloque2_Completo.json")
 RUTA_PRACTICA_B3 = Path(__file__).with_name("Bloque3.json")
+RUTA_PRACTICA_B4 = Path(__file__).with_name("Bloque4.json")
 
 NUM_PREGUNTAS_DEFECTO = 10
 
 # --------- Configuración de Bloques y Temas ----------
-BLOQUES = ["Bloque 1", "Bloque 2", "Bloque 3"]
+BLOQUES = ["Bloque 1", "Bloque 2", "Bloque 3", "Bloque 4"]
 
 TEMAS_POR_BLOQUE = {
     "Bloque 1": [
@@ -47,6 +48,13 @@ TEMAS_POR_BLOQUE = {
         "Tema 8 - Aplicaciones Web",
         "Tema 9 - Accesibilidad",
         "Tema 10 - Metodologías"
+    ],
+    "Bloque 4": [
+        "Sistemas Operativos",
+        "Redes",
+        "Seguridad",
+        "Virtualización",
+        "Almacenamiento",
     ],
 }
 
@@ -99,14 +107,15 @@ def limpiar_basura_pdf(txt: str) -> str:
     return txt.strip()
 
 def normalizar_bloque(bloque: str) -> str:
+    """Acepta 'bloque1', 'BLOQUE 1', 'b1', etc. y devuelve 'Bloque X'."""
     s = (bloque or "").strip().lower()
-    m = re.search(r"([1-3])", s)
+    m = re.search(r"([1-4])", s)
     return f"Bloque {m.group(1)}" if m else (bloque or "").strip()
 
 def inferir_bloque_tema(desde: str):
     s = (desde or "").strip()
 
-    m = re.search(r"b\s*([1-3])\s*[-_ ]*\s*t\s*([0-9]+)", s, re.IGNORECASE)
+    m = re.search(r"b\s*([1-4])\s*[-_ ]*\s*t\s*([0-9]+)", s, re.IGNORECASE)
     if m:
         b = m.group(1)
         t = m.group(2)
@@ -133,7 +142,15 @@ def inferir_bloque_tema(desde: str):
     return "Bloque 1", "Sin tema"
 
 def normalizar_tema(bloque: str, tema: str) -> str:
+    """Convierte 'Tema 3', 'Tema 3 - ...' a nombre oficial del selector según bloque."""
     t = (tema or "").strip()
+
+    if bloque == "Bloque 4":
+        temas_b4 = set(TEMAS_POR_BLOQUE["Bloque 4"])
+        if t in temas_b4:
+            return t
+        return t
+
     m = re.match(r"^Tema\s*([0-9]+)", t, flags=re.IGNORECASE)
     if m:
         num = m.group(1)
@@ -145,7 +162,7 @@ def normalizar_tema(bloque: str, tema: str) -> str:
             return NOMBRE_TEMA_B3[num]
     return t
 
-def cargar_preguntas_dedup_desde_ruta(ruta: Path, modo: str):
+def cargar_preguntas_dedup_desde_ruta(ruta: Path, modo: str, bloque_forzado: str | None = None):
     if not ruta.exists():
         return []
 
@@ -171,7 +188,7 @@ def cargar_preguntas_dedup_desde_ruta(ruta: Path, modo: str):
         if correcta not in opciones:
             continue
 
-        bloque = normalizar_bloque(str(p.get("bloque", "")).strip())
+        bloque = bloque_forzado or normalizar_bloque(str(p.get("bloque", "")).strip())
         tema = str(p.get("tema", "")).strip()
         simulacro = str(p.get("simulacro", "")).strip()
 
@@ -184,7 +201,7 @@ def cargar_preguntas_dedup_desde_ruta(ruta: Path, modo: str):
         else:
             simulacro = simulacro or "Sin simulacro"
 
-        if modo != "examen" and bloque in ("Bloque 1", "Bloque 2", "Bloque 3"):
+        if modo != "examen" and bloque in ("Bloque 1", "Bloque 2", "Bloque 3", "Bloque 4"):
             tema = normalizar_tema(bloque, tema)
 
         op_key = tuple((k, opciones.get(k, "")) for k in ("a", "b", "c", "d"))
@@ -197,7 +214,7 @@ def cargar_preguntas_dedup_desde_ruta(ruta: Path, modo: str):
             "enunciado": enun,
             "opciones": opciones,
             "correcta": correcta,
-            "bloque": bloque,
+            "bloque": bloque if bloque else "Sin bloque",
             "tema": tema if tema else "Sin tema",
             "simulacro": simulacro,
         })
@@ -218,17 +235,20 @@ def cargar_banco_examen(_mtime: float):
     return cargar_preguntas_dedup_desde_ruta(RUTA_PREGUNTAS_EXAMEN, modo="examen")
 
 @st.cache_data
-def cargar_banco_practica(_mtime1: float, _mtime2: float, _mtime3: float):
+def cargar_banco_practica(_mtime1: float, _mtime2: float, _mtime3: float, _mtime4: float):
     preguntas = []
 
     if RUTA_PRACTICA_B1.exists():
-        preguntas += cargar_preguntas_dedup_desde_ruta(RUTA_PRACTICA_B1, modo="bloques")
+        preguntas += cargar_preguntas_dedup_desde_ruta(RUTA_PRACTICA_B1, modo="bloques", bloque_forzado="Bloque 1")
 
     if RUTA_PRACTICA_B2.exists():
-        preguntas += cargar_preguntas_dedup_desde_ruta(RUTA_PRACTICA_B2, modo="bloques")
+        preguntas += cargar_preguntas_dedup_desde_ruta(RUTA_PRACTICA_B2, modo="bloques", bloque_forzado="Bloque 2")
 
     if RUTA_PRACTICA_B3.exists():
-        preguntas += cargar_preguntas_dedup_desde_ruta(RUTA_PRACTICA_B3, modo="bloques")
+        preguntas += cargar_preguntas_dedup_desde_ruta(RUTA_PRACTICA_B3, modo="bloques", bloque_forzado="Bloque 3")
+
+    if RUTA_PRACTICA_B4.exists():
+        preguntas += cargar_preguntas_dedup_desde_ruta(RUTA_PRACTICA_B4, modo="bloques", bloque_forzado="Bloque 4")
 
     return preguntas
 
@@ -327,12 +347,13 @@ mtime_examen = RUTA_PREGUNTAS_EXAMEN.stat().st_mtime if RUTA_PREGUNTAS_EXAMEN.ex
 mtime_pr1 = RUTA_PRACTICA_B1.stat().st_mtime if RUTA_PRACTICA_B1.exists() else 0.0
 mtime_pr2 = RUTA_PRACTICA_B2.stat().st_mtime if RUTA_PRACTICA_B2.exists() else 0.0
 mtime_pr3 = RUTA_PRACTICA_B3.stat().st_mtime if RUTA_PRACTICA_B3.exists() else 0.0
+mtime_pr4 = RUTA_PRACTICA_B4.stat().st_mtime if RUTA_PRACTICA_B4.exists() else 0.0
 
 # bancos
 preguntas_bloques = cargar_banco_bloques(mtime_bloques)
 preguntas_simulacros = cargar_banco_simulacros(mtime_sim)
 preguntas_examen = cargar_banco_examen(mtime_examen)
-preguntas_practica = cargar_banco_practica(mtime_pr1, mtime_pr2, mtime_pr3)
+preguntas_practica = cargar_banco_practica(mtime_pr1, mtime_pr2, mtime_pr3, mtime_pr4)
 
 # Estado global
 st.session_state.setdefault("fase", "menu")
@@ -449,11 +470,12 @@ if st.session_state.fase == "menu":
     if vista == "Practica":
         st.subheader("🛠️ Práctica — Selecciona bloques y temas")
 
-        if not (RUTA_PRACTICA_B1.exists() or RUTA_PRACTICA_B2.exists() or RUTA_PRACTICA_B3.exists()):
+        if not (RUTA_PRACTICA_B1.exists() or RUTA_PRACTICA_B2.exists() or RUTA_PRACTICA_B3.exists() or RUTA_PRACTICA_B4.exists()):
             st.warning("No encuentro los archivos de práctica en la carpeta del proyecto.")
             st.caption(f"- {RUTA_PRACTICA_B1.name}")
             st.caption(f"- {RUTA_PRACTICA_B2.name}")
             st.caption(f"- {RUTA_PRACTICA_B3.name}")
+            st.caption(f"- {RUTA_PRACTICA_B4.name}")
             st.stop()
 
         bloques_sel = st.multiselect(
@@ -539,7 +561,11 @@ if st.session_state.fase == "menu":
         st.write("---")
 
         if st.button("▶️ Comenzar test (Bloques/Temas)", type="primary"):
-            preguntas_filtradas = [p for p in preguntas_bloques if p["bloque"] == bloque]
+            if bloque == "Bloque 4":
+                preguntas_filtradas = [p for p in preguntas_practica if p["bloque"] == "Bloque 4"]
+            else:
+                preguntas_filtradas = [p for p in preguntas_bloques if p["bloque"] == bloque]
+
             if temas_sel:
                 preguntas_filtradas = [p for p in preguntas_filtradas if p["tema"] in temas_sel]
 
@@ -607,7 +633,7 @@ if st.session_state.fase == "menu":
         st.subheader("🎯 Simulacro examen")
 
         st.write(
-            "Se mezclarán preguntas de práctica de los tres bloques. "
+            "Se mezclarán preguntas de práctica de los bloques disponibles. "
             "Las no contestadas no penalizan. "
             "Los fallos restan según la penalización elegida en la barra lateral."
         )
@@ -795,7 +821,11 @@ elif st.session_state.fase == "correccion":
                 bloque = f.get("bloque", "Bloque 1")
                 temas_sel = f.get("temas", [])
 
-                preguntas_filtradas = [p for p in preguntas_bloques if p["bloque"] == bloque]
+                if bloque == "Bloque 4":
+                    preguntas_filtradas = [p for p in preguntas_practica if p["bloque"] == "Bloque 4"]
+                else:
+                    preguntas_filtradas = [p for p in preguntas_bloques if p["bloque"] == bloque]
+
                 if temas_sel:
                     preguntas_filtradas = [p for p in preguntas_filtradas if p["tema"] in temas_sel]
 
