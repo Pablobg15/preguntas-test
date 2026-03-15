@@ -1,30 +1,30 @@
 [
   {
-    "enunciado": "¿Cuál es la principal función del planificador (scheduler) de un sistema operativo?",
+    "enunciado": "¿Qué significa multitarea?",
     "opciones": {
-      "a": "Asignar la CPU a los procesos",
-      "b": "Gestionar la memoria RAM",
-      "c": "Controlar dispositivos de red",
-      "d": "Gestionar el sistema de archivos"
+      "a": "Ejecución concurrente de varios procesos",
+      "b": "Uso de varios discos",
+      "c": "Uso de múltiples redes",
+      "d": "Uso de varios usuarios"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 1
   },
   {
-    "enunciado": "¿Qué estado de proceso indica que está esperando un evento o recurso?",
+    "enunciado": "¿Qué componente decide qué proceso utiliza la CPU?",
     "opciones": {
-      "a": "Bloqueado",
-      "b": "Ejecutando",
-      "c": "Nuevo",
-      "d": "Terminado"
+      "a": "Scheduler",
+      "b": "Driver",
+      "c": "BIOS",
+      "d": "Router"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 2
   },
   {
-    "enunciado": "¿Qué técnica de gestión de memoria divide la memoria en bloques de tamaño fijo?",
+    "enunciado": "¿Qué técnica divide la memoria en bloques de tamaño fijo?",
     "opciones": {
       "a": "Paginación",
       "b": "Segmentación",
@@ -36,19 +36,343 @@
     "numero": 3
   },
   {
-    "enunciado": "En Linux, ¿qué comando se utiliza para listar archivos?",
+    "enunciado": "¿Qué técnica permite usar memoria secundaria como si fuera RAM?",
     "opciones": {
-      "a": "ls",
-      "b": "dirlist",
-      "c": "showfiles",
-      "d": "list"
+      "a": "Memoria virtual",
+      "b": "RAID",
+      "c": "Caché de CPU",
+      "d": "Segmentación de red"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 4
   },
   {
-    "enunciado": "¿Cuál de los siguientes sistemas de archivos es común en Linux?",
+    "enunciado": "¿Qué técnica divide la memoria en bloques de tamaño fijo?",
+    "opciones": {
+      "a": "Paginación",
+      "b": "Segmentación",
+      "c": "Swapping",
+      "d": "Compresión"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 5
+  },
+  {
+    "enunciado": "¿Cuál es la función principal del kernel de un sistema operativo?",
+    "opciones": {
+      "a": "Gestionar los recursos del hardware",
+      "b": "Ejecutar páginas web",
+      "c": "Controlar routers",
+      "d": "Diseñar bases de datos"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 6
+  },
+  {
+    "enunciado": "¿Cuál es la función principal del kernel de un sistema operativo?",
+    "opciones": {
+      "a": "Gestionar los recursos del hardware",
+      "b": "Ejecutar páginas web",
+      "c": "Controlar routers",
+      "d": "Diseñar bases de datos"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 7
+  },
+  {
+    "enunciado": "¿Qué significa multitarea?",
+    "opciones": {
+      "a": "Ejecución concurrente de varios procesos",
+      "b": "Uso de varios discos",
+      "c": "Uso de múltiples redes",
+      "d": "Uso de varios usuarios"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 8
+  },
+  {
+    "enunciado": "¿Qué técnica permite usar memoria secundaria como si fuera RAM?",
+    "opciones": {
+      "a": "Memoria virtual",
+      "b": "RAID",
+      "c": "Caché de CPU",
+      "d": "Segmentación de red"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 9
+  },
+  {
+    "enunciado": "¿Qué técnica divide la memoria en bloques de tamaño fijo?",
+    "opciones": {
+      "a": "Paginación",
+      "b": "Segmentación",
+      "c": "Swapping",
+      "d": "Compresión"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 10
+  },
+  {
+    "enunciado": "¿Qué significa multitarea?",
+    "opciones": {
+      "a": "Ejecución concurrente de varios procesos",
+      "b": "Uso de varios discos",
+      "c": "Uso de múltiples redes",
+      "d": "Uso de varios usuarios"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 11
+  },
+  {
+    "enunciado": "¿Qué significa multitarea?",
+    "opciones": {
+      "a": "Ejecución concurrente de varios procesos",
+      "b": "Uso de varios discos",
+      "c": "Uso de múltiples redes",
+      "d": "Uso de varios usuarios"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 12
+  },
+  {
+    "enunciado": "¿Qué técnica permite usar memoria secundaria como si fuera RAM?",
+    "opciones": {
+      "a": "Memoria virtual",
+      "b": "RAID",
+      "c": "Caché de CPU",
+      "d": "Segmentación de red"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 13
+  },
+  {
+    "enunciado": "¿Qué estado indica que un proceso está esperando un evento o recurso?",
+    "opciones": {
+      "a": "Bloqueado",
+      "b": "Ejecutando",
+      "c": "Nuevo",
+      "d": "Finalizado"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 14
+  },
+  {
+    "enunciado": "¿Qué comando lista archivos en Linux?",
+    "opciones": {
+      "a": "ls",
+      "b": "cp",
+      "c": "mv",
+      "d": "chmod"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 15
+  },
+  {
+    "enunciado": "¿Cuál es la función principal del kernel de un sistema operativo?",
+    "opciones": {
+      "a": "Gestionar los recursos del hardware",
+      "b": "Ejecutar páginas web",
+      "c": "Controlar routers",
+      "d": "Diseñar bases de datos"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 16
+  },
+  {
+    "enunciado": "¿Qué técnica divide la memoria en bloques de tamaño fijo?",
+    "opciones": {
+      "a": "Paginación",
+      "b": "Segmentación",
+      "c": "Swapping",
+      "d": "Compresión"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 17
+  },
+  {
+    "enunciado": "¿Qué técnica divide la memoria en bloques de tamaño fijo?",
+    "opciones": {
+      "a": "Paginación",
+      "b": "Segmentación",
+      "c": "Swapping",
+      "d": "Compresión"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 18
+  },
+  {
+    "enunciado": "¿Qué significa multitarea?",
+    "opciones": {
+      "a": "Ejecución concurrente de varios procesos",
+      "b": "Uso de varios discos",
+      "c": "Uso de múltiples redes",
+      "d": "Uso de varios usuarios"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 19
+  },
+  {
+    "enunciado": "¿Cuál es la función principal del kernel de un sistema operativo?",
+    "opciones": {
+      "a": "Gestionar los recursos del hardware",
+      "b": "Ejecutar páginas web",
+      "c": "Controlar routers",
+      "d": "Diseñar bases de datos"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 20
+  },
+  {
+    "enunciado": "¿Cuál es la función principal del kernel de un sistema operativo?",
+    "opciones": {
+      "a": "Gestionar los recursos del hardware",
+      "b": "Ejecutar páginas web",
+      "c": "Controlar routers",
+      "d": "Diseñar bases de datos"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 21
+  },
+  {
+    "enunciado": "¿Cuál es la función principal del kernel de un sistema operativo?",
+    "opciones": {
+      "a": "Gestionar los recursos del hardware",
+      "b": "Ejecutar páginas web",
+      "c": "Controlar routers",
+      "d": "Diseñar bases de datos"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 22
+  },
+  {
+    "enunciado": "¿Qué es un hilo (thread)?",
+    "opciones": {
+      "a": "Unidad de ejecución dentro de un proceso",
+      "b": "Tipo de memoria",
+      "c": "Sistema de archivos",
+      "d": "Driver"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 23
+  },
+  {
+    "enunciado": "¿Cuál es la función principal del kernel de un sistema operativo?",
+    "opciones": {
+      "a": "Gestionar los recursos del hardware",
+      "b": "Ejecutar páginas web",
+      "c": "Controlar routers",
+      "d": "Diseñar bases de datos"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 24
+  },
+  {
+    "enunciado": "¿Qué es un hilo (thread)?",
+    "opciones": {
+      "a": "Unidad de ejecución dentro de un proceso",
+      "b": "Tipo de memoria",
+      "c": "Sistema de archivos",
+      "d": "Driver"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 25
+  },
+  {
+    "enunciado": "¿Cuál es la función principal del kernel de un sistema operativo?",
+    "opciones": {
+      "a": "Gestionar los recursos del hardware",
+      "b": "Ejecutar páginas web",
+      "c": "Controlar routers",
+      "d": "Diseñar bases de datos"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 26
+  },
+  {
+    "enunciado": "¿Qué técnica divide la memoria en bloques de tamaño fijo?",
+    "opciones": {
+      "a": "Paginación",
+      "b": "Segmentación",
+      "c": "Swapping",
+      "d": "Compresión"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 27
+  },
+  {
+    "enunciado": "¿Qué significa multitarea?",
+    "opciones": {
+      "a": "Ejecución concurrente de varios procesos",
+      "b": "Uso de varios discos",
+      "c": "Uso de múltiples redes",
+      "d": "Uso de varios usuarios"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 28
+  },
+  {
+    "enunciado": "¿Qué comando en Linux muestra procesos en ejecución?",
+    "opciones": {
+      "a": "ps",
+      "b": "ls",
+      "c": "rm",
+      "d": "mkdir"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 29
+  },
+  {
+    "enunciado": "¿Qué comando en Linux muestra procesos en ejecución?",
+    "opciones": {
+      "a": "ps",
+      "b": "ls",
+      "c": "rm",
+      "d": "mkdir"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 30
+  },
+  {
+    "enunciado": "¿Qué componente decide qué proceso utiliza la CPU?",
+    "opciones": {
+      "a": "Scheduler",
+      "b": "Driver",
+      "c": "BIOS",
+      "d": "Router"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 31
+  },
+  {
+    "enunciado": "¿Qué sistema de archivos es típico de Linux?",
     "opciones": {
       "a": "ext4",
       "b": "NTFS",
@@ -57,55 +381,127 @@
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
-    "numero": 5
+    "numero": 32
   },
   {
-    "enunciado": "¿Qué significa multitarea en un sistema operativo?",
+    "enunciado": "¿Qué estado indica que un proceso está esperando un evento o recurso?",
     "opciones": {
-      "a": "Ejecutar varios procesos aparentemente al mismo tiempo",
-      "b": "Ejecutar solo un proceso",
-      "c": "Eliminar procesos automáticamente",
-      "d": "Ejecutar solo procesos del sistema"
+      "a": "Bloqueado",
+      "b": "Ejecutando",
+      "c": "Nuevo",
+      "d": "Finalizado"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
-    "numero": 6
+    "numero": 33
   },
   {
-    "enunciado": "¿Qué componente del sistema operativo gestiona los dispositivos de hardware?",
+    "enunciado": "¿Qué técnica divide la memoria en bloques de tamaño fijo?",
     "opciones": {
-      "a": "Drivers",
-      "b": "Kernel scheduler",
-      "c": "BIOS",
-      "d": "Compilador"
+      "a": "Paginación",
+      "b": "Segmentación",
+      "c": "Swapping",
+      "d": "Compresión"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
-    "numero": 7
+    "numero": 34
+  },
+  {
+    "enunciado": "¿Qué significa multitarea?",
+    "opciones": {
+      "a": "Ejecución concurrente de varios procesos",
+      "b": "Uso de varios discos",
+      "c": "Uso de múltiples redes",
+      "d": "Uso de varios usuarios"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 35
+  },
+  {
+    "enunciado": "¿Qué comando lista archivos en Linux?",
+    "opciones": {
+      "a": "ls",
+      "b": "cp",
+      "c": "mv",
+      "d": "chmod"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 36
+  },
+  {
+    "enunciado": "¿Qué técnica divide la memoria en bloques de tamaño fijo?",
+    "opciones": {
+      "a": "Paginación",
+      "b": "Segmentación",
+      "c": "Swapping",
+      "d": "Compresión"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 37
   },
   {
     "enunciado": "¿Qué es un hilo (thread)?",
     "opciones": {
       "a": "Unidad de ejecución dentro de un proceso",
-      "b": "Tipo de archivo",
-      "c": "Controlador de red",
-      "d": "Sistema de archivos"
+      "b": "Tipo de memoria",
+      "c": "Sistema de archivos",
+      "d": "Driver"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
-    "numero": 8
+    "numero": 38
   },
   {
-    "enunciado": "¿Qué técnica permite aislar la memoria entre procesos?",
+    "enunciado": "¿Qué estado indica que un proceso está esperando un evento o recurso?",
+    "opciones": {
+      "a": "Bloqueado",
+      "b": "Ejecutando",
+      "c": "Nuevo",
+      "d": "Finalizado"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 39
+  },
+  {
+    "enunciado": "¿Qué estado indica que un proceso está esperando un evento o recurso?",
+    "opciones": {
+      "a": "Bloqueado",
+      "b": "Ejecutando",
+      "c": "Nuevo",
+      "d": "Finalizado"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 40
+  },
+  {
+    "enunciado": "¿Qué técnica permite usar memoria secundaria como si fuera RAM?",
     "opciones": {
       "a": "Memoria virtual",
       "b": "RAID",
-      "c": "Balanceo de carga",
-      "d": "Compresión"
+      "c": "Caché de CPU",
+      "d": "Segmentación de red"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
-    "numero": 9
+    "numero": 41
+  },
+  {
+    "enunciado": "¿Qué técnica permite usar memoria secundaria como si fuera RAM?",
+    "opciones": {
+      "a": "Memoria virtual",
+      "b": "RAID",
+      "c": "Caché de CPU",
+      "d": "Segmentación de red"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 42
   },
   {
     "enunciado": "¿Qué comando en Linux muestra procesos en ejecución?",
@@ -113,26 +509,98 @@
       "a": "ps",
       "b": "ls",
       "c": "rm",
-      "d": "mv"
+      "d": "mkdir"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
-    "numero": 10
+    "numero": 43
   },
   {
-    "enunciado": "¿Qué protocolo se utiliza para resolver nombres de dominio en direcciones IP?",
+    "enunciado": "¿Cuál es la función principal del kernel de un sistema operativo?",
     "opciones": {
-      "a": "DNS",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "SNMP"
+      "a": "Gestionar los recursos del hardware",
+      "b": "Ejecutar páginas web",
+      "c": "Controlar routers",
+      "d": "Diseñar bases de datos"
     },
     "correcta": "a",
-    "tema": "Redes",
-    "numero": 11
+    "tema": "Sistemas Operativos",
+    "numero": 44
   },
   {
-    "enunciado": "¿Qué dispositivo opera en la capa de red del modelo OSI?",
+    "enunciado": "¿Qué estado indica que un proceso está esperando un evento o recurso?",
+    "opciones": {
+      "a": "Bloqueado",
+      "b": "Ejecutando",
+      "c": "Nuevo",
+      "d": "Finalizado"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 45
+  },
+  {
+    "enunciado": "¿Qué estado indica que un proceso está esperando un evento o recurso?",
+    "opciones": {
+      "a": "Bloqueado",
+      "b": "Ejecutando",
+      "c": "Nuevo",
+      "d": "Finalizado"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 46
+  },
+  {
+    "enunciado": "¿Qué técnica permite usar memoria secundaria como si fuera RAM?",
+    "opciones": {
+      "a": "Memoria virtual",
+      "b": "RAID",
+      "c": "Caché de CPU",
+      "d": "Segmentación de red"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 47
+  },
+  {
+    "enunciado": "¿Qué componente decide qué proceso utiliza la CPU?",
+    "opciones": {
+      "a": "Scheduler",
+      "b": "Driver",
+      "c": "BIOS",
+      "d": "Router"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 48
+  },
+  {
+    "enunciado": "¿Qué es un hilo (thread)?",
+    "opciones": {
+      "a": "Unidad de ejecución dentro de un proceso",
+      "b": "Tipo de memoria",
+      "c": "Sistema de archivos",
+      "d": "Driver"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 49
+  },
+  {
+    "enunciado": "¿Qué componente decide qué proceso utiliza la CPU?",
+    "opciones": {
+      "a": "Scheduler",
+      "b": "Driver",
+      "c": "BIOS",
+      "d": "Router"
+    },
+    "correcta": "a",
+    "tema": "Sistemas Operativos",
+    "numero": 50
+  },
+  {
+    "enunciado": "¿Qué dispositivo conecta diferentes redes IP?",
     "opciones": {
       "a": "Router",
       "b": "Switch",
@@ -141,46 +609,22 @@
     },
     "correcta": "a",
     "tema": "Redes",
-    "numero": 12
+    "numero": 51
   },
   {
-    "enunciado": "¿Qué protocolo se utiliza para enviar correo electrónico?",
+    "enunciado": "¿Qué dispositivo opera normalmente en capa 2?",
     "opciones": {
-      "a": "SMTP",
-      "b": "POP3",
-      "c": "HTTP",
-      "d": "SSH"
+      "a": "Switch",
+      "b": "Router",
+      "c": "Firewall",
+      "d": "Gateway"
     },
     "correcta": "a",
     "tema": "Redes",
-    "numero": 13
+    "numero": 52
   },
   {
-    "enunciado": "¿Qué capa del modelo OSI se encarga del transporte fiable de datos?",
-    "opciones": {
-      "a": "Transporte",
-      "b": "Red",
-      "c": "Enlace",
-      "d": "Aplicación"
-    },
-    "correcta": "a",
-    "tema": "Redes",
-    "numero": 14
-  },
-  {
-    "enunciado": "¿Qué protocolo se utiliza para la transferencia segura de páginas web?",
-    "opciones": {
-      "a": "HTTPS",
-      "b": "HTTP",
-      "c": "FTP",
-      "d": "SMTP"
-    },
-    "correcta": "a",
-    "tema": "Redes",
-    "numero": 15
-  },
-  {
-    "enunciado": "¿Qué protocolo asigna automáticamente direcciones IP a los equipos?",
+    "enunciado": "¿Qué protocolo asigna IP automáticamente?",
     "opciones": {
       "a": "DHCP",
       "b": "DNS",
@@ -189,46 +633,94 @@
     },
     "correcta": "a",
     "tema": "Redes",
-    "numero": 16
+    "numero": 53
   },
   {
-    "enunciado": "¿Qué comando permite comprobar la conectividad con otro host?",
+    "enunciado": "¿Qué protocolo asigna IP automáticamente?",
     "opciones": {
-      "a": "ping",
-      "b": "ls",
-      "c": "mount",
-      "d": "chmod"
+      "a": "DHCP",
+      "b": "DNS",
+      "c": "ARP",
+      "d": "ICMP"
     },
     "correcta": "a",
     "tema": "Redes",
-    "numero": 17
+    "numero": 54
   },
   {
-    "enunciado": "¿Qué significa LAN?",
+    "enunciado": "¿Qué dispositivo conecta diferentes redes IP?",
     "opciones": {
-      "a": "Local Area Network",
-      "b": "Large Access Network",
-      "c": "Logical Area Node",
-      "d": "Local Access Node"
+      "a": "Router",
+      "b": "Switch",
+      "c": "Hub",
+      "d": "Repeater"
     },
     "correcta": "a",
     "tema": "Redes",
-    "numero": 18
+    "numero": 55
   },
   {
-    "enunciado": "¿Qué dirección identifica de forma única una interfaz de red?",
+    "enunciado": "¿Qué protocolo se usa para páginas web seguras?",
     "opciones": {
-      "a": "Dirección MAC",
-      "b": "Dirección DNS",
-      "c": "Puerto TCP",
-      "d": "Hostname"
+      "a": "HTTPS",
+      "b": "HTTP",
+      "c": "FTP",
+      "d": "SMTP"
     },
     "correcta": "a",
     "tema": "Redes",
-    "numero": 19
+    "numero": 56
   },
   {
-    "enunciado": "¿Qué protocolo se utiliza para acceso remoto seguro a servidores?",
+    "enunciado": "¿Qué dispositivo opera normalmente en capa 2?",
+    "opciones": {
+      "a": "Switch",
+      "b": "Router",
+      "c": "Firewall",
+      "d": "Gateway"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 57
+  },
+  {
+    "enunciado": "¿Qué dispositivo conecta diferentes redes IP?",
+    "opciones": {
+      "a": "Router",
+      "b": "Switch",
+      "c": "Hub",
+      "d": "Repeater"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 58
+  },
+  {
+    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
+    "opciones": {
+      "a": "DNS",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "SNMP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 59
+  },
+  {
+    "enunciado": "¿Qué dispositivo opera normalmente en capa 2?",
+    "opciones": {
+      "a": "Switch",
+      "b": "Router",
+      "c": "Firewall",
+      "d": "Gateway"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 60
+  },
+  {
+    "enunciado": "¿Qué protocolo permite acceso remoto seguro?",
     "opciones": {
       "a": "SSH",
       "b": "Telnet",
@@ -237,139 +729,1123 @@
     },
     "correcta": "a",
     "tema": "Redes",
-    "numero": 20
+    "numero": 61
   },
   {
-    "enunciado": "¿Qué propiedad de seguridad garantiza que los datos no sean modificados sin autorización?",
+    "enunciado": "¿Qué dispositivo opera normalmente en capa 2?",
+    "opciones": {
+      "a": "Switch",
+      "b": "Router",
+      "c": "Firewall",
+      "d": "Gateway"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 62
+  },
+  {
+    "enunciado": "¿Qué protocolo permite acceso remoto seguro?",
+    "opciones": {
+      "a": "SSH",
+      "b": "Telnet",
+      "c": "HTTP",
+      "d": "FTP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 63
+  },
+  {
+    "enunciado": "¿Qué identifica físicamente una interfaz de red?",
+    "opciones": {
+      "a": "Dirección MAC",
+      "b": "Dirección DNS",
+      "c": "IP privada",
+      "d": "Hostname"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 64
+  },
+  {
+    "enunciado": "¿Qué capa OSI proporciona transporte fiable?",
+    "opciones": {
+      "a": "Transporte",
+      "b": "Red",
+      "c": "Enlace",
+      "d": "Aplicación"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 65
+  },
+  {
+    "enunciado": "¿Qué comando prueba conectividad con otro host?",
+    "opciones": {
+      "a": "ping",
+      "b": "ls",
+      "c": "mount",
+      "d": "chmod"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 66
+  },
+  {
+    "enunciado": "¿Qué protocolo asigna IP automáticamente?",
+    "opciones": {
+      "a": "DHCP",
+      "b": "DNS",
+      "c": "ARP",
+      "d": "ICMP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 67
+  },
+  {
+    "enunciado": "¿Qué protocolo asigna IP automáticamente?",
+    "opciones": {
+      "a": "DHCP",
+      "b": "DNS",
+      "c": "ARP",
+      "d": "ICMP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 68
+  },
+  {
+    "enunciado": "¿Qué capa OSI proporciona transporte fiable?",
+    "opciones": {
+      "a": "Transporte",
+      "b": "Red",
+      "c": "Enlace",
+      "d": "Aplicación"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 69
+  },
+  {
+    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
+    "opciones": {
+      "a": "DNS",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "SNMP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 70
+  },
+  {
+    "enunciado": "¿Qué comando prueba conectividad con otro host?",
+    "opciones": {
+      "a": "ping",
+      "b": "ls",
+      "c": "mount",
+      "d": "chmod"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 71
+  },
+  {
+    "enunciado": "¿Qué dispositivo opera normalmente en capa 2?",
+    "opciones": {
+      "a": "Switch",
+      "b": "Router",
+      "c": "Firewall",
+      "d": "Gateway"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 72
+  },
+  {
+    "enunciado": "¿Qué comando prueba conectividad con otro host?",
+    "opciones": {
+      "a": "ping",
+      "b": "ls",
+      "c": "mount",
+      "d": "chmod"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 73
+  },
+  {
+    "enunciado": "¿Qué dispositivo conecta diferentes redes IP?",
+    "opciones": {
+      "a": "Router",
+      "b": "Switch",
+      "c": "Hub",
+      "d": "Repeater"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 74
+  },
+  {
+    "enunciado": "¿Qué dispositivo conecta diferentes redes IP?",
+    "opciones": {
+      "a": "Router",
+      "b": "Switch",
+      "c": "Hub",
+      "d": "Repeater"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 75
+  },
+  {
+    "enunciado": "¿Qué protocolo permite acceso remoto seguro?",
+    "opciones": {
+      "a": "SSH",
+      "b": "Telnet",
+      "c": "HTTP",
+      "d": "FTP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 76
+  },
+  {
+    "enunciado": "¿Qué significa LAN?",
+    "opciones": {
+      "a": "Local Area Network",
+      "b": "Large Area Node",
+      "c": "Logical Access Network",
+      "d": "Local Access Node"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 77
+  },
+  {
+    "enunciado": "¿Qué protocolo permite acceso remoto seguro?",
+    "opciones": {
+      "a": "SSH",
+      "b": "Telnet",
+      "c": "HTTP",
+      "d": "FTP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 78
+  },
+  {
+    "enunciado": "¿Qué significa LAN?",
+    "opciones": {
+      "a": "Local Area Network",
+      "b": "Large Area Node",
+      "c": "Logical Access Network",
+      "d": "Local Access Node"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 79
+  },
+  {
+    "enunciado": "¿Qué protocolo asigna IP automáticamente?",
+    "opciones": {
+      "a": "DHCP",
+      "b": "DNS",
+      "c": "ARP",
+      "d": "ICMP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 80
+  },
+  {
+    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
+    "opciones": {
+      "a": "DNS",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "SNMP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 81
+  },
+  {
+    "enunciado": "¿Qué protocolo asigna IP automáticamente?",
+    "opciones": {
+      "a": "DHCP",
+      "b": "DNS",
+      "c": "ARP",
+      "d": "ICMP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 82
+  },
+  {
+    "enunciado": "¿Qué protocolo permite acceso remoto seguro?",
+    "opciones": {
+      "a": "SSH",
+      "b": "Telnet",
+      "c": "HTTP",
+      "d": "FTP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 83
+  },
+  {
+    "enunciado": "¿Qué dispositivo opera normalmente en capa 2?",
+    "opciones": {
+      "a": "Switch",
+      "b": "Router",
+      "c": "Firewall",
+      "d": "Gateway"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 84
+  },
+  {
+    "enunciado": "¿Qué protocolo permite acceso remoto seguro?",
+    "opciones": {
+      "a": "SSH",
+      "b": "Telnet",
+      "c": "HTTP",
+      "d": "FTP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 85
+  },
+  {
+    "enunciado": "¿Qué identifica físicamente una interfaz de red?",
+    "opciones": {
+      "a": "Dirección MAC",
+      "b": "Dirección DNS",
+      "c": "IP privada",
+      "d": "Hostname"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 86
+  },
+  {
+    "enunciado": "¿Qué dispositivo conecta diferentes redes IP?",
+    "opciones": {
+      "a": "Router",
+      "b": "Switch",
+      "c": "Hub",
+      "d": "Repeater"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 87
+  },
+  {
+    "enunciado": "¿Qué protocolo permite acceso remoto seguro?",
+    "opciones": {
+      "a": "SSH",
+      "b": "Telnet",
+      "c": "HTTP",
+      "d": "FTP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 88
+  },
+  {
+    "enunciado": "¿Qué comando prueba conectividad con otro host?",
+    "opciones": {
+      "a": "ping",
+      "b": "ls",
+      "c": "mount",
+      "d": "chmod"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 89
+  },
+  {
+    "enunciado": "¿Qué protocolo asigna IP automáticamente?",
+    "opciones": {
+      "a": "DHCP",
+      "b": "DNS",
+      "c": "ARP",
+      "d": "ICMP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 90
+  },
+  {
+    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
+    "opciones": {
+      "a": "DNS",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "SNMP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 91
+  },
+  {
+    "enunciado": "¿Qué protocolo asigna IP automáticamente?",
+    "opciones": {
+      "a": "DHCP",
+      "b": "DNS",
+      "c": "ARP",
+      "d": "ICMP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 92
+  },
+  {
+    "enunciado": "¿Qué comando prueba conectividad con otro host?",
+    "opciones": {
+      "a": "ping",
+      "b": "ls",
+      "c": "mount",
+      "d": "chmod"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 93
+  },
+  {
+    "enunciado": "¿Qué dispositivo opera normalmente en capa 2?",
+    "opciones": {
+      "a": "Switch",
+      "b": "Router",
+      "c": "Firewall",
+      "d": "Gateway"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 94
+  },
+  {
+    "enunciado": "¿Qué identifica físicamente una interfaz de red?",
+    "opciones": {
+      "a": "Dirección MAC",
+      "b": "Dirección DNS",
+      "c": "IP privada",
+      "d": "Hostname"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 95
+  },
+  {
+    "enunciado": "¿Qué comando prueba conectividad con otro host?",
+    "opciones": {
+      "a": "ping",
+      "b": "ls",
+      "c": "mount",
+      "d": "chmod"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 96
+  },
+  {
+    "enunciado": "¿Qué dispositivo conecta diferentes redes IP?",
+    "opciones": {
+      "a": "Router",
+      "b": "Switch",
+      "c": "Hub",
+      "d": "Repeater"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 97
+  },
+  {
+    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
+    "opciones": {
+      "a": "DNS",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "SNMP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 98
+  },
+  {
+    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
+    "opciones": {
+      "a": "DNS",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "SNMP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 99
+  },
+  {
+    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
+    "opciones": {
+      "a": "DNS",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "SNMP"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 100
+  },
+  {
+    "enunciado": "¿Qué propiedad garantiza que los datos no se alteren sin autorización?",
     "opciones": {
       "a": "Integridad",
       "b": "Disponibilidad",
-      "c": "Escalabilidad",
-      "d": "Portabilidad"
+      "c": "Portabilidad",
+      "d": "Escalabilidad"
     },
     "correcta": "a",
     "tema": "Seguridad",
-    "numero": 21
+    "numero": 101
   },
   {
-    "enunciado": "¿Qué herramienta filtra tráfico de red según reglas definidas?",
+    "enunciado": "¿Qué protocolo protege conexiones web?",
     "opciones": {
-      "a": "Firewall",
-      "b": "Router",
-      "c": "Switch",
-      "d": "Proxy inverso"
+      "a": "TLS",
+      "b": "ARP",
+      "c": "ICMP",
+      "d": "FTP"
     },
     "correcta": "a",
     "tema": "Seguridad",
-    "numero": 22
-  },
-  {
-    "enunciado": "¿Qué sistema detecta actividades sospechosas en la red?",
-    "opciones": {
-      "a": "IDS",
-      "b": "DNS",
-      "c": "FTP",
-      "d": "DHCP"
-    },
-    "correcta": "a",
-    "tema": "Seguridad",
-    "numero": 23
-  },
-  {
-    "enunciado": "¿Qué significa autenticación?",
-    "opciones": {
-      "a": "Verificar la identidad de un usuario",
-      "b": "Asignar permisos",
-      "c": "Eliminar datos",
-      "d": "Comprimir archivos"
-    },
-    "correcta": "a",
-    "tema": "Seguridad",
-    "numero": 24
-  },
-  {
-    "enunciado": "¿Qué significa autorización?",
-    "opciones": {
-      "a": "Determinar qué acciones puede realizar un usuario",
-      "b": "Verificar identidad",
-      "c": "Cifrar datos",
-      "d": "Eliminar cuentas"
-    },
-    "correcta": "a",
-    "tema": "Seguridad",
-    "numero": 25
-  },
-  {
-    "enunciado": "¿Qué técnica protege datos mediante transformación matemática?",
-    "opciones": {
-      "a": "Cifrado",
-      "b": "Hashing",
-      "c": "Compresión",
-      "d": "Segmentación"
-    },
-    "correcta": "a",
-    "tema": "Seguridad",
-    "numero": 26
+    "numero": 102
   },
   {
     "enunciado": "¿Qué ataque intenta engañar al usuario para robar credenciales?",
     "opciones": {
       "a": "Phishing",
-      "b": "Spoofing",
-      "c": "Sniffing",
-      "d": "Scanning"
+      "b": "Sniffing",
+      "c": "Scanning",
+      "d": "Spoofing"
     },
     "correcta": "a",
     "tema": "Seguridad",
-    "numero": 27
+    "numero": 103
   },
   {
-    "enunciado": "¿Qué mecanismo registra eventos de seguridad del sistema?",
+    "enunciado": "¿Qué significa autorización?",
+    "opciones": {
+      "a": "Determinar permisos de usuario",
+      "b": "Verificar identidad",
+      "c": "Eliminar cuentas",
+      "d": "Cifrar datos"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 104
+  },
+  {
+    "enunciado": "¿Qué significa autorización?",
+    "opciones": {
+      "a": "Determinar permisos de usuario",
+      "b": "Verificar identidad",
+      "c": "Eliminar cuentas",
+      "d": "Cifrar datos"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 105
+  },
+  {
+    "enunciado": "¿Qué mecanismo registra eventos del sistema?",
     "opciones": {
       "a": "Auditoría",
       "b": "Balanceo",
       "c": "Virtualización",
-      "d": "Fragmentación"
+      "d": "RAID"
     },
     "correcta": "a",
     "tema": "Seguridad",
-    "numero": 28
+    "numero": 106
   },
   {
-    "enunciado": "¿Qué protocolo proporciona cifrado en conexiones web?",
+    "enunciado": "¿Qué técnica protege datos mediante algoritmos matemáticos?",
     "opciones": {
-      "a": "TLS",
-      "b": "FTP",
-      "c": "ICMP",
-      "d": "ARP"
+      "a": "Cifrado",
+      "b": "Compresión",
+      "c": "Fragmentación",
+      "d": "Indexación"
     },
     "correcta": "a",
     "tema": "Seguridad",
-    "numero": 29
+    "numero": 107
   },
   {
-    "enunciado": "¿Qué tipo de malware se replica automáticamente?",
+    "enunciado": "¿Qué sistema detecta intrusiones?",
+    "opciones": {
+      "a": "IDS",
+      "b": "FTP",
+      "c": "DNS",
+      "d": "DHCP"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 108
+  },
+  {
+    "enunciado": "¿Qué malware se replica automáticamente?",
     "opciones": {
       "a": "Gusano",
-      "b": "Firewall",
-      "c": "Driver",
+      "b": "Driver",
+      "c": "Firewall",
       "d": "Servidor"
     },
     "correcta": "a",
     "tema": "Seguridad",
-    "numero": 30
+    "numero": 109
+  },
+  {
+    "enunciado": "¿Qué ataque intenta engañar al usuario para robar credenciales?",
+    "opciones": {
+      "a": "Phishing",
+      "b": "Sniffing",
+      "c": "Scanning",
+      "d": "Spoofing"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 110
+  },
+  {
+    "enunciado": "¿Qué significa autorización?",
+    "opciones": {
+      "a": "Determinar permisos de usuario",
+      "b": "Verificar identidad",
+      "c": "Eliminar cuentas",
+      "d": "Cifrar datos"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 111
+  },
+  {
+    "enunciado": "¿Qué significa autorización?",
+    "opciones": {
+      "a": "Determinar permisos de usuario",
+      "b": "Verificar identidad",
+      "c": "Eliminar cuentas",
+      "d": "Cifrar datos"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 112
+  },
+  {
+    "enunciado": "¿Qué significa autorización?",
+    "opciones": {
+      "a": "Determinar permisos de usuario",
+      "b": "Verificar identidad",
+      "c": "Eliminar cuentas",
+      "d": "Cifrar datos"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 113
+  },
+  {
+    "enunciado": "¿Qué propiedad garantiza que los datos no se alteren sin autorización?",
+    "opciones": {
+      "a": "Integridad",
+      "b": "Disponibilidad",
+      "c": "Portabilidad",
+      "d": "Escalabilidad"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 114
+  },
+  {
+    "enunciado": "¿Qué técnica protege datos mediante algoritmos matemáticos?",
+    "opciones": {
+      "a": "Cifrado",
+      "b": "Compresión",
+      "c": "Fragmentación",
+      "d": "Indexación"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 115
+  },
+  {
+    "enunciado": "¿Qué malware se replica automáticamente?",
+    "opciones": {
+      "a": "Gusano",
+      "b": "Driver",
+      "c": "Firewall",
+      "d": "Servidor"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 116
+  },
+  {
+    "enunciado": "¿Qué mecanismo registra eventos del sistema?",
+    "opciones": {
+      "a": "Auditoría",
+      "b": "Balanceo",
+      "c": "Virtualización",
+      "d": "RAID"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 117
+  },
+  {
+    "enunciado": "¿Qué malware se replica automáticamente?",
+    "opciones": {
+      "a": "Gusano",
+      "b": "Driver",
+      "c": "Firewall",
+      "d": "Servidor"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 118
+  },
+  {
+    "enunciado": "¿Qué herramienta filtra tráfico de red?",
+    "opciones": {
+      "a": "Firewall",
+      "b": "Switch",
+      "c": "Router",
+      "d": "Proxy"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 119
+  },
+  {
+    "enunciado": "¿Qué mecanismo registra eventos del sistema?",
+    "opciones": {
+      "a": "Auditoría",
+      "b": "Balanceo",
+      "c": "Virtualización",
+      "d": "RAID"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 120
+  },
+  {
+    "enunciado": "¿Qué significa autenticación?",
+    "opciones": {
+      "a": "Verificar identidad",
+      "b": "Asignar permisos",
+      "c": "Cifrar datos",
+      "d": "Eliminar datos"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 121
+  },
+  {
+    "enunciado": "¿Qué malware se replica automáticamente?",
+    "opciones": {
+      "a": "Gusano",
+      "b": "Driver",
+      "c": "Firewall",
+      "d": "Servidor"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 122
+  },
+  {
+    "enunciado": "¿Qué significa autorización?",
+    "opciones": {
+      "a": "Determinar permisos de usuario",
+      "b": "Verificar identidad",
+      "c": "Eliminar cuentas",
+      "d": "Cifrar datos"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 123
+  },
+  {
+    "enunciado": "¿Qué mecanismo registra eventos del sistema?",
+    "opciones": {
+      "a": "Auditoría",
+      "b": "Balanceo",
+      "c": "Virtualización",
+      "d": "RAID"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 124
+  },
+  {
+    "enunciado": "¿Qué significa autenticación?",
+    "opciones": {
+      "a": "Verificar identidad",
+      "b": "Asignar permisos",
+      "c": "Cifrar datos",
+      "d": "Eliminar datos"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 125
+  },
+  {
+    "enunciado": "¿Qué malware se replica automáticamente?",
+    "opciones": {
+      "a": "Gusano",
+      "b": "Driver",
+      "c": "Firewall",
+      "d": "Servidor"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 126
+  },
+  {
+    "enunciado": "¿Qué malware se replica automáticamente?",
+    "opciones": {
+      "a": "Gusano",
+      "b": "Driver",
+      "c": "Firewall",
+      "d": "Servidor"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 127
+  },
+  {
+    "enunciado": "¿Qué sistema detecta intrusiones?",
+    "opciones": {
+      "a": "IDS",
+      "b": "FTP",
+      "c": "DNS",
+      "d": "DHCP"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 128
+  },
+  {
+    "enunciado": "¿Qué protocolo protege conexiones web?",
+    "opciones": {
+      "a": "TLS",
+      "b": "ARP",
+      "c": "ICMP",
+      "d": "FTP"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 129
+  },
+  {
+    "enunciado": "¿Qué malware se replica automáticamente?",
+    "opciones": {
+      "a": "Gusano",
+      "b": "Driver",
+      "c": "Firewall",
+      "d": "Servidor"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 130
+  },
+  {
+    "enunciado": "¿Qué significa autorización?",
+    "opciones": {
+      "a": "Determinar permisos de usuario",
+      "b": "Verificar identidad",
+      "c": "Eliminar cuentas",
+      "d": "Cifrar datos"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 131
+  },
+  {
+    "enunciado": "¿Qué malware se replica automáticamente?",
+    "opciones": {
+      "a": "Gusano",
+      "b": "Driver",
+      "c": "Firewall",
+      "d": "Servidor"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 132
+  },
+  {
+    "enunciado": "¿Qué mecanismo registra eventos del sistema?",
+    "opciones": {
+      "a": "Auditoría",
+      "b": "Balanceo",
+      "c": "Virtualización",
+      "d": "RAID"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 133
+  },
+  {
+    "enunciado": "¿Qué significa autorización?",
+    "opciones": {
+      "a": "Determinar permisos de usuario",
+      "b": "Verificar identidad",
+      "c": "Eliminar cuentas",
+      "d": "Cifrar datos"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 134
+  },
+  {
+    "enunciado": "¿Qué protocolo protege conexiones web?",
+    "opciones": {
+      "a": "TLS",
+      "b": "ARP",
+      "c": "ICMP",
+      "d": "FTP"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 135
+  },
+  {
+    "enunciado": "¿Qué mecanismo registra eventos del sistema?",
+    "opciones": {
+      "a": "Auditoría",
+      "b": "Balanceo",
+      "c": "Virtualización",
+      "d": "RAID"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 136
+  },
+  {
+    "enunciado": "¿Qué malware se replica automáticamente?",
+    "opciones": {
+      "a": "Gusano",
+      "b": "Driver",
+      "c": "Firewall",
+      "d": "Servidor"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 137
+  },
+  {
+    "enunciado": "¿Qué malware se replica automáticamente?",
+    "opciones": {
+      "a": "Gusano",
+      "b": "Driver",
+      "c": "Firewall",
+      "d": "Servidor"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 138
+  },
+  {
+    "enunciado": "¿Qué propiedad garantiza que los datos no se alteren sin autorización?",
+    "opciones": {
+      "a": "Integridad",
+      "b": "Disponibilidad",
+      "c": "Portabilidad",
+      "d": "Escalabilidad"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 139
+  },
+  {
+    "enunciado": "¿Qué significa autorización?",
+    "opciones": {
+      "a": "Determinar permisos de usuario",
+      "b": "Verificar identidad",
+      "c": "Eliminar cuentas",
+      "d": "Cifrar datos"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 140
+  },
+  {
+    "enunciado": "¿Qué técnica protege datos mediante algoritmos matemáticos?",
+    "opciones": {
+      "a": "Cifrado",
+      "b": "Compresión",
+      "c": "Fragmentación",
+      "d": "Indexación"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 141
+  },
+  {
+    "enunciado": "¿Qué protocolo protege conexiones web?",
+    "opciones": {
+      "a": "TLS",
+      "b": "ARP",
+      "c": "ICMP",
+      "d": "FTP"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 142
+  },
+  {
+    "enunciado": "¿Qué significa autorización?",
+    "opciones": {
+      "a": "Determinar permisos de usuario",
+      "b": "Verificar identidad",
+      "c": "Eliminar cuentas",
+      "d": "Cifrar datos"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 143
+  },
+  {
+    "enunciado": "¿Qué propiedad garantiza que los datos no se alteren sin autorización?",
+    "opciones": {
+      "a": "Integridad",
+      "b": "Disponibilidad",
+      "c": "Portabilidad",
+      "d": "Escalabilidad"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 144
+  },
+  {
+    "enunciado": "¿Qué herramienta filtra tráfico de red?",
+    "opciones": {
+      "a": "Firewall",
+      "b": "Switch",
+      "c": "Router",
+      "d": "Proxy"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 145
+  },
+  {
+    "enunciado": "¿Qué sistema detecta intrusiones?",
+    "opciones": {
+      "a": "IDS",
+      "b": "FTP",
+      "c": "DNS",
+      "d": "DHCP"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 146
+  },
+  {
+    "enunciado": "¿Qué significa autenticación?",
+    "opciones": {
+      "a": "Verificar identidad",
+      "b": "Asignar permisos",
+      "c": "Cifrar datos",
+      "d": "Eliminar datos"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 147
+  },
+  {
+    "enunciado": "¿Qué propiedad garantiza que los datos no se alteren sin autorización?",
+    "opciones": {
+      "a": "Integridad",
+      "b": "Disponibilidad",
+      "c": "Portabilidad",
+      "d": "Escalabilidad"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 148
+  },
+  {
+    "enunciado": "¿Qué significa autenticación?",
+    "opciones": {
+      "a": "Verificar identidad",
+      "b": "Asignar permisos",
+      "c": "Cifrar datos",
+      "d": "Eliminar datos"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 149
+  },
+  {
+    "enunciado": "¿Qué propiedad garantiza que los datos no se alteren sin autorización?",
+    "opciones": {
+      "a": "Integridad",
+      "b": "Disponibilidad",
+      "c": "Portabilidad",
+      "d": "Escalabilidad"
+    },
+    "correcta": "a",
+    "tema": "Seguridad",
+    "numero": 150
+  },
+  {
+    "enunciado": "¿Qué software popular permite crear VMs en escritorio?",
+    "opciones": {
+      "a": "VirtualBox",
+      "b": "Photoshop",
+      "c": "Excel",
+      "d": "Chrome"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 151
+  },
+  {
+    "enunciado": "¿Qué virtualización comparte el kernel del host?",
+    "opciones": {
+      "a": "Contenedores",
+      "b": "Virtualización completa",
+      "c": "Emulación",
+      "d": "RAID"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 152
   },
   {
     "enunciado": "¿Qué es un hipervisor?",
     "opciones": {
-      "a": "Software que permite ejecutar máquinas virtuales",
-      "b": "Sistema operativo móvil",
-      "c": "Router virtual",
-      "d": "Sistema de archivos"
+      "a": "Software que ejecuta máquinas virtuales",
+      "b": "Un router virtual",
+      "c": "Un sistema de archivos",
+      "d": "Un tipo de RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
-    "numero": 31
+    "numero": 153
+  },
+  {
+    "enunciado": "¿Qué es una máquina virtual?",
+    "opciones": {
+      "a": "Sistema operativo ejecutado sobre hardware virtual",
+      "b": "Router virtual",
+      "c": "Servidor físico",
+      "d": "Disco externo"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 154
   },
   {
     "enunciado": "¿Cuál es un ejemplo de hipervisor tipo 1?",
@@ -381,10 +1857,46 @@
     },
     "correcta": "a",
     "tema": "Virtualización",
-    "numero": 32
+    "numero": 155
   },
   {
-    "enunciado": "¿Qué tecnología permite ejecutar aplicaciones en contenedores?",
+    "enunciado": "¿Qué virtualización comparte el kernel del host?",
+    "opciones": {
+      "a": "Contenedores",
+      "b": "Virtualización completa",
+      "c": "Emulación",
+      "d": "RAID"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 156
+  },
+  {
+    "enunciado": "¿Qué permite ejecutar múltiples sistemas en un mismo servidor?",
+    "opciones": {
+      "a": "Virtualización",
+      "b": "Fragmentación",
+      "c": "Compresión",
+      "d": "Caché"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 157
+  },
+  {
+    "enunciado": "¿Qué es un hipervisor?",
+    "opciones": {
+      "a": "Software que ejecuta máquinas virtuales",
+      "b": "Un router virtual",
+      "c": "Un sistema de archivos",
+      "d": "Un tipo de RAID"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 158
+  },
+  {
+    "enunciado": "¿Qué tecnología ejecuta aplicaciones en contenedores?",
     "opciones": {
       "a": "Docker",
       "b": "Excel",
@@ -393,19 +1905,31 @@
     },
     "correcta": "a",
     "tema": "Virtualización",
-    "numero": 33
+    "numero": 159
   },
   {
-    "enunciado": "¿Qué herramienta orquesta contenedores en producción?",
+    "enunciado": "¿Qué virtualización comparte el kernel del host?",
     "opciones": {
-      "a": "Kubernetes",
-      "b": "FTP",
-      "c": "SSH",
-      "d": "SMTP"
+      "a": "Contenedores",
+      "b": "Virtualización completa",
+      "c": "Emulación",
+      "d": "RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
-    "numero": 34
+    "numero": 160
+  },
+  {
+    "enunciado": "¿Qué tecnología ejecuta aplicaciones en contenedores?",
+    "opciones": {
+      "a": "Docker",
+      "b": "Excel",
+      "c": "Word",
+      "d": "PowerPoint"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 161
   },
   {
     "enunciado": "¿Qué ventaja principal tiene la virtualización?",
@@ -417,22 +1941,10 @@
     },
     "correcta": "a",
     "tema": "Virtualización",
-    "numero": 35
+    "numero": 162
   },
   {
-    "enunciado": "¿Qué es una máquina virtual?",
-    "opciones": {
-      "a": "Sistema operativo ejecutándose sobre hardware virtual",
-      "b": "Tipo de router",
-      "c": "Disco externo",
-      "d": "Servidor físico"
-    },
-    "correcta": "a",
-    "tema": "Virtualización",
-    "numero": 36
-  },
-  {
-    "enunciado": "¿Qué tipo de virtualización comparte el kernel del sistema?",
+    "enunciado": "¿Qué virtualización comparte el kernel del host?",
     "opciones": {
       "a": "Contenedores",
       "b": "Virtualización completa",
@@ -441,22 +1953,550 @@
     },
     "correcta": "a",
     "tema": "Virtualización",
-    "numero": 37
+    "numero": 163
   },
   {
-    "enunciado": "¿Qué archivo suele contener la configuración de una VM?",
+    "enunciado": "¿Qué virtualización comparte el kernel del host?",
     "opciones": {
-      "a": "Archivo de configuración de la máquina virtual",
-      "b": "Archivo HTML",
-      "c": "Archivo JPG",
-      "d": "Archivo MP3"
+      "a": "Contenedores",
+      "b": "Virtualización completa",
+      "c": "Emulación",
+      "d": "RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
-    "numero": 38
+    "numero": 164
   },
   {
-    "enunciado": "¿Qué RAID proporciona tolerancia a fallos mediante espejo de discos?",
+    "enunciado": "¿Qué es una máquina virtual?",
+    "opciones": {
+      "a": "Sistema operativo ejecutado sobre hardware virtual",
+      "b": "Router virtual",
+      "c": "Servidor físico",
+      "d": "Disco externo"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 165
+  },
+  {
+    "enunciado": "¿Qué ventaja principal tiene la virtualización?",
+    "opciones": {
+      "a": "Mejor utilización del hardware",
+      "b": "Eliminar redes",
+      "c": "Eliminar seguridad",
+      "d": "Eliminar almacenamiento"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 166
+  },
+  {
+    "enunciado": "¿Qué software popular permite crear VMs en escritorio?",
+    "opciones": {
+      "a": "VirtualBox",
+      "b": "Photoshop",
+      "c": "Excel",
+      "d": "Chrome"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 167
+  },
+  {
+    "enunciado": "¿Qué herramienta orquesta contenedores?",
+    "opciones": {
+      "a": "Kubernetes",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "DNS"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 168
+  },
+  {
+    "enunciado": "¿Qué ventaja principal tiene la virtualización?",
+    "opciones": {
+      "a": "Mejor utilización del hardware",
+      "b": "Eliminar redes",
+      "c": "Eliminar seguridad",
+      "d": "Eliminar almacenamiento"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 169
+  },
+  {
+    "enunciado": "¿Qué es un hipervisor?",
+    "opciones": {
+      "a": "Software que ejecuta máquinas virtuales",
+      "b": "Un router virtual",
+      "c": "Un sistema de archivos",
+      "d": "Un tipo de RAID"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 170
+  },
+  {
+    "enunciado": "¿Qué es un hipervisor?",
+    "opciones": {
+      "a": "Software que ejecuta máquinas virtuales",
+      "b": "Un router virtual",
+      "c": "Un sistema de archivos",
+      "d": "Un tipo de RAID"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 171
+  },
+  {
+    "enunciado": "¿Qué software popular permite crear VMs en escritorio?",
+    "opciones": {
+      "a": "VirtualBox",
+      "b": "Photoshop",
+      "c": "Excel",
+      "d": "Chrome"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 172
+  },
+  {
+    "enunciado": "¿Qué tecnología ejecuta aplicaciones en contenedores?",
+    "opciones": {
+      "a": "Docker",
+      "b": "Excel",
+      "c": "Word",
+      "d": "PowerPoint"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 173
+  },
+  {
+    "enunciado": "¿Cuál es un ejemplo de hipervisor tipo 1?",
+    "opciones": {
+      "a": "VMware ESXi",
+      "b": "VirtualBox",
+      "c": "Docker",
+      "d": "Chrome"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 174
+  },
+  {
+    "enunciado": "¿Qué es un hipervisor?",
+    "opciones": {
+      "a": "Software que ejecuta máquinas virtuales",
+      "b": "Un router virtual",
+      "c": "Un sistema de archivos",
+      "d": "Un tipo de RAID"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 175
+  },
+  {
+    "enunciado": "¿Qué ventaja principal tiene la virtualización?",
+    "opciones": {
+      "a": "Mejor utilización del hardware",
+      "b": "Eliminar redes",
+      "c": "Eliminar seguridad",
+      "d": "Eliminar almacenamiento"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 176
+  },
+  {
+    "enunciado": "¿Qué herramienta orquesta contenedores?",
+    "opciones": {
+      "a": "Kubernetes",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "DNS"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 177
+  },
+  {
+    "enunciado": "¿Qué software popular permite crear VMs en escritorio?",
+    "opciones": {
+      "a": "VirtualBox",
+      "b": "Photoshop",
+      "c": "Excel",
+      "d": "Chrome"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 178
+  },
+  {
+    "enunciado": "¿Qué concepto separa aplicaciones del sistema base?",
+    "opciones": {
+      "a": "Contenedores",
+      "b": "RAID",
+      "c": "Cluster",
+      "d": "VPN"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 179
+  },
+  {
+    "enunciado": "¿Qué es un hipervisor?",
+    "opciones": {
+      "a": "Software que ejecuta máquinas virtuales",
+      "b": "Un router virtual",
+      "c": "Un sistema de archivos",
+      "d": "Un tipo de RAID"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 180
+  },
+  {
+    "enunciado": "¿Qué es un hipervisor?",
+    "opciones": {
+      "a": "Software que ejecuta máquinas virtuales",
+      "b": "Un router virtual",
+      "c": "Un sistema de archivos",
+      "d": "Un tipo de RAID"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 181
+  },
+  {
+    "enunciado": "¿Qué tecnología ejecuta aplicaciones en contenedores?",
+    "opciones": {
+      "a": "Docker",
+      "b": "Excel",
+      "c": "Word",
+      "d": "PowerPoint"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 182
+  },
+  {
+    "enunciado": "¿Qué ventaja principal tiene la virtualización?",
+    "opciones": {
+      "a": "Mejor utilización del hardware",
+      "b": "Eliminar redes",
+      "c": "Eliminar seguridad",
+      "d": "Eliminar almacenamiento"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 183
+  },
+  {
+    "enunciado": "¿Qué concepto separa aplicaciones del sistema base?",
+    "opciones": {
+      "a": "Contenedores",
+      "b": "RAID",
+      "c": "Cluster",
+      "d": "VPN"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 184
+  },
+  {
+    "enunciado": "¿Qué software popular permite crear VMs en escritorio?",
+    "opciones": {
+      "a": "VirtualBox",
+      "b": "Photoshop",
+      "c": "Excel",
+      "d": "Chrome"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 185
+  },
+  {
+    "enunciado": "¿Qué software popular permite crear VMs en escritorio?",
+    "opciones": {
+      "a": "VirtualBox",
+      "b": "Photoshop",
+      "c": "Excel",
+      "d": "Chrome"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 186
+  },
+  {
+    "enunciado": "¿Qué ventaja principal tiene la virtualización?",
+    "opciones": {
+      "a": "Mejor utilización del hardware",
+      "b": "Eliminar redes",
+      "c": "Eliminar seguridad",
+      "d": "Eliminar almacenamiento"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 187
+  },
+  {
+    "enunciado": "¿Qué es una máquina virtual?",
+    "opciones": {
+      "a": "Sistema operativo ejecutado sobre hardware virtual",
+      "b": "Router virtual",
+      "c": "Servidor físico",
+      "d": "Disco externo"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 188
+  },
+  {
+    "enunciado": "¿Qué herramienta orquesta contenedores?",
+    "opciones": {
+      "a": "Kubernetes",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "DNS"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 189
+  },
+  {
+    "enunciado": "¿Qué permite ejecutar múltiples sistemas en un mismo servidor?",
+    "opciones": {
+      "a": "Virtualización",
+      "b": "Fragmentación",
+      "c": "Compresión",
+      "d": "Caché"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 190
+  },
+  {
+    "enunciado": "¿Qué tecnología ejecuta aplicaciones en contenedores?",
+    "opciones": {
+      "a": "Docker",
+      "b": "Excel",
+      "c": "Word",
+      "d": "PowerPoint"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 191
+  },
+  {
+    "enunciado": "¿Qué virtualización comparte el kernel del host?",
+    "opciones": {
+      "a": "Contenedores",
+      "b": "Virtualización completa",
+      "c": "Emulación",
+      "d": "RAID"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 192
+  },
+  {
+    "enunciado": "¿Qué herramienta orquesta contenedores?",
+    "opciones": {
+      "a": "Kubernetes",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "DNS"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 193
+  },
+  {
+    "enunciado": "¿Qué es un hipervisor?",
+    "opciones": {
+      "a": "Software que ejecuta máquinas virtuales",
+      "b": "Un router virtual",
+      "c": "Un sistema de archivos",
+      "d": "Un tipo de RAID"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 194
+  },
+  {
+    "enunciado": "¿Qué tecnología ejecuta aplicaciones en contenedores?",
+    "opciones": {
+      "a": "Docker",
+      "b": "Excel",
+      "c": "Word",
+      "d": "PowerPoint"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 195
+  },
+  {
+    "enunciado": "¿Qué tecnología ejecuta aplicaciones en contenedores?",
+    "opciones": {
+      "a": "Docker",
+      "b": "Excel",
+      "c": "Word",
+      "d": "PowerPoint"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 196
+  },
+  {
+    "enunciado": "¿Qué herramienta orquesta contenedores?",
+    "opciones": {
+      "a": "Kubernetes",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "DNS"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 197
+  },
+  {
+    "enunciado": "¿Qué virtualización comparte el kernel del host?",
+    "opciones": {
+      "a": "Contenedores",
+      "b": "Virtualización completa",
+      "c": "Emulación",
+      "d": "RAID"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 198
+  },
+  {
+    "enunciado": "¿Qué concepto separa aplicaciones del sistema base?",
+    "opciones": {
+      "a": "Contenedores",
+      "b": "RAID",
+      "c": "Cluster",
+      "d": "VPN"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 199
+  },
+  {
+    "enunciado": "¿Qué software popular permite crear VMs en escritorio?",
+    "opciones": {
+      "a": "VirtualBox",
+      "b": "Photoshop",
+      "c": "Excel",
+      "d": "Chrome"
+    },
+    "correcta": "a",
+    "tema": "Virtualización",
+    "numero": 200
+  },
+  {
+    "enunciado": "¿Qué significa NAS?",
+    "opciones": {
+      "a": "Network Attached Storage",
+      "b": "New Access Server",
+      "c": "Network Access System",
+      "d": "Node Area Storage"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 201
+  },
+  {
+    "enunciado": "¿Qué copia guarda cambios desde la última copia realizada?",
+    "opciones": {
+      "a": "Backup incremental",
+      "b": "Backup completo",
+      "c": "Backup espejo",
+      "d": "Backup RAID"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 202
+  },
+  {
+    "enunciado": "¿Qué copia guarda cambios desde la última copia realizada?",
+    "opciones": {
+      "a": "Backup incremental",
+      "b": "Backup completo",
+      "c": "Backup espejo",
+      "d": "Backup RAID"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 203
+  },
+  {
+    "enunciado": "¿Qué copia guarda cambios desde la última copia realizada?",
+    "opciones": {
+      "a": "Backup incremental",
+      "b": "Backup completo",
+      "c": "Backup espejo",
+      "d": "Backup RAID"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 204
+  },
+  {
+    "enunciado": "¿Qué tecnología mejora redundancia de discos?",
+    "opciones": {
+      "a": "RAID",
+      "b": "DNS",
+      "c": "DHCP",
+      "d": "SSH"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 205
+  },
+  {
+    "enunciado": "¿Qué copia guarda cambios desde la última copia realizada?",
+    "opciones": {
+      "a": "Backup incremental",
+      "b": "Backup completo",
+      "c": "Backup espejo",
+      "d": "Backup RAID"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 206
+  },
+  {
+    "enunciado": "¿Qué objetivo mide tiempo máximo de recuperación?",
+    "opciones": {
+      "a": "RTO",
+      "b": "RPO",
+      "c": "CPU",
+      "d": "RAID"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 207
+  },
+  {
+    "enunciado": "¿Qué copia guarda cambios desde última copia completa?",
+    "opciones": {
+      "a": "Backup diferencial",
+      "b": "Backup completo",
+      "c": "Backup espejo",
+      "d": "Backup RAID"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 208
+  },
+  {
+    "enunciado": "¿Qué RAID utiliza espejo de discos?",
     "opciones": {
       "a": "RAID 1",
       "b": "RAID 0",
@@ -465,7 +2505,163 @@
     },
     "correcta": "a",
     "tema": "Almacenamiento",
-    "numero": 39
+    "numero": 209
+  },
+  {
+    "enunciado": "¿Qué sistema conecta almacenamiento por red?",
+    "opciones": {
+      "a": "NAS",
+      "b": "GPU",
+      "c": "CPU",
+      "d": "BIOS"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 210
+  },
+  {
+    "enunciado": "¿Qué copia guarda cambios desde última copia completa?",
+    "opciones": {
+      "a": "Backup diferencial",
+      "b": "Backup completo",
+      "c": "Backup espejo",
+      "d": "Backup RAID"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 211
+  },
+  {
+    "enunciado": "¿Qué sistema conecta almacenamiento por red?",
+    "opciones": {
+      "a": "NAS",
+      "b": "GPU",
+      "c": "CPU",
+      "d": "BIOS"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 212
+  },
+  {
+    "enunciado": "¿Qué tecnología mejora redundancia de discos?",
+    "opciones": {
+      "a": "RAID",
+      "b": "DNS",
+      "c": "DHCP",
+      "d": "SSH"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 213
+  },
+  {
+    "enunciado": "¿Qué RAID utiliza espejo de discos?",
+    "opciones": {
+      "a": "RAID 1",
+      "b": "RAID 0",
+      "c": "RAID 5",
+      "d": "RAID 6"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 214
+  },
+  {
+    "enunciado": "¿Qué significa NAS?",
+    "opciones": {
+      "a": "Network Attached Storage",
+      "b": "New Access Server",
+      "c": "Network Access System",
+      "d": "Node Area Storage"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 215
+  },
+  {
+    "enunciado": "¿Qué significa NAS?",
+    "opciones": {
+      "a": "Network Attached Storage",
+      "b": "New Access Server",
+      "c": "Network Access System",
+      "d": "Node Area Storage"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 216
+  },
+  {
+    "enunciado": "¿Qué RAID utiliza espejo de discos?",
+    "opciones": {
+      "a": "RAID 1",
+      "b": "RAID 0",
+      "c": "RAID 5",
+      "d": "RAID 6"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 217
+  },
+  {
+    "enunciado": "¿Qué significa NAS?",
+    "opciones": {
+      "a": "Network Attached Storage",
+      "b": "New Access Server",
+      "c": "Network Access System",
+      "d": "Node Area Storage"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 218
+  },
+  {
+    "enunciado": "¿Qué significa SAN?",
+    "opciones": {
+      "a": "Storage Area Network",
+      "b": "Server Access Network",
+      "c": "System Area Node",
+      "d": "Storage Access Node"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 219
+  },
+  {
+    "enunciado": "¿Qué tecnología mejora redundancia de discos?",
+    "opciones": {
+      "a": "RAID",
+      "b": "DNS",
+      "c": "DHCP",
+      "d": "SSH"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 220
+  },
+  {
+    "enunciado": "¿Qué copia guarda cambios desde última copia completa?",
+    "opciones": {
+      "a": "Backup diferencial",
+      "b": "Backup completo",
+      "c": "Backup espejo",
+      "d": "Backup RAID"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 221
+  },
+  {
+    "enunciado": "¿Qué dispositivo usa memoria flash?",
+    "opciones": {
+      "a": "SSD",
+      "b": "HDD",
+      "c": "Cinta magnética",
+      "d": "DVD"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 222
   },
   {
     "enunciado": "¿Qué RAID utiliza paridad distribuida?",
@@ -477,58 +2673,94 @@
     },
     "correcta": "a",
     "tema": "Almacenamiento",
-    "numero": 40
+    "numero": 223
+  },
+  {
+    "enunciado": "¿Qué RAID utiliza espejo de discos?",
+    "opciones": {
+      "a": "RAID 1",
+      "b": "RAID 0",
+      "c": "RAID 5",
+      "d": "RAID 6"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 224
+  },
+  {
+    "enunciado": "¿Qué dispositivo usa memoria flash?",
+    "opciones": {
+      "a": "SSD",
+      "b": "HDD",
+      "c": "Cinta magnética",
+      "d": "DVD"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 225
+  },
+  {
+    "enunciado": "¿Qué RAID utiliza paridad distribuida?",
+    "opciones": {
+      "a": "RAID 5",
+      "b": "RAID 0",
+      "c": "RAID 1",
+      "d": "RAID 10"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 226
+  },
+  {
+    "enunciado": "¿Qué RAID utiliza paridad distribuida?",
+    "opciones": {
+      "a": "RAID 5",
+      "b": "RAID 0",
+      "c": "RAID 1",
+      "d": "RAID 10"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 227
   },
   {
     "enunciado": "¿Qué significa NAS?",
     "opciones": {
       "a": "Network Attached Storage",
       "b": "New Access Server",
-      "c": "Network Application Service",
-      "d": "Node Access System"
+      "c": "Network Access System",
+      "d": "Node Area Storage"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
-    "numero": 41
+    "numero": 228
   },
   {
-    "enunciado": "¿Qué significa SAN?",
-    "opciones": {
-      "a": "Storage Area Network",
-      "b": "Server Access Node",
-      "c": "System Area Network",
-      "d": "Storage Access Node"
-    },
-    "correcta": "a",
-    "tema": "Almacenamiento",
-    "numero": 42
-  },
-  {
-    "enunciado": "¿Qué dispositivo de almacenamiento usa memoria flash?",
-    "opciones": {
-      "a": "SSD",
-      "b": "HDD",
-      "c": "Cinta magnética",
-      "d": "CD-ROM"
-    },
-    "correcta": "a",
-    "tema": "Almacenamiento",
-    "numero": 43
-  },
-  {
-    "enunciado": "¿Qué objetivo define el tiempo máximo de recuperación tras un fallo?",
+    "enunciado": "¿Qué objetivo mide tiempo máximo de recuperación?",
     "opciones": {
       "a": "RTO",
       "b": "RPO",
-      "c": "RAID",
-      "d": "CPU"
+      "c": "CPU",
+      "d": "RAID"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
-    "numero": 44
+    "numero": 229
   },
   {
-    "enunciado": "¿Qué tipo de copia guarda solo cambios desde la última copia completa?",
+    "enunciado": "¿Qué significa NAS?",
+    "opciones": {
+      "a": "Network Attached Storage",
+      "b": "New Access Server",
+      "c": "Network Access System",
+      "d": "Node Area Storage"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 230
+  },
+  {
+    "enunciado": "¿Qué copia guarda cambios desde última copia completa?",
     "opciones": {
       "a": "Backup diferencial",
       "b": "Backup completo",
@@ -537,18 +2769,234 @@
     },
     "correcta": "a",
     "tema": "Almacenamiento",
-    "numero": 45
+    "numero": 231
   },
   {
-    "enunciado": "¿Qué tipo de copia guarda cambios desde la última copia realizada?",
+    "enunciado": "¿Qué significa SAN?",
     "opciones": {
-      "a": "Backup incremental",
-      "b": "Backup completo",
-      "c": "Backup RAID",
-      "d": "Backup espejo"
+      "a": "Storage Area Network",
+      "b": "Server Access Network",
+      "c": "System Area Node",
+      "d": "Storage Access Node"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
-    "numero": 46
+    "numero": 232
+  },
+  {
+    "enunciado": "¿Qué RAID utiliza paridad distribuida?",
+    "opciones": {
+      "a": "RAID 5",
+      "b": "RAID 0",
+      "c": "RAID 1",
+      "d": "RAID 10"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 233
+  },
+  {
+    "enunciado": "¿Qué tecnología mejora redundancia de discos?",
+    "opciones": {
+      "a": "RAID",
+      "b": "DNS",
+      "c": "DHCP",
+      "d": "SSH"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 234
+  },
+  {
+    "enunciado": "¿Qué copia guarda cambios desde última copia completa?",
+    "opciones": {
+      "a": "Backup diferencial",
+      "b": "Backup completo",
+      "c": "Backup espejo",
+      "d": "Backup RAID"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 235
+  },
+  {
+    "enunciado": "¿Qué copia guarda cambios desde última copia completa?",
+    "opciones": {
+      "a": "Backup diferencial",
+      "b": "Backup completo",
+      "c": "Backup espejo",
+      "d": "Backup RAID"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 236
+  },
+  {
+    "enunciado": "¿Qué sistema conecta almacenamiento por red?",
+    "opciones": {
+      "a": "NAS",
+      "b": "GPU",
+      "c": "CPU",
+      "d": "BIOS"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 237
+  },
+  {
+    "enunciado": "¿Qué objetivo mide tiempo máximo de recuperación?",
+    "opciones": {
+      "a": "RTO",
+      "b": "RPO",
+      "c": "CPU",
+      "d": "RAID"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 238
+  },
+  {
+    "enunciado": "¿Qué objetivo mide tiempo máximo de recuperación?",
+    "opciones": {
+      "a": "RTO",
+      "b": "RPO",
+      "c": "CPU",
+      "d": "RAID"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 239
+  },
+  {
+    "enunciado": "¿Qué tecnología mejora redundancia de discos?",
+    "opciones": {
+      "a": "RAID",
+      "b": "DNS",
+      "c": "DHCP",
+      "d": "SSH"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 240
+  },
+  {
+    "enunciado": "¿Qué objetivo mide tiempo máximo de recuperación?",
+    "opciones": {
+      "a": "RTO",
+      "b": "RPO",
+      "c": "CPU",
+      "d": "RAID"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 241
+  },
+  {
+    "enunciado": "¿Qué copia guarda cambios desde la última copia realizada?",
+    "opciones": {
+      "a": "Backup incremental",
+      "b": "Backup completo",
+      "c": "Backup espejo",
+      "d": "Backup RAID"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 242
+  },
+  {
+    "enunciado": "¿Qué RAID utiliza paridad distribuida?",
+    "opciones": {
+      "a": "RAID 5",
+      "b": "RAID 0",
+      "c": "RAID 1",
+      "d": "RAID 10"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 243
+  },
+  {
+    "enunciado": "¿Qué dispositivo usa memoria flash?",
+    "opciones": {
+      "a": "SSD",
+      "b": "HDD",
+      "c": "Cinta magnética",
+      "d": "DVD"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 244
+  },
+  {
+    "enunciado": "¿Qué sistema conecta almacenamiento por red?",
+    "opciones": {
+      "a": "NAS",
+      "b": "GPU",
+      "c": "CPU",
+      "d": "BIOS"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 245
+  },
+  {
+    "enunciado": "¿Qué copia guarda cambios desde la última copia realizada?",
+    "opciones": {
+      "a": "Backup incremental",
+      "b": "Backup completo",
+      "c": "Backup espejo",
+      "d": "Backup RAID"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 246
+  },
+  {
+    "enunciado": "¿Qué significa SAN?",
+    "opciones": {
+      "a": "Storage Area Network",
+      "b": "Server Access Network",
+      "c": "System Area Node",
+      "d": "Storage Access Node"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 247
+  },
+  {
+    "enunciado": "¿Qué RAID utiliza espejo de discos?",
+    "opciones": {
+      "a": "RAID 1",
+      "b": "RAID 0",
+      "c": "RAID 5",
+      "d": "RAID 6"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 248
+  },
+  {
+    "enunciado": "¿Qué copia guarda cambios desde la última copia realizada?",
+    "opciones": {
+      "a": "Backup incremental",
+      "b": "Backup completo",
+      "c": "Backup espejo",
+      "d": "Backup RAID"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 249
+  },
+  {
+    "enunciado": "¿Qué RAID utiliza espejo de discos?",
+    "opciones": {
+      "a": "RAID 1",
+      "b": "RAID 0",
+      "c": "RAID 5",
+      "d": "RAID 6"
+    },
+    "correcta": "a",
+    "tema": "Almacenamiento",
+    "numero": 250
   }
 ]
