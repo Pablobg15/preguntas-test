@@ -1,0 +1,2625 @@
+[
+{
+"enunciado":"¿Cuál de los siguientes es uno de los derechos fundamentales y libertades públicas de la Sección 1ª del Capítulo II del Título I de la Constitución?",
+"opciones":{"a":"El derecho de reunión pacífica y sin armas","b":"El derecho de defender a España","c":"El derecho a la propiedad privada y a la herencia","d":"El derecho al trabajo"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":1
+},
+{
+"enunciado":"En relación al artículo 64 de la Constitución, señale la correcta:",
+"opciones":{"a":"Los actos del Rey serán refrendados por el Presidente del Congreso","b":"El Presidente del Gobierno no puede refrendar actos del Rey","c":"La propuesta y nombramiento del Presidente del Gobierno serán refrendados por el Presidente del Congreso","d":"El Rey será responsable de los actos refrendados"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":2
+},
+{
+"enunciado":"Según el artículo 161 de la Constitución:",
+"opciones":{"a":"El Tribunal Constitucional conoce del recurso de amparo contra leyes","b":"El Tribunal Supremo conoce del recurso de amparo","c":"El Tribunal Constitucional conoce del recurso de inconstitucionalidad contra leyes","d":"El Tribunal Supremo conoce del recurso de inconstitucionalidad"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":3
+},
+{
+"enunciado":"Según el artículo 98 de la Constitución:",
+"opciones":{"a":"Presidente, Vicepresidentes, Ministros y Secretarios de Estado","b":"Presidente, Vicepresidentes, Ministros y Secretarios de Estado y otros miembros","c":"Presidente, Ministros y Secretarios de Estado","d":"Presidente, Vicepresidentes en su caso, Ministros y otros miembros establecidos por ley"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":4
+},
+{
+"enunciado":"¿Cuál NO es causa de cese del Gobierno según el art.101 CE?",
+"opciones":{"a":"Elecciones generales","b":"Pérdida de confianza parlamentaria","c":"Presentación de una moción de censura","d":"Dimisión o fallecimiento del Presidente"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":5
+},
+{
+"enunciado":"¿En qué año se aprobó la Agenda 2030?",
+"opciones":{"a":"2015","b":"2016","c":"2017","d":"2018"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":6
+},
+{
+"enunciado":"El control de la publicidad activa de la AGE corresponde a:",
+"opciones":{"a":"Ministerio de Política Territorial","b":"Secretaría de Estado de Función Pública","c":"Consejo de Transparencia y Buen Gobierno","d":"Subdirección de Transparencia"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":7
+},
+{
+"enunciado":"Según Ley 40/2015, ¿quién NO es alto cargo?",
+"opciones":{"a":"Ministro","b":"Subdirector general","c":"Subsecretario","d":"Secretario general técnico"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":8
+},
+{
+"enunciado":"Según el EBEP, los empleados públicos se clasifican en:",
+"opciones":{"a":"Funcionarios de carrera, interinos, personal laboral y eventual","b":"Funcionarios de carrera, interinos y laboral fijo","c":"Funcionarios de carrera y laboral fijo","d":"Funcionarios de carrera, interinos y eventual"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":9
+},
+{
+"enunciado":"Un tratado internacional contrario a la Constitución:",
+"opciones":{"a":"Es nulo","b":"Requiere revisión constitucional previa","c":"Debe declararlo el Tribunal Supremo","d":"Debe declararlo el Tribunal Constitucional"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":10
+},
+{
+"enunciado":"Para aprobar leyes orgánicas se exige:",
+"opciones":{"a":"Mayoría absoluta del Congreso en votación final","b":"Mayoría absoluta Congreso y Senado","c":"Mayoría simple","d":"Mayoría cualificada del Senado"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":11
+},
+{
+"enunciado":"Presencia equilibrada hombres y mujeres según LO 3/2007:",
+"opciones":{"a":"50% exacto","b":"Máximo 60% mínimo 40%","c":"Máximo 70% mínimo 30%","d":"Máximo 60% mínimo 40%"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":12
+},
+{
+"enunciado":"Formato de firma que añade certificados e info de revocación:",
+"opciones":{"a":"AdES-C","b":"AdES-X","c":"AdES-XL","d":"AdES-A"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":13
+},
+{
+"enunciado":"Middleware para gestionar conexión NFC entre Android y DNIe:",
+"opciones":{"a":"DNIeNFConnect","b":"DNIeApp","c":"MiddleDNIe","d":"DNIeDroid"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":14
+},
+{
+"enunciado":"Derecho del RGPD a recibir datos personales estructurados y transmitirlos:",
+"opciones":{"a":"Acceso","b":"Portabilidad","c":"Transferencia","d":"Custodia"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":15
+},
+{
+"enunciado":"El Esquema Nacional de Interoperabilidad se define como:",
+"opciones":{"a":"Obligaciones tecnológicas","b":"Requisitos técnicos","c":"Conjunto de criterios y recomendaciones para interoperabilidad","d":"Conjunto de aplicaciones abiertas"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":16
+},
+{
+"enunciado":"Según Ley 39/2015, comunicaciones electrónicas:",
+"opciones":{"a":"Elegir medio y mantenerlo","b":"Elegir medio en cada momento","c":"No cambiar medio","d":"Solo obligatorias para colectivos"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":17
+},
+{
+"enunciado":"NO es Norma Técnica de Interoperabilidad:",
+"opciones":{"a":"Catálogo de estándares","b":"Política firma electrónica","c":"Política reutilización formatos","d":"Reutilización recursos información"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":18
+},
+{
+"enunciado":"Inventario unificado de unidades orgánicas de la administración:",
+"opciones":{"a":"DIR3","b":"ORVE","c":"SICRES","d":"Autentica"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":19
+},
+{
+"enunciado":"Sobre Port@firmas AGE señale la incorrecta:",
+"opciones":{"a":"Incorpora flujos de firma","b":"Admite formatos CAdES XAdES PAdES","c":"Integración mediante servicios web","d":"Versión móvil disponible 2020"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":20
+},
+{
+"enunciado":"¿Cuál de los siguientes sistemas permite el intercambio registral entre administraciones públicas?",
+"opciones":{"a":"ORVE","b":"DIR3","c":"SIR","d":"Cl@ve"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":21
+},
+{
+"enunciado":"¿Qué sistema permite la identificación electrónica común para ciudadanos ante las AAPP?",
+"opciones":{"a":"DIR3","b":"Cl@ve","c":"SIR","d":"ORVE"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":22
+},
+{
+"enunciado":"Según el Esquema Nacional de Seguridad, el análisis y gestión de riesgos se basa en:",
+"opciones":{"a":"ISO 9001","b":"MAGERIT","c":"ITIL","d":"COBIT"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":23
+},
+{
+"enunciado":"¿Qué norma regula el Esquema Nacional de Seguridad?",
+"opciones":{"a":"Ley 39/2015","b":"Ley 40/2015","c":"Real Decreto 4/2010","d":"Real Decreto 3/2010"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":24
+},
+{
+"enunciado":"¿Cuál de los siguientes NO es un principio básico del ENS?",
+"opciones":{"a":"Seguridad integral","b":"Gestión de riesgos","c":"Prevención y reacción","d":"Separación de funciones"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":25
+},
+{
+"enunciado":"¿Cuál de los siguientes servicios proporciona autenticación federada en la AGE?",
+"opciones":{"a":"Cl@ve","b":"DIR3","c":"ORVE","d":"FACe"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":26
+},
+{
+"enunciado":"¿Qué sistema se utiliza para la facturación electrónica en la AGE?",
+"opciones":{"a":"FACe","b":"DIR3","c":"Cl@ve","d":"SIR"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":27
+},
+{
+"enunciado":"¿Qué base de datos distribuye información sobre procedimientos administrativos?",
+"opciones":{"a":"SIA","b":"DIR3","c":"FACe","d":"Cl@ve"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":28
+},
+{
+"enunciado":"¿Qué sistema permite el intercambio de asientos registrales entre administraciones?",
+"opciones":{"a":"ORVE","b":"SIR","c":"Cl@ve","d":"DIR3"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":29
+},
+{
+"enunciado":"El sistema Cl@ve incluye:",
+"opciones":{"a":"Cl@ve PIN","b":"Cl@ve Permanente","c":"Cl@ve Firma","d":"Todos los anteriores"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":30
+},
+{
+"enunciado":"¿Qué es una base de datos relacional?",
+"opciones":{"a":"Un sistema de archivos","b":"Un modelo basado en tablas relacionadas","c":"Un modelo jerárquico","d":"Un sistema distribuido"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":31
+},
+{
+"enunciado":"¿Qué lenguaje se utiliza para consultar bases de datos relacionales?",
+"opciones":{"a":"HTML","b":"SQL","c":"XML","d":"JSON"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":32
+},
+{
+"enunciado":"¿Cuál de los siguientes es un sistema gestor de bases de datos?",
+"opciones":{"a":"Linux","b":"MySQL","c":"Apache","d":"Firefox"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":33
+},
+{
+"enunciado":"¿Qué significa ACID en bases de datos?",
+"opciones":{"a":"Atomicidad, Consistencia, Aislamiento, Durabilidad","b":"Acceso, Control, Integridad, Datos","c":"Aplicación, Consulta, Integración, Datos","d":"Acción, Consistencia, Integración, Datos"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":34
+},
+{
+"enunciado":"¿Cuál de los siguientes NO es un tipo de JOIN en SQL?",
+"opciones":{"a":"INNER JOIN","b":"LEFT JOIN","c":"RIGHT JOIN","d":"FULL JOINED"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":35
+},
+{
+"enunciado":"¿Qué sentencia SQL se utiliza para insertar datos?",
+"opciones":{"a":"SELECT","b":"UPDATE","c":"INSERT","d":"DELETE"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":36
+},
+{
+"enunciado":"¿Qué sentencia SQL se utiliza para modificar datos?",
+"opciones":{"a":"INSERT","b":"UPDATE","c":"DELETE","d":"SELECT"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":37
+},
+{
+"enunciado":"¿Qué sentencia SQL elimina registros?",
+"opciones":{"a":"INSERT","b":"UPDATE","c":"DELETE","d":"SELECT"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":38
+},
+{
+"enunciado":"¿Qué comando SQL crea una tabla?",
+"opciones":{"a":"CREATE TABLE","b":"NEW TABLE","c":"ADD TABLE","d":"BUILD TABLE"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":39
+},
+{
+"enunciado":"¿Qué comando SQL elimina una tabla?",
+"opciones":{"a":"REMOVE TABLE","b":"DELETE TABLE","c":"DROP TABLE","d":"ERASE TABLE"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":40
+},
+
+{
+"enunciado":"¿Cuál de los siguientes protocolos se utiliza para la transferencia de páginas web?",
+"opciones":{"a":"FTP","b":"HTTP","c":"SMTP","d":"SNMP"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":41
+},
+{
+"enunciado":"¿Qué protocolo se utiliza para el envío de correo electrónico?",
+"opciones":{"a":"POP3","b":"IMAP","c":"SMTP","d":"FTP"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":42
+},
+{
+"enunciado":"¿Qué protocolo se utiliza para recibir correo electrónico?",
+"opciones":{"a":"POP3","b":"SMTP","c":"HTTP","d":"FTP"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":43
+},
+{
+"enunciado":"¿Qué protocolo se utiliza para gestión de redes?",
+"opciones":{"a":"HTTP","b":"FTP","c":"SNMP","d":"SMTP"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":44
+},
+{
+"enunciado":"¿Qué protocolo permite transferencia segura de páginas web?",
+"opciones":{"a":"HTTP","b":"HTTPS","c":"FTP","d":"SMTP"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":45
+},
+{
+"enunciado":"¿Qué tipo de red conecta dispositivos dentro de un área local?",
+"opciones":{"a":"WAN","b":"LAN","c":"MAN","d":"PAN"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":46
+},
+{
+"enunciado":"¿Qué significa IP?",
+"opciones":{"a":"Internet Protocol","b":"Internal Protocol","c":"Internet Program","d":"Interface Protocol"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":47
+},
+{
+"enunciado":"¿Qué dispositivo conecta redes diferentes?",
+"opciones":{"a":"Switch","b":"Router","c":"Hub","d":"Bridge"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":48
+},
+{
+"enunciado":"¿Qué dispositivo opera en la capa 2 del modelo OSI?",
+"opciones":{"a":"Router","b":"Switch","c":"Gateway","d":"Firewall"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":49
+},
+{
+"enunciado":"¿Qué capa del modelo OSI gestiona la transmisión física?",
+"opciones":{"a":"Aplicación","b":"Transporte","c":"Red","d":"Física"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":50
+},
+{
+"enunciado":"¿Qué protocolo se utiliza para transferencia de archivos?",
+"opciones":{"a":"FTP","b":"SMTP","c":"HTTP","d":"SNMP"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":51
+},
+{
+"enunciado":"¿Qué significa DNS?",
+"opciones":{"a":"Domain Name System","b":"Data Network System","c":"Digital Name Server","d":"Domain Network Service"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":52
+},
+{
+"enunciado":"¿Qué hace un servidor DNS?",
+"opciones":{"a":"Traduce nombres de dominio a IP","b":"Envía correos","c":"Gestiona bases de datos","d":"Controla redes"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":53
+},
+{
+"enunciado":"¿Qué es DHCP?",
+"opciones":{"a":"Asignación automática de IP","b":"Servidor web","c":"Protocolo de correo","d":"Sistema de archivos"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":54
+},
+{
+"enunciado":"¿Qué puerto usa HTTP por defecto?",
+"opciones":{"a":"21","b":"80","c":"443","d":"25"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":55
+},
+{
+"enunciado":"¿Qué puerto usa HTTPS por defecto?",
+"opciones":{"a":"80","b":"21","c":"443","d":"110"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":56
+},
+{
+"enunciado":"¿Qué protocolo cifra las comunicaciones web?",
+"opciones":{"a":"SSL/TLS","b":"FTP","c":"SMTP","d":"DNS"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":57
+},
+{
+"enunciado":"¿Qué herramienta se usa para probar conectividad de red?",
+"opciones":{"a":"ping","b":"dir","c":"copy","d":"ls"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":58
+},
+{
+"enunciado":"¿Qué comando muestra la configuración IP en Windows?",
+"opciones":{"a":"ipconfig","b":"ifconfig","c":"netstat","d":"route"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":59
+},
+{
+"enunciado":"¿Qué comando muestra conexiones activas de red?",
+"opciones":{"a":"ping","b":"ipconfig","c":"netstat","d":"tracert"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":60
+},
+
+{
+"enunciado":"¿Qué modelo describe la arquitectura de comunicaciones en siete capas?",
+"opciones":{"a":"TCP/IP","b":"OSI","c":"HTTP","d":"UDP"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":61
+},
+{
+"enunciado":"¿Qué capa del modelo OSI se encarga del direccionamiento lógico?",
+"opciones":{"a":"Aplicación","b":"Transporte","c":"Red","d":"Enlace de datos"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":62
+},
+{
+"enunciado":"¿Qué capa del modelo OSI garantiza la entrega de datos extremo a extremo?",
+"opciones":{"a":"Aplicación","b":"Transporte","c":"Red","d":"Sesión"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":63
+},
+{
+"enunciado":"¿Cuál de los siguientes protocolos es de transporte?",
+"opciones":{"a":"TCP","b":"HTTP","c":"FTP","d":"DNS"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":64
+},
+{
+"enunciado":"¿Cuál de los siguientes protocolos es no orientado a conexión?",
+"opciones":{"a":"TCP","b":"HTTP","c":"FTP","d":"UDP"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":65
+},
+{
+"enunciado":"¿Qué significa URL?",
+"opciones":{"a":"Universal Resource Locator","b":"Uniform Resource Locator","c":"Uniform Resource Link","d":"Universal Resource Link"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":66
+},
+{
+"enunciado":"¿Qué significa HTML?",
+"opciones":{"a":"HyperText Markup Language","b":"HighText Markup Language","c":"HyperText Markdown Language","d":"HyperText Machine Language"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":67
+},
+{
+"enunciado":"¿Qué lenguaje se utiliza para dar estilo a páginas web?",
+"opciones":{"a":"HTML","b":"CSS","c":"XML","d":"SQL"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":68
+},
+{
+"enunciado":"¿Qué lenguaje se ejecuta en el navegador del cliente?",
+"opciones":{"a":"Java","b":"C#","c":"JavaScript","d":"PHP"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":69
+},
+{
+"enunciado":"¿Qué lenguaje se ejecuta habitualmente en el servidor web?",
+"opciones":{"a":"JavaScript","b":"PHP","c":"HTML","d":"CSS"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":70
+},
+{
+"enunciado":"¿Qué sistema operativo es de código abierto?",
+"opciones":{"a":"Windows","b":"Linux","c":"macOS","d":"iOS"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":71
+},
+{
+"enunciado":"¿Qué sistema operativo utiliza kernel Linux?",
+"opciones":{"a":"Ubuntu","b":"Windows","c":"Solaris","d":"AIX"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":72
+},
+{
+"enunciado":"¿Qué sistema de control de versiones es distribuido?",
+"opciones":{"a":"SVN","b":"Git","c":"CVS","d":"TFS"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":73
+},
+{
+"enunciado":"¿Qué comando Git descarga cambios del repositorio remoto?",
+"opciones":{"a":"push","b":"pull","c":"commit","d":"merge"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":74
+},
+{
+"enunciado":"¿Qué comando Git envía cambios al repositorio remoto?",
+"opciones":{"a":"push","b":"pull","c":"commit","d":"clone"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":75
+},
+{
+"enunciado":"¿Qué significa IDE en desarrollo software?",
+"opciones":{"a":"Integrated Development Environment","b":"Internal Development Engine","c":"Integrated Design Engine","d":"Internal Design Environment"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":76
+},
+{
+"enunciado":"¿Qué herramienta se usa para automatizar compilación en Java?",
+"opciones":{"a":"Maven","b":"Docker","c":"Git","d":"Jenkins"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":77
+},
+{
+"enunciado":"¿Qué herramienta se usa para integración continua?",
+"opciones":{"a":"Git","b":"Jenkins","c":"Docker","d":"Kubernetes"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":78
+},
+{
+"enunciado":"¿Qué tecnología permite ejecutar aplicaciones en contenedores?",
+"opciones":{"a":"Docker","b":"VMware","c":"Hyper-V","d":"VirtualBox"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":79
+},
+{
+"enunciado":"¿Qué herramienta orquesta contenedores?",
+"opciones":{"a":"Docker","b":"Kubernetes","c":"Git","d":"Ansible"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":80
+},
+{
+"enunciado":"¿Qué herramienta se utiliza para automatizar despliegues de infraestructura?",
+"opciones":{"a":"Git","b":"Ansible","c":"Docker","d":"Jenkins"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":81
+},
+{
+"enunciado":"¿Qué tipo de virtualización ejecuta máquinas virtuales completas sobre hardware?",
+"opciones":{"a":"Contenedores","b":"Virtualización completa","c":"Paravirtualización","d":"Emulación"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":82
+},
+{
+"enunciado":"¿Qué plataforma se utiliza para computación en la nube de Amazon?",
+"opciones":{"a":"Azure","b":"AWS","c":"GCP","d":"OpenStack"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":83
+},
+{
+"enunciado":"¿Qué modelo de nube ofrece infraestructura como servicio?",
+"opciones":{"a":"SaaS","b":"PaaS","c":"IaaS","d":"DaaS"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":84
+},
+{
+"enunciado":"¿Qué modelo de nube ofrece aplicaciones listas para usar?",
+"opciones":{"a":"SaaS","b":"IaaS","c":"PaaS","d":"FaaS"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":85
+},
+{
+"enunciado":"¿Qué tecnología permite analizar grandes volúmenes de datos?",
+"opciones":{"a":"Big Data","b":"Blockchain","c":"IoT","d":"DevOps"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":86
+},
+{
+"enunciado":"¿Qué framework se utiliza para procesamiento distribuido de datos?",
+"opciones":{"a":"Hadoop","b":"Docker","c":"Git","d":"Node"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":87
+},
+{
+"enunciado":"¿Qué base de datos es NoSQL?",
+"opciones":{"a":"MySQL","b":"PostgreSQL","c":"MongoDB","d":"Oracle"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":88
+},
+{
+"enunciado":"¿Qué tecnología permite registrar transacciones distribuidas inmutables?",
+"opciones":{"a":"Blockchain","b":"Big Data","c":"IoT","d":"Cloud"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":89
+},
+{
+"enunciado":"¿Qué significa IoT?",
+"opciones":{"a":"Internet of Things","b":"Interface of Technology","c":"Integration of Tools","d":"Internet of Technology"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":90
+},
+{
+"enunciado":"¿Qué disciplina integra desarrollo y operaciones?",
+"opciones":{"a":"DevOps","b":"Scrum","c":"ITIL","d":"Lean"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":91
+},
+{
+"enunciado":"¿Qué metodología ágil utiliza sprints?",
+"opciones":{"a":"Kanban","b":"Scrum","c":"XP","d":"Lean"},
+"correcta":"d",
+"tema":"Examen 2018",
+"numero":92
+},
+{
+"enunciado":"¿Qué herramienta se usa para gestión de incidencias?",
+"opciones":{"a":"Jira","b":"Git","c":"Docker","d":"Apache"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":93
+},
+{
+"enunciado":"¿Qué servidor web es de código abierto?",
+"opciones":{"a":"Apache","b":"IIS","c":"WebSphere","d":"GlassFish"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":94
+},
+{
+"enunciado":"¿Qué lenguaje se utiliza para consultas XML?",
+"opciones":{"a":"SQL","b":"XPath","c":"JSON","d":"CSS"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":95
+},
+{
+"enunciado":"¿Qué lenguaje se utiliza para estructurar datos web?",
+"opciones":{"a":"HTML","b":"CSS","c":"XML","d":"SQL"},
+"correcta":"c",
+"tema":"Examen 2018",
+"numero":96
+},
+{
+"enunciado":"¿Qué formato se utiliza para intercambio de datos ligero?",
+"opciones":{"a":"JSON","b":"XML","c":"CSV","d":"YAML"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":97
+},
+{
+"enunciado":"¿Qué estándar se usa para describir servicios web?",
+"opciones":{"a":"SOAP","b":"WSDL","c":"REST","d":"HTTP"},
+"correcta":"b",
+"tema":"Examen 2018",
+"numero":98
+},
+{
+"enunciado":"¿Qué estilo arquitectónico usa HTTP y recursos?",
+"opciones":{"a":"SOAP","b":"REST","c":"RPC","d":"CORBA"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":99
+},
+{
+"enunciado":"¿Qué protocolo se utiliza para servicios web basados en XML?",
+"opciones":{"a":"REST","b":"SOAP","c":"HTTP","d":"FTP"},
+"correcta":"a",
+"tema":"Examen 2018",
+"numero":100
+},
+{
+"enunciado":"En relación a los derechos y deberes de los ciudadanos, el artículo 30 de la Constitución Española indica que:",
+"opciones":{
+"a":"Mediante ley podrán ser de obligado cumplimiento los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública.",
+"b":"Mediante Real Decreto podrán ser de obligado cumplimiento los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública.",
+"c":"Mediante ley podrán eliminarse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública.",
+"d":"Mediante ley podrán regularse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública."
+},
+"correcta":"d",
+"tema":"Examen 2019",
+"numero":1
+},
+{
+"enunciado":"Según el artículo 62 de la Constitución Española, ¿a quién corresponde expedir los decretos acordados en el Consejo de Ministros?",
+"opciones":{
+"a":"Al Rey.",
+"b":"Al Presidente del Gobierno.",
+"c":"Al titular del Ministerio de la Presidencia.",
+"d":"Al Presidente de la Mesa del Congreso."
+},
+"correcta":"a",
+"tema":"Examen 2019",
+"numero":2
+},
+{
+"enunciado":"Según el artículo 159 de la Constitución Española, el Tribunal Constitucional se compone de:",
+"opciones":{
+"a":"Doce miembros nombrados por el Rey; de ellos, tres serán a propuesta del Congreso por mayoría de tres quintos de sus miembros.",
+"b":"Doce miembros nombrados por el Rey; de ellos, cuatro serán a propuesta del Congreso por mayoría de tres quintos de sus miembros.",
+"c":"Dieciséis miembros nombrados por el Rey; de ellos, cuatro serán a propuesta del Congreso por mayoría de tres quintos de sus miembros.",
+"d":"Dieciséis miembros nombrados por el Rey; de ellos, tres serán a propuesta del Congreso por mayoría de tres quintos de sus miembros."
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":3
+},
+{
+"enunciado":"Según el artículo 68 de la Constitución Española, indique de cuántos diputados se compone el Congreso:",
+"opciones":{
+"a":"De un mínimo de 250 y de un máximo de 350.",
+"b":"De un mínimo de 300 y de un máximo de 400.",
+"c":"De un mínimo de 300 y de un máximo de 350.",
+"d":"De un mínimo de 350 y de un máximo de 400."
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":4
+},
+{
+"enunciado":"Según se expone en el artículo 113 de la Constitución Española, la moción de censura deberá ser propuesta por:",
+"opciones":{
+"a":"Al menos la décima parte de los Diputados.",
+"b":"Al menos un veinte por ciento de los Diputados.",
+"c":"Al menos la décima parte de cada una de las Cámaras.",
+"d":"Al menos 20 Diputados y 20 Senadores."
+},
+"correcta":"a",
+"tema":"Examen 2019",
+"numero":5
+},
+{
+"enunciado":"¿Cuál de los siguientes NO es uno de los 17 Objetivos de Desarrollo Sostenibles de la Agenda 2030?",
+"opciones":{
+"a":"Hambre cero.",
+"b":"Educación de calidad.",
+"c":"Aguas residuales y saneamiento.",
+"d":"Trabajo decente y crecimiento económico."
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":6
+},
+{
+"enunciado":"Según la Ley 19/2013, de transparencia, acceso a la información pública y buen gobierno, ¿cuál de los siguientes NO es miembro de la Comisión de Transparencia y Buen Gobierno?",
+"opciones":{
+"a":"Un Diputado.",
+"b":"Un representante de la Subsecretaria de Estado de Administraciones Públicas.",
+"c":"Un representante del Defensor del Pueblo.",
+"d":"Un representante de la Autoridad Independiente de Responsabilidad Fiscal."
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":7
+},
+{
+"enunciado":"Indique cuál es el Título de la Constitución Española relativo a la Organización Territorial del Estado:",
+"opciones":{
+"a":"Título IV.",
+"b":"Título VI.",
+"c":"Título VIII.",
+"d":"Título X."
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":8
+},
+{
+"enunciado":"De acuerdo con el artículo 103.1 de la Constitución Española, la Administración Pública sirve con objetividad los intereses generales y actúa de acuerdo con los principios de:",
+"opciones":{
+"a":"Eficacia, eficiencia, descentralización, desconcentración y cooperación, con sometimiento pleno a la Ley y al Derecho.",
+"b":"Eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la ley y al Derecho.",
+"c":"Eficacia, jerarquía, descentralización, concentración y coordinación, con sometimiento pleno al ordenamiento jurídico.",
+"d":"Eficacia, jerarquía, descentralización, desconcentración y cooperación, con sometimiento pleno a la Ley y al Derecho."
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":9
+},
+{
+"enunciado":"Según lo establecido en el artículo 82 de la Constitución Española, cuando se trate de refundir varios textos legales en uno solo, la delegación legislativa de las Cortes Generales en el Gobierno deberá otorgarse mediante:",
+"opciones":{
+"a":"Una Ley de Bases.",
+"b":"Una Ley Orgánica.",
+"c":"Una Ley Ordinaria.",
+"d":"Un Decreto Legislativo."
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":10
+},
+{
+"enunciado":"En el artículo 51 de la Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres, se definen criterios de actuación de las Administraciones públicas. ¿Cuál de los siguientes es uno de ellos?",
+"opciones":{
+"a":"Facilitar la conciliación de la vida familiar y laboral, sin menoscabo de la formación profesional y acción social.",
+"b":"Fomentar la participación en igualdad, tanto en el acceso al empleo público como a lo largo de la carrera profesional.",
+"c":"Establecer medidas cautelares de protección frente al acoso sexual.",
+"d":"Establecer medidas efectivas para eliminar cualquier discriminación retributiva, directa o indirecta, por razón de sexo."
+},
+"correcta":"d",
+"tema":"Examen 2019",
+"numero":11
+},
+{
+"enunciado":"Según el artículo 8 de la Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres, todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad constituye:",
+"opciones":{
+"a":"Discriminación indirecta por razón de sexo.",
+"b":"Discriminación directa por razón de sexo.",
+"c":"Discriminación por asociación en razón de sexo.",
+"d":"Discriminación maternal por razón de sexo."
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":12
+},
+{
+"enunciado":"Según el artículo 26 de la Ley 39/2006, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, señale la opción correcta en relación a la clasificación de los grados de dependencia:",
+"opciones":{
+"a":"Grado I. Dependencia moderada...",
+"b":"Grado II. Gran dependencia...",
+"c":"Grado III. Dependencia total...",
+"d":"Grado IV. Dependencia máxima..."
+},
+"correcta":"a",
+"tema":"Examen 2019",
+"numero":13
+},
+{
+"enunciado":"En relación al DNIe v3.0, indique la respuesta correcta:",
+"opciones":{
+"a":"Contiene dos certificados electrónicos de componentes: uno de Autenticación y otro de Firma.",
+"b":"La renovación de los certificados incluidos en la tarjeta del DNI electrónico puede realizarse en los Puntos de Actualización del DNIe y a través de Internet.",
+"c":"Actualmente, los certificados electrónicos de Autenticación y de Firma Electrónica que contiene tienen un plazo de validez de 24 meses.",
+"d":"El PIN debe tener un mínimo de 8 caracteres y un máximo de 12."
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":14
+},
+{
+"enunciado":"La nueva Agenda Digital 'España Digital 2025' recoge un conjunto de medidas, reformas e inversiones. ¿En cuántos ejes se articulan estas medidas?",
+"opciones":{
+"a":"6",
+"b":"9",
+"c":"12",
+"d":"10"
+},
+"correcta":"d",
+"tema":"Examen 2019",
+"numero":15
+},
+{
+"enunciado":"¿Qué algoritmos criptográficos soporta el DNIe v3.0?",
+"opciones":{
+"a":"RSA, PGP y Blowfish.",
+"b":"RC5 y algoritmo de hash MD5.",
+"c":"ElGamal, algoritmo de hash MD5 y cifrado simétrico Triple DES.",
+"d":"RSA, algoritmo de hash SHA-256 y cifrado simétrico Triple DES y AES."
+},
+"correcta":"d",
+"tema":"Examen 2019",
+"numero":16
+},
+{
+"enunciado":"Con respecto a la prescripción de las sanciones referidas a la Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales:",
+"opciones":{
+"a":"Las sanciones por importe igual o inferior a 40.000 euros prescriben en diez meses.",
+"b":"Las sanciones por importe igual o inferior a 40.000 euros prescriben en un año.",
+"c":"Las sanciones por importe igual o inferior a 40.000 euros prescriben en dos años.",
+"d":"Las sanciones por importe igual o inferior a 40.000 euros prescriben en tres años."
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":17
+},
+{
+"enunciado":"Señale la respuesta correcta en relación al ámbito de aplicación material del Reglamento (UE) 2016/679:",
+"opciones":{
+"a":"Tratamiento por autoridades competentes con fines penales.",
+"b":"Tratamiento total o parcialmente automatizado de datos personales.",
+"c":"Tratamiento por persona física en actividades domésticas.",
+"d":"Tratamiento total de datos personales."
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":18
+},
+{
+"enunciado":"Según el Esquema Nacional de Seguridad, ¿cuál de las siguientes medidas afecta a la dimensión de Trazabilidad?",
+"opciones":{
+"a":"Copias de seguridad.",
+"b":"Sellos de tiempo.",
+"c":"Cifrado.",
+"d":"Firma electrónica."
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":19
+},
+{
+"enunciado":"Conforme al artículo 30 de la Ley 39/2015, el cómputo de plazos señalados en días se entiende como:",
+"opciones":{
+"a":"Días hábiles desde el día siguiente a la notificación.",
+"b":"Días hábiles desde el mismo día.",
+"c":"Días naturales desde el día siguiente.",
+"d":"Días naturales desde el mismo día."
+},
+"correcta":"a",
+"tema":"Examen 2019",
+"numero":20
+},
+{
+"enunciado":"La guía de auditoría que identifica los requisitos a cumplir en conformidad con el Esquema Nacional de Interoperabilidad (ENI) contiene un conjunto de controles agrupados en tres categorías:",
+"opciones":{
+"a":"Marco organizativo, Marco operacional y Medidas de protección.",
+"b":"Marco organizativo, Marco semántico y Marco de seguridad.",
+"c":"Evaluación organizativa, Evaluación semántica y Evaluación temporal.",
+"d":"Marco organizativo, Marco operacional y Medidas técnicas."
+},
+"correcta":"d",
+"tema":"Examen 2019",
+"numero":21
+},
+{
+"enunciado":"¿Cuál de las siguientes NO es una Norma Técnica de Interoperabilidad?",
+"opciones":{
+"a":"Catálogo de estándares.",
+"b":"Modelo de datos para el intercambio de asientos entre entidades registrales.",
+"c":"Protocolo de gestión de recursos de la Administración.",
+"d":"Expediente electrónico."
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":22
+},
+{
+"enunciado":"Dentro de los servicios horizontales de Administración Electrónica, indique la afirmación correcta respecto al producto eVisor:",
+"opciones":{
+"a":"Servicio para crear mapas interactivos sin conocimientos de georreferenciación.",
+"b":"Aplicación web para generar copias auténticas en papel de documentos firmados electrónicamente.",
+"c":"Herramienta GIS para gestión de información mediante georreferenciación.",
+"d":"Herramienta del Observatorio de Accesibilidad Web para diagnóstico en línea."
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":23
+},
+{
+"enunciado":"¿Qué solución común permite la gestión de la nómina de empleados públicos?",
+"opciones":{
+"a":"SOROLLA2",
+"b":"BADARAL",
+"c":"NEDAES",
+"d":"NOMINAe"
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":24
+},
+{
+"enunciado":"¿Qué es la arquitectura ARM?",
+"opciones":{
+"a":"Una arquitectura avanzada para microprocesadores RISC.",
+"b":"Arquitectura para computación en la nube basada en agentes.",
+"c":"Arquitectura de almacenamiento basada en fibra óptica.",
+"d":"Arquitectura de computación cuántica."
+},
+"correcta":"a",
+"tema":"Examen 2019",
+"numero":25
+},
+{
+"enunciado":"Indique la velocidad máxima de transferencia del USB 4.0:",
+"opciones":{
+"a":"Hasta 20 Gbps.",
+"b":"Hasta 30 Gbps.",
+"c":"Hasta 40 Gbps.",
+"d":"Hasta 50 Gbps."
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":26
+},
+{
+"enunciado":"Indique cuál de las siguientes es una tecnología de interfaz hardware:",
+"opciones":{
+"a":"Thunderbird",
+"b":"HIT",
+"c":"Thunderbolt",
+"d":"RISC"
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":27
+},
+{
+"enunciado":"En relación con el almacenamiento, ¿qué es un SSD?",
+"opciones":{
+"a":"Secure System Disk, almacenamiento cifrado.",
+"b":"Solid State Disk con discos magnéticos.",
+"c":"Solid State Drive con memoria no volátil.",
+"d":"Solid State Device con memoria volátil."
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":28
+},
+{
+"enunciado":"AV1 es un:",
+"opciones":{
+"a":"Sistema de realidad aumentada.",
+"b":"Sistema operativo para IoT.",
+"c":"Códec de vídeo.",
+"d":"Estándar de seguridad WiFi."
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":29
+},
+{
+"enunciado":"Si un árbol binario se recorre en orden raíz, subárbol izquierdo, subárbol derecho, ¿qué tipo de recorrido es?",
+"opciones":{
+"a":"Preorden",
+"b":"Inorden",
+"c":"Postorden",
+"d":"Reorden"
+},
+"correcta":"a",
+"tema":"Examen 2019",
+"numero":30
+},
+{
+"enunciado":"En Linux, ¿qué directorio contiene ficheros de configuración del sistema y aplicaciones?",
+"opciones":{
+"a":"/root",
+"b":"/bin",
+"c":"/dev",
+"d":"/etc"
+},
+"correcta":"d",
+"tema":"Examen 2019",
+"numero":31
+},
+{
+"enunciado":"En Linux, ¿qué permisos establece el comando chmod 640?",
+"opciones":{
+"a":"Lectura, escritura y ejecución al propietario; lectura al grupo.",
+"b":"Lectura, escritura y ejecución al propietario; lectura y escritura al grupo.",
+"c":"Lectura y escritura al propietario; lectura al grupo.",
+"d":"Lectura y escritura al propietario; ejecución al grupo."
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":32
+},
+{
+"enunciado":"¿Cuál de los siguientes NO es un ORM?",
+"opciones":{
+"a":"ADO.NET Entity Framework",
+"b":"Ruby Hibernation",
+"c":"NHibernate",
+"d":"Hibernate"
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":33
+},
+{
+"enunciado":"¿Cuál de las siguientes opciones NO se corresponde con una de las 12 reglas de Codd?",
+"opciones":{
+"a":"Regla de la no subversión.",
+"b":"Tratamiento sistemático de valores nulos.",
+"c":"Dependencia de la distribución.",
+"d":"Catálogo dinámico en línea basado en el modelo relacional."
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":34
+},
+{
+"enunciado":"Indique la definición correcta en referencia a los diagramas de flujo de datos de Métrica v3:",
+"opciones":{
+"a":"Almacén de datos representa información en movimiento.",
+"b":"Proceso de control coordina y sincroniza otros procesos.",
+"c":"Flujo de control representa flujo entre procesos de control.",
+"d":"Flujo de datos representa comunicación entre almacenes."
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":35
+},
+{
+"enunciado":"Una tabla está en Tercera Forma Normal (3FN) si:",
+"opciones":{
+"a":"Está en 2FN y todo atributo depende de la clave completa.",
+"b":"Está en 2FN y no existe dependencia transitiva de atributos no principales.",
+"c":"Está en 2FN y no existen dependencias de reunión no triviales.",
+"d":"Está en 2FN y todos los atributos dependen de la clave principal."
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":36
+},
+{
+"enunciado":"Dependencia funcional significa que:",
+"opciones":{
+"a":"Un atributo depende completamente de otro.",
+"b":"A cada valor de X le corresponde un único valor de Y.",
+"c":"Un atributo depende de otro a través de un tercero.",
+"d":"Un atributo solo puede tomar un valor."
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":37
+},
+{
+"enunciado":"En C++, un bucle do…while:",
+"opciones":{
+"a":"Solo se ejecuta si la condición es verdadera.",
+"b":"Evalúa la condición antes de ejecutarse.",
+"c":"Se ejecuta al menos una vez antes de evaluar la condición.",
+"d":"Se ejecuta solo una vez."
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":38
+},
+{
+"enunciado":"Respecto a herramientas front-end:",
+"opciones":{
+"a":"Sass, Less y Stylus son preprocesadores CSS.",
+"b":"Postman sirve solo para probar front-end.",
+"c":"Node.js se construyó sobre Java JRE.",
+"d":"Bootstrap sirve para probar REST."
+},
+"correcta":"a",
+"tema":"Examen 2019",
+"numero":39
+},
+{
+"enunciado":"En Java, una clase declarada como abstract:",
+"opciones":{
+"a":"Puede no estar implementada o estarlo parcialmente.",
+"b":"Puede ser instanciada.",
+"c":"No puede ser extendida.",
+"d":"No existe el modificador abstract."
+},
+"correcta":"a",
+"tema":"Examen 2019",
+"numero":40
+},
+{
+"enunciado":"En la declaración de una clase en Java, ¿mediante qué cláusula es posible definir un listado de uno o varios interfaces para la clase?",
+"opciones":{
+"a":"interfaces",
+"b":"declares",
+"c":"implements",
+"d":"No es posible declarar más de un interface"
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":41
+},
+{
+"enunciado":"En una base de datos relacional, ¿cómo comenzar la creación de un trigger que valide cambios en el campo Salario de la tabla Empleados?",
+"opciones":{
+"a":"CREATE TRIGGER Validar_salario BEFORE UPDATE OF Salario OF TABLE Empleados",
+"b":"CREATE NEW TRIGGER BEFORE UPDATE OF Salario ON Empleados",
+"c":"CREATE TRIGGER Validar_salario IN Empleados BEFORE UPDATE OF Salario",
+"d":"CREATE TRIGGER Validar_salario BEFORE UPDATE OF Salario ON Empleados"
+},
+"correcta":"d",
+"tema":"Examen 2019",
+"numero":42
+},
+{
+"enunciado":"En Oracle (v10g), ¿qué se utiliza para establecer un punto de recuperación dentro de una transacción?",
+"opciones":{
+"a":"SAVEPOINT",
+"b":"ROLLBACK",
+"c":"GRANT",
+"d":"RECOVERPOINT"
+},
+"correcta":"a",
+"tema":"Examen 2019",
+"numero":43
+},
+{
+"enunciado":"¿Qué patrón de diseño GoF permite agregar funcionalidad a un objeto dinámicamente?",
+"opciones":{
+"a":"Decorator",
+"b":"Facade",
+"c":"Proxy",
+"d":"Iterator"
+},
+"correcta":"a",
+"tema":"Examen 2019",
+"numero":44
+},
+{
+"enunciado":"¿Cuál de las siguientes afirmaciones NO se corresponde con UML?",
+"opciones":{
+"a":"Una clase se representa con un rectángulo dividido en tres secciones.",
+"b":"Las asociaciones representan relaciones entre elementos.",
+"c":"La dispersión es un tipo de asociación.",
+"d":"La agregación representa que una clase es parte de otra."
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":45
+},
+{
+"enunciado":"En Java, siendo x=6 e y=3, ¿qué devuelve la operación x^y?",
+"opciones":{
+"a":"216",
+"b":"63",
+"c":"3",
+"d":"5"
+},
+"correcta":"d",
+"tema":"Examen 2019",
+"numero":46
+},
+{
+"enunciado":"En el entorno .NET, ¿qué es NuGet?",
+"opciones":{
+"a":"Biblioteca de clases base",
+"b":"Administrador de paquetes",
+"c":"Implementación de .NET",
+"d":"Entorno de ejecución"
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":47
+},
+{
+"enunciado":"¿Qué API de Java permite procesar documentos XML?",
+"opciones":{
+"a":"JNA",
+"b":"StAX",
+"c":"JNI",
+"d":"JPaX"
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":48
+},
+{
+"enunciado":"¿Cuál NO es una característica de los servicios REST?",
+"opciones":{
+"a":"Uso explícito de métodos HTTP",
+"b":"Las peticiones no requieren estado del servidor",
+"c":"Soporte de XML y JSON",
+"d":"Uso de UDDI para publicar servicios"
+},
+"correcta":"d",
+"tema":"Examen 2019",
+"numero":49
+},
+{
+"enunciado":"Ruby on Rails es:",
+"opciones":{
+"a":"Un lenguaje de programación",
+"b":"Un framework de control de versiones",
+"c":"Un framework de desarrollo web basado en MVC",
+"d":"Un servicio .NET"
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":50
+},
+{
+"enunciado":"En Python, ¿cómo se identifica el bloque de código dentro de un if?",
+"opciones":{
+"a":"Llaves {}",
+"b":"Corchetes []",
+"c":"Paréntesis ()",
+"d":"Indentación con espacios"
+},
+"correcta":"d",
+"tema":"Examen 2019",
+"numero":51
+},
+{
+"enunciado":"¿Cómo se escriben comentarios en XML?",
+"opciones":{
+"a":"<-- comentario /-->",
+"b":"< comentario !>",
+"c":"<!-- comentario -->",
+"d":"<--! comentario -->"
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":52
+},
+{
+"enunciado":"Según el RD 1112/2018 sobre accesibilidad web, indique la afirmación incorrecta:",
+"opciones":{
+"a":"Debe existir un mecanismo para sugerencias y quejas",
+"b":"La primera revisión web debía hacerse antes de dos años",
+"c":"La primera revisión de apps móviles antes de dos años",
+"d":"Las solicitudes deben responderse en 20 días hábiles"
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":53
+},
+{
+"enunciado":"Según WCAG 2.1, el objetivo de que el contenido sea distinguible es:",
+"opciones":{
+"a":"Presentar contenido de distintas formas sin perder estructura",
+"b":"Facilitar ver y oír el contenido separando primer plano y fondo",
+"c":"Ofrecer alternativas textuales",
+"d":"Proporcionar alternativas para medios temporales"
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":54
+},
+{
+"enunciado":"Según Métrica v3, las pruebas que verifican tiempos de respuesta dentro de lo especificado son:",
+"opciones":{
+"a":"Pruebas de respuesta",
+"b":"Pruebas de sobrecarga",
+"c":"Pruebas de rendimiento",
+"d":"Pruebas de tiempo"
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":55
+},
+{
+"enunciado":"En Git, hacer commit significa:",
+"opciones":{
+"a":"Introducir comentarios iterativos",
+"b":"Establecer un compromiso de uso",
+"c":"Descargar la rama de trabajo",
+"d":"Guardar una instantánea del estado del proyecto"
+},
+"correcta":"d",
+"tema":"Examen 2019",
+"numero":56
+},
+{
+"enunciado":"¿Qué herramienta de software libre permite realizar pruebas de carga y estrés?",
+"opciones":{
+"a":"Cactus",
+"b":"Mockito",
+"c":"JMeter",
+"d":"Foglight"
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":57
+},
+{
+"enunciado":"En Linux, ¿qué comando permite conocer los puertos abiertos de un servidor?",
+"opciones":{
+"a":"ntpq",
+"b":"ntport",
+"c":"nmap",
+"d":"traceroute"
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":58
+},
+{
+"enunciado":"En sistemas Debian, ¿qué comando descarga la información de paquetes desde los repositorios?",
+"opciones":{
+"a":"apt update",
+"b":"apt upgrade",
+"c":"apt full-upgrade",
+"d":"apt list"
+},
+"correcta":"a",
+"tema":"Examen 2019",
+"numero":59
+},
+{
+"enunciado":"En almacenamiento, ¿qué es Thin Provisioning?",
+"opciones":{
+"a":"Despliegue de discos en red",
+"b":"Virtualización que asigna espacio bajo demanda",
+"c":"Tecnología para agregar discos en caliente",
+"d":"Método que asigna todo el espacio y luego reduce"
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":60
+},
+{
+"enunciado":"En relación a los sistemas RAID, indique qué configuración permite acceso independiente con paridad distribuida:",
+"opciones":{
+"a":"RAID 1",
+"b":"RAID 3",
+"c":"RAID 4",
+"d":"RAID 5"
+},
+"correcta":"d",
+"tema":"Examen 2019",
+"numero":61
+},
+{
+"enunciado":"En el envío de correo electrónico entre cliente y servidores, ¿qué papel juegan SMTP, POP3 e IMAP?",
+"opciones":{
+"a":"SMTP cliente→servidor origen; POP3/IMAP entre servidores; SMTP servidor destino→cliente",
+"b":"POP3 cliente→servidor; IMAP entre servidores; SMTP servidor destino→cliente",
+"c":"SMTP cliente→servidor origen y servidor origen→destino; POP3/IMAP servidor destino→cliente",
+"d":"POP3/IMAP cliente→servidor origen y origen→destino; SMTP destino→cliente"
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":62
+},
+{
+"enunciado":"En arquitecturas de microservicios, las dos estrategias para gestionar la composición son:",
+"opciones":{
+"a":"Coreografía y orquestación",
+"b":"Coreografía y coordinación",
+"c":"Coordinación y orquestación",
+"d":"Gestión y orquestación"
+},
+"correcta":"a",
+"tema":"Examen 2019",
+"numero":63
+},
+{
+"enunciado":"¿Qué comando muestra un listado de servicios en ejecución en Windows 10?",
+"opciones":{
+"a":"net view services",
+"b":"net start process",
+"c":"net start",
+"d":"net start all"
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":64
+},
+{
+"enunciado":"¿Cuál es la última versión del protocolo SNMP?",
+"opciones":{
+"a":"SNMP v2",
+"b":"SNMP v3",
+"c":"SNMP v4",
+"d":"SNMP v5"
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":65
+},
+{
+"enunciado":"Indique la afirmación FALSA respecto al proceso de firma digital:",
+"opciones":{
+"a":"Se crea un resumen con función hash",
+"b":"Se cifra el documento completo para confidencialidad",
+"c":"Se cifra el resumen generando la firma electrónica",
+"d":"Se usa la clave privada para cifrar el resumen"
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":66
+},
+{
+"enunciado":"¿Qué es ITIL?",
+"opciones":{
+"a":"Metodología derivada de Kaizen para ciclo de vida software",
+"b":"Librería Java de seguridad",
+"c":"Colección de buenas prácticas de gestión de servicios TI",
+"d":"Metodología de análisis de riesgos"
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":67
+},
+{
+"enunciado":"¿Cuál es la última versión estable del protocolo TLS?",
+"opciones":{
+"a":"TLS 1.2",
+"b":"TLS 1.3",
+"c":"TLS 1.4",
+"d":"SSL 3.0"
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":68
+},
+{
+"enunciado":"¿Cuál de los siguientes NO es un algoritmo asimétrico?",
+"opciones":{
+"a":"RSA",
+"b":"GOST",
+"c":"ECDSA",
+"d":"ElGamal"
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":69
+},
+{
+"enunciado":"Sobre redes inalámbricas, indique la afirmación incorrecta:",
+"opciones":{
+"a":"2.4 GHz puede interferir con Bluetooth",
+"b":"WEP es más seguro que WPA2",
+"c":"WPA3 surge tras ataques KRACK",
+"d":"5 GHz tiene menor alcance que 2.4 GHz"
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":70
+},
+{
+"enunciado":"El estándar Wi-Fi 6 corresponde a:",
+"opciones":{
+"a":"802.11ax",
+"b":"802.11ac",
+"c":"802.11ac wave 2",
+"d":"802.11az"
+},
+"correcta":"a",
+"tema":"Examen 2019",
+"numero":71
+},
+{
+"enunciado":"¿Cuál es el prefijo multicast en IPv6?",
+"opciones":{
+"a":"FF80::/10",
+"b":"FF00::/8",
+"c":"FE00::/8",
+"d":"FE80::/10"
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":72
+},
+{
+"enunciado":"¿Qué protocolo de enrutamiento utiliza vector de distancia?",
+"opciones":{
+"a":"OSPF",
+"b":"IGRP",
+"c":"IS-IS",
+"d":"OLSR"
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":73
+},
+{
+"enunciado":"En HTTP, el código de error que indica servicio no disponible es:",
+"opciones":{
+"a":"500",
+"b":"501",
+"c":"502",
+"d":"503"
+},
+"correcta":"d",
+"tema":"Examen 2019",
+"numero":74
+},
+{
+"enunciado":"¿Qué registro DNS contiene información básica del dominio y zona?",
+"opciones":{
+"a":"AAAA",
+"b":"PTR",
+"c":"MX",
+"d":"SOA"
+},
+"correcta":"d",
+"tema":"Examen 2019",
+"numero":75
+},
+{
+"enunciado":"¿Qué modalidad de gestión permite usar dispositivos personales para trabajo?",
+"opciones":{
+"a":"COPE",
+"b":"BYOD",
+"c":"COBO",
+"d":"CYOD"
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":76
+},
+{
+"enunciado":"Herramienta del CCN-CERT para análisis estático de malware:",
+"opciones":{
+"a":"MARIA",
+"b":"PILAR",
+"c":"CLARA",
+"d":"REYES"
+},
+"correcta":"a",
+"tema":"Examen 2019",
+"numero":77
+},
+{
+"enunciado":"¿Qué protocolo NO se usa para VPN de nivel de enlace?",
+"opciones":{
+"a":"PPTP",
+"b":"L2F",
+"c":"L2TP",
+"d":"P2TP"
+},
+"correcta":"d",
+"tema":"Examen 2019",
+"numero":78
+},
+{
+"enunciado":"¿Qué es una red Scatternet?",
+"opciones":{
+"a":"Red MAN",
+"b":"Red WiFi LAN",
+"c":"Grupo de piconets",
+"d":"Red CubeSAT"
+},
+"correcta":"c",
+"tema":"Examen 2019",
+"numero":79
+},
+{
+"enunciado":"Sobre TCP y UDP, indique la afirmación incorrecta:",
+"opciones":{
+"a":"TCP es fiable",
+"b":"UDP obliga a verificar envío en capa red",
+"c":"TCP trabaja con flujo de bytes",
+"d":"UDP es sin conexión"
+},
+"correcta":"b",
+"tema":"Examen 2019",
+"numero":80
+},
+{
+"numero":1,
+"tema":"Examen 2022",
+"enunciado":"De acuerdo con el artículo 64 de la Constitución Española de 1978, los actos del Rey serán refrendados por:",
+"opciones":{
+"a":"Los Presidentes del Congreso y el Senado",
+"b":"Los Ministros o los Secretarios de Estado",
+"c":"El Presidente del Gobierno y los Presidentes del Congreso y Senado",
+"d":"El Presidente del Gobierno y, en su caso, por los Ministros competentes"
+},
+"correcta":"d"
+},
+{
+"numero":2,
+"tema":"Examen 2022",
+"enunciado":"La suspensión de los derechos y libertades se encuentra regulada en la CE en:",
+"opciones":{
+"a":"Capítulo III del Título I",
+"b":"Artículos 52 y 53",
+"c":"Artículo 58",
+"d":"Capítulo V del Título I"
+},
+"correcta":"d"
+},
+{
+"numero":3,
+"tema":"Examen 2022",
+"enunciado":"Según el artículo 68 de la CE, ¿cuál es la circunscripción electoral?",
+"opciones":{
+"a":"La provincia",
+"b":"El municipio",
+"c":"La Comunidad Autónoma",
+"d":"Distrito Municipal"
+},
+"correcta":"a"
+},
+{
+"numero":4,
+"tema":"Examen 2022",
+"enunciado":"Según la Ley 50/1997 del Gobierno, ¿quién actúa como Secretario del Consejo de Ministros?",
+"opciones":{
+"a":"Vicepresidente Primero",
+"b":"Ministro portavoz",
+"c":"Ministro de la Presidencia",
+"d":"Ministro de Justicia"
+},
+"correcta":"c"
+},
+{
+"numero":5,
+"tema":"Examen 2022",
+"enunciado":"Según el artículo 78 CE, las Diputaciones Permanentes ejercerán sus funciones hasta:",
+"opciones":{
+"a":"La celebración de elecciones",
+"b":"La proclamación de resultados",
+"c":"La elección de los nuevos presidentes",
+"d":"La constitución de las nuevas Cortes"
+},
+"correcta":"d"
+},
+{
+"numero":6,
+"tema":"Examen 2022",
+"enunciado":"Según la Ley 19/2013 de transparencia, el plazo máximo para resolver una reclamación ante el Consejo de Transparencia es:",
+"opciones":{
+"a":"Un mes estimada",
+"b":"Un mes desestimada",
+"c":"Tres meses estimada",
+"d":"Tres meses desestimada"
+},
+"correcta":"d"
+},
+{
+"numero":7,
+"tema":"Examen 2022",
+"enunciado":"¿Cuál NO es un compromiso del IV Plan de Gobierno Abierto de España?",
+"opciones":{
+"a":"Participación de los jóvenes en políticas públicas",
+"b":"Protección de denunciantes",
+"c":"Huella normativa",
+"d":"Reforma del marco regulatorio"
+},
+"correcta":"a"
+},
+{
+"numero":8,
+"tema":"Examen 2022",
+"enunciado":"Las resoluciones de compatibilidad del personal público se inscribirán:",
+"opciones":{
+"a":"Registro Central de Personal",
+"b":"Oficina de Conflicto de Intereses",
+"c":"Unidad de Personal del Ministerio",
+"d":"Registros de Personal correspondientes"
+},
+"correcta":"d"
+},
+{
+"numero":9,
+"tema":"Examen 2022",
+"enunciado":"Según la Ley 39/2006, el grado de dependencia será revisable:",
+"opciones":{
+"a":"A instancia del interesado",
+"b":"A instancia de representantes",
+"c":"De oficio por la Administración",
+"d":"Todas son correctas"
+},
+"correcta":"d"
+},
+{
+"numero":10,
+"tema":"Examen 2022",
+"enunciado":"Según la LO 3/2007 de igualdad, el Gobierno establecerá:",
+"opciones":{
+"a":"Medidas de acción positiva para pymes",
+"b":"Medidas para empresas de 50 trabajadores",
+"c":"Medidas de fomento para pymes",
+"d":"Medidas de acción positiva para cualquier empresa"
+},
+"correcta":"c"
+},
+{
+"enunciado":"Con carácter general el documento nacional de identidad tendrá un período de validez:",
+"opciones":{
+"a":"Dos años cuando el solicitante no haya cumplido los cinco años de edad",
+"b":"Cuatro años cuando el titular haya cumplido cinco años y no haya alcanzado los treinta",
+"c":"Nueve años cuando el titular haya cumplido treinta y no haya alcanzado setenta",
+"d":"Permanente cuando el titular haya cumplido sesenta años"
+},
+"correcta":"a",
+"tema":"Examen 2022",
+"numero":11
+},
+{
+"enunciado":"Según la Ley 6/2020 sobre servicios electrónicos de confianza, el periodo de vigencia de los certificados cualificados:",
+"opciones":{
+"a":"No será superior a 5 años",
+"b":"No será superior a 3 años",
+"c":"Es ilimitado",
+"d":"No será superior a 6 años"
+},
+"correcta":"a",
+"tema":"Examen 2022",
+"numero":12
+},
+{
+"enunciado":"Según el título X de la Ley Orgánica 3/2018 de Protección de Datos, ¿cuál NO es un derecho digital?",
+"opciones":{
+"a":"Derecho al testamento digital",
+"b":"Derecho al olvido en redes sociales",
+"c":"Derecho a la desconexión digital en el ámbito laboral",
+"d":"Derecho a la igualdad y a la no discriminación en el entorno digital"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":13
+},
+{
+"enunciado":"Según el artículo 34 de la LOPDGDD, los responsables y encargados comunicarán a la AEPD el nombramiento o cese del DPD en el plazo de:",
+"opciones":{
+"a":"10 días",
+"b":"15 días",
+"c":"1 mes",
+"d":"3 meses"
+},
+"correcta":"a",
+"tema":"Examen 2022",
+"numero":14
+},
+{
+"enunciado":"Según el Real Decreto 311/2022 del Esquema Nacional de Seguridad, ¿qué medida afecta a la dimensión de confidencialidad?",
+"opciones":{
+"a":"Bloqueo de puesto de trabajo",
+"b":"Firma electrónica",
+"c":"Registro de actividad",
+"d":"Criptografía"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":15
+},
+{
+"enunciado":"Según la Norma Técnica de Interoperabilidad de Protocolos de Intermediación de Datos:",
+"opciones":{
+"a":"Las tecnologías utilizadas se basarán en estándares del Catálogo de estándares",
+"b":"Se utilizará la versión 2.0 del protocolo SCSP",
+"c":"Emisores y requirentes no mantendrán trazabilidad",
+"d":"Los intercambios podrán implementarse mediante servicios web"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":16
+},
+{
+"enunciado":"¿Qué afirmación es correcta respecto a las soluciones de ciberseguridad del CCN?",
+"opciones":{
+"a":"CLARA protege y traza el dato",
+"b":"ELENA es simulador de técnicas de cibervigilancia",
+"c":"GLORIA gestiona eventos de seguridad",
+"d":"MONICA gestiona logs"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":17
+},
+{
+"enunciado":"Respecto a servicios comunes de administración electrónica:",
+"opciones":{
+"a":"SERVINOMINA gestiona cálculo, contabilidad y pago de nómina",
+"b":"CIRCAB es herramienta colaborativa de intercambio de información",
+"c":"eVISOR permite consultar nóminas de cinco años",
+"d":"ENVIA permite envío de ficheros de gran volumen"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":18
+},
+{
+"enunciado":"La CE regula la institución del Defensor del Pueblo como:",
+"opciones":{
+"a":"Alto comisionado del Congreso",
+"b":"Alto comisionado de las Cortes Generales",
+"c":"Alto comisionado del Poder Judicial",
+"d":"Alto comisionado del Gobierno"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":19
+},
+{
+"enunciado":"¿Qué es WCAG?",
+"opciones":{
+"a":"Pautas de accesibilidad web promovidas por W3C",
+"b":"Librería Java EE para aplicaciones web",
+"c":"Componente de Hadoop",
+"d":"Framework javascript"
+},
+"correcta":"a",
+"tema":"Examen 2022",
+"numero":20
+},
+{
+"enunciado":"¿Cuál es el nombre de un conector usado para carga y datos creado por Apple?",
+"opciones":{
+"a":"USB Tipo C",
+"b":"iUSB",
+"c":"iFirewire",
+"d":"Lightning"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":21
+},
+{
+"enunciado":"Sobre sentencias SQL, indique la incorrecta:",
+"opciones":{
+"a":"DELETE sirve para borrar objetos como bases de datos o índices",
+"b":"INSERT agrega registros",
+"c":"UPDATE modifica valores",
+"d":"GRANT da permisos"
+},
+"correcta":"a",
+"tema":"Examen 2022",
+"numero":22
+},
+{
+"enunciado":"¿Cuál de los siguientes son objetos básicos de Kubernetes?",
+"opciones":{
+"a":"Pod, State, Volume, Namespace",
+"b":"Pod, Service, Volume, Namespace",
+"c":"Job, Service, Volume, Namespace",
+"d":"Job, Pod, Volume, Deployment"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":23
+},
+{
+"enunciado":"La ALU es una parte de:",
+"opciones":{
+"a":"La memoria",
+"b":"La CPU",
+"c":"El bus de operaciones",
+"d":"El multiplexor"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":24
+},
+{
+"enunciado":"Sobre el modelo CISC:",
+"opciones":{
+"a":"La microprogramación es característica esencial",
+"b":"Plantea conjunto reducido de instrucciones",
+"c":"Implementa instrucciones directamente en hardware",
+"d":"Se usa en smartphones por bajo consumo"
+},
+"correcta":"a",
+"tema":"Examen 2022",
+"numero":25
+},
+{
+"enunciado":"Sobre sistemas RAID indique la incorrecta:",
+"opciones":{
+"a":"RAID 1+0 exige mínimo 4 discos",
+"b":"RAID 6 añade paridad extra a RAID 5",
+"c":"RAID 5 requiere mínimo 3 discos",
+"d":"RAID 4 tiene dos discos de paridad dedicados"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":26
+},
+{
+"enunciado":"¿Qué tecnología de almacenamiento usa bus serie?",
+"opciones":{
+"a":"SATA",
+"b":"ATA",
+"c":"SCSI",
+"d":"DLT"
+},
+"correcta":"a",
+"tema":"Examen 2022",
+"numero":27
+},
+{
+"enunciado":"Respecto a USB, indique la incorrecta:",
+"opciones":{
+"a":"USB Type-C es lo mismo que USB 3.1",
+"b":"La diferencia entre USB 3.1 Gen1 y Gen2 es la velocidad",
+"c":"USB 3.2 permite hasta 20Gbps",
+"d":"USB 2.0 llega a 480Mbps"
+},
+"correcta":"a",
+"tema":"Examen 2022",
+"numero":28
+},
+{
+"enunciado":"Algoritmo para hallar el camino más corto desde un vértice origen:",
+"opciones":{
+"a":"Kruskal",
+"b":"Prim",
+"c":"Dijkstra",
+"d":"Floyd-Warshall"
+},
+"correcta":"c",
+"tema":"Examen 2022",
+"numero":29
+},
+{
+"enunciado":"Respecto a estándares PDF, indique la incorrecta:",
+"opciones":{
+"a":"PDF/UA es estándar de accesibilidad",
+"b":"PDF/A para archivado",
+"c":"PDF/E para ingeniería",
+"d":"PDF/I para impresión"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":30
+},
+{
+"enunciado":"¿Cuál de las siguientes versiones es la más reciente del sistema operativo macOS?",
+"opciones":{
+"a":"macOS Sierra",
+"b":"macOS Monterey",
+"c":"macOS Big Sur",
+"d":"macOS Ventura"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":31
+},
+{
+"enunciado":"¿Cuál de las siguientes afirmaciones NO es correcta sobre Windows de 64 bits?",
+"opciones":{
+"a":"Un proceso de 64 bits no puede cargar una DLL de 32 bits",
+"b":"Un proceso de 32 bits no puede cargar una DLL de 64 bits",
+"c":"RPC entre procesos de 32 y 64 bits solo se admite en el mismo equipo",
+"d":"RPC entre procesos de 32 y 64 bits se admite tanto en el mismo equipo como entre equipos distintos"
+},
+"correcta":"c",
+"tema":"Examen 2022",
+"numero":32
+},
+{
+"enunciado":"Las propiedades ACID en bases de datos relacionales significan:",
+"opciones":{
+"a":"Atomicidad, Consistencia, Aislamiento y Durabilidad",
+"b":"Atomicidad, Coherencia, Integridad y Distribución",
+"c":"Disponibilidad, Coherencia, Intensidad y Durabilidad",
+"d":"Atomicidad, Consistencia, Aislamiento y Disponibilidad"
+},
+"correcta":"a",
+"tema":"Examen 2022",
+"numero":33
+},
+{
+"enunciado":"Entre las características obligatorias de un SGBD orientado a objetos NO se encuentra:",
+"opciones":{
+"a":"Permitir construir objetos complejos",
+"b":"Conjunto de tipos de datos fijo",
+"c":"Identificador independiente de atributos",
+"d":"El esquema incluye clases"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":34
+},
+{
+"enunciado":"Machine Learning Services para SQL Server es:",
+"opciones":{
+"a":"Tecnologías de replicación de bases de datos",
+"b":"Capacidad de ejecutar scripts de Python y R con datos relacionales",
+"c":"Producto de calidad de datos",
+"d":"Servicio principal de almacenamiento de datos"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":35
+},
+{
+"enunciado":"En el Modelo Entidad-Relación Extendido según MÉTRICA v3:",
+"opciones":{
+"a":"Un atributo se define sobre diversos dominios",
+"b":"El dominio depende de entidades o atributos",
+"c":"La entidad es un objeto real o abstracto del que se almacena información",
+"d":"La clave candidata identifica unívocamente las ocurrencias"
+},
+"correcta":"c",
+"tema":"Examen 2022",
+"numero":36
+},
+{
+"enunciado":"La arquitectura ANSI/SPARC define tres niveles. Indique la afirmación INCORRECTA:",
+"opciones":{
+"a":"El nivel externo contiene vistas externas",
+"b":"El nivel físico define almacenamiento",
+"c":"El nivel contextual define formato de campos",
+"d":"El nivel interno también se llama nivel lógico"
+},
+"correcta":"ANULADA",
+"tema":"Examen 2022",
+"numero":37
+},
+{
+"enunciado":"¿Cuál afirmación es correcta sobre compiladores e intérpretes?",
+"opciones":{
+"a":"Un intérprete ejecuta directamente instrucciones del lenguaje",
+"b":"Un compilador traduce código a lenguaje de bajo nivel",
+"c":"Un transpilador es intérprete y compilador a la vez",
+"d":"Un cross compiler genera ejecutables para otra plataforma"
+},
+"correcta":"c",
+"tema":"Examen 2022",
+"numero":38
+},
+{
+"enunciado":"En C++ se pueden definir varias funciones con el mismo nombre. Estas funciones se llaman:",
+"opciones":{
+"a":"Funciones dobles",
+"b":"Funciones repetidas",
+"c":"Funciones sobrecargadas",
+"d":"No es posible"
+},
+"correcta":"c",
+"tema":"Examen 2022",
+"numero":39
+},
+{
+"enunciado":"¿Cuál afirmación es verdadera?",
+"opciones":{
+"a":"Un array es una estructura que almacena datos homogéneos consecutivos en memoria",
+"b":"Bytecode es código binario tras compilación",
+"c":"C++ es lenguaje de segunda generación",
+"d":"La declaración de vector en C++ es incorrecta"
+},
+"correcta":"a",
+"tema":"Examen 2022",
+"numero":40
+},
+{
+"enunciado":"Sobre controladores JDBC:",
+"opciones":{
+"a":"Tipo 1 usa Java puro",
+"b":"Tipo 3 usa protocolo de red y middleware",
+"c":"Existen 3 tipos de drivers JDBC",
+"d":"Tipo 2 usa tecnología puente como ODBC"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":41
+},
+{
+"enunciado":"Señale la respuesta incorrecta sobre anomalías de base de datos:",
+"opciones":{
+"a":"Lecturas no repetibles",
+"b":"Lecturas hundidas",
+"c":"Lecturas sucias",
+"d":"Lecturas fantasma"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":42
+},
+{
+"enunciado":"En SQL, para eliminar datos de una tabla sin borrar la tabla:",
+"opciones":{
+"a":"DROP TABLE",
+"b":"DELETE",
+"c":"REMOVE",
+"d":"ERASE"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":43
+},
+{
+"enunciado":"Patrones de asignación de responsabilidades en diseño OO:",
+"opciones":{
+"a":"OOD",
+"b":"GRASP",
+"c":"Booch",
+"d":"Fan-In / Fan-Out"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":44
+},
+{
+"enunciado":"Según MÉTRICA v3 la relación jerárquica entre objeto y partes se llama:",
+"opciones":{
+"a":"Herencia",
+"b":"Composición",
+"c":"Asociación",
+"d":"Agregación"
+},
+"correcta":"ANULADA",
+"tema":"Examen 2022",
+"numero":45
+},
+{
+"enunciado":"En MÉTRICA v3, el diagrama que describe un escenario de un caso de uso es:",
+"opciones":{
+"a":"Diagrama de interacción",
+"b":"Diagrama de representación",
+"c":"Diagrama de flujo de datos",
+"d":"Diagrama de casos de uso"
+},
+"correcta":"a",
+"tema":"Examen 2022",
+"numero":46
+},
+{
+"enunciado":"¿Cuál NO es una librería Java de Apache Foundation?",
+"opciones":{
+"a":"Log4J",
+"b":"httpclient",
+"c":"commons-io",
+"d":"Mockete"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":47
+},
+{
+"enunciado":"Seleccione la afirmación correcta sobre .NET:",
+"opciones":{
+"a":".NET es framework de Google",
+"b":".NET es proyecto open source",
+"c":".NET solo sirve para apps móviles",
+"d":".NET no admite C#"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":48
+},
+{
+"enunciado":"Sobre objetos POCO en .NET, indique la incorrecta:",
+"opciones":{
+"a":"Solo contiene propiedades públicas",
+"b":"Significa Plain Old CLR Object",
+"c":"No hereda de otra clase",
+"d":"Puede contener métodos y eventos"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":49
+},
+{
+"enunciado":"Sobre REST, indique la afirmación falsa:",
+"opciones":{
+"a":"REST significa Representational State Transfer",
+"b":"Los objetos se manipulan mediante URI",
+"c":"URI significa Unique Resource Identifier",
+"d":"Utiliza protocolo cliente-servidor sin estado"
+},
+"correcta":"ANULADA",
+"tema":"Examen 2022",
+"numero":50
+},
+{
+"enunciado":"¿Qué estándar OASIS define mecanismos para establecer y compartir contextos de seguridad?",
+"opciones":{
+"a":"WS-Addressing",
+"b":"WS-Federation",
+"c":"WS-SecureConversation",
+"d":"WS-Policy"
+},
+"correcta":"c",
+"tema":"Examen 2022",
+"numero":51
+},
+{
+"enunciado":"¿Qué es WSIL?",
+"opciones":{
+"a":"Método alternativo al descubrimiento de servicios Web",
+"b":"Modelo de programación Java EE",
+"c":"Modo de publicar información de servicios Web",
+"d":"Organización de interoperabilidad"
+},
+"correcta":"a",
+"tema":"Examen 2022",
+"numero":52
+},
+{
+"enunciado":"¿Cuál es el motor web desarrollado por Mozilla Foundation?",
+"opciones":{
+"a":"WebKit",
+"b":"Firefox",
+"c":"Gecko",
+"d":"Edge"
+},
+"correcta":"c",
+"tema":"Examen 2022",
+"numero":53
+},
+{
+"enunciado":"¿Qué término está relacionado con XML-binary Optimized Packaging (XOP)?",
+"opciones":{
+"a":"Reconstituted XML Infoset",
+"b":"XOP Header",
+"c":"XOP Package",
+"d":"Optimized Document"
+},
+"correcta":"c",
+"tema":"Examen 2022",
+"numero":54
+},
+{
+"enunciado":"¿Cuál de los siguientes NO es un framework Javascript?",
+"opciones":{
+"a":"Angular",
+"b":"Bootstrap",
+"c":"React",
+"d":"JDBC"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":55
+},
+{
+"enunciado":"En seguridad de aplicaciones, ¿cuál NO es un análisis habitual?",
+"opciones":{
+"a":"SAST",
+"b":"S-SDLC",
+"c":"DAST",
+"d":"SCA"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":56
+},
+{
+"enunciado":"Principio de accesibilidad que exige que la interfaz pueda utilizarse por cualquier persona:",
+"opciones":{
+"a":"Perceptibilidad",
+"b":"Comprensibilidad",
+"c":"Robustez",
+"d":"Operabilidad"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":57
+},
+{
+"enunciado":"Según MÉTRICA v3, pruebas que verifican interacción entre componentes:",
+"opciones":{
+"a":"Pruebas de sistema",
+"b":"Pruebas de implantación",
+"c":"Pruebas de regresión",
+"d":"Pruebas de integración"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":58
+},
+{
+"enunciado":"En MÉTRICA v3, ¿quién participa en la elaboración de manuales de usuario?",
+"opciones":{
+"a":"Usuarios expertos",
+"b":"Consultor SI",
+"c":"Equipo de formación",
+"d":"Equipo de proyecto"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":59
+},
+{
+"enunciado":"¿Cuál NO es un software de control de versiones?",
+"opciones":{
+"a":"JMeter",
+"b":"Subversion",
+"c":"Mercurial",
+"d":"Git"
+},
+"correcta":"a",
+"tema":"Examen 2022",
+"numero":60
+},
+{
+"enunciado":"Indique la respuesta incorrecta sobre el kernel:",
+"opciones":{
+"a":"Controla funciones del hardware",
+"b":"Gestiona multitarea",
+"c":"Es el núcleo del procesador",
+"d":"Comunica procesos con hardware"
+},
+"correcta":"c",
+"tema":"Examen 2022",
+"numero":61
+},
+{
+"enunciado":"En UNIX, indique la respuesta incorrecta:",
+"opciones":{
+"a":"GID es identificador de grupo",
+"b":"UID es identificador de usuario",
+"c":"Administrador es root",
+"d":"init es proceso de arranque de usuario"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":62
+},
+{
+"enunciado":"Sobre virtualización, indique la falsa:",
+"opciones":{
+"a":"Facilita despliegue",
+"b":"Requiere hardware específico adicional",
+"c":"Permite varios sistemas en una máquina",
+"d":"Mejora uso del hardware"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":63
+},
+{
+"enunciado":"Una copia de seguridad diferencial:",
+"opciones":{
+"a":"Replica exacta",
+"b":"Copia cambios desde backup completo",
+"c":"Copia cambios desde último backup",
+"d":"Copia completa"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":64
+},
+{
+"enunciado":"En Kubernetes, los valores que identifican un objeto se incluyen en:",
+"opciones":{
+"a":"kind",
+"b":"spec",
+"c":"apiVersion",
+"d":"metadata"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":65
+},
+{
+"enunciado":"¿Cuál NO es protocolo de correo?",
+"opciones":{
+"a":"IMAP",
+"b":"SMTP",
+"c":"Outlook",
+"d":"POP3"
+},
+"correcta":"c",
+"tema":"Examen 2022",
+"numero":66
+},
+{
+"enunciado":"¿Qué protocolo administra dispositivos de red?",
+"opciones":{
+"a":"SMTP",
+"b":"DNS",
+"c":"FTP",
+"d":"CMIP"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":67
+},
+{
+"enunciado":"Comando SNMP para recuperar tablas grandes:",
+"opciones":{
+"a":"GET",
+"b":"GET BULK",
+"c":"GET NEXT",
+"d":"GET RESPONSE"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":68
+},
+{
+"enunciado":"¿Qué es ECDSA?",
+"opciones":{
+"a":"Algoritmo de firma",
+"b":"Estándar cableado",
+"c":"Organismo regulador",
+"d":"Protocolo enlace"
+},
+"correcta":"a",
+"tema":"Examen 2022",
+"numero":69
+},
+{
+"enunciado":"Sobre firma electrónica indique la incorrecta:",
+"opciones":{
+"a":"Co-firma tiene firmantes al mismo nivel",
+"b":"XAdES genera fichero XML",
+"c":"Tipos de firma: detached, enveloping y enveloped",
+"d":"PAdES es formato propietario de Microsoft Office"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":70
+},
+{
+"enunciado":"Equipo que trabaja en nivel 3 OSI:",
+"opciones":{
+"a":"Router",
+"b":"Bridge",
+"c":"Switch",
+"d":"Hub"
+},
+"correcta":"a",
+"tema":"Examen 2022",
+"numero":71
+},
+{
+"enunciado":"Sobre fibra óptica plástica (POF) indique la incorrecta:",
+"opciones":{
+"a":"Hecha de plástico PMMA",
+"b":"Permite aprovechar ancho de banda sin pérdidas",
+"c":"Núcleo conductor menor",
+"d":"Es flexible"
+},
+"correcta":"c",
+"tema":"Examen 2022",
+"numero":72
+},
+{
+"enunciado":"Prefijo multicast IPv6:",
+"opciones":{
+"a":"::1/128",
+"b":"224.0.0.0/4",
+"c":"FF00::/8",
+"d":"FC00::/7"
+},
+"correcta":"c",
+"tema":"Examen 2022",
+"numero":73
+},
+{
+"enunciado":"Sobre modelo OSI indique la correcta:",
+"opciones":{
+"a":"Se puede simplificar en TCP/IP 2 capas",
+"b":"Nivel N+1 ofrece servicios a N",
+"c":"Servicio confirmado usa 4 primitivas",
+"d":"Servicio no confirmado usa 3 primitivas"
+},
+"correcta":"c",
+"tema":"Examen 2022",
+"numero":74
+},
+{
+"enunciado":"Organismo de telecomunicaciones de la ONU:",
+"opciones":{
+"a":"ICANN",
+"b":"ITU",
+"c":"IEEE",
+"d":"TIA"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":75
+},
+{
+"enunciado":"¿Qué parte del certificado HTTPS necesita el navegador?",
+"opciones":{
+"a":"Clave pública del certificado",
+"b":"Clave privada",
+"c":"Ambas claves",
+"d":"Ninguna"
+},
+"correcta":"a",
+"tema":"Examen 2022",
+"numero":76
+},
+{
+"enunciado":"¿Qué es un portal cautivo?",
+"opciones":{
+"a":"Web bloqueada por ransomware",
+"b":"Web en fase de pruebas",
+"c":"Web no accesible WCAG",
+"d":"Página que gestiona acceso a red"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":77
+},
+{
+"enunciado":"¿Qué protocolo NO se usa para cifrado en VPN?",
+"opciones":{
+"a":"PPTP/MPPE",
+"b":"IPSec",
+"c":"L2TP/IPSec",
+"d":"KSEC 1.1"
+},
+"correcta":"d",
+"tema":"Examen 2022",
+"numero":78
+},
+{
+"enunciado":"¿Qué significa CSMA/CD?",
+"opciones":{
+"a":"Acceso múltiple con portadora y múltiples colisiones",
+"b":"Acceso múltiple con detección de portadora y colisiones",
+"c":"Acceso único con múltiples colisiones",
+"d":"Acceso único de múltiples portadoras"
+},
+"correcta":"b",
+"tema":"Examen 2022",
+"numero":79
+},
+{
+"enunciado":"Dispositivo que filtra tráfico LAN manteniendo tráfico local:",
+"opciones":{
+"a":"Switch",
+"b":"Hub",
+"c":"Router",
+"d":"Gateway"
+},
+"correcta":"ANULADA",
+"tema":"Examen 2022",
+"numero":80
+}
+
+]
