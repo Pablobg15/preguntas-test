@@ -187,11 +187,9 @@ def cargar_preguntas_dedup_desde_ruta(ruta: Path, modo: str):
         else:
             simulacro = simulacro or "Sin simulacro"
 
-        # Normaliza tema para que coincida con el selector (Bloque 1/2/3)
         if bloque in ("Bloque 1", "Bloque 2", "Bloque 3"):
             tema = normalizar_tema(bloque, tema)
 
-        # Dedup robusto: incluye opciones+correcta
         op_key = tuple((k, opciones.get(k, "")) for k in ("a", "b", "c", "d"))
         clave = (enun.lower(), tema.lower(), bloque.lower(), modo, op_key, correcta)
         if clave in vistas:
@@ -209,7 +207,6 @@ def cargar_preguntas_dedup_desde_ruta(ruta: Path, modo: str):
 
     return limpias
 
-# --------- Carga con cache sensible a cambios (mtime) ---------
 @st.cache_data
 def cargar_banco_bloques(_mtime: float):
     return cargar_preguntas_dedup_desde_ruta(RUTA_PREGUNTAS_BLOQUES, modo="bloques")
@@ -258,6 +255,31 @@ def preparar_test(preguntas, n, usadas_ids):
 
     return qlist, usados_este_test
 
+def calcular_resultado_examen(preguntas, penalizacion=4):
+    correctas = 0
+    incorrectas = 0
+    en_blanco = 0
+
+    for i, q in enumerate(preguntas):
+        resp = st.session_state.get(f"resp_{i}", None)
+        if resp is None:
+            en_blanco += 1
+        elif resp == q["correcta"]:
+            correctas += 1
+        else:
+            incorrectas += 1
+
+    netas = correctas - (incorrectas / penalizacion)
+    if netas < 0:
+        netas = 0
+
+    return {
+        "correctas": correctas,
+        "incorrectas": incorrectas,
+        "en_blanco": en_blanco,
+        "netas": netas,
+    }
+
 def pinta_pregunta(idx, q, corregir=False):
     st.markdown(f"**Pregunta {idx+1}** — _{q['bloque']} · {q['tema']}_")
     st.write(q["enunciado"])
@@ -270,7 +292,8 @@ def pinta_pregunta(idx, q, corregir=False):
             "",
             options=list(opciones.keys()),
             format_func=lambda l: f"{l}) {opciones[l]}",
-            key=key
+            key=key,
+            index=None
         )
     else:
         elegida = st.session_state.get(key, None)
@@ -307,47 +330,51 @@ preguntas_simulacros = cargar_banco_simulacros(mtime_sim)
 preguntas_practica = cargar_banco_practica(mtime_pr1, mtime_pr2, mtime_pr3)
 
 # Estado global
-st.session_state.setdefault("fase", "menu")              # "menu" | "test" | "correccion"
-st.session_state.setdefault("vista", "Practica")         # "Bloques" | "Practica" | "Simulacros"
-st.session_state.setdefault("modo_ui", "🛠️ Práctica")    # selector UI persistente
+st.session_state.setdefault("fase", "menu")
+st.session_state.setdefault("vista", "Practica")
+st.session_state.setdefault("modo_ui", "🛠️ Práctica")
 
-# Bloques/temas (vista Bloques)
+# Bloques/temas
 st.session_state.setdefault("bloque_seleccionado", "Bloque 1")
 st.session_state.setdefault("temas_bloques_sel", [])
-st.session_state.setdefault("usadas_por_filtro", {})     # (bloque, temas) -> usadas
+st.session_state.setdefault("usadas_por_filtro", {})
 
-# Práctica (multi-bloque)
+# Práctica
 st.session_state.setdefault("bloques_practica_seleccionados", ["Bloque 1"])
 st.session_state.setdefault("temas_practica_sel", [])
-st.session_state.setdefault("usadas_por_practica", {})   # (bloques_tuple, temas_tuple) -> usadas
+st.session_state.setdefault("usadas_por_practica", {})
 
 # Simulacros
 st.session_state.setdefault("simulacro_sel", "Todos")
-st.session_state.setdefault("usadas_por_simulacro", {})  # simulacro -> usadas
+st.session_state.setdefault("usadas_por_simulacro", {})
+
+# Simulacro examen (USANDO PRÁCTICA)
+st.session_state.setdefault("usadas_simulacro_examen", [])
+st.session_state.setdefault("config_simulacro_examen", {"penalizacion": 4})
 
 # Test
 st.session_state.setdefault("preguntas", [])
 st.session_state.setdefault("aciertos", 0)
 
-# Filtros usados (para repetir exactamente)
+# Filtros usados
 st.session_state.setdefault("ultimo_filtro_practica", {"bloques": ["Bloque 1"], "temas": []})
 st.session_state.setdefault("ultimo_filtro_bloques", {"bloque": "Bloque 1", "temas": []})
 st.session_state.setdefault("ultimo_filtro_simulacros", {"simulacro": "Todos"})
 
-# Sidebar
 with st.sidebar:
     st.markdown("### Opciones")
 
     bloquear = st.session_state.fase != "menu"
+    opciones_vista = ["🛠️ Práctica", "📚 Bloques / Temas", "🧪 Simulacros", "🎯 Simulacro examen"]
+
     modo = st.radio(
         "Vista",
-        ["🛠️ Práctica", "📚 Bloques / Temas", "🧪 Simulacros"],
-        index=["🛠️ Práctica", "📚 Bloques / Temas", "🧪 Simulacros"].index(
-            st.session_state.get("modo_ui", "🛠️ Práctica")
-        ),
+        opciones_vista,
+        index=opciones_vista.index(st.session_state.get("modo_ui", "🛠️ Práctica")),
         key="modo_ui",
         disabled=bloquear
     )
+
     if bloquear:
         st.caption("🔒 Termina el test o vuelve al menú para cambiar de vista.")
 
@@ -355,8 +382,10 @@ with st.sidebar:
         st.session_state["vista"] = "Practica"
     elif modo == "📚 Bloques / Temas":
         st.session_state["vista"] = "Bloques"
-    else:
+    elif modo == "🧪 Simulacros":
         st.session_state["vista"] = "Simulacros"
+    else:
+        st.session_state["vista"] = "SimulacroExamen"
 
     n = st.number_input(
         "Nº de preguntas",
@@ -365,6 +394,14 @@ with st.sidebar:
         step=1,
         format="%d"
     )
+
+    if st.session_state.get("vista") == "SimulacroExamen" and st.session_state.fase == "menu":
+        penalizacion_txt = st.selectbox(
+            "Penalización fallo",
+            options=["Cada 4 mal resta 1 bien", "Cada 3 mal resta 1 bien"],
+            index=0 if st.session_state["config_simulacro_examen"].get("penalizacion", 4) == 4 else 1
+        )
+        st.session_state["config_simulacro_examen"]["penalizacion"] = 4 if "4" in penalizacion_txt else 3
 
     st.caption(f"Banco Bloques: **{len(preguntas_bloques)}**")
     st.caption(f"Banco Práctica: **{len(preguntas_practica)}**")
@@ -389,7 +426,6 @@ with st.sidebar:
 if st.session_state.fase == "menu":
     vista = st.session_state["vista"]
 
-    # ===== PRACTICA (multi-bloque) =====
     if vista == "Practica":
         st.subheader("🛠️ Práctica — Selecciona bloques y temas")
 
@@ -411,7 +447,6 @@ if st.session_state.fase == "menu":
             st.info("Selecciona al menos un bloque para poder empezar el test.")
             st.stop()
 
-        # Opciones de temas con prefijo de bloque para evitar ambigüedades
         temas_opciones = []
         for b in bloques_sel:
             for t in TEMAS_POR_BLOQUE.get(b, []):
@@ -463,7 +498,6 @@ if st.session_state.fase == "menu":
                 st.session_state["fase"] = "test"
                 st.rerun()
 
-    # ===== BLOQUES / TEMAS =====
     elif vista == "Bloques":
         st.subheader("📚 Bloques / Temas — Selecciona bloque y temas")
 
@@ -507,7 +541,40 @@ if st.session_state.fase == "menu":
                 st.session_state["fase"] = "test"
                 st.rerun()
 
-    # ===== SIMULACROS =====
+    elif vista == "SimulacroExamen":
+        st.subheader("🎯 Simulacro examen")
+
+        st.write(
+            "Se mezclarán preguntas de práctica de los tres bloques. "
+            "Las no contestadas no penalizan. "
+            "Los fallos restan según la penalización elegida en la barra lateral."
+        )
+
+        preguntas_filtradas = list(preguntas_practica)
+
+        if not preguntas_filtradas:
+            st.error("No hay preguntas cargadas en el banco de práctica.")
+        else:
+            st.info(f"Total disponibles para simulacro: {len(preguntas_filtradas)}")
+
+            if int(n) > len(preguntas_filtradas):
+                st.caption(
+                    f"Has pedido {int(n)} preguntas, pero solo hay {len(preguntas_filtradas)} disponibles. Se mostrarán todas."
+                )
+
+            if st.button("▶️ Comenzar simulacro examen", type="primary"):
+                usadas = st.session_state.get("usadas_simulacro_examen", [])
+
+                qs, u = preparar_test(preguntas_filtradas, int(n), usadas)
+                st.session_state["preguntas"] = qs
+                st.session_state["usadas_simulacro_examen"] = usadas + u
+
+                for i in range(len(qs)):
+                    st.session_state[f"resp_{i}"] = None
+
+                st.session_state["fase"] = "test"
+                st.rerun()
+
     else:
         st.subheader("🧪 Simulacros — Selecciona simulacro")
 
@@ -565,6 +632,10 @@ elif st.session_state.fase == "test":
         etiqueta_t = ", ".join(temas_sel) if temas_sel else "Todos los temas"
         st.subheader(f"Test — Práctica · {etiqueta_b} · {etiqueta_t}")
 
+    elif vista == "SimulacroExamen":
+        penalizacion = st.session_state["config_simulacro_examen"].get("penalizacion", 4)
+        st.subheader(f"Test — Simulacro examen (Práctica) · Penalización: 1/{penalizacion}")
+
     else:
         f = st.session_state.get("ultimo_filtro_simulacros", {"simulacro": "Todos"})
         simulacro = f.get("simulacro", "Todos")
@@ -604,12 +675,37 @@ elif st.session_state.fase == "correccion":
         etiqueta_t = ", ".join(temas_sel) if temas_sel else "Todos los temas"
         st.subheader(f"Corrección — Práctica · {etiqueta_b} · {etiqueta_t}")
 
+    elif vista == "SimulacroExamen":
+        penalizacion = st.session_state["config_simulacro_examen"].get("penalizacion", 4)
+        st.subheader(f"Corrección — Simulacro examen (Práctica) · Penalización: 1/{penalizacion}")
+
     else:
         f = st.session_state.get("ultimo_filtro_simulacros", {"simulacro": "Todos"})
         simulacro = f.get("simulacro", "Todos")
         st.subheader(f"Corrección — Simulacro: {simulacro}")
 
-    st.success(f"Correctas: **{aciertos}/{total}** — {(aciertos/total*100):.1f}%")
+    if vista == "SimulacroExamen":
+        penalizacion = st.session_state["config_simulacro_examen"].get("penalizacion", 4)
+        res = calcular_resultado_examen(st.session_state.preguntas, penalizacion=penalizacion)
+
+        correctas = res["correctas"]
+        incorrectas = res["incorrectas"]
+        en_blanco = res["en_blanco"]
+        netas = res["netas"]
+        respondidas = correctas + incorrectas
+        nota_sobre_10 = (netas / total * 10) if total > 0 else 0
+
+st.success(
+    f"Correctas: **{correctas}** · Incorrectas: **{incorrectas}** · En blanco: **{en_blanco}**"
+)
+st.info(
+    f"Respondidas: **{respondidas}/{total}**  \n"
+    f"Puntuación neta: **{netas:.2f} / {total}**  \n"
+    f"Nota: **{nota_sobre_10:.2f} / 10**"
+)
+    else:
+        st.success(f"Correctas: **{aciertos}/{total}** — {(aciertos/total*100):.1f}%")
+
     st.write("---")
 
     for i, q in enumerate(st.session_state.preguntas):
@@ -664,6 +760,14 @@ elif st.session_state.fase == "correccion":
                 qs, u = preparar_test(preguntas_filtradas, n_int, usadas)
                 st.session_state["preguntas"] = qs
                 st.session_state["usadas_por_practica"][clave] = usadas + u
+
+            elif vista == "SimulacroExamen":
+                preguntas_filtradas = list(preguntas_practica)
+                usadas = st.session_state.get("usadas_simulacro_examen", [])
+
+                qs, u = preparar_test(preguntas_filtradas, n_int, usadas)
+                st.session_state["preguntas"] = qs
+                st.session_state["usadas_simulacro_examen"] = usadas + u
 
             else:
                 f = st.session_state.get("ultimo_filtro_simulacros", {"simulacro": "Todos"})
