@@ -1,608 +1,608 @@
 [
   {
-    "enunciado": "¿Qué componente del sistema operativo gestiona directamente el hardware?",
+    "enunciado": "¿Cuál es la función principal de un sistema operativo?",
     "opciones": {
-      "a": "Kernel",
-      "b": "Shell",
-      "c": "Compilador",
-      "d": "Gestor de ventanas"
+      "a": "Gestionar recursos hardware y software",
+      "b": "Diseñar aplicaciones",
+      "c": "Administrar redes externas",
+      "d": "Compilar programas"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 1
   },
   {
-    "enunciado": "¿Qué algoritmo de planificación asigna la CPU por orden de llegada?",
+    "enunciado": "¿Qué es un proceso en un sistema operativo?",
     "opciones": {
-      "a": "FCFS",
-      "b": "Round Robin",
-      "c": "SJF",
-      "d": "Multilevel"
+      "a": "Un programa en ejecución",
+      "b": "Un archivo comprimido",
+      "c": "Un protocolo de red",
+      "d": "Un controlador"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 2
   },
   {
-    "enunciado": "¿Qué algoritmo asigna la CPU al proceso con menor tiempo estimado?",
+    "enunciado": "¿Qué técnica permite ejecutar programas mayores que la RAM?",
     "opciones": {
-      "a": "SJF",
-      "b": "FCFS",
-      "c": "Round Robin",
-      "d": "FIFO"
+      "a": "Memoria virtual",
+      "b": "Multiprocesamiento",
+      "c": "Interrupciones",
+      "d": "Spooling"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 3
   },
   {
-    "enunciado": "¿Qué algoritmo de planificación usa cuantums de tiempo?",
+    "enunciado": "¿Qué componente decide qué proceso utiliza la CPU?",
     "opciones": {
-      "a": "Round Robin",
-      "b": "FCFS",
-      "c": "SJF",
-      "d": "FIFO"
+      "a": "Planificador de CPU",
+      "b": "Compilador",
+      "c": "Router",
+      "d": "Shell"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 4
   },
   {
-    "enunciado": "¿Cómo se denomina un proceso terminado cuyo padre aún no ha leído su estado?",
+    "enunciado": "¿Qué mecanismo permite ejecutar múltiples tareas aparentemente al mismo tiempo?",
     "opciones": {
-      "a": "Proceso zombie",
-      "b": "Proceso huérfano",
-      "c": "Proceso bloqueado",
-      "d": "Proceso demonio"
+      "a": "Multitarea",
+      "b": "Compresión",
+      "c": "Indexación",
+      "d": "Fragmentación"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 5
   },
   {
-    "enunciado": "¿Qué es un proceso huérfano?",
+    "enunciado": "¿Cuál es la función principal de un sistema operativo?",
     "opciones": {
-      "a": "Proceso cuyo padre ha terminado",
-      "b": "Proceso en espera",
-      "c": "Proceso bloqueado",
-      "d": "Proceso zombie"
+      "a": "Gestionar recursos hardware y software",
+      "b": "Diseñar aplicaciones",
+      "c": "Administrar redes externas",
+      "d": "Compilar programas"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 6
   },
   {
-    "enunciado": "¿Qué técnica permite ejecutar programas mayores que la RAM disponible?",
+    "enunciado": "¿Qué es un proceso en un sistema operativo?",
     "opciones": {
-      "a": "Memoria virtual",
-      "b": "RAID",
-      "c": "Caché",
-      "d": "Buffering"
+      "a": "Un programa en ejecución",
+      "b": "Un archivo comprimido",
+      "c": "Un protocolo de red",
+      "d": "Un controlador"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 7
   },
   {
-    "enunciado": "¿Qué técnica divide la memoria en páginas de tamaño fijo?",
+    "enunciado": "¿Qué técnica permite ejecutar programas mayores que la RAM?",
     "opciones": {
-      "a": "Paginación",
-      "b": "Segmentación",
-      "c": "Swapping",
-      "d": "Compresión"
+      "a": "Memoria virtual",
+      "b": "Multiprocesamiento",
+      "c": "Interrupciones",
+      "d": "Spooling"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 8
   },
   {
-    "enunciado": "¿Qué técnica divide la memoria en segmentos lógicos?",
+    "enunciado": "¿Qué componente decide qué proceso utiliza la CPU?",
     "opciones": {
-      "a": "Segmentación",
-      "b": "Paginación",
-      "c": "RAID",
-      "d": "Caching"
+      "a": "Planificador de CPU",
+      "b": "Compilador",
+      "c": "Router",
+      "d": "Shell"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 9
   },
   {
-    "enunciado": "¿Qué tabla traduce direcciones virtuales a físicas?",
+    "enunciado": "¿Qué mecanismo permite ejecutar múltiples tareas aparentemente al mismo tiempo?",
     "opciones": {
-      "a": "Tabla de páginas",
-      "b": "Tabla ARP",
-      "c": "Tabla DNS",
-      "d": "Tabla NAT"
+      "a": "Multitarea",
+      "b": "Compresión",
+      "c": "Indexación",
+      "d": "Fragmentación"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 10
   },
   {
-    "enunciado": "¿Qué es un hilo (thread)?",
+    "enunciado": "¿Cuál es la función principal de un sistema operativo?",
     "opciones": {
-      "a": "Unidad de ejecución dentro de un proceso",
-      "b": "Tipo de archivo",
-      "c": "Memoria secundaria",
-      "d": "Interfaz de red"
+      "a": "Gestionar recursos hardware y software",
+      "b": "Diseñar aplicaciones",
+      "c": "Administrar redes externas",
+      "d": "Compilar programas"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 11
   },
   {
-    "enunciado": "¿Qué comando Linux lista archivos?",
+    "enunciado": "¿Qué es un proceso en un sistema operativo?",
     "opciones": {
-      "a": "ls",
-      "b": "ps",
-      "c": "rm",
-      "d": "grep"
+      "a": "Un programa en ejecución",
+      "b": "Un archivo comprimido",
+      "c": "Un protocolo de red",
+      "d": "Un controlador"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 12
   },
   {
-    "enunciado": "¿Qué comando muestra procesos activos?",
+    "enunciado": "¿Qué técnica permite ejecutar programas mayores que la RAM?",
     "opciones": {
-      "a": "ps",
-      "b": "ls",
-      "c": "cat",
-      "d": "echo"
+      "a": "Memoria virtual",
+      "b": "Multiprocesamiento",
+      "c": "Interrupciones",
+      "d": "Spooling"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 13
   },
   {
-    "enunciado": "¿Qué comando cambia permisos en Linux?",
+    "enunciado": "¿Qué componente decide qué proceso utiliza la CPU?",
     "opciones": {
-      "a": "chmod",
-      "b": "chown",
-      "c": "ls",
-      "d": "pwd"
+      "a": "Planificador de CPU",
+      "b": "Compilador",
+      "c": "Router",
+      "d": "Shell"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 14
   },
   {
-    "enunciado": "¿Qué comando cambia propietario de archivo?",
+    "enunciado": "¿Qué mecanismo permite ejecutar múltiples tareas aparentemente al mismo tiempo?",
     "opciones": {
-      "a": "chown",
-      "b": "chmod",
-      "c": "cp",
-      "d": "mv"
+      "a": "Multitarea",
+      "b": "Compresión",
+      "c": "Indexación",
+      "d": "Fragmentación"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 15
   },
   {
-    "enunciado": "¿Qué sistema de archivos es común en Linux?",
+    "enunciado": "¿Cuál es la función principal de un sistema operativo?",
     "opciones": {
-      "a": "ext4",
-      "b": "NTFS",
-      "c": "APFS",
-      "d": "FAT"
+      "a": "Gestionar recursos hardware y software",
+      "b": "Diseñar aplicaciones",
+      "c": "Administrar redes externas",
+      "d": "Compilar programas"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 16
   },
   {
-    "enunciado": "¿Qué sistema de archivos es típico de Windows?",
+    "enunciado": "¿Qué es un proceso en un sistema operativo?",
     "opciones": {
-      "a": "NTFS",
-      "b": "ext4",
-      "c": "XFS",
-      "d": "Btrfs"
+      "a": "Un programa en ejecución",
+      "b": "Un archivo comprimido",
+      "c": "Un protocolo de red",
+      "d": "Un controlador"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 17
   },
   {
-    "enunciado": "¿Qué significa multitarea?",
+    "enunciado": "¿Qué técnica permite ejecutar programas mayores que la RAM?",
     "opciones": {
-      "a": "Ejecución concurrente de procesos",
-      "b": "Uso de varios discos",
-      "c": "Uso de varios usuarios",
-      "d": "Uso de varias redes"
+      "a": "Memoria virtual",
+      "b": "Multiprocesamiento",
+      "c": "Interrupciones",
+      "d": "Spooling"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 18
   },
   {
-    "enunciado": "¿Qué estado indica que un proceso espera un evento?",
+    "enunciado": "¿Qué componente decide qué proceso utiliza la CPU?",
     "opciones": {
-      "a": "Bloqueado",
-      "b": "Ejecutando",
-      "c": "Nuevo",
-      "d": "Terminado"
+      "a": "Planificador de CPU",
+      "b": "Compilador",
+      "c": "Router",
+      "d": "Shell"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 19
   },
   {
-    "enunciado": "¿Qué estructura mantiene información de cada proceso?",
+    "enunciado": "¿Qué mecanismo permite ejecutar múltiples tareas aparentemente al mismo tiempo?",
     "opciones": {
-      "a": "PCB",
-      "b": "RAM",
-      "c": "BIOS",
-      "d": "MBR"
+      "a": "Multitarea",
+      "b": "Compresión",
+      "c": "Indexación",
+      "d": "Fragmentación"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 20
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 21?",
+    "enunciado": "¿Cuál es la función principal de un sistema operativo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Gestionar recursos hardware y software",
+      "b": "Diseñar aplicaciones",
+      "c": "Administrar redes externas",
+      "d": "Compilar programas"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 21
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 22?",
+    "enunciado": "¿Qué es un proceso en un sistema operativo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Un programa en ejecución",
+      "b": "Un archivo comprimido",
+      "c": "Un protocolo de red",
+      "d": "Un controlador"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 22
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 23?",
+    "enunciado": "¿Qué técnica permite ejecutar programas mayores que la RAM?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Memoria virtual",
+      "b": "Multiprocesamiento",
+      "c": "Interrupciones",
+      "d": "Spooling"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 23
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 24?",
+    "enunciado": "¿Qué componente decide qué proceso utiliza la CPU?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Planificador de CPU",
+      "b": "Compilador",
+      "c": "Router",
+      "d": "Shell"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 24
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 25?",
+    "enunciado": "¿Qué mecanismo permite ejecutar múltiples tareas aparentemente al mismo tiempo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Multitarea",
+      "b": "Compresión",
+      "c": "Indexación",
+      "d": "Fragmentación"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 25
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 26?",
+    "enunciado": "¿Cuál es la función principal de un sistema operativo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Gestionar recursos hardware y software",
+      "b": "Diseñar aplicaciones",
+      "c": "Administrar redes externas",
+      "d": "Compilar programas"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 26
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 27?",
+    "enunciado": "¿Qué es un proceso en un sistema operativo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Un programa en ejecución",
+      "b": "Un archivo comprimido",
+      "c": "Un protocolo de red",
+      "d": "Un controlador"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 27
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 28?",
+    "enunciado": "¿Qué técnica permite ejecutar programas mayores que la RAM?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Memoria virtual",
+      "b": "Multiprocesamiento",
+      "c": "Interrupciones",
+      "d": "Spooling"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 28
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 29?",
+    "enunciado": "¿Qué componente decide qué proceso utiliza la CPU?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Planificador de CPU",
+      "b": "Compilador",
+      "c": "Router",
+      "d": "Shell"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 29
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 30?",
+    "enunciado": "¿Qué mecanismo permite ejecutar múltiples tareas aparentemente al mismo tiempo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Multitarea",
+      "b": "Compresión",
+      "c": "Indexación",
+      "d": "Fragmentación"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 30
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 31?",
+    "enunciado": "¿Cuál es la función principal de un sistema operativo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Gestionar recursos hardware y software",
+      "b": "Diseñar aplicaciones",
+      "c": "Administrar redes externas",
+      "d": "Compilar programas"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 31
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 32?",
+    "enunciado": "¿Qué es un proceso en un sistema operativo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Un programa en ejecución",
+      "b": "Un archivo comprimido",
+      "c": "Un protocolo de red",
+      "d": "Un controlador"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 32
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 33?",
+    "enunciado": "¿Qué técnica permite ejecutar programas mayores que la RAM?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Memoria virtual",
+      "b": "Multiprocesamiento",
+      "c": "Interrupciones",
+      "d": "Spooling"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 33
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 34?",
+    "enunciado": "¿Qué componente decide qué proceso utiliza la CPU?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Planificador de CPU",
+      "b": "Compilador",
+      "c": "Router",
+      "d": "Shell"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 34
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 35?",
+    "enunciado": "¿Qué mecanismo permite ejecutar múltiples tareas aparentemente al mismo tiempo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Multitarea",
+      "b": "Compresión",
+      "c": "Indexación",
+      "d": "Fragmentación"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 35
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 36?",
+    "enunciado": "¿Cuál es la función principal de un sistema operativo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Gestionar recursos hardware y software",
+      "b": "Diseñar aplicaciones",
+      "c": "Administrar redes externas",
+      "d": "Compilar programas"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 36
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 37?",
+    "enunciado": "¿Qué es un proceso en un sistema operativo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Un programa en ejecución",
+      "b": "Un archivo comprimido",
+      "c": "Un protocolo de red",
+      "d": "Un controlador"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 37
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 38?",
+    "enunciado": "¿Qué técnica permite ejecutar programas mayores que la RAM?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Memoria virtual",
+      "b": "Multiprocesamiento",
+      "c": "Interrupciones",
+      "d": "Spooling"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 38
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 39?",
+    "enunciado": "¿Qué componente decide qué proceso utiliza la CPU?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Planificador de CPU",
+      "b": "Compilador",
+      "c": "Router",
+      "d": "Shell"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 39
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 40?",
+    "enunciado": "¿Qué mecanismo permite ejecutar múltiples tareas aparentemente al mismo tiempo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Multitarea",
+      "b": "Compresión",
+      "c": "Indexación",
+      "d": "Fragmentación"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 40
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 41?",
+    "enunciado": "¿Cuál es la función principal de un sistema operativo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Gestionar recursos hardware y software",
+      "b": "Diseñar aplicaciones",
+      "c": "Administrar redes externas",
+      "d": "Compilar programas"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 41
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 42?",
+    "enunciado": "¿Qué es un proceso en un sistema operativo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Un programa en ejecución",
+      "b": "Un archivo comprimido",
+      "c": "Un protocolo de red",
+      "d": "Un controlador"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 42
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 43?",
+    "enunciado": "¿Qué técnica permite ejecutar programas mayores que la RAM?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Memoria virtual",
+      "b": "Multiprocesamiento",
+      "c": "Interrupciones",
+      "d": "Spooling"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 43
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 44?",
+    "enunciado": "¿Qué componente decide qué proceso utiliza la CPU?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Planificador de CPU",
+      "b": "Compilador",
+      "c": "Router",
+      "d": "Shell"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 44
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 45?",
+    "enunciado": "¿Qué mecanismo permite ejecutar múltiples tareas aparentemente al mismo tiempo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Multitarea",
+      "b": "Compresión",
+      "c": "Indexación",
+      "d": "Fragmentación"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 45
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 46?",
+    "enunciado": "¿Cuál es la función principal de un sistema operativo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Gestionar recursos hardware y software",
+      "b": "Diseñar aplicaciones",
+      "c": "Administrar redes externas",
+      "d": "Compilar programas"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 46
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 47?",
+    "enunciado": "¿Qué es un proceso en un sistema operativo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Un programa en ejecución",
+      "b": "Un archivo comprimido",
+      "c": "Un protocolo de red",
+      "d": "Un controlador"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 47
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 48?",
+    "enunciado": "¿Qué técnica permite ejecutar programas mayores que la RAM?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Memoria virtual",
+      "b": "Multiprocesamiento",
+      "c": "Interrupciones",
+      "d": "Spooling"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 48
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 49?",
+    "enunciado": "¿Qué componente decide qué proceso utiliza la CPU?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Planificador de CPU",
+      "b": "Compilador",
+      "c": "Router",
+      "d": "Shell"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 49
   },
   {
-    "enunciado": "En sistemas operativos, ¿qué concepto está relacionado con la gestión de procesos número 50?",
+    "enunciado": "¿Qué mecanismo permite ejecutar múltiples tareas aparentemente al mismo tiempo?",
     "opciones": {
-      "a": "Planificación de CPU",
-      "b": "Compresión de archivos",
-      "c": "Gestión de impresoras",
-      "d": "Control de gráficos"
+      "a": "Multitarea",
+      "b": "Compresión",
+      "c": "Indexación",
+      "d": "Fragmentación"
     },
     "correcta": "a",
     "tema": "Sistemas Operativos",
     "numero": 50
   },
   {
-    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
+    "enunciado": "¿Qué protocolo se usa para transferir páginas web?",
     "opciones": {
-      "a": "DNS",
+      "a": "HTTP",
       "b": "FTP",
       "c": "SMTP",
       "d": "SNMP"
@@ -612,16 +612,28 @@
     "numero": 51
   },
   {
-    "enunciado": "¿Qué protocolo asigna direcciones IP automáticamente?",
+    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
     "opciones": {
-      "a": "DHCP",
-      "b": "DNS",
-      "c": "ARP",
-      "d": "ICMP"
+      "a": "DNS",
+      "b": "DHCP",
+      "c": "SMTP",
+      "d": "NTP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 52
+  },
+  {
+    "enunciado": "¿Qué capa del modelo OSI realiza el enrutamiento?",
+    "opciones": {
+      "a": "Capa de red",
+      "b": "Capa física",
+      "c": "Capa de sesión",
+      "d": "Capa de presentación"
+    },
+    "correcta": "a",
+    "tema": "Redes",
+    "numero": 53
   },
   {
     "enunciado": "¿Qué dispositivo conecta redes distintas?",
@@ -629,1778 +641,1766 @@
       "a": "Router",
       "b": "Switch",
       "c": "Hub",
-      "d": "Repeater"
-    },
-    "correcta": "a",
-    "tema": "Redes",
-    "numero": 53
-  },
-  {
-    "enunciado": "¿Qué dispositivo opera principalmente en la capa 2?",
-    "opciones": {
-      "a": "Switch",
-      "b": "Router",
-      "c": "Gateway",
-      "d": "Firewall"
+      "d": "Bridge"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 54
   },
   {
-    "enunciado": "¿Qué protocolo se usa para páginas web?",
+    "enunciado": "¿Qué protocolo asigna direcciones IP automáticamente?",
     "opciones": {
-      "a": "HTTP",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "SSH"
+      "a": "DHCP",
+      "b": "DNS",
+      "c": "FTP",
+      "d": "IMAP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 55
   },
   {
-    "enunciado": "¿Qué protocolo se usa para páginas web seguras?",
+    "enunciado": "¿Qué protocolo se usa para transferir páginas web?",
     "opciones": {
-      "a": "HTTPS",
-      "b": "HTTP",
-      "c": "FTP",
-      "d": "SMTP"
+      "a": "HTTP",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "SNMP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 56
   },
   {
-    "enunciado": "¿Qué protocolo permite acceso remoto seguro?",
+    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
     "opciones": {
-      "a": "SSH",
-      "b": "Telnet",
-      "c": "FTP",
-      "d": "HTTP"
+      "a": "DNS",
+      "b": "DHCP",
+      "c": "SMTP",
+      "d": "NTP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 57
   },
   {
-    "enunciado": "¿Qué identifica de forma única una interfaz de red?",
+    "enunciado": "¿Qué capa del modelo OSI realiza el enrutamiento?",
     "opciones": {
-      "a": "Dirección MAC",
-      "b": "IP pública",
-      "c": "Hostname",
-      "d": "Puerto"
+      "a": "Capa de red",
+      "b": "Capa física",
+      "c": "Capa de sesión",
+      "d": "Capa de presentación"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 58
   },
   {
-    "enunciado": "¿Qué comando comprueba conectividad con otro host?",
+    "enunciado": "¿Qué dispositivo conecta redes distintas?",
     "opciones": {
-      "a": "ping",
-      "b": "ls",
-      "c": "pwd",
-      "d": "grep"
+      "a": "Router",
+      "b": "Switch",
+      "c": "Hub",
+      "d": "Bridge"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 59
   },
   {
-    "enunciado": "¿Qué protocolo se usa para enviar correo electrónico?",
+    "enunciado": "¿Qué protocolo asigna direcciones IP automáticamente?",
     "opciones": {
-      "a": "SMTP",
+      "a": "DHCP",
       "b": "DNS",
       "c": "FTP",
-      "d": "SSH"
+      "d": "IMAP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 60
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 11)",
+    "enunciado": "¿Qué protocolo se usa para transferir páginas web?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "HTTP",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "SNMP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 61
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 12)",
+    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "DNS",
+      "b": "DHCP",
+      "c": "SMTP",
+      "d": "NTP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 62
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 13)",
+    "enunciado": "¿Qué capa del modelo OSI realiza el enrutamiento?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "Capa de red",
+      "b": "Capa física",
+      "c": "Capa de sesión",
+      "d": "Capa de presentación"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 63
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 14)",
+    "enunciado": "¿Qué dispositivo conecta redes distintas?",
     "opciones": {
       "a": "Router",
       "b": "Switch",
       "c": "Hub",
-      "d": "Repeater"
+      "d": "Bridge"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 64
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 15)",
+    "enunciado": "¿Qué protocolo asigna direcciones IP automáticamente?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "DHCP",
+      "b": "DNS",
+      "c": "FTP",
+      "d": "IMAP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 65
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 16)",
+    "enunciado": "¿Qué protocolo se usa para transferir páginas web?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "HTTP",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "SNMP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 66
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 17)",
+    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "DNS",
+      "b": "DHCP",
+      "c": "SMTP",
+      "d": "NTP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 67
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 18)",
+    "enunciado": "¿Qué capa del modelo OSI realiza el enrutamiento?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "Capa de red",
+      "b": "Capa física",
+      "c": "Capa de sesión",
+      "d": "Capa de presentación"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 68
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 19)",
+    "enunciado": "¿Qué dispositivo conecta redes distintas?",
     "opciones": {
       "a": "Router",
       "b": "Switch",
       "c": "Hub",
-      "d": "Repeater"
+      "d": "Bridge"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 69
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 20)",
+    "enunciado": "¿Qué protocolo asigna direcciones IP automáticamente?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "DHCP",
+      "b": "DNS",
+      "c": "FTP",
+      "d": "IMAP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 70
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 21)",
+    "enunciado": "¿Qué protocolo se usa para transferir páginas web?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "HTTP",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "SNMP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 71
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 22)",
+    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "DNS",
+      "b": "DHCP",
+      "c": "SMTP",
+      "d": "NTP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 72
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 23)",
+    "enunciado": "¿Qué capa del modelo OSI realiza el enrutamiento?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "Capa de red",
+      "b": "Capa física",
+      "c": "Capa de sesión",
+      "d": "Capa de presentación"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 73
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 24)",
+    "enunciado": "¿Qué dispositivo conecta redes distintas?",
     "opciones": {
       "a": "Router",
       "b": "Switch",
       "c": "Hub",
-      "d": "Repeater"
+      "d": "Bridge"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 74
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 25)",
+    "enunciado": "¿Qué protocolo asigna direcciones IP automáticamente?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "DHCP",
+      "b": "DNS",
+      "c": "FTP",
+      "d": "IMAP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 75
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 26)",
+    "enunciado": "¿Qué protocolo se usa para transferir páginas web?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "HTTP",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "SNMP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 76
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 27)",
+    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "DNS",
+      "b": "DHCP",
+      "c": "SMTP",
+      "d": "NTP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 77
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 28)",
+    "enunciado": "¿Qué capa del modelo OSI realiza el enrutamiento?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "Capa de red",
+      "b": "Capa física",
+      "c": "Capa de sesión",
+      "d": "Capa de presentación"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 78
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 29)",
+    "enunciado": "¿Qué dispositivo conecta redes distintas?",
     "opciones": {
       "a": "Router",
       "b": "Switch",
       "c": "Hub",
-      "d": "Repeater"
+      "d": "Bridge"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 79
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 30)",
+    "enunciado": "¿Qué protocolo asigna direcciones IP automáticamente?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "DHCP",
+      "b": "DNS",
+      "c": "FTP",
+      "d": "IMAP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 80
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 31)",
+    "enunciado": "¿Qué protocolo se usa para transferir páginas web?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "HTTP",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "SNMP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 81
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 32)",
+    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "DNS",
+      "b": "DHCP",
+      "c": "SMTP",
+      "d": "NTP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 82
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 33)",
+    "enunciado": "¿Qué capa del modelo OSI realiza el enrutamiento?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "Capa de red",
+      "b": "Capa física",
+      "c": "Capa de sesión",
+      "d": "Capa de presentación"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 83
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 34)",
+    "enunciado": "¿Qué dispositivo conecta redes distintas?",
     "opciones": {
       "a": "Router",
       "b": "Switch",
       "c": "Hub",
-      "d": "Repeater"
+      "d": "Bridge"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 84
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 35)",
+    "enunciado": "¿Qué protocolo asigna direcciones IP automáticamente?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "DHCP",
+      "b": "DNS",
+      "c": "FTP",
+      "d": "IMAP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 85
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 36)",
+    "enunciado": "¿Qué protocolo se usa para transferir páginas web?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "HTTP",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "SNMP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 86
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 37)",
+    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "DNS",
+      "b": "DHCP",
+      "c": "SMTP",
+      "d": "NTP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 87
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 38)",
+    "enunciado": "¿Qué capa del modelo OSI realiza el enrutamiento?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "Capa de red",
+      "b": "Capa física",
+      "c": "Capa de sesión",
+      "d": "Capa de presentación"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 88
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 39)",
+    "enunciado": "¿Qué dispositivo conecta redes distintas?",
     "opciones": {
       "a": "Router",
       "b": "Switch",
       "c": "Hub",
-      "d": "Repeater"
+      "d": "Bridge"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 89
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 40)",
+    "enunciado": "¿Qué protocolo asigna direcciones IP automáticamente?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "DHCP",
+      "b": "DNS",
+      "c": "FTP",
+      "d": "IMAP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 90
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 41)",
+    "enunciado": "¿Qué protocolo se usa para transferir páginas web?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "HTTP",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "SNMP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 91
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 42)",
+    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "DNS",
+      "b": "DHCP",
+      "c": "SMTP",
+      "d": "NTP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 92
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 43)",
+    "enunciado": "¿Qué capa del modelo OSI realiza el enrutamiento?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "Capa de red",
+      "b": "Capa física",
+      "c": "Capa de sesión",
+      "d": "Capa de presentación"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 93
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 44)",
+    "enunciado": "¿Qué dispositivo conecta redes distintas?",
     "opciones": {
       "a": "Router",
       "b": "Switch",
       "c": "Hub",
-      "d": "Repeater"
+      "d": "Bridge"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 94
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 45)",
+    "enunciado": "¿Qué protocolo asigna direcciones IP automáticamente?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "DHCP",
+      "b": "DNS",
+      "c": "FTP",
+      "d": "IMAP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 95
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 46)",
+    "enunciado": "¿Qué protocolo se usa para transferir páginas web?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "HTTP",
+      "b": "FTP",
+      "c": "SMTP",
+      "d": "SNMP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 96
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 47)",
+    "enunciado": "¿Qué protocolo traduce nombres de dominio a direcciones IP?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "DNS",
+      "b": "DHCP",
+      "c": "SMTP",
+      "d": "NTP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 97
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 48)",
+    "enunciado": "¿Qué capa del modelo OSI realiza el enrutamiento?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "Capa de red",
+      "b": "Capa física",
+      "c": "Capa de sesión",
+      "d": "Capa de presentación"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 98
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 49)",
+    "enunciado": "¿Qué dispositivo conecta redes distintas?",
     "opciones": {
       "a": "Router",
       "b": "Switch",
       "c": "Hub",
-      "d": "Repeater"
+      "d": "Bridge"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 99
   },
   {
-    "enunciado": "En redes, ¿qué componente se relaciona con la capa de red del modelo OSI? (pregunta 50)",
+    "enunciado": "¿Qué protocolo asigna direcciones IP automáticamente?",
     "opciones": {
-      "a": "Router",
-      "b": "Switch",
-      "c": "Hub",
-      "d": "Repeater"
+      "a": "DHCP",
+      "b": "DNS",
+      "c": "FTP",
+      "d": "IMAP"
     },
     "correcta": "a",
     "tema": "Redes",
     "numero": 100
   },
   {
-    "enunciado": "¿Qué propiedad garantiza que los datos no sean modificados sin autorización?",
+    "enunciado": "¿Qué mecanismo verifica la identidad de un usuario?",
     "opciones": {
-      "a": "Integridad",
-      "b": "Disponibilidad",
-      "c": "Portabilidad",
-      "d": "Escalabilidad"
+      "a": "Autenticación",
+      "b": "Auditoría",
+      "c": "Balanceo",
+      "d": "Indexación"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 101
   },
   {
-    "enunciado": "¿Qué propiedad garantiza acceso a los sistemas cuando se necesiten?",
+    "enunciado": "¿Qué dispositivo filtra tráfico de red según reglas?",
     "opciones": {
-      "a": "Disponibilidad",
-      "b": "Integridad",
-      "c": "Compresión",
-      "d": "Virtualización"
+      "a": "Firewall",
+      "b": "Switch",
+      "c": "Router",
+      "d": "Proxy inverso"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 102
   },
   {
-    "enunciado": "¿Qué propiedad protege la información contra accesos no autorizados?",
+    "enunciado": "¿Qué técnica protege información transformándola mediante algoritmos?",
     "opciones": {
-      "a": "Confidencialidad",
-      "b": "Integridad",
-      "c": "Disponibilidad",
-      "d": "Redundancia"
+      "a": "Cifrado",
+      "b": "Compresión",
+      "c": "Segmentación",
+      "d": "Virtualización"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 103
   },
   {
-    "enunciado": "¿Qué herramienta filtra tráfico de red según reglas?",
+    "enunciado": "¿Qué sistema detecta intrusiones en la red?",
     "opciones": {
-      "a": "Firewall",
-      "b": "Switch",
-      "c": "Router",
-      "d": "Proxy"
+      "a": "IDS",
+      "b": "DNS",
+      "c": "NAT",
+      "d": "FTP"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 104
   },
   {
-    "enunciado": "¿Qué sistema detecta intrusiones?",
+    "enunciado": "¿Qué principio limita el acceso solo a lo necesario?",
     "opciones": {
-      "a": "IDS",
-      "b": "DNS",
-      "c": "FTP",
-      "d": "DHCP"
+      "a": "Mínimo privilegio",
+      "b": "Alta disponibilidad",
+      "c": "Balanceo",
+      "d": "Caching"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 105
   },
   {
-    "enunciado": "¿Qué técnica usa claves públicas y privadas?",
+    "enunciado": "¿Qué mecanismo verifica la identidad de un usuario?",
     "opciones": {
-      "a": "Cifrado asimétrico",
-      "b": "Cifrado simétrico",
-      "c": "Compresión",
-      "d": "Hash"
+      "a": "Autenticación",
+      "b": "Auditoría",
+      "c": "Balanceo",
+      "d": "Indexación"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 106
   },
   {
-    "enunciado": "¿Qué técnica usa la misma clave para cifrar y descifrar?",
+    "enunciado": "¿Qué dispositivo filtra tráfico de red según reglas?",
     "opciones": {
-      "a": "Cifrado simétrico",
-      "b": "Asimétrico",
-      "c": "Hash",
-      "d": "Checksum"
+      "a": "Firewall",
+      "b": "Switch",
+      "c": "Router",
+      "d": "Proxy inverso"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 107
   },
   {
-    "enunciado": "¿Qué ataque engaña al usuario para robar credenciales?",
+    "enunciado": "¿Qué técnica protege información transformándola mediante algoritmos?",
     "opciones": {
-      "a": "Phishing",
-      "b": "Sniffing",
-      "c": "Scanning",
-      "d": "Spoofing"
+      "a": "Cifrado",
+      "b": "Compresión",
+      "c": "Segmentación",
+      "d": "Virtualización"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 108
   },
   {
-    "enunciado": "¿Qué mecanismo registra eventos del sistema?",
+    "enunciado": "¿Qué sistema detecta intrusiones en la red?",
     "opciones": {
-      "a": "Auditoría",
-      "b": "RAID",
-      "c": "Balanceo",
-      "d": "Virtualización"
+      "a": "IDS",
+      "b": "DNS",
+      "c": "NAT",
+      "d": "FTP"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 109
   },
   {
-    "enunciado": "¿Qué protocolo protege conexiones web?",
+    "enunciado": "¿Qué principio limita el acceso solo a lo necesario?",
     "opciones": {
-      "a": "TLS",
-      "b": "ICMP",
-      "c": "ARP",
-      "d": "FTP"
+      "a": "Mínimo privilegio",
+      "b": "Alta disponibilidad",
+      "c": "Balanceo",
+      "d": "Caching"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 110
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 11)",
+    "enunciado": "¿Qué mecanismo verifica la identidad de un usuario?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
+      "a": "Autenticación",
+      "b": "Auditoría",
       "c": "Balanceo",
-      "d": "Fragmentación"
+      "d": "Indexación"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 111
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 12)",
+    "enunciado": "¿Qué dispositivo filtra tráfico de red según reglas?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "a": "Firewall",
+      "b": "Switch",
+      "c": "Router",
+      "d": "Proxy inverso"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 112
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 13)",
+    "enunciado": "¿Qué técnica protege información transformándola mediante algoritmos?",
     "opciones": {
-      "a": "Autorización",
+      "a": "Cifrado",
       "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "c": "Segmentación",
+      "d": "Virtualización"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 113
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 14)",
+    "enunciado": "¿Qué sistema detecta intrusiones en la red?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "a": "IDS",
+      "b": "DNS",
+      "c": "NAT",
+      "d": "FTP"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 114
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 15)",
+    "enunciado": "¿Qué principio limita el acceso solo a lo necesario?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
+      "a": "Mínimo privilegio",
+      "b": "Alta disponibilidad",
       "c": "Balanceo",
-      "d": "Fragmentación"
+      "d": "Caching"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 115
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 16)",
+    "enunciado": "¿Qué mecanismo verifica la identidad de un usuario?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
+      "a": "Autenticación",
+      "b": "Auditoría",
       "c": "Balanceo",
-      "d": "Fragmentación"
+      "d": "Indexación"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 116
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 17)",
+    "enunciado": "¿Qué dispositivo filtra tráfico de red según reglas?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "a": "Firewall",
+      "b": "Switch",
+      "c": "Router",
+      "d": "Proxy inverso"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 117
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 18)",
+    "enunciado": "¿Qué técnica protege información transformándola mediante algoritmos?",
     "opciones": {
-      "a": "Autorización",
+      "a": "Cifrado",
       "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "c": "Segmentación",
+      "d": "Virtualización"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 118
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 19)",
+    "enunciado": "¿Qué sistema detecta intrusiones en la red?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "a": "IDS",
+      "b": "DNS",
+      "c": "NAT",
+      "d": "FTP"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 119
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 20)",
+    "enunciado": "¿Qué principio limita el acceso solo a lo necesario?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
+      "a": "Mínimo privilegio",
+      "b": "Alta disponibilidad",
       "c": "Balanceo",
-      "d": "Fragmentación"
+      "d": "Caching"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 120
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 21)",
+    "enunciado": "¿Qué mecanismo verifica la identidad de un usuario?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
+      "a": "Autenticación",
+      "b": "Auditoría",
       "c": "Balanceo",
-      "d": "Fragmentación"
+      "d": "Indexación"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 121
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 22)",
+    "enunciado": "¿Qué dispositivo filtra tráfico de red según reglas?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "a": "Firewall",
+      "b": "Switch",
+      "c": "Router",
+      "d": "Proxy inverso"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 122
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 23)",
+    "enunciado": "¿Qué técnica protege información transformándola mediante algoritmos?",
     "opciones": {
-      "a": "Autorización",
+      "a": "Cifrado",
       "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "c": "Segmentación",
+      "d": "Virtualización"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 123
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 24)",
+    "enunciado": "¿Qué sistema detecta intrusiones en la red?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "a": "IDS",
+      "b": "DNS",
+      "c": "NAT",
+      "d": "FTP"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 124
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 25)",
+    "enunciado": "¿Qué principio limita el acceso solo a lo necesario?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
+      "a": "Mínimo privilegio",
+      "b": "Alta disponibilidad",
       "c": "Balanceo",
-      "d": "Fragmentación"
+      "d": "Caching"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 125
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 26)",
+    "enunciado": "¿Qué mecanismo verifica la identidad de un usuario?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
+      "a": "Autenticación",
+      "b": "Auditoría",
       "c": "Balanceo",
-      "d": "Fragmentación"
+      "d": "Indexación"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 126
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 27)",
+    "enunciado": "¿Qué dispositivo filtra tráfico de red según reglas?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "a": "Firewall",
+      "b": "Switch",
+      "c": "Router",
+      "d": "Proxy inverso"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 127
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 28)",
+    "enunciado": "¿Qué técnica protege información transformándola mediante algoritmos?",
     "opciones": {
-      "a": "Autorización",
+      "a": "Cifrado",
       "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "c": "Segmentación",
+      "d": "Virtualización"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 128
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 29)",
+    "enunciado": "¿Qué sistema detecta intrusiones en la red?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "a": "IDS",
+      "b": "DNS",
+      "c": "NAT",
+      "d": "FTP"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 129
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 30)",
+    "enunciado": "¿Qué principio limita el acceso solo a lo necesario?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
+      "a": "Mínimo privilegio",
+      "b": "Alta disponibilidad",
       "c": "Balanceo",
-      "d": "Fragmentación"
+      "d": "Caching"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 130
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 31)",
+    "enunciado": "¿Qué mecanismo verifica la identidad de un usuario?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
+      "a": "Autenticación",
+      "b": "Auditoría",
       "c": "Balanceo",
-      "d": "Fragmentación"
+      "d": "Indexación"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 131
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 32)",
+    "enunciado": "¿Qué dispositivo filtra tráfico de red según reglas?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "a": "Firewall",
+      "b": "Switch",
+      "c": "Router",
+      "d": "Proxy inverso"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 132
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 33)",
+    "enunciado": "¿Qué técnica protege información transformándola mediante algoritmos?",
     "opciones": {
-      "a": "Autorización",
+      "a": "Cifrado",
       "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "c": "Segmentación",
+      "d": "Virtualización"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 133
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 34)",
+    "enunciado": "¿Qué sistema detecta intrusiones en la red?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "a": "IDS",
+      "b": "DNS",
+      "c": "NAT",
+      "d": "FTP"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 134
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 35)",
+    "enunciado": "¿Qué principio limita el acceso solo a lo necesario?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
+      "a": "Mínimo privilegio",
+      "b": "Alta disponibilidad",
       "c": "Balanceo",
-      "d": "Fragmentación"
+      "d": "Caching"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 135
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 36)",
+    "enunciado": "¿Qué mecanismo verifica la identidad de un usuario?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
+      "a": "Autenticación",
+      "b": "Auditoría",
       "c": "Balanceo",
-      "d": "Fragmentación"
+      "d": "Indexación"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 136
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 37)",
+    "enunciado": "¿Qué dispositivo filtra tráfico de red según reglas?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "a": "Firewall",
+      "b": "Switch",
+      "c": "Router",
+      "d": "Proxy inverso"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 137
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 38)",
+    "enunciado": "¿Qué técnica protege información transformándola mediante algoritmos?",
     "opciones": {
-      "a": "Autorización",
+      "a": "Cifrado",
       "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "c": "Segmentación",
+      "d": "Virtualización"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 138
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 39)",
+    "enunciado": "¿Qué sistema detecta intrusiones en la red?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "a": "IDS",
+      "b": "DNS",
+      "c": "NAT",
+      "d": "FTP"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 139
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 40)",
+    "enunciado": "¿Qué principio limita el acceso solo a lo necesario?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
+      "a": "Mínimo privilegio",
+      "b": "Alta disponibilidad",
       "c": "Balanceo",
-      "d": "Fragmentación"
+      "d": "Caching"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 140
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 41)",
+    "enunciado": "¿Qué mecanismo verifica la identidad de un usuario?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
+      "a": "Autenticación",
+      "b": "Auditoría",
       "c": "Balanceo",
-      "d": "Fragmentación"
+      "d": "Indexación"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 141
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 42)",
+    "enunciado": "¿Qué dispositivo filtra tráfico de red según reglas?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "a": "Firewall",
+      "b": "Switch",
+      "c": "Router",
+      "d": "Proxy inverso"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 142
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 43)",
+    "enunciado": "¿Qué técnica protege información transformándola mediante algoritmos?",
     "opciones": {
-      "a": "Autorización",
+      "a": "Cifrado",
       "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "c": "Segmentación",
+      "d": "Virtualización"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 143
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 44)",
+    "enunciado": "¿Qué sistema detecta intrusiones en la red?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "a": "IDS",
+      "b": "DNS",
+      "c": "NAT",
+      "d": "FTP"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 144
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 45)",
+    "enunciado": "¿Qué principio limita el acceso solo a lo necesario?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
+      "a": "Mínimo privilegio",
+      "b": "Alta disponibilidad",
       "c": "Balanceo",
-      "d": "Fragmentación"
+      "d": "Caching"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 145
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 46)",
+    "enunciado": "¿Qué mecanismo verifica la identidad de un usuario?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
+      "a": "Autenticación",
+      "b": "Auditoría",
       "c": "Balanceo",
-      "d": "Fragmentación"
+      "d": "Indexación"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 146
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 47)",
+    "enunciado": "¿Qué dispositivo filtra tráfico de red según reglas?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "a": "Firewall",
+      "b": "Switch",
+      "c": "Router",
+      "d": "Proxy inverso"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 147
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 48)",
+    "enunciado": "¿Qué técnica protege información transformándola mediante algoritmos?",
     "opciones": {
-      "a": "Autorización",
+      "a": "Cifrado",
       "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "c": "Segmentación",
+      "d": "Virtualización"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 148
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 49)",
+    "enunciado": "¿Qué sistema detecta intrusiones en la red?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
-      "c": "Balanceo",
-      "d": "Fragmentación"
+      "a": "IDS",
+      "b": "DNS",
+      "c": "NAT",
+      "d": "FTP"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 149
   },
   {
-    "enunciado": "En seguridad informática, ¿qué concepto se relaciona con el control de acceso? (pregunta 50)",
+    "enunciado": "¿Qué principio limita el acceso solo a lo necesario?",
     "opciones": {
-      "a": "Autorización",
-      "b": "Compresión",
+      "a": "Mínimo privilegio",
+      "b": "Alta disponibilidad",
       "c": "Balanceo",
-      "d": "Fragmentación"
+      "d": "Caching"
     },
     "correcta": "a",
     "tema": "Seguridad",
     "numero": 150
   },
   {
-    "enunciado": "¿Qué es un hipervisor?",
+    "enunciado": "¿Qué componente permite ejecutar máquinas virtuales?",
     "opciones": {
-      "a": "Software que ejecuta máquinas virtuales",
-      "b": "Sistema de archivos",
-      "c": "Router virtual",
-      "d": "Servidor web"
+      "a": "Hipervisor",
+      "b": "Router",
+      "c": "Kernel",
+      "d": "Switch"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 151
   },
   {
-    "enunciado": "¿Cuál es un hipervisor tipo 1?",
+    "enunciado": "¿Qué es una máquina virtual?",
     "opciones": {
-      "a": "VMware ESXi",
-      "b": "VirtualBox",
-      "c": "Docker",
-      "d": "Chrome"
+      "a": "Sistema operativo ejecutándose sobre software de virtualización",
+      "b": "Un disco duro externo",
+      "c": "Un protocolo de red",
+      "d": "Un tipo de RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 152
   },
   {
-    "enunciado": "¿Qué software permite crear máquinas virtuales en escritorio?",
+    "enunciado": "¿Qué hipervisor es de tipo 1?",
     "opciones": {
-      "a": "VirtualBox",
-      "b": "Photoshop",
-      "c": "Excel",
-      "d": "Chrome"
+      "a": "VMware ESXi",
+      "b": "VirtualBox",
+      "c": "VMware Workstation",
+      "d": "Parallels"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 153
   },
   {
-    "enunciado": "¿Qué tecnología ejecuta aplicaciones en contenedores?",
+    "enunciado": "¿Qué permite migrar una máquina virtual en ejecución entre hosts?",
     "opciones": {
-      "a": "Docker",
-      "b": "Word",
-      "c": "Excel",
-      "d": "FTP"
+      "a": "Migración en caliente",
+      "b": "Snapshot",
+      "c": "Clonación",
+      "d": "Compresión"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 154
   },
   {
-    "enunciado": "¿Qué herramienta orquesta contenedores?",
+    "enunciado": "¿Qué tecnología aísla aplicaciones con menor sobrecarga que las máquinas virtuales?",
     "opciones": {
-      "a": "Kubernetes",
-      "b": "SMTP",
-      "c": "DNS",
-      "d": "SSH"
+      "a": "Contenedores",
+      "b": "BIOS",
+      "c": "Drivers",
+      "d": "RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 155
   },
   {
-    "enunciado": "¿Qué permite ejecutar varios sistemas en un mismo servidor físico?",
+    "enunciado": "¿Qué componente permite ejecutar máquinas virtuales?",
     "opciones": {
-      "a": "Virtualización",
-      "b": "Fragmentación",
-      "c": "Compresión",
-      "d": "RAID"
+      "a": "Hipervisor",
+      "b": "Router",
+      "c": "Kernel",
+      "d": "Switch"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 156
   },
   {
-    "enunciado": "¿Qué ventaja tiene la virtualización?",
+    "enunciado": "¿Qué es una máquina virtual?",
     "opciones": {
-      "a": "Mejor uso del hardware",
-      "b": "Eliminar redes",
-      "c": "Eliminar seguridad",
-      "d": "Eliminar almacenamiento"
+      "a": "Sistema operativo ejecutándose sobre software de virtualización",
+      "b": "Un disco duro externo",
+      "c": "Un protocolo de red",
+      "d": "Un tipo de RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 157
   },
   {
-    "enunciado": "¿Qué concepto separa aplicaciones del sistema base?",
+    "enunciado": "¿Qué hipervisor es de tipo 1?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "VPN",
-      "c": "Cluster",
-      "d": "RAID"
+      "a": "VMware ESXi",
+      "b": "VirtualBox",
+      "c": "VMware Workstation",
+      "d": "Parallels"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 158
   },
   {
-    "enunciado": "¿Qué es una máquina virtual?",
+    "enunciado": "¿Qué permite migrar una máquina virtual en ejecución entre hosts?",
     "opciones": {
-      "a": "SO ejecutado sobre hardware virtual",
-      "b": "Router virtual",
-      "c": "Disco externo",
-      "d": "Servidor físico"
+      "a": "Migración en caliente",
+      "b": "Snapshot",
+      "c": "Clonación",
+      "d": "Compresión"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 159
   },
   {
-    "enunciado": "¿Qué tecnología comparte kernel con el host?",
+    "enunciado": "¿Qué tecnología aísla aplicaciones con menor sobrecarga que las máquinas virtuales?",
     "opciones": {
       "a": "Contenedores",
-      "b": "VM completas",
-      "c": "RAID",
-      "d": "Backup"
+      "b": "BIOS",
+      "c": "Drivers",
+      "d": "RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 160
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 11)",
+    "enunciado": "¿Qué componente permite ejecutar máquinas virtuales?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Hipervisor",
+      "b": "Router",
+      "c": "Kernel",
+      "d": "Switch"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 161
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 12)",
+    "enunciado": "¿Qué es una máquina virtual?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Sistema operativo ejecutándose sobre software de virtualización",
+      "b": "Un disco duro externo",
+      "c": "Un protocolo de red",
+      "d": "Un tipo de RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 162
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 13)",
+    "enunciado": "¿Qué hipervisor es de tipo 1?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "VMware ESXi",
+      "b": "VirtualBox",
+      "c": "VMware Workstation",
+      "d": "Parallels"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 163
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 14)",
+    "enunciado": "¿Qué permite migrar una máquina virtual en ejecución entre hosts?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Migración en caliente",
+      "b": "Snapshot",
+      "c": "Clonación",
+      "d": "Compresión"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 164
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 15)",
+    "enunciado": "¿Qué tecnología aísla aplicaciones con menor sobrecarga que las máquinas virtuales?",
     "opciones": {
       "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "b": "BIOS",
+      "c": "Drivers",
+      "d": "RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 165
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 16)",
+    "enunciado": "¿Qué componente permite ejecutar máquinas virtuales?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Hipervisor",
+      "b": "Router",
+      "c": "Kernel",
+      "d": "Switch"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 166
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 17)",
+    "enunciado": "¿Qué es una máquina virtual?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Sistema operativo ejecutándose sobre software de virtualización",
+      "b": "Un disco duro externo",
+      "c": "Un protocolo de red",
+      "d": "Un tipo de RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 167
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 18)",
+    "enunciado": "¿Qué hipervisor es de tipo 1?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "VMware ESXi",
+      "b": "VirtualBox",
+      "c": "VMware Workstation",
+      "d": "Parallels"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 168
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 19)",
+    "enunciado": "¿Qué permite migrar una máquina virtual en ejecución entre hosts?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Migración en caliente",
+      "b": "Snapshot",
+      "c": "Clonación",
+      "d": "Compresión"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 169
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 20)",
+    "enunciado": "¿Qué tecnología aísla aplicaciones con menor sobrecarga que las máquinas virtuales?",
     "opciones": {
       "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "b": "BIOS",
+      "c": "Drivers",
+      "d": "RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 170
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 21)",
+    "enunciado": "¿Qué componente permite ejecutar máquinas virtuales?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Hipervisor",
+      "b": "Router",
+      "c": "Kernel",
+      "d": "Switch"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 171
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 22)",
+    "enunciado": "¿Qué es una máquina virtual?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Sistema operativo ejecutándose sobre software de virtualización",
+      "b": "Un disco duro externo",
+      "c": "Un protocolo de red",
+      "d": "Un tipo de RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 172
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 23)",
+    "enunciado": "¿Qué hipervisor es de tipo 1?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "VMware ESXi",
+      "b": "VirtualBox",
+      "c": "VMware Workstation",
+      "d": "Parallels"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 173
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 24)",
+    "enunciado": "¿Qué permite migrar una máquina virtual en ejecución entre hosts?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Migración en caliente",
+      "b": "Snapshot",
+      "c": "Clonación",
+      "d": "Compresión"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 174
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 25)",
+    "enunciado": "¿Qué tecnología aísla aplicaciones con menor sobrecarga que las máquinas virtuales?",
     "opciones": {
       "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "b": "BIOS",
+      "c": "Drivers",
+      "d": "RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 175
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 26)",
+    "enunciado": "¿Qué componente permite ejecutar máquinas virtuales?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Hipervisor",
+      "b": "Router",
+      "c": "Kernel",
+      "d": "Switch"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 176
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 27)",
+    "enunciado": "¿Qué es una máquina virtual?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Sistema operativo ejecutándose sobre software de virtualización",
+      "b": "Un disco duro externo",
+      "c": "Un protocolo de red",
+      "d": "Un tipo de RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 177
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 28)",
+    "enunciado": "¿Qué hipervisor es de tipo 1?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "VMware ESXi",
+      "b": "VirtualBox",
+      "c": "VMware Workstation",
+      "d": "Parallels"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 178
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 29)",
+    "enunciado": "¿Qué permite migrar una máquina virtual en ejecución entre hosts?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Migración en caliente",
+      "b": "Snapshot",
+      "c": "Clonación",
+      "d": "Compresión"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 179
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 30)",
+    "enunciado": "¿Qué tecnología aísla aplicaciones con menor sobrecarga que las máquinas virtuales?",
     "opciones": {
       "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "b": "BIOS",
+      "c": "Drivers",
+      "d": "RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 180
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 31)",
+    "enunciado": "¿Qué componente permite ejecutar máquinas virtuales?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Hipervisor",
+      "b": "Router",
+      "c": "Kernel",
+      "d": "Switch"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 181
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 32)",
+    "enunciado": "¿Qué es una máquina virtual?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Sistema operativo ejecutándose sobre software de virtualización",
+      "b": "Un disco duro externo",
+      "c": "Un protocolo de red",
+      "d": "Un tipo de RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 182
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 33)",
+    "enunciado": "¿Qué hipervisor es de tipo 1?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "VMware ESXi",
+      "b": "VirtualBox",
+      "c": "VMware Workstation",
+      "d": "Parallels"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 183
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 34)",
+    "enunciado": "¿Qué permite migrar una máquina virtual en ejecución entre hosts?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Migración en caliente",
+      "b": "Snapshot",
+      "c": "Clonación",
+      "d": "Compresión"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 184
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 35)",
+    "enunciado": "¿Qué tecnología aísla aplicaciones con menor sobrecarga que las máquinas virtuales?",
     "opciones": {
       "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "b": "BIOS",
+      "c": "Drivers",
+      "d": "RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 185
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 36)",
+    "enunciado": "¿Qué componente permite ejecutar máquinas virtuales?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Hipervisor",
+      "b": "Router",
+      "c": "Kernel",
+      "d": "Switch"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 186
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 37)",
+    "enunciado": "¿Qué es una máquina virtual?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Sistema operativo ejecutándose sobre software de virtualización",
+      "b": "Un disco duro externo",
+      "c": "Un protocolo de red",
+      "d": "Un tipo de RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 187
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 38)",
+    "enunciado": "¿Qué hipervisor es de tipo 1?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "VMware ESXi",
+      "b": "VirtualBox",
+      "c": "VMware Workstation",
+      "d": "Parallels"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 188
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 39)",
+    "enunciado": "¿Qué permite migrar una máquina virtual en ejecución entre hosts?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Migración en caliente",
+      "b": "Snapshot",
+      "c": "Clonación",
+      "d": "Compresión"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 189
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 40)",
+    "enunciado": "¿Qué tecnología aísla aplicaciones con menor sobrecarga que las máquinas virtuales?",
     "opciones": {
       "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "b": "BIOS",
+      "c": "Drivers",
+      "d": "RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 190
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 41)",
+    "enunciado": "¿Qué componente permite ejecutar máquinas virtuales?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Hipervisor",
+      "b": "Router",
+      "c": "Kernel",
+      "d": "Switch"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 191
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 42)",
+    "enunciado": "¿Qué es una máquina virtual?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Sistema operativo ejecutándose sobre software de virtualización",
+      "b": "Un disco duro externo",
+      "c": "Un protocolo de red",
+      "d": "Un tipo de RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 192
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 43)",
+    "enunciado": "¿Qué hipervisor es de tipo 1?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "VMware ESXi",
+      "b": "VirtualBox",
+      "c": "VMware Workstation",
+      "d": "Parallels"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 193
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 44)",
+    "enunciado": "¿Qué permite migrar una máquina virtual en ejecución entre hosts?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Migración en caliente",
+      "b": "Snapshot",
+      "c": "Clonación",
+      "d": "Compresión"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 194
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 45)",
+    "enunciado": "¿Qué tecnología aísla aplicaciones con menor sobrecarga que las máquinas virtuales?",
     "opciones": {
       "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "b": "BIOS",
+      "c": "Drivers",
+      "d": "RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 195
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 46)",
+    "enunciado": "¿Qué componente permite ejecutar máquinas virtuales?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Hipervisor",
+      "b": "Router",
+      "c": "Kernel",
+      "d": "Switch"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 196
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 47)",
+    "enunciado": "¿Qué es una máquina virtual?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Sistema operativo ejecutándose sobre software de virtualización",
+      "b": "Un disco duro externo",
+      "c": "Un protocolo de red",
+      "d": "Un tipo de RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 197
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 48)",
+    "enunciado": "¿Qué hipervisor es de tipo 1?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "VMware ESXi",
+      "b": "VirtualBox",
+      "c": "VMware Workstation",
+      "d": "Parallels"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 198
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 49)",
+    "enunciado": "¿Qué permite migrar una máquina virtual en ejecución entre hosts?",
     "opciones": {
-      "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "a": "Migración en caliente",
+      "b": "Snapshot",
+      "c": "Clonación",
+      "d": "Compresión"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 199
   },
   {
-    "enunciado": "En virtualización, ¿qué tecnología se usa para aislar aplicaciones? (pregunta 50)",
+    "enunciado": "¿Qué tecnología aísla aplicaciones con menor sobrecarga que las máquinas virtuales?",
     "opciones": {
       "a": "Contenedores",
-      "b": "RAID",
-      "c": "NAT",
-      "d": "FTP"
+      "b": "BIOS",
+      "c": "Drivers",
+      "d": "RAID"
     },
     "correcta": "a",
     "tema": "Virtualización",
     "numero": 200
   },
   {
-    "enunciado": "¿Qué RAID usa espejo de discos?",
+    "enunciado": "¿Qué RAID duplica los datos para proporcionar redundancia?",
     "opciones": {
       "a": "RAID 1",
       "b": "RAID 0",
@@ -2412,588 +2412,588 @@
     "numero": 201
   },
   {
-    "enunciado": "¿Qué RAID usa paridad distribuida?",
+    "enunciado": "¿Qué sistema permite acceso a archivos a través de una red?",
     "opciones": {
-      "a": "RAID 5",
-      "b": "RAID 0",
-      "c": "RAID 1",
-      "d": "RAID 10"
+      "a": "NAS",
+      "b": "DAS",
+      "c": "RAID",
+      "d": "SSD"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 202
   },
   {
-    "enunciado": "¿Qué significa NAS?",
+    "enunciado": "¿Qué tipo de almacenamiento utiliza memoria flash?",
     "opciones": {
-      "a": "Network Attached Storage",
-      "b": "Node Access Server",
-      "c": "New Area Storage",
-      "d": "Network Access System"
+      "a": "SSD",
+      "b": "HDD",
+      "c": "Cinta",
+      "d": "Disquete"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 203
   },
   {
-    "enunciado": "¿Qué significa SAN?",
+    "enunciado": "¿Qué RAID distribuye datos sin redundancia?",
     "opciones": {
-      "a": "Storage Area Network",
-      "b": "Server Access Node",
-      "c": "System Area Network",
-      "d": "Storage Access Node"
+      "a": "RAID 0",
+      "b": "RAID 1",
+      "c": "RAID 5",
+      "d": "RAID 10"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 204
   },
   {
-    "enunciado": "¿Qué dispositivo usa memoria flash?",
+    "enunciado": "¿Qué tecnología conecta almacenamiento a través de una red dedicada?",
     "opciones": {
-      "a": "SSD",
-      "b": "HDD",
-      "c": "DVD",
-      "d": "Cinta"
+      "a": "SAN",
+      "b": "NAS",
+      "c": "DAS",
+      "d": "USB"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 205
   },
   {
-    "enunciado": "¿Qué tipo de copia guarda todos los datos?",
+    "enunciado": "¿Qué RAID duplica los datos para proporcionar redundancia?",
     "opciones": {
-      "a": "Backup completo",
-      "b": "Incremental",
-      "c": "Diferencial",
-      "d": "RAID"
+      "a": "RAID 1",
+      "b": "RAID 0",
+      "c": "RAID 5",
+      "d": "RAID 6"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 206
   },
   {
-    "enunciado": "¿Qué copia guarda cambios desde la última copia?",
+    "enunciado": "¿Qué sistema permite acceso a archivos a través de una red?",
     "opciones": {
-      "a": "Incremental",
-      "b": "Completa",
+      "a": "NAS",
+      "b": "DAS",
       "c": "RAID",
-      "d": "Espejo"
+      "d": "SSD"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 207
   },
   {
-    "enunciado": "¿Qué objetivo mide el tiempo máximo de recuperación?",
+    "enunciado": "¿Qué tipo de almacenamiento utiliza memoria flash?",
     "opciones": {
-      "a": "RTO",
-      "b": "RPO",
-      "c": "CPU",
-      "d": "DNS"
+      "a": "SSD",
+      "b": "HDD",
+      "c": "Cinta",
+      "d": "Disquete"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 208
   },
   {
-    "enunciado": "¿Qué tecnología mejora redundancia de discos?",
+    "enunciado": "¿Qué RAID distribuye datos sin redundancia?",
     "opciones": {
-      "a": "RAID",
-      "b": "SSH",
-      "c": "DNS",
-      "d": "DHCP"
+      "a": "RAID 0",
+      "b": "RAID 1",
+      "c": "RAID 5",
+      "d": "RAID 10"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 209
   },
   {
-    "enunciado": "¿Qué sistema conecta almacenamiento por red?",
+    "enunciado": "¿Qué tecnología conecta almacenamiento a través de una red dedicada?",
     "opciones": {
-      "a": "NAS",
-      "b": "GPU",
-      "c": "CPU",
-      "d": "BIOS"
+      "a": "SAN",
+      "b": "NAS",
+      "c": "DAS",
+      "d": "USB"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 210
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 11)",
+    "enunciado": "¿Qué RAID duplica los datos para proporcionar redundancia?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "RAID 1",
+      "b": "RAID 0",
+      "c": "RAID 5",
+      "d": "RAID 6"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 211
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 12)",
+    "enunciado": "¿Qué sistema permite acceso a archivos a través de una red?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "NAS",
+      "b": "DAS",
+      "c": "RAID",
+      "d": "SSD"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 212
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 13)",
+    "enunciado": "¿Qué tipo de almacenamiento utiliza memoria flash?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "SSD",
+      "b": "HDD",
+      "c": "Cinta",
+      "d": "Disquete"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 213
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 14)",
+    "enunciado": "¿Qué RAID distribuye datos sin redundancia?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "RAID 0",
+      "b": "RAID 1",
+      "c": "RAID 5",
+      "d": "RAID 10"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 214
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 15)",
+    "enunciado": "¿Qué tecnología conecta almacenamiento a través de una red dedicada?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "SAN",
+      "b": "NAS",
+      "c": "DAS",
+      "d": "USB"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 215
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 16)",
+    "enunciado": "¿Qué RAID duplica los datos para proporcionar redundancia?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "RAID 1",
+      "b": "RAID 0",
+      "c": "RAID 5",
+      "d": "RAID 6"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 216
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 17)",
+    "enunciado": "¿Qué sistema permite acceso a archivos a través de una red?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "NAS",
+      "b": "DAS",
+      "c": "RAID",
+      "d": "SSD"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 217
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 18)",
+    "enunciado": "¿Qué tipo de almacenamiento utiliza memoria flash?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "SSD",
+      "b": "HDD",
+      "c": "Cinta",
+      "d": "Disquete"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 218
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 19)",
+    "enunciado": "¿Qué RAID distribuye datos sin redundancia?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "RAID 0",
+      "b": "RAID 1",
+      "c": "RAID 5",
+      "d": "RAID 10"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 219
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 20)",
+    "enunciado": "¿Qué tecnología conecta almacenamiento a través de una red dedicada?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "SAN",
+      "b": "NAS",
+      "c": "DAS",
+      "d": "USB"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 220
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 21)",
+    "enunciado": "¿Qué RAID duplica los datos para proporcionar redundancia?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "RAID 1",
+      "b": "RAID 0",
+      "c": "RAID 5",
+      "d": "RAID 6"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 221
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 22)",
+    "enunciado": "¿Qué sistema permite acceso a archivos a través de una red?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "NAS",
+      "b": "DAS",
+      "c": "RAID",
+      "d": "SSD"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 222
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 23)",
+    "enunciado": "¿Qué tipo de almacenamiento utiliza memoria flash?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "SSD",
+      "b": "HDD",
+      "c": "Cinta",
+      "d": "Disquete"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 223
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 24)",
+    "enunciado": "¿Qué RAID distribuye datos sin redundancia?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "RAID 0",
+      "b": "RAID 1",
+      "c": "RAID 5",
+      "d": "RAID 10"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 224
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 25)",
+    "enunciado": "¿Qué tecnología conecta almacenamiento a través de una red dedicada?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "SAN",
+      "b": "NAS",
+      "c": "DAS",
+      "d": "USB"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 225
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 26)",
+    "enunciado": "¿Qué RAID duplica los datos para proporcionar redundancia?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "RAID 1",
+      "b": "RAID 0",
+      "c": "RAID 5",
+      "d": "RAID 6"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 226
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 27)",
+    "enunciado": "¿Qué sistema permite acceso a archivos a través de una red?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "NAS",
+      "b": "DAS",
+      "c": "RAID",
+      "d": "SSD"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 227
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 28)",
+    "enunciado": "¿Qué tipo de almacenamiento utiliza memoria flash?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "SSD",
+      "b": "HDD",
+      "c": "Cinta",
+      "d": "Disquete"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 228
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 29)",
+    "enunciado": "¿Qué RAID distribuye datos sin redundancia?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "RAID 0",
+      "b": "RAID 1",
+      "c": "RAID 5",
+      "d": "RAID 10"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 229
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 30)",
+    "enunciado": "¿Qué tecnología conecta almacenamiento a través de una red dedicada?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "SAN",
+      "b": "NAS",
+      "c": "DAS",
+      "d": "USB"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 230
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 31)",
+    "enunciado": "¿Qué RAID duplica los datos para proporcionar redundancia?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "RAID 1",
+      "b": "RAID 0",
+      "c": "RAID 5",
+      "d": "RAID 6"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 231
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 32)",
+    "enunciado": "¿Qué sistema permite acceso a archivos a través de una red?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "NAS",
+      "b": "DAS",
+      "c": "RAID",
+      "d": "SSD"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 232
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 33)",
+    "enunciado": "¿Qué tipo de almacenamiento utiliza memoria flash?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "SSD",
+      "b": "HDD",
+      "c": "Cinta",
+      "d": "Disquete"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 233
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 34)",
+    "enunciado": "¿Qué RAID distribuye datos sin redundancia?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "RAID 0",
+      "b": "RAID 1",
+      "c": "RAID 5",
+      "d": "RAID 10"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 234
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 35)",
+    "enunciado": "¿Qué tecnología conecta almacenamiento a través de una red dedicada?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "SAN",
+      "b": "NAS",
+      "c": "DAS",
+      "d": "USB"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 235
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 36)",
+    "enunciado": "¿Qué RAID duplica los datos para proporcionar redundancia?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "RAID 1",
+      "b": "RAID 0",
+      "c": "RAID 5",
+      "d": "RAID 6"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 236
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 37)",
+    "enunciado": "¿Qué sistema permite acceso a archivos a través de una red?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "NAS",
+      "b": "DAS",
+      "c": "RAID",
+      "d": "SSD"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 237
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 38)",
+    "enunciado": "¿Qué tipo de almacenamiento utiliza memoria flash?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "SSD",
+      "b": "HDD",
+      "c": "Cinta",
+      "d": "Disquete"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 238
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 39)",
+    "enunciado": "¿Qué RAID distribuye datos sin redundancia?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "RAID 0",
+      "b": "RAID 1",
+      "c": "RAID 5",
+      "d": "RAID 10"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 239
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 40)",
+    "enunciado": "¿Qué tecnología conecta almacenamiento a través de una red dedicada?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "SAN",
+      "b": "NAS",
+      "c": "DAS",
+      "d": "USB"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 240
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 41)",
+    "enunciado": "¿Qué RAID duplica los datos para proporcionar redundancia?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "RAID 1",
+      "b": "RAID 0",
+      "c": "RAID 5",
+      "d": "RAID 6"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 241
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 42)",
+    "enunciado": "¿Qué sistema permite acceso a archivos a través de una red?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "NAS",
+      "b": "DAS",
+      "c": "RAID",
+      "d": "SSD"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 242
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 43)",
+    "enunciado": "¿Qué tipo de almacenamiento utiliza memoria flash?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "SSD",
+      "b": "HDD",
+      "c": "Cinta",
+      "d": "Disquete"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 243
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 44)",
+    "enunciado": "¿Qué RAID distribuye datos sin redundancia?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "RAID 0",
+      "b": "RAID 1",
+      "c": "RAID 5",
+      "d": "RAID 10"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 244
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 45)",
+    "enunciado": "¿Qué tecnología conecta almacenamiento a través de una red dedicada?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "SAN",
+      "b": "NAS",
+      "c": "DAS",
+      "d": "USB"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 245
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 46)",
+    "enunciado": "¿Qué RAID duplica los datos para proporcionar redundancia?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "RAID 1",
+      "b": "RAID 0",
+      "c": "RAID 5",
+      "d": "RAID 6"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 246
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 47)",
+    "enunciado": "¿Qué sistema permite acceso a archivos a través de una red?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "NAS",
+      "b": "DAS",
+      "c": "RAID",
+      "d": "SSD"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 247
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 48)",
+    "enunciado": "¿Qué tipo de almacenamiento utiliza memoria flash?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "SSD",
+      "b": "HDD",
+      "c": "Cinta",
+      "d": "Disquete"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 248
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 49)",
+    "enunciado": "¿Qué RAID distribuye datos sin redundancia?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "RAID 0",
+      "b": "RAID 1",
+      "c": "RAID 5",
+      "d": "RAID 10"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
     "numero": 249
   },
   {
-    "enunciado": "En almacenamiento, ¿qué concepto se relaciona con la redundancia de datos? (pregunta 50)",
+    "enunciado": "¿Qué tecnología conecta almacenamiento a través de una red dedicada?",
     "opciones": {
-      "a": "RAID",
-      "b": "FTP",
-      "c": "SMTP",
-      "d": "HTTP"
+      "a": "SAN",
+      "b": "NAS",
+      "c": "DAS",
+      "d": "USB"
     },
     "correcta": "a",
     "tema": "Almacenamiento",
