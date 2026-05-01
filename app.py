@@ -50,11 +50,16 @@ TEMAS_POR_BLOQUE = {
         "Tema 10 - Metodologías"
     ],
     "Bloque 4": [
-        "Sistemas Operativos",
-        "Redes",
-        "Seguridad",
-        "Virtualización",
-        "Almacenamiento",
+    "Sistemas Operativos",
+    "BD, Almacenamiento y Virtualización",
+    "Administración Correo Electrónico",
+    "Administración LAN",
+    "Seguridad, CPD y Criptografía",
+    "Comunicaciones y Redes",
+    "Modelo TCP/IP y OSI",
+    "Internet",
+    "Seguridad en Redes",
+    "Redes Locales",
     ],
 }
 
@@ -89,6 +94,19 @@ NOMBRE_TEMA_B3 = {
     "8": "Tema 8 - Aplicaciones Web",
     "9": "Tema 9 - Accesibilidad",
     "10": "Tema 10 - Metodologías",
+}
+
+NOMBRE_TEMA_B4 = {
+    "1": "Sistemas Operativos",
+    "2": "BD, Almacenamiento y Virtualización",
+    "3": "Administración Correo Electrónico",
+    "4": "Administración LAN",
+    "5": "Seguridad, CPD y Criptografía",
+    "6": "Comunicaciones y Redes",
+    "7": "Modelo TCP/IP y OSI",
+    "8": "Internet",
+    "9": "Seguridad en Redes",
+    "10": "Redes Locales",
 }
 
 # ---------------- Utilidades ----------------
@@ -126,6 +144,8 @@ def inferir_bloque_tema(desde: str):
             return bloque, NOMBRE_TEMA_B2[t]
         if bloque == "Bloque 3" and t in NOMBRE_TEMA_B3:
             return bloque, NOMBRE_TEMA_B3[t]
+        if bloque == "Bloque 4" and t in NOMBRE_TEMA_B4:
+            return bloque, NOMBRE_TEMA_B4[t]
         return bloque, f"Tema {t}"
 
     m = re.search(r"(?:tema|t)\s*([0-9]+)", s, re.IGNORECASE)
@@ -137,6 +157,8 @@ def inferir_bloque_tema(desde: str):
             return "Bloque 2", NOMBRE_TEMA_B2[t]
         if t in NOMBRE_TEMA_B3:
             return "Bloque 3", NOMBRE_TEMA_B3[t]
+        if bloque == "Bloque 4" and t in NOMBRE_TEMA_B4:
+            return bloque, NOMBRE_TEMA_B4[t]
         return "Bloque 1", f"Tema {t}"
 
     return "Bloque 1", "Sin tema"
